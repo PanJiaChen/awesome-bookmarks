@@ -24,3 +24,6 @@ sidebar: auto
 [GraphQL核心概念](https://segmentfault.com/a/1190000014131950)
 
 [RPC vs REST vs GraphQL](https://segmentfault.com/a/1190000013961872)
+
+## 职业发展
+[一个程序员的成长之路](https://github.com/fouber/blog/issues/41) 张云龙大佬的文章，强推！！值得反复阅读。
