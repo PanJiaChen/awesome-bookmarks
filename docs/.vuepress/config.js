@@ -1,6 +1,7 @@
 module.exports = {
   title: 'awesome-bookmarks',
   description: 'coming soon',
+  base:'/awesome-bookmarks/',
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
