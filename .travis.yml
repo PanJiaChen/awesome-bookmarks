@@ -1,7 +1,6 @@
-language: node_js
 sudo: required
+language: node_js
 node_js: stable
-script:
-    - ./deploy.sh
+script: bash ./deploy.sh
 notifications:
   email: false
