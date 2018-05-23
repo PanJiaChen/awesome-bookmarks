@@ -2,6 +2,8 @@ sudo: required
 language: node_js
 node_js: stable
 script: bash ./deploy.sh
-branch: master
+branches:
+  only:
+  - master
 notifications:
   email: false
