@@ -1,7 +1,7 @@
 {
-  "name": "awesome-bookmarks-demo",
+  "name": "awesome-bookmarks",
   "version": "1.0.0",
-  "description": "",
+  "description": "awesome-bookmarks",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
