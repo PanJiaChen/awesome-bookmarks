@@ -8,7 +8,7 @@ module.exports = {
       { text: '库', link: '/repository/' },
       { text: '文章', link: '/article/' },
       // { text: '工具', link: 'https://google.com' },
-      // { text: '网站', link: 'https://google.com' },
+      { text: '网站', link: '/website/' },
       { text: '面试', link: '/interview/' }
     ],
     // sidebar: [
