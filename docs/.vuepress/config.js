@@ -16,6 +16,11 @@ module.exports = {
     //   '/page-a',
     //   ['/page-b', 'Explicit link text']
     // ]
+    lastUpdated: '上次更新',
+    repo: 'PanJiaChen/awesome-bookmarks',
+    editLinks: true,
+    docsDir: 'docs',
+    editLinkText: '在 GitHub 上编辑此页'
   },
   configureWebpack: {
     resolve: {
