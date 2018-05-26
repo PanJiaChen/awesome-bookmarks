@@ -27,3 +27,11 @@ sidebar: auto
 
 ## 职业发展
 [一个程序员的成长之路](https://github.com/fouber/blog/issues/41) 张云龙大佬的文章，强推！！值得反复阅读。
+
+[开发者如何在「技术+管理」的路上越走越宽？](https://zhuanlan.zhihu.com/p/36018203)
+
+## 视频
+[计算机科学速成课](https://www.bilibili.com/video/av21376839) 计算机科学基础的系列视频，很不错，浅显易懂，看完这四十节课能多计算机世界有一个大概的整体认知。
+
+## 其它
+[前端人工智能？TensorFlow.js 学会游戏通关](https://zhuanlan.zhihu.com/p/35451395)
