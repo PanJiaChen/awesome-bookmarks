@@ -11,16 +11,15 @@ module.exports = {
       { text: "网站", link: "/website/" },
       { text: "面试", link: "/interview/" }
     ],
-    // sidebar: [
-    //   '/',
-    //   '/page-a',
-    //   ['/page-b', 'Explicit link text']
-    // ]
+    sidebar: {
+      '/interview/':genSidebarConfig('面试')
+    },
     lastUpdated: "上次更新",
     repo: "PanJiaChen/awesome-bookmarks",
     editLinks: true,
     docsDir: "docs",
-    editLinkText: "在 GitHub 上编辑此页"
+    editLinkText: "在 GitHub 上编辑此页",
+    sidebarDepth: 3
   },
   configureWebpack: {
     resolve: {
@@ -31,3 +30,16 @@ module.exports = {
   },
   ga: "UA-109340118-1"
 };
+
+function genSidebarConfig (title) {
+  return [
+    {
+      title,
+      collapsable: false,
+      children: [
+        '',
+        'algorithms',
+      ]
+    }
+  ]
+}

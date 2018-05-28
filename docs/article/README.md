@@ -35,3 +35,7 @@ sidebar: auto
 
 ## 其它
 [前端人工智能？TensorFlow.js 学会游戏通关](https://zhuanlan.zhihu.com/p/35451395)
+
+[	谈谈 WebSocket ](https://halfrost.com/websocket/)
+
+[https://zhuanlan.zhihu.com/p/37171897](https://zhuanlan.zhihu.com/p/37171897)
