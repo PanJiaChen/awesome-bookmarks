@@ -1,3 +1,14 @@
+const sidebarMap={
+  article:{
+    title:'文章',
+    children:['','coding']
+  },
+  interview:{
+    title:'面试',
+    children:['','vue','algorithms']
+  }
+}
+
 module.exports = {
   title: "awesome-bookmarks",
   description: "coming soon",
@@ -12,7 +23,8 @@ module.exports = {
       { text: "面试", link: "/interview/" }
     ],
     sidebar: {
-      '/interview/':genSidebarConfig('面试')
+      '/article/':genSidebarConfig('article'),
+      '/interview/':genSidebarConfig('interview')
     },
     lastUpdated: "上次更新",
     repo: "PanJiaChen/awesome-bookmarks",
@@ -31,15 +43,15 @@ module.exports = {
   ga: "UA-109340118-1"
 };
 
-function genSidebarConfig (title) {
+
+
+function genSidebarConfig (type) {
+  const sidebar=sidebarMap[type]
   return [
     {
-      title,
+      title:sidebar.title,
       collapsable: false,
-      children: [
-        '',
-        'algorithms',
-      ]
+      children: sidebar.children
     }
   ]
 }

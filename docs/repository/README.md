@@ -85,6 +85,7 @@ sidebar: auto
 
 [tabler](https://github.com/tabler/tabler) 基于 Bootstrap 4 的 Dashboard UI Kit 和美观
 
+[vee-validate](https://github.com/baianat/vee-validate) 基于 vue 的验证，能验证的内容比较全
 
 ## Node
 
