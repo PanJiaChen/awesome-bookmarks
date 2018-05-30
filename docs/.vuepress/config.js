@@ -1,13 +1,13 @@
-const sidebarMap={
-  article:{
-    title:'文章',
-    children:['','coding']
+const sidebarMap = {
+  article: {
+    title: "文章",
+    children: ["", "coding"]
   },
-  interview:{
-    title:'面试',
-    children:['','vue','algorithms']
+  interview: {
+    title: "面试",
+    children: ["", "vue", "algorithms"]
   }
-}
+};
 
 module.exports = {
   title: "awesome-bookmarks",
@@ -23,8 +23,8 @@ module.exports = {
       { text: "面试", link: "/interview/" }
     ],
     sidebar: {
-      '/article/':genSidebarConfig('article'),
-      '/interview/':genSidebarConfig('interview')
+      "/article/": genSidebarConfig("article"),
+      "/interview/": genSidebarConfig("interview")
     },
     lastUpdated: "上次更新",
     repo: "PanJiaChen/awesome-bookmarks",
@@ -43,15 +43,13 @@ module.exports = {
   ga: "UA-109340118-1"
 };
 
-
-
-function genSidebarConfig (type) {
-  const sidebar=sidebarMap[type]
+function genSidebarConfig(type) {
+  const sidebar = sidebarMap[type];
   return [
     {
-      title:sidebar.title,
+      title: sidebar.title,
       collapsable: false,
       children: sidebar.children
     }
-  ]
+  ];
 }
