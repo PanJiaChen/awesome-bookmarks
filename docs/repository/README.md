@@ -87,6 +87,8 @@ sidebar: auto
 
 [vee-validate](https://github.com/baianat/vee-validate) 基于 vue 的验证，能验证的内容比较全
 
+[x-chart](https://yugasun.github.io/x-chart/#/) 我就是觉得颜色挺好看的
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node监听文件变化的库

@@ -1,13 +1,4 @@
-const sidebarMap = {
-  article: {
-    title: "文章",
-    children: ["", "coding"]
-  },
-  interview: {
-    title: "面试",
-    children: ["", "vue", "algorithms"]
-  }
-};
+const sidebarMap = require("./sidebarMap");
 
 module.exports = {
   title: "awesome-bookmarks",
