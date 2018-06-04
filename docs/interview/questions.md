@@ -12,3 +12,10 @@ htttp2有哪些优势，对于前端来说会有什么影响？
 设计一个登录系统
 es6私有方法 WeakMap
 顺序存储结构与链式存储结构的比较（也可以说的顺序表与链表的比较）
+
+
+HOC(高阶组件)和Decorator(装饰器)的区别是什么？
+如何使用一个Decorator来修饰一个函数?
+
+https://github.com/sunyongjian/blog/issues/32
+
