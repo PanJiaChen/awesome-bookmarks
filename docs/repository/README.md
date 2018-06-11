@@ -93,6 +93,10 @@ sidebar: auto
 
 [vue-virtual-scroller](https://github.com/Akryum/vue-virtual-scroller) 基于vue的虚拟列表无限滚动
 
+[particles.js](https://github.com/VincentGarreau/particles.js) 一个前端画颗粒 粒子的库
+
+[pulltorefresh.js](https://github.com/BoxFactura/pulltorefresh.js) 下个下拉刷新插件
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node监听文件变化的库
@@ -143,3 +147,5 @@ sidebar: auto
 [bigjpg](https://asciiartgen.now.sh/) 放大图片的神器 通过神经网络可以放大图片并能降噪
 
 [Winds](https://github.com/GetStream/Winds) 开源RSS
+
+[JSUI](https://github.com/kitze/JSUI) 一个用来控制管理前端项目的客户端
