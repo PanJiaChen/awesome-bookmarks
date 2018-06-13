@@ -97,6 +97,8 @@ sidebar: auto
 
 [pulltorefresh.js](https://github.com/BoxFactura/pulltorefresh.js) 下个下拉刷新插件
 
+[lulu](https://github.com/yued-fe/lulu) 腾讯阅文基于jQuery，针对PC网站IE8+（peak主题）的前端UI框架
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node监听文件变化的库
@@ -149,3 +151,7 @@ sidebar: auto
 [Winds](https://github.com/GetStream/Winds) 开源RSS
 
 [JSUI](https://github.com/kitze/JSUI) 一个用来控制管理前端项目的客户端
+
+[docz](https://github.com/pedronauck/docz) 让你能快速写文档的一个库
+
+[hiper](https://github.com/pod4g/hiper) 性能统计分析工具

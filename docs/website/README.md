@@ -40,6 +40,8 @@ sidebar: auto
 
 [codepan](https://codepan.net/) 在线运行代码网站 不用翻墙，可以自己部署
 
+[fiddle.md](https://fiddle.md/) 一个方便的在线共享markdown 在线笔试题一般都用这个
+
 
 ## 设计
 [awwwards](https://www.awwwards.com/)是一个一个专门为设计精美的网站以及富有创意的网站颁奖的网站
