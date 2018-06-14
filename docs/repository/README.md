@@ -77,7 +77,7 @@ sidebar: auto
 
 [rough](https://github.com/pshihn/rough) 基于Canvas的手绘风格图形库
 
-[wired-elements](https://github.com/wiredjs/wired-elements) 基于rough.js 分装 button input raido 等组件
+[wired-elements](https://github.com/wiredjs/wired-elements) 基于rough.js 分装 button input raido 等组件  真正特别之处在于它的底层是 Web components
 
 [uppy](https://github.com/transloadit/uppy) 一个很好看的也很好用的 前端上传库
 
@@ -98,6 +98,8 @@ sidebar: auto
 [pulltorefresh.js](https://github.com/BoxFactura/pulltorefresh.js) 下个下拉刷新插件
 
 [lulu](https://github.com/yued-fe/lulu) 腾讯阅文基于jQuery，针对PC网站IE8+（peak主题）的前端UI框架
+
+[chancejs](https://github.com/chancejs/chancejs) 生成随机数据的库
 
 ## Node
 
@@ -146,7 +148,9 @@ sidebar: auto
 
 [sway](https://sway.com/) 一个微软自己出的在线ppt很强大
 
-[bigjpg](https://asciiartgen.now.sh/) 放大图片的神器 通过神经网络可以放大图片并能降噪
+[bigjpg](http://bigjpg.com/) 放大图片的神器 通过神经网络可以放大图片并能降噪
+
+[Ascii Art Generator](https://asciiartgen.now.sh) 在线生成Ascii图案
 
 [Winds](https://github.com/GetStream/Winds) 开源RSS
 
