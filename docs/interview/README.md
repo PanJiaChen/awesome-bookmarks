@@ -14,3 +14,13 @@
 [30-seconds-of-interviews](https://github.com/fejes713/30-seconds-of-interviews)
 
 [front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook)
+
+
+想成为一个好的前端工程师，光有强大的编程能力是远远不够的，还有很多软知识需要知道。
+
+学会与人沟通。
+
+前端是一个承上启下的工作，在实际业务之中你除了要面对代码之外还需要对接UI、产品、后端和其它前端有时候经常也会和运营啊广告销售打交道。因此怎么与其他角色很好的沟通也是一个非常重要的能力，代码写的再好，但不满足需求也是白搭。
+
+需求明确再动手；发现问题尽快解决；意见分歧不要拒绝沟通；学会换位思考，不要总站在自己的角度想当然；
+
