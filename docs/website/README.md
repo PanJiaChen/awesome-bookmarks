@@ -12,6 +12,8 @@ sidebar: auto
 
 [Emoji](https://www.webpagefx.com/tools/emoji-cheat-sheet/) 方便平时写查找emoji
 
+[emoji.muan](http://emoji.muan.co/#) 同上 而且更全
+
 [git-awards](http://git-awards.com/users/search?login=panjiachen) github ranking 没事可以查着玩玩
 
 ## 开发
@@ -63,6 +65,8 @@ sidebar: auto
 [coderpad](https://coderpad.io/) 远程面试的神器，可以让面试者远程写代码 不过需要翻墙
 
 [icode](https://www.icode.live/) 有赞团队出品的 coderpad可以互补，它不需要翻墙
+
+[codesandbox](https://codesandbox.io/) 一个可以在线编辑且提供在线demo的网站 支持 vue react angular 多种框架 神器
 
 
 ## 有趣

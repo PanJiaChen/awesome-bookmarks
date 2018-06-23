@@ -101,6 +101,8 @@ sidebar: auto
 
 [chancejs](https://github.com/chancejs/chancejs) 生成随机数据的库
 
+[spritejs](https://github.com/spritejs/spritejs) 360奇舞团出的跨平台绘图对象模型
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node监听文件变化的库
@@ -119,10 +121,21 @@ sidebar: auto
 
 [update-notifier](https://github.com/yeoman/update-notifier) Update notifications for your CLI app
 
-
 [y18n](https://github.com/yargs/y18n) yargs基于i18n的一个包
 
 [signale](https://github.com/klauscfhq/signale) Hackable console logger
+
+[execa](https://github.com/sindresorhus/execa) A better `child_process`
+
+[listr](https://github.com/SamVerschueren/listr) Terminal task
+
+[commander.js](https://github.com/tj/commander.js) 自动的解析命令和参数，合并多选项，处理短参，等等，功能强大，上手简单
+
+[Inquirer.js](https://github.com/SBoudrias/Inquirer.js) A collection of common interactive command line user interfaces. 命令行询问库
+
+[ora](https://github.com/sindresorhus/ora) Elegant terminal spinner 命令行loaidng
+
+[chalk](https://github.com/chalk/chalk) 命令行着色美化库
 
 ## GraphQL
 [prisma](https://www.prisma.io/docs/) 让前端也能快速的写出
@@ -159,3 +172,5 @@ sidebar: auto
 [docz](https://github.com/pedronauck/docz) 让你能快速写文档的一个库
 
 [hiper](https://github.com/pod4g/hiper) 性能统计分析工具
+
+[verdaccio](https://github.com/verdaccio/verdaccio) 私有npm
