@@ -65,6 +65,8 @@ sidebar: auto
 
 [live-server](https://github.com/tapio/live-server) 一个建议快速dev开发自动刷新的http server
 
+[serve](https://github.com/zeit/serve)快速起本地静态服务
+
 [primjs](https://github.com/PrismJS/prism) 代码高亮
 
 [ReLaXed](https://github.com/RelaxedJS/ReLaXed) 一个将document html转成PDF的工具
@@ -137,6 +139,8 @@ sidebar: auto
 
 [chalk](https://github.com/chalk/chalk) 命令行着色美化库
 
+[hygen](https://github.com/jondot/hygen) 快速方便的创建代码 可以命令行创建预设的template
+
 ## GraphQL
 [prisma](https://www.prisma.io/docs/) 让前端也能快速的写出
 
@@ -174,3 +178,12 @@ sidebar: auto
 [hiper](https://github.com/pod4g/hiper) 性能统计分析工具
 
 [verdaccio](https://github.com/verdaccio/verdaccio) 私有npm
+
+
+[git-guide](http://rogerdudler.github.io/git-guide/index.zh.html) git 入门指南
+
+[git-tips](https://github.com/521xueweihan/git-tips) git进阶
+
+[bit](https://github.com/teambit/bit) 实现了项目之间的代码共享 可以自建私有
+
+[simpread](https://github.com/Kenshin/simpread) 简悦 ( SimpRead ) - 让你瞬间进入沉浸式阅读的扩展
