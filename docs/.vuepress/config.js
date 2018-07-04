@@ -36,11 +36,13 @@ module.exports = {
       { text: "文章", link: "/article/" },
       // { text: '工具', link: 'https://google.com' },
       { text: "网站", link: "/website/" },
-      { text: "面试", link: "/interview/" }
+      { text: "面试", link: "/interview/" },
+      { text: "Blog", link: "/blog/" }
     ],
     sidebar: {
       "/article/": genSidebarConfig("article"),
-      "/interview/": genSidebarConfig("interview")
+      "/interview/": genSidebarConfig("interview"),
+      "/blog/": genSidebarConfig("blog")
     },
     lastUpdated: "上次更新",
     repo: "PanJiaChen/awesome-bookmarks",
@@ -51,8 +53,7 @@ module.exports = {
   },
   markdown: {
     config: md => {
-      md
-        .use(...createContainer("tip", "TIP"))
+      md.use(...createContainer("tip", "TIP"))
         .use(...createContainer("warning", "WARNING"))
         .use(...createContainer("danger", "WARNING"))
         // explicitly escape Vue syntax

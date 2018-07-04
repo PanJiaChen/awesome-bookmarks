@@ -6,6 +6,10 @@ const sidebarMap = {
   interview: {
     title: "面试",
     children: ["", "vue", "react", "network", "algorithms", "questions"]
+  },
+  blog: {
+    title: "blog",
+    children: ["", "js"]
   }
 };
 
