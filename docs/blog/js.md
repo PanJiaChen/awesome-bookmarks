@@ -101,3 +101,42 @@ Both interfaces are collections of DOM nodes. They differ in the methods they pr
 An HTMLCollection provides the same methods as a NodeList and additionally a method called namedItem.
 
 Collections are always used when access has to be provided to multiple nodes, e.g. most selector methods (such as getElementsByTagName) return multiple nodes or getting a reference to all children (element.childNodes).
+
+
+## ["1", "2", "3"].map(parseInt) 坑
+
+
+```js
+["1", "2", "3"].map(parseInt)
+```
+
+第一反应都觉得结果会是 `[1,2,3]`
+
+但实际结果却是 `[1, NaN, NaN]`
+
+这是为什么呢？主要是 `map` 这个方法在调用 `callback `函数时，会给它传递三个参数:
+
+- 当前正在遍历的元素
+- 元素索引
+- 原数组本身
+
+也是就是说如上代码其实等同于
+
+```js
+["1", "2", "3"].map((i,index,array)=>parseInt(i,index,array))
+```
+
+这样就直观的解释了上面的答案是怎么产生得了。因为 `parseInt` 会接受两个参数：参数和进制数。
+
+```js
+// 实际代码运算等于如下
+parseInt("1",0) // 1
+parseInt("2",1) // NaN
+parseInt("3",2) // NaN
+```
+
+所以为了避免这个坑，平时写 `map` 还是不要偷懒了，完整的写法才更直观并且更容易维护。
+
+```js
+['1', '2', '3'].map( str => parseInt(str) );
+```
