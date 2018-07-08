@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: /home.jpg
 actionText: 推荐库 →
 actionLink: /repository/
 

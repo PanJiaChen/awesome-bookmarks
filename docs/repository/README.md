@@ -105,6 +105,8 @@ sidebar: auto
 
 [spritejs](https://github.com/spritejs/spritejs) 360奇舞团出的跨平台绘图对象模型
 
+[workbox](https://github.com/googlechrome/workbox) 让你的网站更方便的变成pwa
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node监听文件变化的库
@@ -140,6 +142,8 @@ sidebar: auto
 [chalk](https://github.com/chalk/chalk) 命令行着色美化库
 
 [hygen](https://github.com/jondot/hygen) 快速方便的创建代码 可以命令行创建预设的template
+
+[hocs](https://github.com/deepsweet/hocs) react 相关hoc 收集库
 
 ## GraphQL
 [prisma](https://www.prisma.io/docs/) 让前端也能快速的写出
@@ -187,3 +191,9 @@ sidebar: auto
 [bit](https://github.com/teambit/bit) 实现了项目之间的代码共享 可以自建私有
 
 [simpread](https://github.com/Kenshin/simpread) 简悦 ( SimpRead ) - 让你瞬间进入沉浸式阅读的扩展
+
+[mkcert](https://github.com/FiloSottile/mkcert) 一键命令 让本地也支持https
+
+[termtosvg](https://github.com/nbedos/termtosvg) 录制 命令操作转成 svg 基于python
+
+[gh-polls](https://github.com/apex/gh-polls) 可以在github issue中添加投票
