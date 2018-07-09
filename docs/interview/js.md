@@ -4,7 +4,7 @@
 - css last-of-type last-child
 - 事件委托的好处
 - addEventListener 第三个参数
-- 实现index
+- 实现 index
 - 类数组 => 数组
 - querySelectorAll 方法相比 getElementsBy 系列方法有什么区别
 - HTMLCollection NodeList 区别

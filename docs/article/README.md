@@ -1,10 +1,11 @@
-
 # 文章收集
+
 ::: tip 说明
 主要是用来收集汇总平时看过得一些不错的文章，方便日后查找
 :::
 
 ## Vue
+
 [手摸手，带你用 vue 撸后台 系列一(基础篇)](https://juejin.im/post/59097cd7a22b9d0065fb61d2)
 
 [手摸手，带你用 vue 撸后台 系列二(登录权限篇)](https://juejin.im/post/591aa14f570c35006961acac)
@@ -17,21 +18,24 @@
 
 [手摸手，带你优雅的使用 icon](https://juejin.im/post/59bb864b5188257e7a427c09)
 
-
 ## GraphQL
-[GraphQL核心概念](https://segmentfault.com/a/1190000014131950)
+
+[GraphQL 核心概念](https://segmentfault.com/a/1190000014131950)
 
 [RPC vs REST vs GraphQL](https://segmentfault.com/a/1190000013961872)
 
 ## 职业发展
+
 [一个程序员的成长之路](https://github.com/fouber/blog/issues/41) 张云龙大佬的文章，强推！！值得反复阅读。
 
 [开发者如何在「技术+管理」的路上越走越宽？](https://zhuanlan.zhihu.com/p/36018203)
 
 ## 视频
+
 [计算机科学速成课](https://www.bilibili.com/video/av21376839) 计算机科学基础的系列视频，很不错，浅显易懂，看完这四十节课能多计算机世界有一个大概的整体认知。
 
 ## 其它
+
 [前端人工智能？TensorFlow.js 学会游戏通关](https://zhuanlan.zhihu.com/p/35451395)
 
 [谈谈 WebSocket ](https://halfrost.com/websocket/)
@@ -39,8 +43,9 @@
 [https://zhuanlan.zhihu.com/p/37171897](https://zhuanlan.zhihu.com/p/37171897)
 
 ## 小程序
+
 [只需两步获取任何微信小程序源码](https://juejin.im/post/5b0e431f51882515497d979f?utm_source=花裤衩) 挺有意思的一篇文章
 
-
 ## node
-[基于node.js的脚手架工具开发经历](https://juejin.im/post/5a31d210f265da431a43330e)
+
+[基于 node.js 的脚手架工具开发经历](https://juejin.im/post/5a31d210f265da431a43330e)
