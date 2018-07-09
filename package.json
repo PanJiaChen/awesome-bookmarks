@@ -5,11 +5,26 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "lint": "prettier --write 'docs/**/*.md'"
   },
-  "author": "",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "author": "PanJiaChen",
   "license": "ISC",
   "devDependencies": {
-    "vuepress": "^0.8.4"
+    "husky": "0.14.3",
+    "lint-staged": "7.2.0",
+    "prettier": "^1.13.7",
+    "vuepress": "^0.10.0"
   }
 }
