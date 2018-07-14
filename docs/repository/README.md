@@ -107,6 +107,8 @@ sidebar: auto
 
 [workbox](https://github.com/googlechrome/workbox) 让你的网站更方便的变成 pwa
 
+[tui.image-editor](https://github.com/nhnent/tui.image-editor) 一个功能齐全的在线图片编辑，基于 canvas
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node 监听文件变化的库
@@ -197,3 +199,7 @@ sidebar: auto
 [termtosvg](https://github.com/nbedos/termtosvg) 录制 命令操作转成 svg 基于 python
 
 [gh-polls](https://github.com/apex/gh-polls) 可以在 github issue 中添加投票
+
+[eruda](https://github.com/liriliri/eruda) 移动端调试工具
+
+[vConsole](https://github.com/Tencent/vConsole) 也是一个移动端调试工具 腾讯出品
