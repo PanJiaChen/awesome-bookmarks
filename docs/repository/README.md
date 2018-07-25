@@ -109,6 +109,8 @@ sidebar: auto
 
 [tui.image-editor](https://github.com/nhnent/tui.image-editor) 一个功能齐全的在线图片编辑，基于 canvas
 
+[hocs](https://github.com/deepsweet/hocs) react 相关 hoc 收集库
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node 监听文件变化的库
@@ -145,7 +147,7 @@ sidebar: auto
 
 [hygen](https://github.com/jondot/hygen) 快速方便的创建代码 可以命令行创建预设的 template
 
-[hocs](https://github.com/deepsweet/hocs) react 相关 hoc 收集库
+[ndb](https://github.com/GoogleChromeLabs/ndb) node 调试
 
 ## GraphQL
 

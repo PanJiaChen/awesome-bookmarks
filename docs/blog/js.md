@@ -1,4 +1,4 @@
-# js
+# Javascript
 
 ## querySelectorAll getElementsBy 区别？
 
