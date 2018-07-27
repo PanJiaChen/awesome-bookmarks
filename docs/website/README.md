@@ -56,6 +56,8 @@ sidebar: auto
 
 [brandmark](http://brandmark.io/) 另一个在线制作 logo 网站
 
+[instant](https://instantlogodesign.com/) 有一个 logo 制作网站
+
 [coolors](https://coolors.co/) 帮你在线配色的网站 你能找到不少配色灵感
 
 [colorhunt](http://colorhunt.co/) 另一个配色网站
