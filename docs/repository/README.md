@@ -205,3 +205,5 @@ sidebar: auto
 [eruda](https://github.com/liriliri/eruda) 移动端调试工具
 
 [vConsole](https://github.com/Tencent/vConsole) 也是一个移动端调试工具 腾讯出品
+
+[terminalizer](https://github.com/faressoft/terminalizer) 命令行录制工具 基于 node
