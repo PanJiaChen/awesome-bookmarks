@@ -164,7 +164,7 @@ sidebar: auto
 
 [javascript-algorithms ](https://github.com/trekhleb/javascript-algorithms) 教你用前端知识认识各种算法
 
-工具
+## 工具
 
 [high-speed-downloader](https://github.com/high-speed-downloader/high-speed-downloader) 百度网盘不限速下载 支持 Windows 和 Mac
 
@@ -207,3 +207,5 @@ sidebar: auto
 [vConsole](https://github.com/Tencent/vConsole) 也是一个移动端调试工具 腾讯出品
 
 [terminalizer](https://github.com/faressoft/terminalizer) 命令行录制工具 基于 node
+
+[badgen](https://github.com/amio/badgen-service) 快速构建和 shields 一样的 svg badge 但速度更快
