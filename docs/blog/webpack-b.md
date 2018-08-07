@@ -3,6 +3,7 @@
 推荐先阅读 webpack 入门教程之后再来阅读本文。
 
 - [Webpack 4 和单页应用入门](https://github.com/wallstreetcn/webpack-and-spa-guide)
+- [手摸手，带你用合理的姿势使用 webpack4 （上）](https://juejin.im/post/5b56909a518825195f499806)
 
 本文为手摸手使用 webpack4（下），主要分为两部分：
 
@@ -291,7 +292,7 @@ console.log("apple");
 
 产生的原因前面也讲了，使用自增 id 的情况下是不能保证你新添加或删除 chunk 的位置的，一旦它改变了，这个顺序就错乱了，就需要重排，就会导致它之后的所有 id 都发生改变了。
 
-接着我们 [查看源码](https://github.com/webpack/webpack/blob/master/lib/NamedChunksPlugin.js) 还发现它只对有 **name** 的 chunk 才奏效！所以我们那些异步懒加载的页面都是无效的。这其不是坑爹！我们迭代业务可定会不断的添加删除页面，这岂不是每新增一个页面都会让之前的缓存都失效？那我们之前还费这么大力优化什么拆包呢？
+接着我们 [查看源码](https://github.com/webpack/webpack/blob/master/lib/NamedChunksPlugin.js) 还发现它只对有 **name** 的 chunk 才奏效！所以我们那些异步懒加载的页面都是无效的。这启不是坑爹！我们迭代业务肯定会不断的添加删除页面，这岂不是每新增一个页面都会让之前的缓存都失效？那我们之前还费这么大力优化什么拆包呢？
 
 其实这是一个古老的问题了 相关 issue: [Vendor chunkhash changes when app code changes](https://github.com/webpack/webpack/issues/1315) 早在 2015 年就有人提了这个问题，这个问题也一直讨论至今，'网友们'也提供了各种奇淫巧技，不过大部分随着 webpack 的迭代已经不适用或者是修复了。
 

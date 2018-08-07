@@ -332,6 +332,7 @@ module.exports = file => () => import("@/views/" + file + ".vue");
 
 拓展阅读：
 
+- [手摸手，带你用合理的姿势使用 webpack4 （下）](https://juejin.im/post/5b5d6d6f6fb9a04fea58aabc)
 - [Webpack 4 和单页应用入门](https://github.com/wallstreetcn/webpack-and-spa-guide)
 - [Webpack 中的 sideEffects 到底该怎么用？](https://zhuanlan.zhihu.com/p/40052192)
 - [你的 Tree-Shaking 并没什么卵用](https://zhuanlan.zhihu.com/p/32831172)
