@@ -9,15 +9,15 @@
 
 ![](https://user-gold-cdn.xitu.io/2018/7/27/164db1a2e089c151?w=690&h=200&f=jpeg&s=22433)
 
-正好我也在使用一个文档生成工具 [docz](https://github.com/pedronauck/docz)(安利一波) 也最底需要`webpack 4+`，新版`webpack`性能提高了不少，而且`webpack 4` 都已经发布五个多月了，想必应该已经没什么坑了，应该可以安心的按照别人写的升级攻略升级了。之前一直迟迟不升级完全是被去年被 `webpack 3` 坑怕了。它在 `code splitting` 的情况下 `CommonsChunkPlugin`会完全失效。过了好一段时间才修复，欲哭无泪。
+正好我也在使用一个文档生成工具 [docz](https://github.com/pedronauck/docz)(安利一波) 也最低需要`webpack 4+`，新版`webpack`性能提高了不少，而且`webpack 4` 都已经发布五个多月了，想必应该已经没什么坑了，应该可以安心的按照别人写的升级攻略升级了。之前一直迟迟不升级完全是被去年被 `webpack 3` 坑怕了。它在 `code splitting` 的情况下 `CommonsChunkPlugin`会完全失效。过了好一段时间才修复，欲哭无泪。
 
-所以这次我等了快大半年才准备升级到`webpack 4` **但玩玩没想到还是遇到了不少的问题！** 有很多之前遗留的问题还是没有很好地解决。但最主要的问题还是它的文档有所欠缺，已经废除了的东西如`commonsChunkPlugin`还在官方文档中到处出现，很多重要的东西却一笔带过，甚至没写，需要用户自己去看源码才能解决。
+所以这次我等了快大半年才准备升级到`webpack 4` **但万万没想到还是遇到了不少的问题！** 有很多之前遗留的问题还是没有很好地解决。但最主要的问题还是它的文档有所欠缺，已经废除了的东西如`commonsChunkPlugin`还在官方文档中到处出现，很多重要的东西却一笔带过，甚至没写，需要用户自己去看源码才能解决。
 
 还比如在`v4.16.0`版本中废除了`optimization.occurrenceOrder`、`optimization.namedChunks`、`optimization.hashedModuleIds`、`optimization.namedModules` 这几个配置项，替换成了`optimization.moduleIds` 和 `optimization.chunkIds`，但文档完中全没有任何体现，所以你在新版本中还按照文档那样配置其实是没有任何效果的。
 
 最新最完整的文档还是看他项目的配置[WebpackOptions.json](https://github.com/webpack/webpack/blob/master/schemas/WebpackOptions.json)，强烈建议遇到不清楚的配置项可以看这个，因为它一定保证是和最新代码同步的。
 
-吐槽了这么多，我们言归真正。由于本次手摸手篇幅有些长，所以拆解成了上下两篇文章：
+吐槽了这么多，我们言归正传。由于本次手摸手篇幅有些长，所以拆解成了上下两篇文章：
 
 - 上篇 -- 就是普通的在`webpack 3`的基础上升级，要做哪些操作和遇到了哪些坑
 - 下篇 -- 是在`webpack 4`下怎么合理的打包和拆包，并且如何最大化利用 `long term caching`
@@ -189,7 +189,7 @@ new MiniCssExtractPlugin({
 
 非常的不理解，这么关键的一句话会放在 `Maintainers` 还后面的地方，默认写在配置里面提示大家不是更好？有热心群众已经开了一个`pr`，将文档默认配置为 `contenthash`。`chunkhash` => `contenthash`相关 [issue](https://github.com/webpack/webpack.js.org/issues/2096)。
 
-这个真的满过分的，稍不注意就会让自己的 css 文件缓存无效。而且很多用户平时修改代码的时候都不会在意自己最终打包出来的 `dist`文件夹中到底有哪些变化。所以这个问题可能就一直存在了。浪费了多少资源！人艰不拆！大家觉得 webpack 难用不是不无道理的。
+这个真的蛮过分的，稍不注意就会让自己的 css 文件缓存无效。而且很多用户平时修改代码的时候都不会在意自己最终打包出来的 `dist`文件夹中到底有哪些变化。所以这个问题可能就一直存在了。浪费了多少资源！人艰不拆！大家觉得 webpack 难用不是没道理的。
 
 ### 这里再简单说明一下几种 hash 的区别：
 
@@ -221,7 +221,7 @@ new MiniCssExtractPlugin({
 
 - 没有使用合理的 [Devtool](https://webpack.js.org/configuration/devtool/#devtool) souce map 导致
 - 没有正确使用 [exclude/include](https://webpack.js.org/configuration/module/#rule-include) 处理了不需要处理的如`node_modules`
-- 在开发环境没有压缩代码`UglifyJs`、提取 css、babel polyfill、计算文件 hash 等不需要的操作
+- 在开发环境不要压缩代码`UglifyJs`、提取 css、babel polyfill、计算文件 hash 等不需要的操作
 
 **旧方案**
 
@@ -239,13 +239,13 @@ module.exports = file => require("@/views/" + file + ".vue").default;
 module.exports = file => () => import("@/views/" + file + ".vue");
 ```
 
-但由于 webpack `import`实现机制有关，会产生一定的副作用。如上面的写法就会导致`@/views/`下的 所有`.vue` 文件都会被打包。不管你是否被依赖引用了，会多打包一些可能永远都用不到 js 代码。 [相关 issue](https://github.com/PanJiaChen/vue-element-admin/issues/292)
+但由于 webpack `import`实现机制问题，会产生一定的副作用。如上面的写法就会导致`@/views/`下的 所有`.vue` 文件都会被打包。不管你是否被依赖引用了，会多打包一些可能永远都用不到 js 代码。 [相关 issue](https://github.com/PanJiaChen/vue-element-admin/issues/292)
 
-目前新的解决方案思路还是一样的，只在生成模式中使用路由懒加载，本地开发不是用懒加载。但换了一种没副作用的实现方式。
+目前新的解决方案思路还是一样的，只在生成模式中使用路由懒加载，本地开发不使用懒加载。但换了一种没副作用的实现方式。
 
 **新方案**
 
-使用`babel` 的 `plugins` [babel-plugin-dynamic-import-node](https://github.com/airbnb/babel-plugin-dynamic-import-node)。它只做一件事就是：将所有的`import()`转化为`require()`，这样就可以用这个插件将所有异步组件都用同步的方式引入了，并结合 [BABEL_ENV](https://babeljs.io/docs/usage/babelrc/#env-option) 这个`bebel`环境变量，让它只作用于开发环境下。将开发环境中所有`import()`转化为`require()`，这种方案解决了之前重复打包的问题，同时对代码的侵入性也很小，你平时写路由的时候只需要按照官方[文档](https://router.vuejs.org/zh/guide/advanced/lazy-loading.html)路由懒加载的方式就可以了，其它的都交给`bable`来处理，当你不想用这个方案的时候，也只需要将它从`babel` 的 `plugins`中移除就可以了。
+使用`babel` 的 `plugins` [babel-plugin-dynamic-import-node](https://github.com/airbnb/babel-plugin-dynamic-import-node)。它只做一件事就是：将所有的`import()`转化为`require()`，这样就可以用这个插件将所有异步组件都用同步的方式引入了，并结合 [BABEL_ENV](https://babeljs.io/docs/usage/babelrc/#env-option) 这个`bebel`环境变量，让它只作用于开发环境下。将开发环境中所有`import()`转化为`require()`，这种方案解决了之前重复打包的问题，同时对代码的侵入性也很小，你平时写路由的时候只需要按照官方[文档](https://router.vuejs.org/zh/guide/advanced/lazy-loading.html)路由懒加载的方式就可以了，其它的都交给`babel`来处理，当你不想用这个方案的时候，也只需要将它从`babel` 的 `plugins`中移除就可以了。
 
 **具体代码：**
 
