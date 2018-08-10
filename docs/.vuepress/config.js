@@ -5,8 +5,18 @@ module.exports = {
   title: "awesome-bookmarks",
   description: "个人收藏际夹 beta",
   base: "/awesome-bookmarks/",
+  head: [
+    [
+      "link",
+      {
+        rel: "icon",
+        href: "/favicon.ico"
+      }
+    ]
+  ],
   themeConfig: {
-    nav: [{
+    nav: [
+      {
         text: "首页",
         link: "/"
       },
@@ -55,16 +65,18 @@ module.exports = {
   markdown: {
     config: md => {
       // use more markdown-it plugins!
-      md.use(require('markdown-it-include'))
+      md.use(require("markdown-it-include"));
     }
   }
 };
 
 function genSidebarConfig(type) {
   const sidebar = sidebarMap[type];
-  return [{
-    title: sidebar.title,
-    collapsable: false,
-    children: sidebar.children
-  }];
+  return [
+    {
+      title: sidebar.title,
+      collapsable: false,
+      children: sidebar.children
+    }
+  ];
 }
