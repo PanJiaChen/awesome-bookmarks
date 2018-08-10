@@ -1,10 +1,9 @@
 const sidebarMap = require("./sidebarMap");
-const container = require("markdown-it-container");
 
 module.exports = {
   title: "awesome-bookmarks",
   description: "个人收藏际夹 beta",
-  base: "/awesome-bookmarks/",
+  // base: "/awesome-bookmarks/",
   head: [
     [
       "link",
