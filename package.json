@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "awesome-bookmarks",
   "main": "index.js",
+  "author": "PanJiaChen",
+  "license": "ISC",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
@@ -19,12 +21,11 @@
       "git add"
     ]
   },
-  "author": "PanJiaChen",
-  "license": "ISC",
   "devDependencies": {
     "husky": "0.14.3",
     "lint-staged": "7.2.0",
+    "markdown-it-include": "^1.0.0",
     "prettier": "^1.14.0",
-    "vuepress": "^0.10.0"
+    "vuepress": "^0.14.1"
   }
 }

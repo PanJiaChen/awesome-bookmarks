@@ -9,7 +9,7 @@ const sidebarMap = {
   },
   blog: {
     title: "blog",
-    children: ["", "js", "talk"]
+    children: ["", "js", "talk", "webpack"]
   }
 };
 

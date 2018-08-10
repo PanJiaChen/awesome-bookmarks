@@ -149,6 +149,8 @@ sidebar: auto
 
 [ndb](https://github.com/GoogleChromeLabs/ndb) node 调试
 
+[got](https://github.com/sindresorhus/got) http 请求库 如果你觉得 request 太多的话 这是一个不错的选择
+
 ## GraphQL
 
 [prisma](https://www.prisma.io/docs/) 让前端也能快速的写出
