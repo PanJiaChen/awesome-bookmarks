@@ -213,3 +213,5 @@ sidebar: auto
 [terminalizer](https://github.com/faressoft/terminalizer) 命令行录制工具 基于 node
 
 [badgen](https://github.com/amio/badgen-service) 快速构建和 shields 一样的 svg badge 但速度更快
+
+[readability](https://github.com/luin/readability) 移除页面非正文部分 基于 jsdom
