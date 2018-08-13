@@ -3,7 +3,7 @@ const sidebarMap = require("./sidebarMap");
 module.exports = {
   title: "awesome-bookmarks",
   description: "个人收藏际夹 beta",
-  // base: "/awesome-bookmarks/",
+  base: "/awesome-bookmarks/",
   head: [
     [
       "link",
@@ -14,8 +14,7 @@ module.exports = {
     ]
   ],
   themeConfig: {
-    nav: [
-      {
+    nav: [{
         text: "首页",
         link: "/"
       },
@@ -71,11 +70,9 @@ module.exports = {
 
 function genSidebarConfig(type) {
   const sidebar = sidebarMap[type];
-  return [
-    {
-      title: sidebar.title,
-      collapsable: false,
-      children: sidebar.children
-    }
-  ];
+  return [{
+    title: sidebar.title,
+    collapsable: false,
+    children: sidebar.children
+  }];
 }

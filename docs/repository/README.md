@@ -151,6 +151,8 @@ sidebar: auto
 
 [got](https://github.com/sindresorhus/got) http 请求库 如果你觉得 request 太多的话 这是一个不错的选择
 
+[dumper.js](https://github.com/zeeshanu/dumper.js) 能让你的 node console 更加的规整，方便调试
+
 ## GraphQL
 
 [prisma](https://www.prisma.io/docs/) 让前端也能快速的写出
