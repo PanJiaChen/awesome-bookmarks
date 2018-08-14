@@ -14,12 +14,12 @@
 https://www.zhihu.com/question/24702250
 
 ```js
-const ul = window.document.getElementsByTagName("ul")[0];
+const ul = window.document.getElementsByTagName("ul")[0]
 ul.addEventListener("click", e => {
-  const children = [...ul.getElementsByTagName("li")]; //htmlCollection => array
+  const children = [...ul.getElementsByTagName("li")] //htmlCollection => array
   if (e.target && e.target.nodeName.toLowerCase() === "li") {
-    const index = children.indexOf(e.target);
-    console.log(index);
+    const index = children.indexOf(e.target)
+    console.log(index)
   }
-});
+})
 ```

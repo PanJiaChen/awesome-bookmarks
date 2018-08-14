@@ -11,9 +11,9 @@ querySelectorAll 已被 IE 8+、FF 3.5+、Safari 3.1+、Chrome 和 Opera 10+ 良
 querySelectorAll 方法接收的参数是一个 CSS 选择符。而 getElementsBy 系列接收的参数只能是单一的 className、tagName 和 name。
 
 ```js
-var c1 = document.querySelectorAll(".b1 .c");
-var c2 = document.getElementsByClassName("c");
-var c3 = document.getElementsByClassName("b2")[0].getElementsByClassName("c");
+var c1 = document.querySelectorAll(".b1 .c")
+var c2 = document.getElementsByClassName("c")
+var c3 = document.getElementsByClassName("b2")[0].getElementsByClassName("c")
 ```
 
 - 返回值
@@ -67,8 +67,8 @@ Demo 2 中的 lis 是一个动态的 Node List， 每一次调用 lis 都会重�
 所以，NodeList 本质上是一个动态的 Node 集合，只是规范中对 querySelectorAll 有明确要求，规定其必须返回一个静态的 NodeList 对象。
 
 ```js
-document.querySelectorAll("a").toString(); // return "[object NodeList]"
-document.getElementsByTagName("a").toString(); // return "[object HTMLCollection]"
+document.querySelectorAll("a").toString() // return "[object NodeList]"
+document.getElementsByTagName("a").toString() // return "[object HTMLCollection]"
 ```
 
 这里又多了一个 HTMLCollection 对象出来，那 HTMLCollection 又是什么？
@@ -78,9 +78,9 @@ document.getElementsByTagName("a").toString(); // return "[object HTMLCollection
 ```js
 var ul = document.getElementsByTagName("ul")[0],
   lis1 = ul.childNodes,
-  lis2 = ul.children;
-console.log(lis1.toString(), lis1.length); // "[object NodeList]" 11
-console.log(lis2.toString(), lis2.length); // "[object HTMLCollection]" 4
+  lis2 = ul.children
+console.log(lis1.toString(), lis1.length) // "[object NodeList]" 11
+console.log(lis2.toString(), lis2.length) // "[object HTMLCollection]" 4
 ```
 
 NodeList 对象会包含文档中的所有节点，如 Element、Text 和 Comment 等。HTMLCollection 对象只会包含文档中的 Element 节点。另外，HTMLCollection 对象比 NodeList 对象 多提供了一个 namedItem 方法。所以在现代浏览器中，querySelectorAll 的返回值是一个静态的 NodeList 对象，而 getElementsBy 系列的返回值实际上是一个 HTMLCollection 对象 。

@@ -165,14 +165,14 @@ webpack 4 提供了 runtimeChunk 能让我们方便的提取 `manifest`，以前
 new webpack.optimize.CommonsChunkPlugin({
   name: "manifest",
   minChunks: Infinity
-});
+})
 ```
 
 现在只要一行配置就可以了
 
 ```js
 {
-  runtimeChunk: true;
+  runtimeChunk: true
 }
 ```
 
@@ -189,14 +189,14 @@ new webpack.optimize.CommonsChunkPlugin({
 这里我选用了 [script-ext-html-webpack-plugin](https://github.com/numical/script-ext-html-webpack-plugin)，主要是因为它还支持`preload`和 `prefetch`，正好需要就不想再多引用一个插件了，你完全可以使用 [inline-manifest-webpack-plugin](https://github.com/szrenwei/inline-manifest-webpack-plugin)或者 [assets-webpack-plugin](https://github.com/ztoben/assets-webpack-plugin)等来实现相同的效果。
 
 ```js
-const ScriptExtHtmlWebpackPlugin = require("script-ext-html-webpack-plugin");
+const ScriptExtHtmlWebpackPlugin = require("script-ext-html-webpack-plugin")
 
 // 注意一定要在HtmlWebpackPlugin之后引用
 // inline 的name 和你 runtimeChunk 的 name保持一致
 new ScriptExtHtmlWebpackPlugin({
   //`runtime` must same as runtimeChunk name. default is `runtime`
   inline: /runtime\..*\.js$/
-});
+})
 ```
 
 ### Module vs Chunk
@@ -212,19 +212,19 @@ new ScriptExtHtmlWebpackPlugin({
 //9.xxxxxxxxx.js
 
 //chunk id为 9 ，包含了Vc2m和JFUb两个module
-(window.webpackJsonp = window.webpackJsonp || []).push([
+;(window.webpackJsonp = window.webpackJsonp || []).push([
   [9],
   {
     Vc2m: function(e, t, l) {},
     JFUb: function(e, t, l) {}
   }
-]);
+])
 ```
 
 一个`module`还能跨`chunk`引用另一个`module`，比如我想在`app.js`里面需要引用 `chunkId`为`13`的模块`2700`可以这样引用：
 
 ```js
-return n.e(13).then(n.bind(null, "27OO"));
+return n.e(13).then(n.bind(null, "27OO"))
 ```
 
 ### HashedModuleIdsPlugin
@@ -244,10 +244,10 @@ output: {
 
 ```js
 //main.js
-import "./test";
+import "./test"
 
 //test.js
-console.log("apple");
+console.log("apple")
 ```
 
 我们运行`npm run build`，发现了一件奇怪的事情，我只是多引入了一个文件，但发现有十几个文件发生了变化。这是为什么呢？
@@ -312,7 +312,7 @@ console.log("apple");
 要使用它配置也很简单：
 
 ```js
-recordsPath: path.join(__dirname, "records.json");
+recordsPath: path.join(__dirname, "records.json")
 ```
 
 对，只要这一行代码就能开启这个选项，并打包的时候会自动生成一个 JSON 文件。它含有 webpack 的 `records` 记录 - 即「用于存储跨多次构建(across multiple builds)的模块标识符」的数据片段。可以使用此文件来跟踪在每次构建之间的模块变化。
@@ -370,7 +370,7 @@ recordsPath: path.join(__dirname, "records.json");
 在 webpack2.4.0 版本之后可以自定义异步 chunk 的名字了，例如：
 
 ```js
-import(/* webpackChunkName: "my-chunk-name" */ "module");
+import(/* webpackChunkName: "my-chunk-name" */ "module")
 ```
 
 我们在结合 vue 的懒加载可以这样写。
@@ -401,10 +401,10 @@ chunk 有了 name 之后就可以解决`NamedChunksPlugin`没有 name 的情况�
 ```js
 new webpack.NamedChunksPlugin(chunk => {
   if (chunk.name) {
-    return chunk.name;
+    return chunk.name
   }
-  return chunk.modules.map(m => path.relative(m.context, m.request)).join("_");
-});
+  return chunk.modules.map(m => path.relative(m.context, m.request)).join("_")
+})
 ```
 
 适配 webpack4 和 vue 的新实现方案：
@@ -412,34 +412,34 @@ new webpack.NamedChunksPlugin(chunk => {
 ```js
 new webpack.NamedChunksPlugin(chunk => {
   if (chunk.name) {
-    return chunk.name;
+    return chunk.name
   }
-  return Array.from(chunk.modulesIterable, m => m.id).join("_");
-});
+  return Array.from(chunk.modulesIterable, m => m.id).join("_")
+})
 ```
 
 当然这个方案还是有一些弊端的因为 id 会可能很长，如果一个 chunk 依赖了很多个 module 的话，id 可能有几十位，所以我们还需要缩短一下它的长度。我们首先将拼接起来的 id hash 以下，而且要保证 hash 的结果位数也能太长，浪费字节，但太短又容易发生碰撞，所以最后我们我们选择 4 位长度，并且手动用 Set 做一下碰撞校验，发生碰撞的情况下位数加 1，直到碰撞为止。详细代码如下：
 
 ```js
-const seen = new Set();
-const nameLength = 4;
+const seen = new Set()
+const nameLength = 4
 
 new webpack.NamedChunksPlugin(chunk => {
   if (chunk.name) {
-    return chunk.name;
+    return chunk.name
   }
-  const modules = Array.from(chunk.modulesIterable);
+  const modules = Array.from(chunk.modulesIterable)
   if (modules.length > 1) {
-    const hash = require("hash-sum");
-    const joinedHash = hash(modules.map(m => m.id).join("_"));
-    let len = nameLength;
-    while (seen.has(joinedHash.substr(0, len))) len++;
-    seen.add(joinedHash.substr(0, len));
-    return `chunk-${joinedHash.substr(0, len)}`;
+    const hash = require("hash-sum")
+    const joinedHash = hash(modules.map(m => m.id).join("_"))
+    let len = nameLength
+    while (seen.has(joinedHash.substr(0, len))) len++
+    seen.add(joinedHash.substr(0, len))
+    return `chunk-${joinedHash.substr(0, len)}`
   } else {
-    return modules[0].id;
+    return modules[0].id
   }
-});
+})
 ```
 
 我给 `vue-cli` 官方也提了一个相关

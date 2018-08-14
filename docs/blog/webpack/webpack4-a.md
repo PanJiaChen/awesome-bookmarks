@@ -155,7 +155,7 @@ webpack 一直以来最饱受诟病的就是其配置门槛极高，配置内容
 ```js
 //配置
 optimization: {
-  minimizer: [new OptimizeCSSAssetsPlugin()];
+  minimizer: [new OptimizeCSSAssetsPlugin()]
 }
 ```
 
@@ -174,7 +174,7 @@ new MiniCssExtractPlugin({
   // both options are optional
   filename: devMode ? "[name].css" : "[name].[hash].css",
   chunkFilename: devMode ? "[id].css" : "[id].[hash].css"
-});
+})
 ```
 
 > 简单说明一下： `filename` 是指在你入口文件`entry`中引入生成出来的文件名，而`chunkname`是指那些未被在入口文件`entry`引入，但又通过按需加载（异步）模块的时候引入的文件。
@@ -230,13 +230,13 @@ new MiniCssExtractPlugin({
 开发环境：
 
 ```js
-module.exports = file => require("@/views/" + file + ".vue").default;
+module.exports = file => require("@/views/" + file + ".vue").default
 ```
 
 生成环境：
 
 ```js
-module.exports = file => () => import("@/views/" + file + ".vue");
+module.exports = file => () => import("@/views/" + file + ".vue")
 ```
 
 但由于 webpack `import`实现机制问题，会产生一定的副作用。如上面的写法就会导致`@/views/`下的 所有`.vue` 文件都会被打包。不管你是否被依赖引用了，会多打包一些可能永远都用不到 js 代码。 [相关 issue](https://github.com/PanJiaChen/vue-element-admin/issues/292)

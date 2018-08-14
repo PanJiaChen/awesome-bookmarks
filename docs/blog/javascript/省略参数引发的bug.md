@@ -6,15 +6,15 @@
 
 ```js
 function test(num = 1) {
-  console.log(num);
+  console.log(num)
 }
 
-test(); // (num is set to 1)
-test(undefined); // (num is set to 1 too)
+test() // (num is set to 1)
+test(undefined) // (num is set to 1 too)
 
-test(""); // (num is set to '')
-test(null); // (num is set to null)
-test(false); // (num is set to false)
+test("") // (num is set to '')
+test(null) // (num is set to null)
+test(false) // (num is set to false)
 ```
 
 如上面 demo 所示，只有参数没传或者是 `undefined` 是才会生效，其它情况默认参数并不会起作用。
@@ -26,15 +26,15 @@ test(false); // (num is set to false)
 另外，一个容易忽略的地方是，参数默认值不是传值的，而是每次都重新计算默认值表达式的值。也就是说，参数默认值是惰性求值的。
 
 ```js
-let x = 99;
+let x = 99
 function foo(p = x + 1) {
-  console.log(p);
+  console.log(p)
 }
 
-foo(); // 100
+foo() // 100
 
-x = 100;
-foo(); // 101
+x = 100
+foo() // 101
 ```
 
 上面代码中，参数 p 的默认值是 x + 1。这时，每次调用函数 foo，都会重新计算 x + 1，而不是默认 p 等于 100。

@@ -1,4 +1,4 @@
-const utils = require("./utils");
+const utils = require("./utils")
 
 module.exports = {
   title: "awesome-bookmarks",
@@ -60,7 +60,7 @@ module.exports = {
   markdown: {
     config: md => {
       // use more markdown-it plugins!
-      md.use(require("markdown-it-include"));
+      md.use(require("markdown-it-include"))
     }
   }
-};
+}

@@ -14,11 +14,11 @@
 ```js
 var getUserInfo = function() {
   ajax("http:// xxx.com/userInfo", function(data) {
-    console.log("userId: " + data.userId);
-    console.log("userName: " + data.userName);
-    console.log("nickName: " + data.nickName);
-  });
-};
+    console.log("userId: " + data.userId)
+    console.log("userName: " + data.userName)
+    console.log("nickName: " + data.nickName)
+  })
+}
 ```
 
 改成：
@@ -26,15 +26,15 @@ var getUserInfo = function() {
 ```js
 var getUserInfo = function() {
   ajax("http:// xxx.com/userInfo", function(data) {
-    printDetails(data);
-  });
-};
+    printDetails(data)
+  })
+}
 
 var printDetails = function(data) {
-  console.log("userId: " + data.userId);
-  console.log("userName: " + data.userName);
-  console.log("nickName: " + data.nickName);
-};
+  console.log("userId: " + data.userId)
+  console.log("userName: " + data.userName)
+  console.log("nickName: " + data.nickName)
+}
 ```
 
 ## 合并重复的条件片段
@@ -44,15 +44,15 @@ var printDetails = function(data) {
 ```js
 var paging = function(currPage) {
   if (currPage <= 0) {
-    currPage = 0;
-    jump(currPage); // 跳 转
+    currPage = 0
+    jump(currPage) // 跳 转
   } else if (currPage >= totalPage) {
-    currPage = totalPage;
-    jump(currPage); // 跳 转
+    currPage = totalPage
+    jump(currPage) // 跳 转
   } else {
-    jump(currPage); // 跳 转
+    jump(currPage) // 跳 转
   }
-};
+}
 ```
 
 可以看到，负责跳转的代码 `jump( currPage )`在每个条件分支内都出现了，所以完全可以把这句代码独立出来：
@@ -60,12 +60,12 @@ var paging = function(currPage) {
 ```js
 var paging = function(currPage) {
   if (currPage <= 0) {
-    currPage = 0;
+    currPage = 0
   } else if (currPage >= totalPage) {
-    currPage = totalPage;
+    currPage = totalPage
   }
-  jump(currPage); // 把 jump 函数独立出来
-};
+  jump(currPage) // 把 jump 函数独立出来
+}
 ```
 
 ## 把条件分支语句提炼成函数
@@ -92,17 +92,17 @@ if (date.getMonth() >= 6 && date.getMonth() <= 9) {
 
 ```js
 var isSummer = function() {
-  var date = new Date();
-  return date.getMonth() >= 6 && date.getMonth() <= 9;
-};
+  var date = new Date()
+  return date.getMonth() >= 6 && date.getMonth() <= 9
+}
 
 var getPrice = function(price) {
   if (isSummer()) {
     // 夏 天
-    return price * 0.8;
+    return price * 0.8
   }
-  return price;
-};
+  return price
+}
 ```
 
 ## 合理使用循环
@@ -111,19 +111,19 @@ var getPrice = function(price) {
 
 ```js
 var createXHR = function() {
-  var xhr;
+  var xhr
   try {
-    xhr = new ActiveXObject("MSXML2.XMLHttp.6.0");
+    xhr = new ActiveXObject("MSXML2.XMLHttp.6.0")
   } catch (e) {
     try {
-      xhr = new ActiveXObject("MSXML2.XMLHttp.3.0");
+      xhr = new ActiveXObject("MSXML2.XMLHttp.3.0")
     } catch (e) {
-      xhr = new ActiveXObject("MSXML2.XMLHttp");
+      xhr = new ActiveXObject("MSXML2.XMLHttp")
     }
   }
-  return xhr;
-};
-var xhr = createXHR();
+  return xhr
+}
+var xhr = createXHR()
 ```
 
 下面我们灵活地运用循环，可以得到跟上面代码一样的效果：
@@ -134,14 +134,14 @@ var createXHR = function() {
     "MSXML2.XMLHttp.6.0ddd",
     "MSXML2.XMLHttp.3.0",
     "MSXML2.XMLHttp"
-  ];
+  ]
   for (var i = 0, version; (version = versions[i++]); ) {
     try {
-      return new ActiveXObject(version);
+      return new ActiveXObject(version)
     } catch (e) {}
   }
-};
-var xhr = createXHR();
+}
+var xhr = createXHR()
 ```
 
 ## 提前让函数退出代替嵌套条
@@ -151,19 +151,19 @@ var xhr = createXHR();
 
 ```js
 var del = function(obj) {
-  var ret;
+  var ret
   if (!obj.isReadOnly) {
     // 不为只读的才能被删除
     if (obj.isFolder) {
       // 如果是文件夹
-      ret = deleteFolder(obj);
+      ret = deleteFolder(obj)
     } else if (obj.isFile) {
       // 如果是文件
-      ret = deleteFile(obj);
+      ret = deleteFile(obj)
     }
   }
-  return ret;
-};
+  return ret
+}
 ```
 
 嵌套的条件分支语句绝对是代码维护者的噩梦，对于阅读代码的人来说，嵌套的 if、else 语句相比平铺的 if、else，在阅读和理解上更加困难，有时候一个外层 if 分支的左括号和右括号之间相隔 500 米之远。用《重构》里的话说，嵌套的条件分支往往是由一些深信“每个函数只能有一个出口的”程序员写出的。但实际上，如果对函数的剩余部分不感兴趣，那就应该立即退出。引导阅读者去看一些没有用的 else 片段，只会妨碍他们对程序的理解。
@@ -173,15 +173,15 @@ var del = function(obj) {
 var del = function(obj) {
   if (obj.isReadOnly) {
     // 反转 if 表达式
-    return;
+    return
   }
   if (obj.isFolder) {
-    return deleteFolder(obj);
+    return deleteFolder(obj)
   }
   if (obj.isFile) {
-    return deleteFile(obj);
+    return deleteFile(obj)
   }
-};
+}
 ```
 
 ## 传递对象参数代替过长的参数列表
@@ -190,27 +190,27 @@ var del = function(obj) {
 
 ```js
 var setUserInfo = function(id, name, address, sex, mobile, qq) {
-  console.log("id= " + id);
-  console.log("name= " + name);
-  console.log("address= " + address);
-  console.log("sex= " + sex);
-  console.log("mobile= " + mobile);
-  console.log("qq= " + qq);
-};
-setUserInfo(1314, "sven", "shenzhen", "male", "137********", 377876679);
+  console.log("id= " + id)
+  console.log("name= " + name)
+  console.log("address= " + address)
+  console.log("sex= " + sex)
+  console.log("mobile= " + mobile)
+  console.log("qq= " + qq)
+}
+setUserInfo(1314, "sven", "shenzhen", "male", "137********", 377876679)
 ```
 
 这时我们可以把参数都放入一个对象内，然后把该对象传入 setUserInfo 函数，setUserInfo 函数需要的数据可以自行从该对象里获取。现在不用再关心参数的数量和顺序，只要保证参数对应的 key 值不变就可以了：
 
 ```js
 var setUserInfo = function(obj) {
-  console.log("id= " + obj.id);
-  console.log("name= " + obj.name);
-  console.log("address= " + obj.address);
-  console.log("sex= " + obj.sex);
-  console.log("mobile= " + obj.mobile);
-  console.log("qq= " + obj.qq);
-};
+  console.log("id= " + obj.id)
+  console.log("name= " + obj.name)
+  console.log("address= " + obj.address)
+  console.log("sex= " + obj.sex)
+  console.log("mobile= " + obj.mobile)
+  console.log("qq= " + obj.qq)
+}
 setUserInfo({
   id: 1314,
   name: "sven",
@@ -218,7 +218,7 @@ setUserInfo({
   sex: "male",
   mobile: "137********",
   qq: 377876679
-});
+})
 ```
 
 ## 尽量减少参数数量
@@ -226,7 +226,7 @@ setUserInfo({
 如果调用一个函数时需要传入多个参数，那这个函数是让人望而生畏的，我们必须搞清楚这些参数代表的含义，必须小心翼翼地把它们按照顺序传入该函数。而如果一个函数不需要传入任何参数就可以使用，这种函数是深受人们喜爱的。在实际开发中，向函数传递参数不可避免，但我们应该尽量减少函数接收的参数数量。下面举个非常简单的示例。 有一个画图函数 draw，它现在只能绘制正方形，接收了 3 个参数，分别是图形的 width、heigth 以及 square：
 
 ```js
-var draw = function(width, height, square) {};
+var draw = function(width, height, square) {}
 ```
 
 但实际上正方形的面积是可以通过 width 和 height 计算出来的，于是我们可以把参数 square
@@ -234,8 +234,8 @@ var draw = function(width, height, square) {};
 
 ```js
 var draw = function(width, height) {
-  var square = width * height;
-};
+  var square = width * height
+}
 ```
 
 假设以后这个 draw 函数开始支持绘制圆形，我们需要把参数 width 和 height 换成半径 radius， 但图形的面积 square 始终不应该由客户传入，而是应该在 draw 函数内部，由传入的参数加上一定的规则计算得来。此时，我们可以使用策略模式，让 draw 函数成为一个支持绘制多种图形的函数。
@@ -248,7 +248,7 @@ var draw = function(width, height) {
 如果条件分支逻辑简单且清晰，这无碍我们使用三目运算符：
 
 ```js
-var global = typeof window !== "undefined" ? window : this;
+var global = typeof window !== "undefined" ? window : this
 ```
 
 但如果条件分支逻辑非常复杂，如下段代码所示，那我们最好的选择还是按部就班地编写
@@ -266,7 +266,7 @@ if (!aup || !bup) {
           ? 1
           : sortInput
             ? indexOf.call(sortInput, a) - indexOf.call(sortInput, b)
-            : 0;
+            : 0
 }
 ```
 
@@ -276,19 +276,19 @@ if (!aup || !bup) {
 
 ```js
 var User = function() {
-  this.id = null;
-  this.name = null;
-};
+  this.id = null
+  this.name = null
+}
 
 User.prototype.setId = function(id) {
-  this.id = id;
-  return this;
-};
+  this.id = id
+  return this
+}
 User.prototype.setName = function(name) {
-  this.name = name;
-  return this;
-};
-console.log(new User().setId(1314).setName("sven"));
+  this.name = name
+  return this
+}
+console.log(new User().setId(1314).setName("sven"))
 ```
 
 或者：
@@ -298,25 +298,25 @@ var User = {
   id: null,
   name: null,
   setId: function(id) {
-    this.id = id;
-    return this;
+    this.id = id
+    return this
   },
   setName: function(name) {
-    this.name = name;
-    return this;
+    this.name = name
+    return this
   }
-};
-console.log(User.setId(1314).setName("sven"));
+}
+console.log(User.setId(1314).setName("sven"))
 ```
 
 使用链式调用的方式并不会造成太多阅读上的困难，也确实能省下一些字符和中间变量，但节省下来的字符数量同样是微不足道的。链式调用带来的坏处就是在调试的时候非常不方便，如果我们知道一条链中有错误出现，必须得先把这条链拆开才能加上一些调试 log 或者增加断点， 这样才能定位错误出现的地方。
 如果该链条的结构相对稳定，后期不易发生修改，那么使用链式调用无可厚非。但如果该链条很容易发生变化，导致调试和维护困难，那么还是建议使用普通调用的形式：
 
 ```js
-var user = new User();
+var user = new User()
 
-user.setId(1314);
-user.setName("sven");
+user.setId(1314)
+user.setName("sven")
 ```
 
 ## 分解大型类
@@ -325,40 +325,40 @@ user.setName("sven");
 
 ```js
 var Spirit = function(name) {
-  this.name = name;
-};
+  this.name = name
+}
 Spirit.prototype.attack = function(type) {
   // 攻 击
   if (type === "waveBoxing") {
-    console.log(this.name + ": 使用波动拳");
+    console.log(this.name + ": 使用波动拳")
   } else if (type === "whirlKick") {
-    console.log(this.name + ": 使用旋风腿");
+    console.log(this.name + ": 使用旋风腿")
   }
-};
-var spirit = new Spirit("RYU");
-spirit.attack("waveBoxing"); // 输出：RYU: 使用波动拳
-spirit.attack("whirlKick"); // 输出：RYU: 使用旋风腿
+}
+var spirit = new Spirit("RYU")
+spirit.attack("waveBoxing") // 输出：RYU: 使用波动拳
+spirit.attack("whirlKick") // 输出：RYU: 使用旋风腿
 ```
 
 后来发现，Spirit.prototype.attack 这个方法实现是太庞大了，实际上它完全有必要作为一个单独的类存在。面向对象设计鼓励将行为分布在合理数量的更小对象之中：
 
 ```js
 var Attack = function(spirit) {
-  this.spirit = spirit;
-};
+  this.spirit = spirit
+}
 
 Attack.prototype.start = function(type) {
-  return this.list[type].call(this);
-};
+  return this.list[type].call(this)
+}
 
 Attack.prototype.list = {
   waveBoxing: function() {
-    console.log(this.spirit.name + ": 使用波动拳");
+    console.log(this.spirit.name + ": 使用波动拳")
   },
   whirlKick: function() {
-    console.log(this.spirit.name + ": 使用旋风腿");
+    console.log(this.spirit.name + ": 使用旋风腿")
   }
-};
+}
 ```
 
 现在的 Spirit 类变得精简了很多，不再包括各种各样的攻击方法，而是把攻击动作委托给
@@ -366,16 +366,16 @@ Attack 类的对象来执行，这段代码也是策略模式的运用之一：
 
 ```js
 var Spirit = function(name) {
-  this.name = name;
-  this.attackObj = new Attack(this);
-};
+  this.name = name
+  this.attackObj = new Attack(this)
+}
 Spirit.prototype.attack = function(type) {
   // 攻 击
-  this.attackObj.start(type);
-};
-var spirit = new Spirit("RYU");
-spirit.attack("waveBoxing"); // 输出：RYU: 使用波动拳
-spirit.attack("whirlKick"); // 输出：RYU: 使用旋风腿
+  this.attackObj.start(type)
+}
+var spirit = new Spirit("RYU")
+spirit.attack("waveBoxing") // 输出：RYU: 使用波动拳
+spirit.attack("whirlKick") // 输出：RYU: 使用旋风腿
 ```
 
 ## 用 return 退出多重循环
@@ -384,19 +384,19 @@ spirit.attack("whirlKick"); // 输出：RYU: 使用旋风腿
 
 ```js
 var func = function() {
-  var flag = false;
+  var flag = false
   for (var i = 0; i < 10; i++) {
     for (var j = 0; j < 10; j++) {
       if (i * j > 30) {
-        flag = true;
-        break;
+        flag = true
+        break
       }
     }
     if (flag === true) {
-      break;
+      break
     }
   }
-};
+}
 ```
 
 第二种做法是设置循环标记：
@@ -406,11 +406,11 @@ var func = function() {
   outerloop: for (var i = 0; i < 10; i++) {
     innerloop: for (var j = 0; j < 10; j++) {
       if (i * j > 30) {
-        break outerloop;
+        break outerloop
       }
     }
   }
-};
+}
 ```
 
 这两种做法无疑都让人头晕目眩，更简单的做法是在需要中止循环的时候直接退出整个方法：
@@ -420,11 +420,11 @@ var func = function() {
   for (var i = 0; i < 10; i++) {
     for (var j = 0; j < 10; j++) {
       if (i * j > 30) {
-        return;
+        return
       }
     }
   }
-};
+}
 ```
 
 当然用 return 直接退出方法会带来一个问题，如果在循环之后还有一些将被执行的代码呢？ 如果我们提前退出了整个方法，这些代码就得不到被执行的机会：
@@ -434,30 +434,30 @@ var func = function() {
   for (var i = 0; i < 10; i++) {
     for (var j = 0; j < 10; j++) {
       if (i * j > 30) {
-        return;
+        return
       }
     }
   }
-  console.log(i); // 这句代码没有机会被执行
-};
+  console.log(i) // 这句代码没有机会被执行
+}
 ```
 
 为了解决这个问题，我们可以把循环后面的代码放到 return 后面，如果代码比较多，就应该把它们提炼成一个单独的函数：
 
 ```js
 var print = function(i) {
-  console.log(i);
-};
+  console.log(i)
+}
 var func = function() {
   for (var i = 0; i < 10; i++) {
     for (var j = 0; j < 10; j++) {
       if (i * j > 30) {
-        return print(i);
+        return print(i)
       }
     }
   }
-};
-func();
+}
+func()
 ```
 
 待写 https://mp.weixin.qq.com/s?__biz=MzUxODI3Mjc5MQ==&mid=2247484258&idx=1&sn=2b9e72b5caf59126078c8b100a384cbc&chksm=f98a211acefda80cde6bda59bdd10f4d3c1047b6a0ac06902fa3df0dd4cd6ace917fc09dcce1&scene=21#wechat_redirect

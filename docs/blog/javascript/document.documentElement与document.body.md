@@ -28,7 +28,7 @@ const scrollTop = Math.max(
   window.pageYOffset,
   document.documentElement.scrollTop,
   document.body.scrollTop
-);
+)
 ```
 
 或者
@@ -36,8 +36,8 @@ const scrollTop = Math.max(
 ```js
 function getBodyScrollTop() {
   const el =
-    document.documentElement || document.scrollingElement || document.body;
-  return el.scrollTop;
+    document.documentElement || document.scrollingElement || document.body
+  return el.scrollTop
 }
 ```
 
