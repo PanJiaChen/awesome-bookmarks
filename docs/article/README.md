@@ -18,6 +18,10 @@
 
 [手摸手，带你优雅的使用 icon](https://juejin.im/post/59bb864b5188257e7a427c09)
 
+## 前端
+
+[Press Enter to Submit 背后的那些事](http://david-chen-blog.logdown.com/posts/177766-how-forms-submit-when-pressing-enter)
+
 ## GraphQL
 
 [GraphQL 核心概念](https://segmentfault.com/a/1190000014131950)

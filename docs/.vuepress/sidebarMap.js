@@ -1,16 +1,7 @@
-const sidebarMap = {
-  article: {
-    title: "文章",
-    children: ["", "coding", "react"]
-  },
-  interview: {
-    title: "面试",
-    children: ["", "vue", "react", "network", "algorithms", "questions"]
-  },
-  blog: {
-    title: "blog",
-    children: ["", "js", "talk", "webpack"]
-  }
-};
+const sidebarMap = [
+  { title: "文章", dirname: "article" },
+  { title: "面试", dirname: "interview" },
+  { title: "Blog", dirname: "blog" }
+];
 
 module.exports = sidebarMap;

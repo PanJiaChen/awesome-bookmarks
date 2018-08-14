@@ -1,4 +1,4 @@
-const sidebarMap = require("./sidebarMap");
+const utils = require("./utils");
 
 module.exports = {
   title: "awesome-bookmarks",
@@ -14,7 +14,8 @@ module.exports = {
     ]
   ],
   themeConfig: {
-    nav: [{
+    nav: [
+      {
         text: "首页",
         link: "/"
       },
@@ -40,11 +41,7 @@ module.exports = {
         link: "/blog/"
       }
     ],
-    sidebar: {
-      "/article/": genSidebarConfig("article"),
-      "/interview/": genSidebarConfig("interview"),
-      "/blog/": genSidebarConfig("blog")
-    },
+    sidebar: utils.inferSiderbars(),
     lastUpdated: "上次更新",
     repo: "PanJiaChen/awesome-bookmarks",
     editLinks: true,
@@ -67,12 +64,3 @@ module.exports = {
     }
   }
 };
-
-function genSidebarConfig(type) {
-  const sidebar = sidebarMap[type];
-  return [{
-    title: sidebar.title,
-    collapsable: false,
-    children: sidebar.children
-  }];
-}

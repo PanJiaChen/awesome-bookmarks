@@ -153,6 +153,10 @@ sidebar: auto
 
 [dumper.js](https://github.com/zeeshanu/dumper.js) 能让你的 node console 更加的规整，方便调试
 
+[node-in-debugging](https://github.com/nswbmw/node-in-debugging) node.js 调试指南
+
+[nodebestpractices](https://github.com/i0natan/nodebestpractices) node 最佳实践
+
 ## GraphQL
 
 [prisma](https://www.prisma.io/docs/) 让前端也能快速的写出
