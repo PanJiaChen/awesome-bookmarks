@@ -219,3 +219,5 @@ sidebar: auto
 [badgen](https://github.com/amio/badgen-service) 快速构建和 shields 一样的 svg badge 但速度更快
 
 [readability](https://github.com/luin/readability) 移除页面非正文部分 基于 jsdom
+
+[WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS) 一款功能强大的 macOS 版微信小助手

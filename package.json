@@ -22,7 +22,8 @@
     ]
   },
   "prettier": {
-    "semi": false
+    "semi": false,
+    "singleQuote": true
   },
   "devDependencies": {
     "husky": "0.14.3",
