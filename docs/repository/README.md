@@ -221,3 +221,9 @@ sidebar: auto
 [readability](https://github.com/luin/readability) 移除页面非正文部分 基于 jsdom
 
 [WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS) 一款功能强大的 macOS 版微信小助手
+
+## Mac
+
+[get-plain-text](https://itunes.apple.com/cn/app/get-plain-text/) 能清除剪贴板里的格式 很实用
+
+[IINA](https://github.com/lhc70000/iina) mac 平台感觉免费最好的播放器 强推
