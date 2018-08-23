@@ -19,4 +19,6 @@
 
 !!!include(docs/blog/javascript/codePointAt和charCodeAt.md)!!!
 
+!!!include(docs/blog/javascript/switch.md)!!!
+
 <!-- prettier-ignore-end -->
