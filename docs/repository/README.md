@@ -222,6 +222,13 @@ sidebar: auto
 
 [WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS) 一款功能强大的 macOS 版微信小助手
 
+[puppeteer-recorder](https://github.com/checkly/puppeteer-recorder) 一个 chrome 插件 能够根据你的操作 自动生成 puppeteer 相关代码
+
+[mdx-deck](https://github.com/jxnblk/mdx-deck) 用 markdown 编写演示文稿
+
+[code-surfer](https://github.com/pomber/code-surfer) 基于 mdx-deck 的一个插件
+让你更好的在文稿中展示 code
+
 ## Mac
 
 [get-plain-text](https://itunes.apple.com/cn/app/get-plain-text/) 能清除剪贴板里的格式 很实用
