@@ -111,6 +111,8 @@ sidebar: auto
 
 [hocs](https://github.com/deepsweet/hocs) react 相关 hoc 收集库
 
+[nanoid](https://github.com/ai/nanoid) 前端轻量 unique string ID 生成库
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node 监听文件变化的库
@@ -228,6 +230,8 @@ sidebar: auto
 
 [code-surfer](https://github.com/pomber/code-surfer) 基于 mdx-deck 的一个插件
 让你更好的在文稿中展示 code
+
+[Progressive Tooling](https://progressivetooling.com/) 前端性能优化工具集合
 
 ## Mac
 

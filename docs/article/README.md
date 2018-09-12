@@ -34,6 +34,8 @@
 
 [开发者如何在「技术+管理」的路上越走越宽？](https://zhuanlan.zhihu.com/p/36018203)
 
+[蔡志忠：努力是没有用的](https://www.yuque.com/book-academy/share/shp7tu)
+
 ## 视频
 
 [计算机科学速成课](https://www.bilibili.com/video/av21376839) 计算机科学基础的系列视频，很不错，浅显易懂，看完这四十节课能多计算机世界有一个大概的整体认知。
@@ -53,3 +55,7 @@
 ## node
 
 [基于 node.js 的脚手架工具开发经历](https://juejin.im/post/5a31d210f265da431a43330e)
+
+## 网络
+
+[什么是 RPC 框架？](https://www.zhihu.com/question/25536695)
