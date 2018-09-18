@@ -23,4 +23,7 @@
 
 !!!include(docs/blog/javascript/div-keydown.md)!!!
 
+!!!include(docs/blog/javascript/console的坑.md)!!!
+
+
 <!-- prettier-ignore-end -->
