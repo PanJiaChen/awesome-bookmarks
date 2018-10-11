@@ -73,3 +73,6 @@ iOS 下 input 无法自动聚焦的问题
 - 有桌面客户端相关开发经验（如 Electron/VSCode Plugin 等），加分；
 - 熟悉 TypeScript，并有较大项目实践经验，加分；
 - 有独立的开源项目或者参与知名开源项目经验，加分；
+
+[百度阿里网易大疆等大小厂前端校招面筋](https://juejin.im/post/5bb470295188255c5e66f88f)
+[如何轻松拿到淘宝前端 offer](https://juejin.im/post/5bbc54a2e51d450e5a7445b4)

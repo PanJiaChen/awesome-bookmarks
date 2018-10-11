@@ -44,7 +44,21 @@ sidebar: auto
 
 [fiddle.md](https://fiddle.md/) 一个方便的在线共享 markdown 在线笔试题一般都用这个
 
+[jsdelivr](https://www.jsdelivr.com/) cdn 服务
+
+[unpkg](https://unpkg.com) cdn 服务
+
+[coderpad](https://coderpad.io/) 远程面试的神器，可以让面试者远程写代码 不过需要翻墙
+
+[icode](https://www.icode.live/) 有赞团队出品的 coderpad 可以互补，它不需要翻墙
+
+[snipper](https://snipper.io) 一个代码协同的网站。你新建一个代码片段，然后把网址分享给其他人，就可以看到他们的实时编辑。
+
+[codesandbox](https://codesandbox.io/) 一个可以在线编辑且提供在线 demo 的网站 支持 vue react angular 多种框架 神器
+
 ## 设计
+
+[uimovement](https://uimovement.com/) 能从这个网站找到不少动画交互的灵感
 
 [awwwards](https://www.awwwards.com/)是一个一个专门为设计精美的网站以及富有创意的网站颁奖的网站
 
@@ -63,12 +77,6 @@ sidebar: auto
 [colorhunt](http://colorhunt.co/) 另一个配色网站
 
 [uigradients](https://uigradients.com/#SummerDog) 渐变色网站
-
-[coderpad](https://coderpad.io/) 远程面试的神器，可以让面试者远程写代码 不过需要翻墙
-
-[icode](https://www.icode.live/) 有赞团队出品的 coderpad 可以互补，它不需要翻墙
-
-[codesandbox](https://codesandbox.io/) 一个可以在线编辑且提供在线 demo 的网站 支持 vue react angular 多种框架 神器
 
 ## 有趣
 

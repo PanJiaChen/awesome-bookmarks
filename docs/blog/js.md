@@ -27,6 +27,8 @@
 
 !!!include(docs/blog/javascript/finally坑.md)!!!
 
+!!!include(docs/blog/javascript/atob解码中文字符.md)!!!
+
 <!-- prettier-ignore-end -->
 
 ## 我使用 Async/Await 而不使用 Promises 的六个理由

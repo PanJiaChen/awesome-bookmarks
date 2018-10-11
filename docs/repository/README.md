@@ -115,6 +115,8 @@ sidebar: auto
 
 [rxdb](https://github.com/pubkey/rxdb) 一款开源的快速、灵活的客户端数据库，支持各种浏览器以及 NodeJS，Electron、React 等等，是 PouthDB 之上的一个封装库
 
+[vue-analytics](https://github.com/MatteoGabriele/vue-analytics) 基于 vue 的 谷歌统计封装
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node 监听文件变化的库
@@ -238,6 +240,12 @@ sidebar: auto
 [https://github.com/artf/grapesjs](https://github.com/artf/grapesjs) 可视化建站工具 不需要写代码就能写一个页面，前端再次再次要下岗了
 
 [image-charts](https://www.image-charts.com/) 该服务通过 URL 接受参数，然后生成图表，以图片形式返回
+
+[eagle.js](https://github.com/Zulko/eagle.js) 一个用 vue 来制作 PPT 的库
+
+[Optimizely](https://www.optimizely.com/) A/B Test
+
+[appadhoc](http://www.appadhoc.com/) 一个国内的 A/B Test 服务
 
 ## Mac
 
