@@ -14,6 +14,14 @@
 
 [front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook)
 
+[33-js-concepts](https://github.com/leonardomso/33-js-concepts)
+
+[33-js-concepts](https://github.com/stephentian/33-js-concepts) 中国国情版
+
+[Git 飞行规则](https://github.com/k88hudson/git-flight-rules/blob/master/README_zh-CN.md) 看了这个常规的 git 应该没什么问题了
+
+[node-interview](https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn)
+
 https://github.com/forthealllight/blog/issues
 
 想成为一个好的前端工程师，光有强大的编程能力是远远不够的，还有很多软知识需要知道。

@@ -29,7 +29,15 @@
 
 !!!include(docs/blog/javascript/atob解码中文字符.md)!!!
 
+!!!include(docs/blog/javascript/Safari下Date的坑.md)!!!
+
+!!!include(docs/blog/javascript/e.target与e.currentTarget的区别.md)!!!
+
 <!-- prettier-ignore-end -->
+
+## 获取元素宽度
+
+说真的，我觉得前端麻烦的地方就是 API 太多了，我只是想获取一个元素的宽度居然有`getBoundingClientRect().width`
 
 ## 我使用 Async/Await 而不使用 Promises 的六个理由
 

@@ -117,6 +117,8 @@ sidebar: auto
 
 [vue-analytics](https://github.com/MatteoGabriele/vue-analytics) 基于 vue 的 谷歌统计封装
 
+[percollate](https://github.com/danburzo/percollate) 命令行工具 能将网页转换成 pdf
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node 监听文件变化的库
@@ -162,6 +164,8 @@ sidebar: auto
 [node-in-debugging](https://github.com/nswbmw/node-in-debugging) node.js 调试指南
 
 [nodebestpractices](https://github.com/i0natan/nodebestpractices) node 最佳实践
+
+[fastscan](https://github.com/pyloque/fastscan) node 敏感词库
 
 ## GraphQL
 
