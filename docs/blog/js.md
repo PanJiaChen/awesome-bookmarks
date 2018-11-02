@@ -33,6 +33,8 @@
 
 !!!include(docs/blog/javascript/e.target与e.currentTarget的区别.md)!!!
 
+!!!include(docs/blog/javascript/函数变量必填校验.md)!!!
+
 <!-- prettier-ignore-end -->
 
 ## 获取元素宽度
