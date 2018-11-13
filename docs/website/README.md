@@ -60,6 +60,8 @@ sidebar: auto
 
 [bgremover](http://www.aigei.com/bgremover) 在线图片去底工具
 
+[photopea](https://www.photopea.com/) 一个网页端 Photoshop 很变态
+
 ## 设计
 
 [uimovement](https://uimovement.com/) 能从这个网站找到不少动画交互的灵感
@@ -99,3 +101,7 @@ sidebar: auto
 ## Css
 
 [css-tricks](https://css-tricks.com/) 一个学习 css 不错的网站 有很多有意思的 demo
+
+## 教程
+
+[npx](https://egghead.io/courses/execute-npm-package-binaries-with-the-npx-package-runner) 教你怎么合理的使用 npx

@@ -119,6 +119,13 @@ sidebar: auto
 
 [percollate](https://github.com/danburzo/percollate) 命令行工具 能将网页转换成 pdf
 
+[rawact](https://github.com/sokra/rawact) rawact 一个 babel 插件，把 react 组件转为原生 dom
+
+[irondb](https://github.com/gruns/irondb) 是一个浏览器 key-value 储存的封装库，把 Cookies、IndexedDB、LocalStorage、SessionStorage 统一成一个接口。它的最大特色就是数据冗余机制，即使某种底层储存机制失效，它可以从其他机制恢复数据。
+
+[big.js](https://github.com/MikeMcl/big.js) 解决 js 浮点数问题
+[bignumber.js](https://github.com/MikeMcl/bignumber.js) 同上
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node 监听文件变化的库
@@ -166,6 +173,10 @@ sidebar: auto
 [nodebestpractices](https://github.com/i0natan/nodebestpractices) node 最佳实践
 
 [fastscan](https://github.com/pyloque/fastscan) node 敏感词库
+
+[fx](https://github.com/antonmedv/fx) 命令行优化 JSON 输出
+
+[enquirer](https://github.com/nasa/openmct) 命令行 prompt 询问库，写 cli 的时候很有用
 
 ## GraphQL
 
@@ -250,6 +261,8 @@ sidebar: auto
 [Optimizely](https://www.optimizely.com/) A/B Test
 
 [appadhoc](http://www.appadhoc.com/) 一个国内的 A/B Test 服务
+
+[glorious-demo](https://github.com/glorious-codes/glorious-demo) 通过编写代码的方式构建一个命令行的演示例子
 
 ## Mac
 
