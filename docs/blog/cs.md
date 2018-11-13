@@ -26,3 +26,7 @@ LZ77 的核心思路是如果一个串中有两个重复的串，那么只需要
 Huffman Coding 是大学课本中一般都会提到的算法。核心思路是通过构造 Huffman Tree 的方式给字符重新编码（核心是避免一个叶子的路径是另外一个叶子路径的前缀），以保证出现频路越高的字符占用的字节越少
 
 详细的算法可以见这篇[文章](https://blog.csdn.net/imquestion/article/details/16439)。
+
+### DNS
+
+[详解 DNS 与 CoreDNS 的实现原理](https://draveness.me/dns-coredns)

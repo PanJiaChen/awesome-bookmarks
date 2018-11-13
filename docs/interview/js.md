@@ -27,7 +27,7 @@ ul.addEventListener('click', e => {
 一道有意思的面试题
 [100\*100 的 canvas 占多少内存？](https://juejin.im/post/5bdeb357e51d4536140fc7df)
 
-## 你有必要知道的 25 个 JavaScript 面试题
+## 你有必要知道的几个 JavaScript 面试题
 
 ### 1. 使用 typeof bar === "object" 判断 bar 是不是一个对象有神马潜在的弊端？如何避免这种弊端？
 
@@ -336,3 +336,43 @@ console.log('A' - 'B' + 2)
 ```
 
 这个主要考察的隐式转换，规则太多太复杂了，我也记不住，如果真有面试官问你这个的话，随缘吧。
+
+### 16. 解释下列代码的输出
+
+```js
+console.log('0 || 1 = ' + (0 || 1))
+console.log('1 || 2 = ' + (1 || 2))
+console.log('0 && 1 = ' + (0 && 1))
+console.log('1 && 2 = ' + (1 && 2))
+```
+
+运算符优先级的问题，这题同上，遇到就随缘吧，我反正搞不清也记不住。
+
+### 17. 解释下面代码的输出
+
+```js
+console.log(false == '0')
+console.log(false === '0')
+```
+
+`==`和`===`的区别，太基础略。
+
+## 移动端问题
+
+### 1. 你怎么提高一个长列表在手机端滑动的流畅度
+
+这里主要考察的是否知道 `passive`这个属性
+
+首先解释一下为什么会卡顿：
+
+> 当你触摸滑动页面时，页面应该跟随手指一起滚动。而此时你绑定了一个 touchstart 事件，你的事件大概执行 200 毫秒。这时浏览器就犯迷糊了：如果你在事件绑定函数中调用了 preventDefault，那么页面就不应该滚动，如果你没有调用 preventDefault，页面就需要滚动。但是你到底调用了还是没有调用，浏览器不知道。只能先执行你的函数，等 200 毫秒后，绑定事件执行完了，浏览器才知道，“哦，原来你没有阻止默认行为，好的，我马上滚”。此时，页面开始滚。
+
+题外话，这里也可以考察你对`addEventListener`api 的熟练度，很多人其实不知道`addEventListener`其实第三个参数除了可以传`true` or `false`，还可以传一个对象。
+
+```js
+{
+	capture: Boolean, // 表示`listener`会在该类型的事件捕获阶段传播到该`EventTarget`时触发
+	once: Boolean, // 表示`listener`在添加之后最多只调用一次。如果是`true`，`listener`会在其被调用之后自动移除
+	passive: Boolean, // 表示`listener`永远不会调用`preventDefault()`。如果`listener`仍然调用了这个函数，客户端将会忽略它并抛出一个控制台警告
+}
+```
