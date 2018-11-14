@@ -178,6 +178,8 @@ sidebar: auto
 
 [enquirer](https://github.com/nasa/openmct) 命令行 prompt 询问库，写 cli 的时候很有用
 
+[dataloader](https://github.com/facebook/dataloader)解决 Graphql 中的 N+1 查询问题
+
 ## GraphQL
 
 [prisma](https://www.prisma.io/docs/) 让前端也能快速的写出

@@ -30,3 +30,16 @@ Huffman Coding 是大学课本中一般都会提到的算法。核心思路是�
 ### DNS
 
 [详解 DNS 与 CoreDNS 的实现原理](https://draveness.me/dns-coredns)
+
+### Cors
+
+又是一个老生常谈的问题，这里就不想说了，有需求的自己看 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS)就可以了。
+
+这里要说明一个问题：不是所有的跨域情况下的请求都需要先发送一个 `options` 请求的。比如一些简单请求是不需要的
+比如`get`请求，但也不是所有的 `get`请求都不会发`options`。
+
+它的 `Content-Type` 的值仅限于下列三者之一：
+
+- `text/plain`
+- `multipart/form-data`
+- `application/x-www-form-urlencoded`
