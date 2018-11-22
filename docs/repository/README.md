@@ -124,7 +124,10 @@ sidebar: auto
 [irondb](https://github.com/gruns/irondb) 是一个浏览器 key-value 储存的封装库，把 Cookies、IndexedDB、LocalStorage、SessionStorage 统一成一个接口。它的最大特色就是数据冗余机制，即使某种底层储存机制失效，它可以从其他机制恢复数据。
 
 [big.js](https://github.com/MikeMcl/big.js) 解决 js 浮点数问题
+
 [bignumber.js](https://github.com/MikeMcl/bignumber.js) 同上
+
+[awesome-f2e-libs](https://github.com/sorrycc/awesome-f2e-libs) sorrycc 整理的个人关注使用的前端库
 
 ## Node
 
@@ -266,8 +269,26 @@ sidebar: auto
 
 [glorious-demo](https://github.com/glorious-codes/glorious-demo) 通过编写代码的方式构建一个命令行的演示例子
 
+[nginxconfig](https://github.com/valentinxxx/nginxconfig.io/) 可视化配置 nginx，提供了多个基础模板
+
 ## Mac
 
 [get-plain-text](https://itunes.apple.com/cn/app/get-plain-text/) 能清除剪贴板里的格式 很实用
 
 [IINA](https://github.com/lhc70000/iina) mac 平台感觉免费最好的播放器 强推
+
+[magnet](https://itunes.apple.com/cn/app/magnet/id441258766?mt=12&ign-mpt=uo%3D4) 分屏管理
+
+[Xnip](https://zh.xnipapp.com/) 方便好用的截图工具-支持截长图
+
+[Spectacle](https://www.spectacleapp.com/) 窗口管理工具
+
+[vanilla](https://matthewpalmer.net/vanilla/) 顶栏图标管理工具
+
+[Dozer](https://github.com/Mortennn/Dozer) 一个开源的顶栏管理
+
+[腾讯电脑管家](https://mac.guanjia.qq.com/index_o.html) 反正我用下来好觉得蛮好用的
+
+[mos](https://mos.caldis.me/) 鼠标平滑滚动软件，很好用。免费开源
+
+[sequel pro](https://www.sequelpro.com/) mysql 客户端 好用

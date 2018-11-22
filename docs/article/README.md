@@ -61,3 +61,9 @@
 ## 网络
 
 [什么是 RPC 框架？](https://www.zhihu.com/question/25536695)
+
+[前端技术清单](https://github.com/alienzhou/frontend-tech-list)
+
+[关于 JavaScript 单线程的一些事](https://github.com/JChehe/blog/blob/master/posts/%E5%85%B3%E4%BA%8EJavaScript%E5%8D%95%E7%BA%BF%E7%A8%8B%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BA%8B.md)
+
+[从零开始开发一款属于你的 Visual Studio Code 插件](https://www.microsoft.com/china/events/video_316)
