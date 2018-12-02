@@ -129,6 +129,12 @@ sidebar: auto
 
 [awesome-f2e-libs](https://github.com/sorrycc/awesome-f2e-libs) sorrycc 整理的个人关注使用的前端库
 
+[tui.editor](https://github.com/nhnent/tui.editor) markdown 所见即所得编辑器
+
+[NES.css](https://github.com/BcRikko/NES.css) 任天堂主题风格 css 库
+
+[stickybits](https://github.com/dollarshaveclub/stickybits) CSS 的 position: sticky 是一个很有用的设置，但是老的浏览器不支持。这个 JS 库是该功能的垫片库。
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node 监听文件变化的库
@@ -149,7 +155,7 @@ sidebar: auto
 
 [y18n](https://github.com/yargs/y18n) yargs 基于 i18n 的一个包
 
-[signale](https://github.com/klauscfhq/signale) Hackable console logger
+[signale](https://github.com/klauscfhq/signale) Hackable console logger 一个 Node 的日志格式库，自带 16 个级别，可以定制颜色和 Emoji
 
 [execa](https://github.com/sindresorhus/execa) A better `child_process`
 
@@ -182,6 +188,8 @@ sidebar: auto
 [enquirer](https://github.com/nasa/openmct) 命令行 prompt 询问库，写 cli 的时候很有用
 
 [dataloader](https://github.com/facebook/dataloader)解决 Graphql 中的 N+1 查询问题
+
+[progress-estimator](https://github.com/bvaughn/progress-estimator) 命令行 progress bar 进度条模拟库
 
 ## GraphQL
 
@@ -270,6 +278,10 @@ sidebar: auto
 [glorious-demo](https://github.com/glorious-codes/glorious-demo) 通过编写代码的方式构建一个命令行的演示例子
 
 [nginxconfig](https://github.com/valentinxxx/nginxconfig.io/) 可视化配置 nginx，提供了多个基础模板
+
+[bundlephobia](https://bundlephobia.com/) 一个可以查看某个库的大小，并且分析它的依赖
+
+[algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer) 算法代码可视化
 
 ## Mac
 
