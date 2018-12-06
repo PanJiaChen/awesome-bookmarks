@@ -35,6 +35,8 @@
 
 !!!include(docs/blog/javascript/函数变量必填校验.md)!!!
 
+!!!include(docs/blog/javascript/错误处理.md)!!!
+
 <!-- prettier-ignore-end -->
 
 ## 获取元素宽度

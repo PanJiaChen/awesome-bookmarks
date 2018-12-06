@@ -16,6 +16,8 @@ sidebar: auto
 
 [git-awards](http://git-awards.com/users/search?login=panjiachen) github ranking 没事可以查着玩玩
 
+[http://githubrank.com/](http://githubrank.com/) github 按照 followers 排名
+
 ## 开发
 
 [zeplin](https://app.zeplin.io/) 前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作，重点是前端不用写 css 了，复制就可以了。
@@ -50,7 +52,7 @@ sidebar: auto
 
 [coderpad](https://coderpad.io/) 远程面试的神器，可以让面试者远程写代码 不过需要翻墙
 
-[icode](https://www.icode.live/) 有赞团队出品的 coderpad 可以互补，它不需要翻墙
+[icode](http://www.icode.live/) 有赞团队出品的 coderpad 可以互补，它不需要翻墙
 
 [snipper](https://snipper.io) 一个代码协同的网站。你新建一个代码片段，然后把网址分享给其他人，就可以看到他们的实时编辑。
 
