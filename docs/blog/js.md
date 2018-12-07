@@ -37,6 +37,8 @@
 
 !!!include(docs/blog/javascript/错误处理.md)!!!
 
+!!!include(docs/blog/javascript/insertBefore坑.md)!!!
+
 <!-- prettier-ignore-end -->
 
 ## 获取元素宽度
