@@ -135,6 +135,8 @@ sidebar: auto
 
 [stickybits](https://github.com/dollarshaveclub/stickybits) CSS 的 position: sticky 是一个很有用的设置，但是老的浏览器不支持。这个 JS 库是该功能的垫片库。
 
+[react-jsonschema-form](https://github.com/mozilla-services/react-jsonschema-form) Mozilla service 开源了一个通过 JSON 直接生成表单的 React 组件
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node 监听文件变化的库
@@ -190,6 +192,8 @@ sidebar: auto
 [dataloader](https://github.com/facebook/dataloader)解决 Graphql 中的 N+1 查询问题
 
 [progress-estimator](https://github.com/bvaughn/progress-estimator) 命令行 progress bar 进度条模拟库
+
+[Node.js 最佳实践](https://github.com/i0natan/nodebestpractices/blob/master/README.chinese.md)
 
 ## GraphQL
 

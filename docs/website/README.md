@@ -54,6 +54,8 @@ sidebar: auto
 
 [icode](http://www.icode.live/) 有赞团队出品的 coderpad 可以互补，它不需要翻墙
 
+[codeadvice](https://www.codeadvice.io) 又一个让面试者远程写代码的网址
+
 [snipper](https://snipper.io) 一个代码协同的网站。你新建一个代码片段，然后把网址分享给其他人，就可以看到他们的实时编辑。
 
 [codesandbox](https://codesandbox.io/) 一个可以在线编辑且提供在线 demo 的网站 支持 vue react angular 多种框架 神器
