@@ -39,6 +39,8 @@
 
 !!!include(docs/blog/javascript/insertBefore坑.md)!!!
 
+!!!include(docs/blog/javascript/为什么前端监控要用GIF打点.md)!!!
+
 <!-- prettier-ignore-end -->
 
 ## 获取元素宽度
