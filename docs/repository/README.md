@@ -137,6 +137,10 @@ sidebar: auto
 
 [react-jsonschema-form](https://github.com/mozilla-services/react-jsonschema-form) Mozilla service 开源了一个通过 JSON 直接生成表单的 React 组件
 
+[cleave.js](https://github.com/nosir/cleave.js) 用于在输入时格式化输入内容（信用卡格式、日期等）
+
+[vue-content-placeholders](https://github.com/michalsnik/vue-content-placeholders) 页面龙骨
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node 监听文件变化的库

@@ -22,6 +22,10 @@
 
 [Press Enter to Submit 背后的那些事](http://david-chen-blog.logdown.com/posts/177766-how-forms-submit-when-pressing-enter)
 
+[Webnovel 国际化实践](https://juejin.im/post/5c24a09d5188252a9412fabf)
+
+[Things I Don’t Know as of 2018](https://overreacted.io/things-i-dont-know-as-of-2018/)
+
 ## GraphQL
 
 [GraphQL 核心概念](https://segmentfault.com/a/1190000014131950)
