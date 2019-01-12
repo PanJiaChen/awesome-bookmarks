@@ -73,8 +73,6 @@ sidebar: auto
 
 [fabric.js](https://github.com/fabricjs/fabric.js) 基于 canvas 创建交互式的图片编辑界面非常适合用来做图片合成类工作。
 
-[tabler](https://github.com/tabler/tabler) 高颜值 ui 模板
-
 [matter-js](https://github.com/liabru/matter-js) web 物理引擎
 
 [rough](https://github.com/pshihn/rough) 基于 Canvas 的手绘风格图形库
@@ -85,7 +83,7 @@ sidebar: auto
 
 [tui-calendar](http://ui.toast.com/tui-calendar/) 功能全面的日程安排日历控件，还支持拖拽。
 
-[tabler](https://github.com/tabler/tabler) 基于 Bootstrap 4 的 Dashboard UI Kit 和美观
+[tabler](https://github.com/tabler/tabler) 基于 Bootstrap 4 的 Dashboard UI Kit 和美观 高颜值 ui 模板
 
 [vee-validate](https://github.com/baianat/vee-validate) 基于 vue 的验证，能验证的内容比较全
 
@@ -289,7 +287,11 @@ sidebar: auto
 
 [bundlephobia](https://bundlephobia.com/) 一个可以查看某个库的大小，并且分析它的依赖
 
+[jsperf](https://jsperf.com/popular) 一个提供在线 tast case 的网站，可以比较如： forEach vs for 的性能
+
 [algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer) 算法代码可视化
+
+[An-English-Guide-for-Programmers](https://github.com/yujiangshui/An-English-Guide-for-Programmers) 专为程序员编写的英语学习指南
 
 ## Mac
 
