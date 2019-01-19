@@ -139,6 +139,8 @@ sidebar: auto
 
 [vue-content-placeholders](https://github.com/michalsnik/vue-content-placeholders) 页面龙骨
 
+[obsolete-webpack-plugin](https://github.com/ElemeFE/obsolete-webpack-plugin) 基于 browserslist 做浏览器升级提
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node 监听文件变化的库

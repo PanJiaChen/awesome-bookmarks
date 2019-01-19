@@ -18,6 +18,8 @@ sidebar: auto
 
 [http://githubrank.com/](http://githubrank.com/) github 按照 followers 排名
 
+[star-history](https://www.timqian.com/star-history/#PanJiaChen/vue-element-admin) 展示一个项目 Stars 增长规矩曲线
+
 ## 开发
 
 [zeplin](https://app.zeplin.io/) 前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作，重点是前端不用写 css 了，复制就可以了。
@@ -66,6 +68,10 @@ sidebar: auto
 
 [photopea](https://www.photopea.com/) 一个网页端 Photoshop 很变态
 
+[bestofjs](https://bestofjs.org/) 查看一个项目增长经历，Star 数变化的网站，辅助你判断这个库的质量
+
+[stackblitz](https://stackblitz.com/) 一款在线 IDE,主要面向 Web 开发者,移植了很多 VS Code 的特性与功能
+
 ## 设计
 
 [uimovement](https://uimovement.com/) 能从这个网站找到不少动画交互的灵感
@@ -103,6 +109,8 @@ sidebar: auto
 [Little Big Details](http://littlebigdetails.com/) 同上，一个国外微交互汇集网站
 
 [cruip](https://cruip.com/) 登录页的各种页面设计，可以免费下载模板
+
+[Comixify](https://comixify.ii.pw.edu.pl/) 一个波兰团队做了非常好玩的工具，可以把视频自动转成漫画，上图是他们提供的 demo，效果很棒。
 
 ## Css
 
