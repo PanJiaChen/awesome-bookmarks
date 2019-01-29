@@ -141,6 +141,10 @@ sidebar: auto
 
 [obsolete-webpack-plugin](https://github.com/ElemeFE/obsolete-webpack-plugin) 基于 browserslist 做浏览器升级提
 
+[shiny](https://github.com/rikschennink/shiny) 在手机设备上模拟光的反射效果。 支持 DeviceMotion 事件
+
+[cloudquery](https://github.com/cloudfetch/cloudquery) Turn any website to serverless API
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node 监听文件变化的库
@@ -198,6 +202,8 @@ sidebar: auto
 [progress-estimator](https://github.com/bvaughn/progress-estimator) 命令行 progress bar 进度条模拟库
 
 [Node.js 最佳实践](https://github.com/i0natan/nodebestpractices/blob/master/README.chinese.md)
+
+[grpc-web](https://github.com/grpc/grpc-web) 前端直连 gRPC 服务
 
 ## GraphQL
 
@@ -316,3 +322,5 @@ sidebar: auto
 [mos](https://mos.caldis.me/) 鼠标平滑滚动软件，很好用。免费开源
 
 [sequel pro](https://www.sequelpro.com/) mysql 客户端 好用
+
+[Microsoft Remote Desktop Beta](https://itunes.apple.com/us/app/microsoft-remote-desktop/id715768417?mt=12#) Mac 远程登录 Windows 调试神器

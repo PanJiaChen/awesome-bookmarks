@@ -41,6 +41,9 @@
 
 !!!include(docs/blog/javascript/为什么前端监控要用GIF打点.md)!!!
 
+!!!include(docs/blog/javascript/Object.create(null))!!!
+
+
 <!-- prettier-ignore-end -->
 
 ## 获取元素宽度

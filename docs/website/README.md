@@ -72,6 +72,10 @@ sidebar: auto
 
 [stackblitz](https://stackblitz.com/) 一款在线 IDE,主要面向 Web 开发者,移植了很多 VS Code 的特性与功能
 
+[programmingfonts.org ](http://app.programmingfonts.org) 一个专门介绍编程字体的网站
+
+[早报](https://wubaiqing.github.io/zaobao/) 一个个人开发者的前端开发的分享日报
+
 ## 设计
 
 [uimovement](https://uimovement.com/) 能从这个网站找到不少动画交互的灵感
@@ -94,6 +98,8 @@ sidebar: auto
 
 [uigradients](https://uigradients.com/#SummerDog) 渐变色网站
 
+[designcap.](https://www.designcap.com) 在线海报设计
+
 ## 有趣
 
 [帮你百度一下](http://www.baidu-x.com/) 可以 [点我测试一下](http://www.baidu-x.com/?q=%E5%92%8C%E8%B0%90%E6%9C%89%E7%88%B1%E5%AF%8C%E5%BC%BA)
@@ -101,6 +107,8 @@ sidebar: auto
 [国际版](http://lmgtfy.com/) 同`帮我百度一下` [点我测试一下](http://lmgtfy.com/?q=a)
 
 [wallhaven](https://alpha.wallhaven.cc/) 壁纸网站
+
+[URL 地址播放 Emojis 动画](http://matthewrayfield.com/articles/animating-urls-with-javascript-and-emojis/#%F0%9F%8C%96)
 
 ## 交互
 
