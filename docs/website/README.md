@@ -76,6 +76,9 @@ sidebar: auto
 
 [早报](https://wubaiqing.github.io/zaobao/) 一个个人开发者的前端开发的分享日报
 
+[emoji-search](https://emoji.muan.co/#) 帮你快速找到能表达你情感的 emoji
+[gitmoji ](https://github.com/carloscuesta/gitmoji) 通过 emoji 表达 git 的操作内容
+
 ## 设计
 
 [uimovement](https://uimovement.com/) 能从这个网站找到不少动画交互的灵感

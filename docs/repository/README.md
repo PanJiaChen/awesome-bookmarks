@@ -145,6 +145,14 @@ sidebar: auto
 
 [cloudquery](https://github.com/cloudfetch/cloudquery) Turn any website to serverless API
 
+[A-Programmers-Guide-to-English](https://github.com/yujiangshui/A-Programmers-Guide-to-English) 专为程序员编写的英语学习指南。
+
+[rrweb](https://github.com/rrweb-io/rrweb) 一个可以记录你页面中所有操作的库
+
+[nodeppt](https://github.com/ksky521/nodeppt) markdown 写 ppt
+
+[polacode](https://github.com/octref/polacode) vscode 生产代码图片快照插件
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node 监听文件变化的库
