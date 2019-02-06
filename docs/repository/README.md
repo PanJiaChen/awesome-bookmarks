@@ -153,6 +153,12 @@ sidebar: auto
 
 [polacode](https://github.com/octref/polacode) vscode 生产代码图片快照插件
 
+[flexsearch](https://github.com/nextapps-de/flexsearch) 能让你更加高效和快速的检索文本内容
+
+[public-apis](https://github.com/toddmotto/public-apis) 汇集了市面上一些对外免费开放的 api，做一些自己练手 app 的时候很好用。
+
+[scroll-hint](https://github.com/appleple/scroll-hint) 用于指示元素可以水平滚动，并带有指针图标，如果你在做一个新手引导，这个工具将会是一个不错的选择。
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node 监听文件变化的库
@@ -227,6 +233,8 @@ sidebar: auto
 [build-your-own-x](https://github.com/danistefanovic/build-your-own-x) 教你用各种语言实现 Bot Database Neural Network
 
 [javascript-algorithms ](https://github.com/trekhleb/javascript-algorithms) 教你用前端知识认识各种算法
+
+[not-paid](https://github.com/kleampa/not-paid) 如果你给人做网站，交过去以后对方没有付款，那么这个 JS 会把网站的透明度一天调低一点，直到看不见
 
 ## 工具
 
@@ -308,6 +316,12 @@ sidebar: auto
 [algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer) 算法代码可视化
 
 [An-English-Guide-for-Programmers](https://github.com/yujiangshui/An-English-Guide-for-Programmers) 专为程序员编写的英语学习指南
+
+[Webhint](https://webhint.io/) 用于检查代码的可访问性、性能和安全的开源检查（Linting）工具
+
+[airtap](https://github.com/airtap/airtap) 测试浏览器兼容性，可覆盖 800 多种浏览器
+
+[jsonstore](https://github.com/bluzi/jsonstore) 供免费，安全且基于 JSON 的云数据存储，自己玩的小项目神器
 
 ## Mac
 
