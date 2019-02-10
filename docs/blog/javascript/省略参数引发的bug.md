@@ -12,7 +12,7 @@ function test(num = 1) {
 test() // (num is set to 1)
 test(undefined) // (num is set to 1 too)
 
-test("") // (num is set to '')
+test('') // (num is set to '')
 test(null) // (num is set to null)
 test(false) // (num is set to false)
 ```

@@ -11,9 +11,9 @@ querySelectorAll 已被 IE 8+、FF 3.5+、Safari 3.1+、Chrome 和 Opera 10+ 良
 querySelectorAll 方法接收的参数是一个 CSS 选择符。而 getElementsBy 系列接收的参数只能是单一的 className、tagName 和 name。
 
 ```js
-var c1 = document.querySelectorAll(".b1 .c")
-var c2 = document.getElementsByClassName("c")
-var c3 = document.getElementsByClassName("b2")[0].getElementsByClassName("c")
+var c1 = document.querySelectorAll('.b1 .c')
+var c2 = document.getElementsByClassName('c')
+var c3 = document.getElementsByClassName('b2')[0].getElementsByClassName('c')
 ```
 
 - 返回值
@@ -67,8 +67,8 @@ Demo 2 中的 lis 是一个动态的 Node List， 每一次调用 lis 都会重�
 所以，NodeList 本质上是一个动态的 Node 集合，只是规范中对 querySelectorAll 有明确要求，规定其必须返回一个静态的 NodeList 对象。
 
 ```js
-document.querySelectorAll("a").toString() // return "[object NodeList]"
-document.getElementsByTagName("a").toString() // return "[object HTMLCollection]"
+document.querySelectorAll('a').toString() // return "[object NodeList]"
+document.getElementsByTagName('a').toString() // return "[object HTMLCollection]"
 ```
 
 这里又多了一个 HTMLCollection 对象出来，那 HTMLCollection 又是什么？
@@ -76,7 +76,7 @@ document.getElementsByTagName("a").toString() // return "[object HTMLCollection]
 实际上，HTMLCollection 和 NodeList 十分相似，都是一个动态的元素集合，每次访问都需要重新对文档进行查询。两者的本质上差别在于，HTMLCollection 是属于 Document Object Model HTML 规范，而 NodeList 属于 Document Object Model Core 规范。这样说有点难理解，看看下面的例子会比较好理解
 
 ```js
-var ul = document.getElementsByTagName("ul")[0],
+var ul = document.getElementsByTagName('ul')[0],
   lis1 = ul.childNodes,
   lis2 = ul.children
 console.log(lis1.toString(), lis1.length) // "[object NodeList]" 11

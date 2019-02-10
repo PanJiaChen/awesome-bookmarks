@@ -13,10 +13,10 @@
 
 ```js
 var getUserInfo = function() {
-  ajax("http:// xxx.com/userInfo", function(data) {
-    console.log("userId: " + data.userId)
-    console.log("userName: " + data.userName)
-    console.log("nickName: " + data.nickName)
+  ajax('http:// xxx.com/userInfo', function(data) {
+    console.log('userId: ' + data.userId)
+    console.log('userName: ' + data.userName)
+    console.log('nickName: ' + data.nickName)
   })
 }
 ```
@@ -25,15 +25,15 @@ var getUserInfo = function() {
 
 ```js
 var getUserInfo = function() {
-  ajax("http:// xxx.com/userInfo", function(data) {
+  ajax('http:// xxx.com/userInfo', function(data) {
     printDetails(data)
   })
 }
 
 var printDetails = function(data) {
-  console.log("userId: " + data.userId)
-  console.log("userName: " + data.userName)
-  console.log("nickName: " + data.nickName)
+  console.log('userId: ' + data.userId)
+  console.log('userName: ' + data.userName)
+  console.log('nickName: ' + data.nickName)
 }
 ```
 
@@ -113,12 +113,12 @@ var getPrice = function(price) {
 var createXHR = function() {
   var xhr
   try {
-    xhr = new ActiveXObject("MSXML2.XMLHttp.6.0")
+    xhr = new ActiveXObject('MSXML2.XMLHttp.6.0')
   } catch (e) {
     try {
-      xhr = new ActiveXObject("MSXML2.XMLHttp.3.0")
+      xhr = new ActiveXObject('MSXML2.XMLHttp.3.0')
     } catch (e) {
-      xhr = new ActiveXObject("MSXML2.XMLHttp")
+      xhr = new ActiveXObject('MSXML2.XMLHttp')
     }
   }
   return xhr
@@ -131,9 +131,9 @@ var xhr = createXHR()
 ```js
 var createXHR = function() {
   var versions = [
-    "MSXML2.XMLHttp.6.0ddd",
-    "MSXML2.XMLHttp.3.0",
-    "MSXML2.XMLHttp"
+    'MSXML2.XMLHttp.6.0ddd',
+    'MSXML2.XMLHttp.3.0',
+    'MSXML2.XMLHttp'
   ]
   for (var i = 0, version; (version = versions[i++]); ) {
     try {
@@ -190,33 +190,33 @@ var del = function(obj) {
 
 ```js
 var setUserInfo = function(id, name, address, sex, mobile, qq) {
-  console.log("id= " + id)
-  console.log("name= " + name)
-  console.log("address= " + address)
-  console.log("sex= " + sex)
-  console.log("mobile= " + mobile)
-  console.log("qq= " + qq)
+  console.log('id= ' + id)
+  console.log('name= ' + name)
+  console.log('address= ' + address)
+  console.log('sex= ' + sex)
+  console.log('mobile= ' + mobile)
+  console.log('qq= ' + qq)
 }
-setUserInfo(1314, "sven", "shenzhen", "male", "137********", 377876679)
+setUserInfo(1314, 'sven', 'shenzhen', 'male', '137********', 377876679)
 ```
 
 这时我们可以把参数都放入一个对象内，然后把该对象传入 setUserInfo 函数，setUserInfo 函数需要的数据可以自行从该对象里获取。现在不用再关心参数的数量和顺序，只要保证参数对应的 key 值不变就可以了：
 
 ```js
 var setUserInfo = function(obj) {
-  console.log("id= " + obj.id)
-  console.log("name= " + obj.name)
-  console.log("address= " + obj.address)
-  console.log("sex= " + obj.sex)
-  console.log("mobile= " + obj.mobile)
-  console.log("qq= " + obj.qq)
+  console.log('id= ' + obj.id)
+  console.log('name= ' + obj.name)
+  console.log('address= ' + obj.address)
+  console.log('sex= ' + obj.sex)
+  console.log('mobile= ' + obj.mobile)
+  console.log('qq= ' + obj.qq)
 }
 setUserInfo({
   id: 1314,
-  name: "sven",
-  address: "shenzhen",
-  sex: "male",
-  mobile: "137********",
+  name: 'sven',
+  address: 'shenzhen',
+  sex: 'male',
+  mobile: '137********',
   qq: 377876679
 })
 ```
@@ -248,7 +248,7 @@ var draw = function(width, height) {
 如果条件分支逻辑简单且清晰，这无碍我们使用三目运算符：
 
 ```js
-var global = typeof window !== "undefined" ? window : this
+var global = typeof window !== 'undefined' ? window : this
 ```
 
 但如果条件分支逻辑非常复杂，如下段代码所示，那我们最好的选择还是按部就班地编写
@@ -288,7 +288,7 @@ User.prototype.setName = function(name) {
   this.name = name
   return this
 }
-console.log(new User().setId(1314).setName("sven"))
+console.log(new User().setId(1314).setName('sven'))
 ```
 
 或者：
@@ -306,7 +306,7 @@ var User = {
     return this
   }
 }
-console.log(User.setId(1314).setName("sven"))
+console.log(User.setId(1314).setName('sven'))
 ```
 
 使用链式调用的方式并不会造成太多阅读上的困难，也确实能省下一些字符和中间变量，但节省下来的字符数量同样是微不足道的。链式调用带来的坏处就是在调试的时候非常不方便，如果我们知道一条链中有错误出现，必须得先把这条链拆开才能加上一些调试 log 或者增加断点， 这样才能定位错误出现的地方。
@@ -316,7 +316,7 @@ console.log(User.setId(1314).setName("sven"))
 var user = new User()
 
 user.setId(1314)
-user.setName("sven")
+user.setName('sven')
 ```
 
 ## 分解大型类
@@ -329,15 +329,15 @@ var Spirit = function(name) {
 }
 Spirit.prototype.attack = function(type) {
   // 攻 击
-  if (type === "waveBoxing") {
-    console.log(this.name + ": 使用波动拳")
-  } else if (type === "whirlKick") {
-    console.log(this.name + ": 使用旋风腿")
+  if (type === 'waveBoxing') {
+    console.log(this.name + ': 使用波动拳')
+  } else if (type === 'whirlKick') {
+    console.log(this.name + ': 使用旋风腿')
   }
 }
-var spirit = new Spirit("RYU")
-spirit.attack("waveBoxing") // 输出：RYU: 使用波动拳
-spirit.attack("whirlKick") // 输出：RYU: 使用旋风腿
+var spirit = new Spirit('RYU')
+spirit.attack('waveBoxing') // 输出：RYU: 使用波动拳
+spirit.attack('whirlKick') // 输出：RYU: 使用旋风腿
 ```
 
 后来发现，Spirit.prototype.attack 这个方法实现是太庞大了，实际上它完全有必要作为一个单独的类存在。面向对象设计鼓励将行为分布在合理数量的更小对象之中：
@@ -353,10 +353,10 @@ Attack.prototype.start = function(type) {
 
 Attack.prototype.list = {
   waveBoxing: function() {
-    console.log(this.spirit.name + ": 使用波动拳")
+    console.log(this.spirit.name + ': 使用波动拳')
   },
   whirlKick: function() {
-    console.log(this.spirit.name + ": 使用旋风腿")
+    console.log(this.spirit.name + ': 使用旋风腿')
   }
 }
 ```
@@ -373,9 +373,9 @@ Spirit.prototype.attack = function(type) {
   // 攻 击
   this.attackObj.start(type)
 }
-var spirit = new Spirit("RYU")
-spirit.attack("waveBoxing") // 输出：RYU: 使用波动拳
-spirit.attack("whirlKick") // 输出：RYU: 使用旋风腿
+var spirit = new Spirit('RYU')
+spirit.attack('waveBoxing') // 输出：RYU: 使用波动拳
+spirit.attack('whirlKick') // 输出：RYU: 使用旋风腿
 ```
 
 ## 用 return 退出多重循环

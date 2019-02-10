@@ -172,8 +172,8 @@ optimization: {
 new MiniCssExtractPlugin({
   // Options similar to the same options in webpackOptions.output
   // both options are optional
-  filename: devMode ? "[name].css" : "[name].[hash].css",
-  chunkFilename: devMode ? "[id].css" : "[id].[hash].css"
+  filename: devMode ? '[name].css' : '[name].[hash].css',
+  chunkFilename: devMode ? '[id].css' : '[id].[hash].css'
 })
 ```
 
@@ -230,13 +230,13 @@ new MiniCssExtractPlugin({
 开发环境：
 
 ```js
-module.exports = file => require("@/views/" + file + ".vue").default
+module.exports = file => require('@/views/' + file + '.vue').default
 ```
 
 生成环境：
 
 ```js
-module.exports = file => () => import("@/views/" + file + ".vue")
+module.exports = file => () => import('@/views/' + file + '.vue')
 ```
 
 但由于 webpack `import`实现机制问题，会产生一定的副作用。如上面的写法就会导致`@/views/`下的 所有`.vue` 文件都会被打包。不管你是否被依赖引用了，会多打包一些可能永远都用不到 js 代码。 [相关 issue](https://github.com/PanJiaChen/vue-element-admin/issues/292)
