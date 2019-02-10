@@ -1,5 +1,6 @@
 const path = require('path')
 const fs = require('fs')
+const matter = require('gray-matter')
 
 const files = ['scripts/README-base.md', 'docs/repository/README.md', 'docs/website/README.md']
 
@@ -14,7 +15,7 @@ function readFile(file) {
       if (err) {
         reject()
       }
-      resolve(data)
+      resolve(matter(data).content)
     })
   })
 }

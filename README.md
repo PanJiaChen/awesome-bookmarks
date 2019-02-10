@@ -8,9 +8,6 @@ Base on `vuepress`
 
 在线地址：https://panjiachen.github.io/awesome-bookmarks
 
----
-sidebar: auto
----
 
 # 推荐库
 
@@ -357,9 +354,6 @@ sidebar: auto
 
 [Microsoft Remote Desktop Beta](https://itunes.apple.com/us/app/microsoft-remote-desktop/id715768417?mt=12#) Mac 远程登录 Windows 调试神器
 
----
-sidebar: auto
----
 
 # 网站
 
