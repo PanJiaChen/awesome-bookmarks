@@ -77,6 +77,7 @@ sidebar: auto
 [早报](https://wubaiqing.github.io/zaobao/) 一个个人开发者的前端开发的分享日报
 
 [emoji-search](https://emoji.muan.co/#) 帮你快速找到能表达你情感的 emoji
+
 [gitmoji ](https://github.com/carloscuesta/gitmoji) 通过 emoji 表达 git 的操作内容
 
 ## 设计
@@ -101,7 +102,7 @@ sidebar: auto
 
 [uigradients](https://uigradients.com/#SummerDog) 渐变色网站
 
-[designcap.](https://www.designcap.com) 在线海报设计
+[designcap](https://www.designcap.com) 在线海报设计
 
 ## 有趣
 
@@ -112,6 +113,8 @@ sidebar: auto
 [wallhaven](https://alpha.wallhaven.cc/) 壁纸网站
 
 [URL 地址播放 Emojis 动画](http://matthewrayfield.com/articles/animating-urls-with-javascript-and-emojis/#%F0%9F%8C%96)
+
+[Can't Unsee](https://cantunsee.space/) 强烈建议前端、客户端、UI 开发的同学玩下，检查一下自己对设计稿的敏感度怎么样
 
 ## 交互
 

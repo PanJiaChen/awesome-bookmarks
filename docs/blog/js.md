@@ -41,7 +41,7 @@
 
 !!!include(docs/blog/javascript/为什么前端监控要用GIF打点.md)!!!
 
-!!!include(docs/blog/javascript/Object.create(null))!!!
+!!!include(docs/blog/javascript/Object.create.md)!!!
 
 
 <!-- prettier-ignore-end -->
