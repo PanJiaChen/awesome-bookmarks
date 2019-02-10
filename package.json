@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "lint": "prettier --write 'docs/**/*.md'"
+    "lint": "prettier --write 'docs/**/*.md'",
+    "release": "node scripts/release.js"
   },
   "husky": {
     "hooks": {
