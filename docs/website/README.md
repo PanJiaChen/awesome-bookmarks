@@ -78,7 +78,9 @@ sidebar: auto
 
 [emoji-search](https://emoji.muan.co/#) 帮你快速找到能表达你情感的 emoji
 
-[gitmoji ](https://github.com/carloscuesta/gitmoji) 通过 emoji 表达 git 的操作内容
+[gitmoji](https://github.com/carloscuesta/gitmoji) 通过 emoji 表达 git 的操作内容
+
+[starcharts](https://starcharts.herokuapp.com/PanJiaChen/vue-element-admin) 可以把你一个项目的 stars 增长轨迹当做 svg 放在 readme 中
 
 ## 设计
 

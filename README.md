@@ -8,7 +8,6 @@ Base on `vuepress`
 
 在线地址：https://panjiachen.github.io/awesome-bookmarks
 
-
 # 推荐库
 
 ## 前端
@@ -166,6 +165,8 @@ Base on `vuepress`
 
 [scroll-hint](https://github.com/appleple/scroll-hint) 用于指示元素可以水平滚动，并带有指针图标，如果你在做一个新手引导，这个工具将会是一个不错的选择。
 
+[fuse.js](https://github.com/krisk/fuse) 轻量级前端模糊查询库 非常的好用
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node 监听文件变化的库
@@ -225,6 +226,8 @@ Base on `vuepress`
 [Node.js 最佳实践](https://github.com/i0natan/nodebestpractices/blob/master/README.chinese.md)
 
 [grpc-web](https://github.com/grpc/grpc-web) 前端直连 gRPC 服务
+
+[node-fetch](https://github.com/bitinn/node-fetch) node 环境下轻量级 fetch 请求库
 
 ## GraphQL
 
@@ -354,6 +357,17 @@ Base on `vuepress`
 
 [Microsoft Remote Desktop Beta](https://itunes.apple.com/us/app/microsoft-remote-desktop/id715768417?mt=12#) Mac 远程登录 Windows 调试神器
 
+[pap.er](http://paper.meiyuan.in/) 专为 Mac 设计的壁纸应用
+
+[The Unarchive](https://theunarchiver.com/) Mac 目前感觉最好用的免费解压软件
+
+[Tickeys](https://github.com/yingDev/Tickeys) 让你用 Mac 键盘也能打出机械键盘的感觉
+
+[Beaker Browser](https://github.com/beakerbrowser/beaker) P2P 开源浏览器 支持点对点发布文件，成为了文件传输工具，支持 DAT 对等协议
+
+[Gifski](https://github.com/sindresorhus/gifski-app) 视频转 gif 工具
+
+[more](https://github.com/serhii-londar/open-source-mac-os-apps) 更多优秀的 mac app 介绍
 
 # 网站
 
@@ -431,7 +445,9 @@ Base on `vuepress`
 
 [emoji-search](https://emoji.muan.co/#) 帮你快速找到能表达你情感的 emoji
 
-[gitmoji ](https://github.com/carloscuesta/gitmoji) 通过 emoji 表达 git 的操作内容
+[gitmoji](https://github.com/carloscuesta/gitmoji) 通过 emoji 表达 git 的操作内容
+
+[starcharts](https://starcharts.herokuapp.com/PanJiaChen/vue-element-admin) 可以把你一个项目的 stars 增长轨迹当做 svg 放在 readme 中
 
 ## 设计
 
