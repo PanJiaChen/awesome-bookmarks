@@ -167,6 +167,10 @@ Base on `vuepress`
 
 [fuse.js](https://github.com/krisk/fuse) 轻量级前端模糊查询库 非常的好用
 
+[FileSaver.js](https://github.com/eligrey/FileSaver.js) 文件下载插件 很多时候下载会有兼容性问题，它能帮你解决这些问题
+
+[instant.page](https://github.com/instantpage/instant.page) 一个判断用户行为 预测提前加载页面的库
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node 监听文件变化的库
