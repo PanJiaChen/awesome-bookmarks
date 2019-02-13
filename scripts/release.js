@@ -1,8 +1,10 @@
 const path = require('path')
 const fs = require('fs')
 const matter = require('gray-matter')
+const TOC = require('markdown-toc')
 
-const files = ['scripts/README-base.md', 'docs/repository/README.md', 'docs/website/README.md']
+const files = ['docs/repository/README.md', 'docs/website/README.md']
+const headerMd = 'scripts/README-base.md'
 
 function pathResolve(dir) {
   return path.join(__dirname, '..', dir)
@@ -25,6 +27,12 @@ async function generate() {
   for (const file of files) {
     content.push(await readFile(file))
   }
+
+  const header = await readFile(headerMd)
+
+  const toc = TOC(content.join('\n')).content
+
+  content = [header, toc, ...content]
 
   fs.writeFile(pathResolve('README.md'), content.join('\n'), 'utf8', () => {
     console.log('success')

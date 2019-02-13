@@ -8,6 +8,23 @@ Base on `vuepress`
 
 在线地址：https://panjiachen.github.io/awesome-bookmarks
 
+- [推荐库](#%E6%8E%A8%E8%8D%90%E5%BA%93)
+  - [前端](#%E5%89%8D%E7%AB%AF)
+  - [Node](#node)
+  - [GraphQL](#graphql)
+  - [有趣](#%E6%9C%89%E8%B6%A3)
+  - [工具](#%E5%B7%A5%E5%85%B7)
+  - [Mac](#mac)
+- [网站](#%E7%BD%91%E7%AB%99)
+  - [Github](#github)
+  - [开发](#%E5%BC%80%E5%8F%91)
+  - [设计](#%E8%AE%BE%E8%AE%A1)
+  - [有趣](#%E6%9C%89%E8%B6%A3-1)
+  - [交互](#%E4%BA%A4%E4%BA%92)
+  - [Css](#css)
+  - [教程](#%E6%95%99%E7%A8%8B)
+  - [产品](#%E4%BA%A7%E5%93%81)
+
 # 推荐库
 
 ## 前端
