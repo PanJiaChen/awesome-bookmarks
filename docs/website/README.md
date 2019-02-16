@@ -82,6 +82,8 @@ sidebar: auto
 
 [starcharts](https://starcharts.herokuapp.com/PanJiaChen/vue-element-admin) 可以把你一个项目的 stars 增长轨迹当做 svg 放在 readme 中
 
+[mockapi](https://www.mockapi.io/) 一个还不错的在线 mock 服务（可在线可视化编辑），可以满足大部分简单需求了
+
 ## 设计
 
 [uimovement](https://uimovement.com/) 能从这个网站找到不少动画交互的灵感
@@ -96,7 +98,9 @@ sidebar: auto
 
 [brandmark](http://brandmark.io/) 另一个在线制作 logo 网站
 
-[instant](https://instantlogodesign.com/) 有一个 logo 制作网站
+[instant](https://instantlogodesign.com/) 又一个 logo 制作网站
+
+[logo-maker](https://www.designevo.com/logo-maker/) 又一个 logo 制作网站 这个更简单点 就是选模板之后微调
 
 [coolors](https://coolors.co/) 帮你在线配色的网站 你能找到不少配色灵感
 

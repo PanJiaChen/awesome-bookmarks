@@ -28,6 +28,8 @@
 
 [The TypeScript Tax: A Cost vs Benefit Analysis](medium.com/javascript-scene/the-typescript-tax-132ff4cb175b) 主要讲 ts 收益，具有一定可读性
 
+[TypeScript 解决了什么痛点？](https://www.zhihu.com/question/308844713/answer/594169638) 比较中肯的一个答案，做技术不要盲目跟风
+
 ## GraphQL
 
 [GraphQL 核心概念](https://segmentfault.com/a/1190000014131950)

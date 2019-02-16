@@ -188,6 +188,8 @@ Base on `vuepress`
 
 [instant.page](https://github.com/instantpage/instant.page) 一个判断用户行为 预测提前加载页面的库
 
+[screenfull.js](https://github.com/sindresorhus/screenfull.js) 浏览器全屏插件 解决了不少兼容性问题
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node 监听文件变化的库
@@ -354,6 +356,10 @@ Base on `vuepress`
 
 [jsonstore](https://github.com/bluzi/jsonstore) 供免费，安全且基于 JSON 的云数据存储，自己玩的小项目神器
 
+[git-history](https://github.com/pomber/git-history) 可视化查看一个文件的历史变化
+
+[speed-measure-webpack-plugin](https://github.com/stephencookdev/speed-measure-webpack-plugin) \* 探测 webpack 各阶段的耗时
+
 ## Mac
 
 [get-plain-text](https://itunes.apple.com/cn/app/get-plain-text/) 能清除剪贴板里的格式 很实用
@@ -470,6 +476,8 @@ Base on `vuepress`
 
 [starcharts](https://starcharts.herokuapp.com/PanJiaChen/vue-element-admin) 可以把你一个项目的 stars 增长轨迹当做 svg 放在 readme 中
 
+[mockapi](https://www.mockapi.io/) 一个还不错的在线 mock 服务（可在线可视化编辑），可以满足大部分简单需求了
+
 ## 设计
 
 [uimovement](https://uimovement.com/) 能从这个网站找到不少动画交互的灵感
@@ -484,7 +492,9 @@ Base on `vuepress`
 
 [brandmark](http://brandmark.io/) 另一个在线制作 logo 网站
 
-[instant](https://instantlogodesign.com/) 有一个 logo 制作网站
+[instant](https://instantlogodesign.com/) 又一个 logo 制作网站
+
+[logo-maker](https://www.designevo.com/logo-maker/) 又一个 logo 制作网站 这个更简单点 就是选模板之后微调
 
 [coolors](https://coolors.co/) 帮你在线配色的网站 你能找到不少配色灵感
 

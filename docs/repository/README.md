@@ -165,6 +165,8 @@ sidebar: auto
 
 [instant.page](https://github.com/instantpage/instant.page) 一个判断用户行为 预测提前加载页面的库
 
+[screenfull.js](https://github.com/sindresorhus/screenfull.js) 浏览器全屏插件 解决了不少兼容性问题
+
 ## Node
 
 [chokidar](https://github.com/paulmillr/chokidar) node 监听文件变化的库
@@ -330,6 +332,10 @@ sidebar: auto
 [airtap](https://github.com/airtap/airtap) 测试浏览器兼容性，可覆盖 800 多种浏览器
 
 [jsonstore](https://github.com/bluzi/jsonstore) 供免费，安全且基于 JSON 的云数据存储，自己玩的小项目神器
+
+[git-history](https://github.com/pomber/git-history) 可视化查看一个文件的历史变化
+
+[speed-measure-webpack-plugin](https://github.com/stephencookdev/speed-measure-webpack-plugin) \* 探测 webpack 各阶段的耗时
 
 ## Mac
 
