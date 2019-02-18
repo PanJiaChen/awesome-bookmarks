@@ -1,26 +1,9 @@
-const path = require('path')
 const fs = require('fs')
-const matter = require('gray-matter')
 const TOC = require('markdown-toc')
+const { pathResolve, readFile } = require('./utils.js')
 
 const files = ['docs/repository/README.md', 'docs/website/README.md']
 const headerMd = 'scripts/README-base.md'
-
-function pathResolve(dir) {
-  return path.join(__dirname, '..', dir)
-}
-
-function readFile(file) {
-  return new Promise((resolve, reject) => {
-    const dirpath = pathResolve(file)
-    fs.readFile(dirpath, 'utf8', (err, data) => {
-      if (err) {
-        reject()
-      }
-      resolve(matter(data).content)
-    })
-  })
-}
 
 async function generate() {
   var content = []
