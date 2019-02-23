@@ -24,6 +24,8 @@
 
 [2018 大厂高级前端面试题汇总](https://github.com/yygmind/blog/issues/5)
 
+[Daily-Interview-Question](https://github.com/Advanced-Frontend/Daily-Interview-Question) 每天一道前端大厂面试题
+
 https://github.com/forthealllight/blog/issues
 
 想成为一个好的前端工程师，光有强大的编程能力是远远不够的，还有很多软知识需要知道。

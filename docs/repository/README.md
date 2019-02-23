@@ -372,3 +372,7 @@ sidebar: auto
 - [Gifski](https://github.com/sindresorhus/gifski-app) - 视频转 gif 工具
 
 - [more](https://github.com/serhii-londar/open-source-mac-os-apps) - 更多优秀的 mac app 介绍
+
+- [Motrix](https://github.com/agalwood/Motrix) - 支持 HTTP、FTP、BT、磁力链、百度网盘的下载工具
+
+- [vscode-leetcode](https://github.com/jdneo/vscode-leetcode) - 一个能让你在 vscode 中刷 LeetCode 的插件 算一个划水神器吧

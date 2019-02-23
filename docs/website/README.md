@@ -132,6 +132,8 @@ sidebar: auto
 
 [Comixify](https://comixify.ii.pw.edu.pl/) 一个波兰团队做了非常好玩的工具，可以把视频自动转成漫画，上图是他们提供的 demo，效果很棒。
 
+[taiko-web](https://github.com/bui/taiko-web) 太鼓达人网页版 只能说很 6
+
 ## Css
 
 [css-tricks](https://css-tricks.com/) 一个学习 css 不错的网站 有很多有意思的 demo
