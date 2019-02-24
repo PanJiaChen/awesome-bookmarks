@@ -167,6 +167,12 @@ sidebar: auto
 
 - [screenfull.js](https://github.com/sindresorhus/screenfull.js) - 浏览器全屏插件 解决了不少兼容性问题
 
+## Css
+
+[animate.css](https://github.com/daneden/animate.css) 最有名的动画效果库
+
+[magic.css](https://github.com/miniMAC/magic) - css 动画效果库 类似 animate.css
+
 ## Node
 
 - [chokidar](https://github.com/paulmillr/chokidar) - node 监听文件变化的库
