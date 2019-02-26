@@ -8,20 +8,28 @@ Base on `vuepress`
 
 在线地址：https://panjiachen.github.io/awesome-bookmarks
 
+个人 Blog 文章地址: https://panjiachen.github.io/awesome-bookmarks/blog/js.html
+
+**本项目为个人技术收藏级，里面会不定期分享一些作者平时常用的库，或者网站和小工具。同时作者也会在上面不定期的写一些简单的博文**
+
+**如果你有好的推荐你可以提 issue 或者 pr 来告诉作者**
+
 - [推荐库](#%E6%8E%A8%E8%8D%90%E5%BA%93)
   - [前端](#%E5%89%8D%E7%AB%AF)
+  - [Css](#css)
   - [Node](#node)
   - [GraphQL](#graphql)
   - [有趣](#%E6%9C%89%E8%B6%A3)
   - [工具](#%E5%B7%A5%E5%85%B7)
   - [Mac](#mac)
+  - [Chrome 拓展](#chrome-%E6%8B%93%E5%B1%95)
 - [网站](#%E7%BD%91%E7%AB%99)
   - [Github](#github)
   - [开发](#%E5%BC%80%E5%8F%91)
   - [设计](#%E8%AE%BE%E8%AE%A1)
   - [有趣](#%E6%9C%89%E8%B6%A3-1)
   - [交互](#%E4%BA%A4%E4%BA%92)
-  - [Css](#css)
+  - [Css](#css-1)
   - [教程](#%E6%95%99%E7%A8%8B)
   - [产品](#%E4%BA%A7%E5%93%81)
 
@@ -190,6 +198,12 @@ Base on `vuepress`
 
 - [screenfull.js](https://github.com/sindresorhus/screenfull.js) - 浏览器全屏插件 解决了不少兼容性问题
 
+## Css
+
+[animate.css](https://github.com/daneden/animate.css) 最有名的动画效果库
+
+[magic.css](https://github.com/miniMAC/magic) - css 动画效果库 类似 animate.css
+
 ## Node
 
 - [chokidar](https://github.com/paulmillr/chokidar) - node 监听文件变化的库
@@ -268,6 +282,8 @@ Base on `vuepress`
 - [javascript-algorithms ](https://github.com/trekhleb/javascript-algorithms) - 教你用前端知识认识各种算法
 
 - [not-paid](https://github.com/kleampa/not-paid) - 如果你给人做网站，交过去以后对方没有付款，那么这个 JS 会把网站的透明度一天调低一点，直到看不见
+
+- [nsfwjs](https://github.com/infinitered/nsfwjs) - 前端图片鉴黄，基于 Tensorflow
 
 ## 工具
 
@@ -395,6 +411,15 @@ Base on `vuepress`
 - [Gifski](https://github.com/sindresorhus/gifski-app) - 视频转 gif 工具
 
 - [more](https://github.com/serhii-londar/open-source-mac-os-apps) - 更多优秀的 mac app 介绍
+
+- [Motrix](https://github.com/agalwood/Motrix) - 支持 HTTP、FTP、BT、磁力链、百度网盘的下载工具
+
+- [vscode-leetcode](https://github.com/jdneo/vscode-leetcode) - 一个能让你在 vscode 中刷 LeetCode 的插件 算一个划水神器吧
+
+## Chrome 拓展
+
+[visbug](https://github.com/GoogleChromeLabs/ProjectVisBug)
+它可以帮助你改变 css，移动元素等等一系类强大的功能
 
 # 网站
 
@@ -525,6 +550,8 @@ Base on `vuepress`
 [cruip](https://cruip.com/) 登录页的各种页面设计，可以免费下载模板
 
 [Comixify](https://comixify.ii.pw.edu.pl/) 一个波兰团队做了非常好玩的工具，可以把视频自动转成漫画，上图是他们提供的 demo，效果很棒。
+
+[taiko-web](https://github.com/bui/taiko-web) 太鼓达人网页版 只能说很 6
 
 ## Css
 

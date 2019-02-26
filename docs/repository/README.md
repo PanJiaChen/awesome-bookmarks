@@ -252,6 +252,8 @@ sidebar: auto
 
 - [not-paid](https://github.com/kleampa/not-paid) - 如果你给人做网站，交过去以后对方没有付款，那么这个 JS 会把网站的透明度一天调低一点，直到看不见
 
+- [nsfwjs](https://github.com/infinitered/nsfwjs) - 前端图片鉴黄，基于 Tensorflow
+
 ## 工具
 
 - [high-speed-downloader](https://github.com/high-speed-downloader/high-speed-downloader) - 百度网盘不限速下载 支持 Windows 和 Mac
@@ -382,3 +384,8 @@ sidebar: auto
 - [Motrix](https://github.com/agalwood/Motrix) - 支持 HTTP、FTP、BT、磁力链、百度网盘的下载工具
 
 - [vscode-leetcode](https://github.com/jdneo/vscode-leetcode) - 一个能让你在 vscode 中刷 LeetCode 的插件 算一个划水神器吧
+
+## Chrome 拓展
+
+[visbug](https://github.com/GoogleChromeLabs/ProjectVisBug)
+它可以帮助你改变 css，移动元素等等一系类强大的功能
