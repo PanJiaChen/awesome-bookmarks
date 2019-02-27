@@ -4,6 +4,10 @@ sidebar: auto
 
 # 网站
 
+## 常看的网站
+
+- [awesome-f2e-libs](https://github.com/sorrycc/awesome-f2e-libs) sorrycc 整理的个人关注使用的前端库
+
 ## Github
 
 [github 短域名服务](https://git.io)
@@ -21,6 +25,10 @@ sidebar: auto
 [star-history](https://www.timqian.com/star-history/#PanJiaChen/vue-element-admin) 展示一个项目 Stars 增长规矩曲线
 
 ## 开发
+
+- [codesandbox-client](https://github.com/CompuIves/codesandbox-client) - 在线 web 开发容器
+
+- [astexplorer](https://github.com/fkling/astexplorer) - 一个在线 ast 生成器
 
 [zeplin](https://app.zeplin.io/) 前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作，重点是前端不用写 css 了，复制就可以了。
 

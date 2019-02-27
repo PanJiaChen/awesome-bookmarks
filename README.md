@@ -15,152 +15,93 @@ Base on `vuepress`
 **如果你有好的推荐你可以提 issue 或者 pr 来告诉作者**
 
 - [推荐库](#%E6%8E%A8%E8%8D%90%E5%BA%93)
-  - [前端](#%E5%89%8D%E7%AB%AF)
-  - [Css](#css)
+  - [前端常用](#%E5%89%8D%E7%AB%AF%E5%B8%B8%E7%94%A8)
+  - [Css && 动画](#css--%E5%8A%A8%E7%94%BB)
+  - [Vue](#vue)
+  - [实践库](#%E5%AE%9E%E8%B7%B5%E5%BA%93)
+  - [工具库](#%E5%B7%A5%E5%85%B7%E5%BA%93)
   - [Node](#node)
   - [GraphQL](#graphql)
   - [有趣](#%E6%9C%89%E8%B6%A3)
   - [工具](#%E5%B7%A5%E5%85%B7)
+  - [Webpack](#webpack)
   - [Mac](#mac)
   - [Chrome 拓展](#chrome-%E6%8B%93%E5%B1%95)
+  - [VS Code](#vs-code)
 - [网站](#%E7%BD%91%E7%AB%99)
+  - [常看的网站](#%E5%B8%B8%E7%9C%8B%E7%9A%84%E7%BD%91%E7%AB%99)
   - [Github](#github)
   - [开发](#%E5%BC%80%E5%8F%91)
   - [设计](#%E8%AE%BE%E8%AE%A1)
   - [有趣](#%E6%9C%89%E8%B6%A3-1)
   - [交互](#%E4%BA%A4%E4%BA%92)
-  - [Css](#css-1)
+  - [Css](#css)
   - [教程](#%E6%95%99%E7%A8%8B)
   - [产品](#%E4%BA%A7%E5%93%81)
 
 # 推荐库
 
-## 前端
+**太常用的一些库，比如 `lodash`、`axios`、`echarts`、`normalize.css`等就不再下面推荐了。这里主要推荐一下自己平时常用，提高效率的，但大家可能又不知道的一些库。**
 
-- [consola](https://github.com/nuxt/consola) - 优雅命令行 console vuepress 也使用了
+## 前端常用
 
-- [webpackbar](https://github.com/nuxt/webpackbar) - webpack 打包进度可视化
+- [sweetalert2](https://github.com/sweetalert2/sweetalert2) 一个自适应，且自定义性强的弹出框（零依赖）
 
-- [jarvis](https://github.com/zouhir/jarvis) - webpack dashboard
+- [tippy.js ](https://github.com/atomiks/tippyjs) 最著名的 tooltip/popover library
 
-- [popmotion](https://github.com/Popmotion/popmotion) - 一个函数式声明前端动画库
+- [text-mask](https://github.com/text-mask/text-mask) 可以让 input 按照规则输入(如电话,email,日期,信用卡等)，特殊格式 input
 
-- [merge-images](https://github.com/lukechilds/merge-images) - 图片合成
+- [dinero.js](https://github.com/sarahdayan/dinero.js) 用来创建、计算和格式化货币价值的不可变的框架，支持国际化
 
-- [direction-reveal](https://github.com/NigelOToole/direction-reveal) - 一个根据鼠标进入方向展现 hover 描述的库
+- [lerna](https://github.com/lerna/lerna) 大项目版本控制工具，项目中可以有多个 package.json 文件
 
-- [micron](https://github.com/webkul/micron) - 通过动画属性绑定动画效果的库
+- [img-2](https://github.com/RevillWeb/img-2) 一个提高图片加载性能和体验的库，懒加载使用 web worker 模糊预览
 
-- [sweetalert2](https://github.com/sweetalert2/sweetalert2) - 一个自适应优美自定义性强的弹出框
+- [fingerprintjs](https://github.com/Valve/fingerprintjs2) 是一个快速的浏览器指纹库，通浏览环境的一系列配置生成 id
 
-- [phaser](https://github.com/photonstorm/phaser) - 这是一个为桌面和移动浏览器开发 HTML5 游戏的快速开源框架。
-  你可以为 iOS、 Android 和不同的本地应用程序创建游戏。
+- [ajv](https://github.com/epoberezkin/ajv) 一个 json schema 验证的库
 
-- [vue-sauce](https://github.com/Botre/vue-sauce) - 一个可以展示 vue 源码的指令
+- [dayjs](https://github.com/xx45/dayjs) 一个轻量级类 moment.js API 时间库
 
-- [tippy.js ](https://github.com/atomiks/tippyjs) - tooltip/popover library
+* [primjs](https://github.com/PrismJS/prism) 让页面支持代码高亮
 
-- [vue-smooth-dnd](https://github.com/kutlugsahin/vue-smooth-dnd) - Vue wrappers components for smooth-dnd
+* [ReLaXed](https://github.com/RelaxedJS/ReLaXed) 一个将 document html 转成 PDF 的工具
 
-- [text-mask](https://github.com/text-mask/text-mask) - 一个可以让 input 按照规则输入(如电话,email,日期等)
--
-- [codesandbox-client](https://github.com/CompuIves/codesandbox-client) - 在线 web 开发容器
+- [uppy](https://github.com/transloadit/uppy) 一个很好看的也很好用的 前端上传库
 
-- [astexplorer](https://github.com/fkling/astexplorer) - 一个在线 ast 生成器
+- [Filepond](https://github.com/pqina/filepond) 一个小巧的文件上传库
 
-- [dinero.js](https://github.com/sarahdayan/dinero.js) - 一个钱计算的库
+- [tui-calendar](http://ui.toast.com/tui-calendar/) 功能全面的日程安排日历控件，还支持拖拽
 
-- [crate](https://github.com/atulmy/crate) - 一个 react 全栈练习(pc,mobile,rn,api)d- emo
-
-- [Jasonette](https://github.com/Jasonette/JASONETTE-iOS)一- 个用 json 来构建 hybrid 的框架
-
-- [vuegg](https://github.com/vuegg/vuegg) - 一个 vue 可视化拖拽界面生成器
-
-- [refined-github](https://github.com/sindresorhus/refined-github) - 优化 github 默认功能的 chrome 插件
-
-- [lerna](https://github.com/lerna/lerna) - 大项目版本控制工具，项目中可以有多个 package.json 文件
-
-- [git-labelmaker](https://github.com/himynameisdave/git-labelmaker) - 命令行快速创建 github
-
-- [react-in-patterns](https://github.com/krasimir/react-in-patterns) - 一本开源叫你写 react 的书
-
-- [picojs](https://github.com/tehnokv/picojs) - js 人脸识别库
-
-- [img-2](https://github.com/RevillWeb/img-2) - 一个提高图片加载性能和体验的库，懒加载使用 web worker 模糊预览
-
-- [fingerprintjs](https://github.com/Valve/fingerprintjs2) - 是一个快速的浏览器指纹库
-
-- [ajv](https://github.com/epoberezkin/ajv) - 一个 json schema 验证的库
-
-- [dayjs](https://github.com/xx45/dayjs) - 一个轻量级类 moment.js API 时间库
-
-- [live-server](https://github.com/tapio/live-server) - 一个建议快速 dev 开发自动刷新的 http server
-
-- [serve](https://github.com/zeit/serve) - 快速起本地静态服务
-
-- [primjs](https://github.com/PrismJS/prism) - 代码高亮
-
-- [ReLaXed](https://github.com/RelaxedJS/ReLaXed) - 一个将 document html 转成 PDF 的工具
-
-- [fabric.js](https://github.com/fabricjs/fabric.js) - 基于 canvas 创建交互式的图片编辑界面非常适合用来做图片合成类工作。
-
-- [matter-js](https://github.com/liabru/matter-js) - web 物理引擎
-
-- [rough](https://github.com/pshihn/rough) - 基于 Canvas 的手绘风格图形库
-
-- [wired-elements](https://github.com/wiredjs/wired-elements) - 基于 rough.js 分装 button input radio 等组件 真正特别之处在于它的底层是 Web components
-
-- [uppy](https://github.com/transloadit/uppy) - 一个很好看的也很好用的 前端上传库
-
-- [tui-calendar](http://ui.toast.com/tui-calendar/) - 功能全面的日程安排日历控件，还支持拖拽。
+- [tui.editor](https://github.com/nhnent/tui.editor) markdown 所见即所得编辑器
 
 - [tabler](https://github.com/tabler/tabler) - 基于 Bootstrap 4 的 Dashboard UI Kit 和美观 高颜值 ui 模板
 
-- [vee-validate](https://github.com/baianat/vee-validate) - 基于 vue 的验证，能验证的内容比较全
+* [pulltorefresh.js](https://github.com/BoxFactura/pulltorefresh.js) - 下个下拉刷新插件
 
-- [x-chart](https://yugasun.github.io/x-chart/#/) - 我就是觉得颜色挺好看的
+* [lulu](https://github.com/yued-fe/lulu) - 腾讯阅文基于 jQuery，针对 PC 网站 IE8+（peak 主题）的前端 UI 框架
 
-- [vuesax](https://github.com/lusaxweb/vuesax) - 一个很漂亮的基于 vue 的 ui 框架
+* [chancejs](https://github.com/chancejs/chancejs) - 生成随机数据的库
 
-- [vue-virtual-scroller](https://github.com/Akryum/vue-virtual-scroller) - 基于 vue 的虚拟列表无限滚动
+* [spritejs](https://github.com/spritejs/spritejs) - 360 奇舞团出的跨平台绘图对象模型
 
-- [particles.js](https://github.com/VincentGarreau/particles.js) - 一个前端画颗粒 粒子的库
+* [workbox](https://github.com/googlechrome/workbox) - 让你的网站更方便的变成 pwa
 
-- [pulltorefresh.js](https://github.com/BoxFactura/pulltorefresh.js) - 下个下拉刷新插件
-
-- [lulu](https://github.com/yued-fe/lulu) - 腾讯阅文基于 jQuery，针对 PC 网站 IE8+（peak 主题）的前端 UI 框架
-
-- [chancejs](https://github.com/chancejs/chancejs) - 生成随机数据的库
-
-- [spritejs](https://github.com/spritejs/spritejs) - 360 奇舞团出的跨平台绘图对象模型
-
-- [workbox](https://github.com/googlechrome/workbox) - 让你的网站更方便的变成 pwa
-
-- [tui.image-editor](https://github.com/nhnent/tui.image-editor) - 一个功能齐全的在线图片编辑，基于 canvas
-
-- [hocs](https://github.com/deepsweet/hocs) - react 相关 hoc 收集库
+* [tui.image-editor](https://github.com/nhnent/tui.image-editor) - 一个功能齐全的在线图片编辑，基于 canvas
 
 - [nanoid](https://github.com/ai/nanoid) - 前端轻量 unique string ID 生成库
 
 - [rxdb](https://github.com/pubkey/rxdb) - 一款开源的快速、灵活的客户端数据库，支持各种浏览器以及 NodeJS，Electron、React 等等，是 PouthDB 之上的一个封装库
 
-- [vue-analytics](https://github.com/MatteoGabriele/vue-analytics) - 基于 vue 的 谷歌统计封装
+* [percollate](https://github.com/danburzo/percollate) - 命令行工具 能将网页转换成 pdf
 
-- [percollate](https://github.com/danburzo/percollate) - 命令行工具 能将网页转换成 pdf
+* [rawact](https://github.com/sokra/rawact) - 一个 babel 插件，把 react 组件转为原生 dom
 
-- [rawact](https://github.com/sokra/rawact) - 一个 babel 插件，把 react 组件转为原生 dom
+* [irondb](https://github.com/gruns/irondb) - 是一个浏览器 key-value 储存的封装库，把 Cookies、IndexedDB、LocalStorage、SessionStorage 统一成一个接口。它的最大特色就是数据冗余机制，即使某种底层储存机制失效，它可以从其他机制恢复数据。
 
-- [irondb](https://github.com/gruns/irondb) - 是一个浏览器 key-value 储存的封装库，把 Cookies、IndexedDB、LocalStorage、SessionStorage 统一成一个接口。它的最大特色就是数据冗余机制，即使某种底层储存机制失效，它可以从其他机制恢复数据。
+* [big.js](https://github.com/MikeMcl/big.js) 解决 js 浮点数问题。 主要就是 Big Number 或者小数点温柔
 
-- [big.js](https://github.com/MikeMcl/big.js) - 解决 js 浮点数问题
-
-- [bignumber.js](https://github.com/MikeMcl/bignumber.js) - 同上
-
-- [awesome-f2e-libs](https://github.com/sorrycc/awesome-f2e-libs) - sorrycc 整理的个人关注使用的前端库
-
-- [tui.editor](https://github.com/nhnent/tui.editor) - markdown 所见即所得编辑器
-
-- [NES.css](https://github.com/BcRikko/NES.css) - 任天堂主题风格 css 库
+* [bignumber.js](https://github.com/MikeMcl/bignumber.js) - 同上
 
 - [stickybits](https://github.com/dollarshaveclub/stickybits) - CSS 的 position: sticky 是一个很有用的设置，但是老的浏览器不支持。这个 JS 库是该功能的垫片库。
 
@@ -168,43 +109,114 @@ Base on `vuepress`
 
 - [cleave.js](https://github.com/nosir/cleave.js) - 用于在输入时格式化输入内容（信用卡格式、日期等）
 
-- [vue-content-placeholders](https://github.com/michalsnik/vue-content-placeholders) - 页面龙骨
+* [obsolete-webpack-plugin](https://github.com/ElemeFE/obsolete-webpack-plugin) - 基于 browserslist 做浏览器升级提
 
-- [obsolete-webpack-plugin](https://github.com/ElemeFE/obsolete-webpack-plugin) - 基于 browserslist 做浏览器升级提
+* [shiny](https://github.com/rikschennink/shiny) - 在手机设备上模拟光的反射效果。 支持 DeviceMotion 事件
 
-- [shiny](https://github.com/rikschennink/shiny) - 在手机设备上模拟光的反射效果。 支持 DeviceMotion 事件
+* [cloudquery](https://github.com/cloudfetch/cloudquery) - Turn any website to serverless API
 
-- [cloudquery](https://github.com/cloudfetch/cloudquery) - Turn any website to serverless API
+* [A-Programmers-Guide-to-English](https://github.com/yujiangshui/A-Programmers-Guide-to-English) - 专为程序员编写的英语学习指南。
 
-- [A-Programmers-Guide-to-English](https://github.com/yujiangshui/A-Programmers-Guide-to-English) - 专为程序员编写的英语学习指南。
+* [rrweb](https://github.com/rrweb-io/rrweb) - 一个可以记录你页面中所有操作的库
 
-- [rrweb](https://github.com/rrweb-io/rrweb) - 一个可以记录你页面中所有操作的库
-
-- [nodeppt](https://github.com/ksky521/nodeppt) - markdown 写 ppt
-
-- [polacode](https://github.com/octref/polacode) - vscode 生产代码图片快照插件
+* [nodeppt](https://github.com/ksky521/nodeppt) - markdown 写 ppt
 
 - [flexsearch](https://github.com/nextapps-de/flexsearch) - 能让你更加高效和快速的检索文本内容
 
 - [public-apis](https://github.com/toddmotto/public-apis) - 汇集了市面上一些对外免费开放的 api，做一些自己练手 app 的时候很好用。
 
-- [scroll-hint](https://github.com/appleple/scroll-hint) - 用于指示元素可以水平滚动，并带有指针图标，如果你在做一个新手引导，这个工具将会是一个不错的选择。
+- [scroll-hint](https://github.com/appleple/scroll-hint) 用于提示用户页面可以左右滑动的一个提示库
 
-- [fuse.js](https://github.com/krisk/fuse) - 轻量级前端模糊查询库 非常的好用
+- [fuse.js](https://github.com/krisk/fuse) 轻量级前端模糊查询库 非常的好用
 
-- [FileSaver.js](https://github.com/eligrey/FileSaver.js) - 文件下载插件 很多时候下载会有兼容性问题，它能帮你解决这些问题
+- [FileSaver.js](https://github.com/eligrey/FileSaver.js) 文件下载插件 很多时候下载会有兼容性问题，它能帮你解决这些问题
 
-- [instant.page](https://github.com/instantpage/instant.page) - 一个判断用户行为 预测提前加载页面的库
+- [instant.page](https://github.com/instantpage/instant.page) 一个判断用户行为 预测提前加载页面的库
 
-- [screenfull.js](https://github.com/sindresorhus/screenfull.js) - 浏览器全屏插件 解决了不少兼容性问题
+- [screenfull.js](https://github.com/sindresorhus/screenfull.js) 浏览器全屏插件 解决了不少兼容性问题
 
-## Css
+- [VuePress](https://github.com/vuejs/vuepress) 本网站就是基于它实现的，简单方便的静态网站生成器
 
-[animate.css](https://github.com/daneden/animate.css) 最有名的动画效果库
+- [selection](https://github.com/Simonwep/selection) 可视化选择页面元素的库
 
-[magic.css](https://github.com/miniMAC/magic) - css 动画效果库 类似 animate.css
+- [scroll-out](https://github.com/scroll-out/scroll-out) 滚动效果（滚动视差）的框架，框架大小不到 1KB,使用回调的方式将相关动画元素的属性进行实时分配
+
+## Css && 动画
+
+- [animate.css](https://github.com/daneden/animate.css) 最有名的动画效果库
+
+- [magic.css](https://github.com/miniMAC/magic) css 动画效果库 类似 animate.css
+
+- [popmotion](https://github.com/Popmotion/popmotion) 一个函数式声明前端动画库
+
+* [NES.css](https://github.com/BcRikko/NES.css) 任天堂主题风格 css 库
+
+- [particles.js](https://github.com/VincentGarreau/particles.js) 前端实现颗粒粒子的动画效果库，比较炫酷，但相对的也比较吃性能
+
+- [PaperCSS](https://www.getpapercss.com/docs/) 手绘风格感觉 css 库
+
+* [rough](https://github.com/pshihn/rough) 基于 Canvas 的手绘风格图形库
+
+* [wired-elements](https://github.com/wiredjs/wired-elements) 基于 rough.js 分装 button input radio 等组件。它的底层是 Web components
+
+* [matter-js](https://github.com/liabru/matter-js) web 物理引擎
+
+* [micron](https://github.com/webkul/micron) 通过在元素上绑定属性从而实现动画效果的库
+
+* [direction-reveal](https://github.com/NigelOToole/direction-reveal) 根据鼠标进入位置，展现从不同方向 展现 hover 效果
+
+## Vue
+
+- [vue-multiselect](https://github.com/shentao/vue-multiselect) select 组件 目前 vue 里面用过最好用的
+
+- [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) DnD 拖拽组件 基于 Sortable.js 的 vue 版本
+
+- [vue-sauce](https://github.com/Botre/vue-sauce) 一个可以展示 vue 源码的指令
+
+- [vue-smooth-dnd](https://github.com/kutlugsahin/vue-smooth-dnd) Vue wrappers components for smooth-dnd
+
+- [vuegg](https://github.com/vuegg/vuegg) 一个 vue 可视化拖拽界面生成器
+
+* [vee-validate](https://github.com/baianat/vee-validate) 基于 vue 的验证，能验证的内容比较全
+
+* [vuesax](https://github.com/lusaxweb/vuesax) 一个很漂亮的基于 vue 的 ui 框架
+
+* [vue-analytics](https://github.com/MatteoGabriele/vue-analytics) 基于 vue 的 谷歌统计封装
+
+- [vue-virtual-scroller](https://github.com/Akryum/vue-virtual-scroller) 基于 vue 的虚拟列表无限滚动
+
+- [vue-content-placeholders](https://github.com/michalsnik/vue-content-placeholders) 页面龙骨 skeleton
+
+## 实践库
+
+- [Jasonette](https://github.com/Jasonette/JASONETTE-iOS) 一个用 json 来构建 hybrid App 的框架
+
+- [crate](https://github.com/atulmy/crate) 一个 react 全栈练习(pc,mobile,rn,api) demo，适合入门拿来练手
+
+- [react-in-patterns](https://github.com/krasimir/react-in-patterns) 一本开源教你如何写 react 的书
+
+- [hocs](https://github.com/deepsweet/hocs) react 相关 hoc 收集库
+
+## 工具库
+
+- [live-server](https://github.com/tapio/live-server) 可以快速启一个本地 dev 服务 并且支持自动刷新的 http server
+
+- [serve](https://github.com/zeit/serve) - 快速起本地静态服务
+
+- [picojs](https://github.com/tehnokv/picojs) js 人脸识别库
+
+- [es-checker](https://github.com/ruanyf/es-checker) 检查当前环境对 ES6 支持的情况。支持浏览器和 node.js
+
+- [merge-images](https://github.com/lukechilds/merge-images) 图片合成，利用`canvas`能将几张图片合成一张
+
+* [fabric.js](https://github.com/fabricjs/fabric.js) 基于 canvas 创建交互式的图片编辑界面非常适合用来做图片合成类工作。
+
+- [phaser](https://github.com/photonstorm/phaser) 这是一个为桌面和移动浏览器开发 HTML5 游戏的快速开源框架。
+  你可以为 iOS、 Android 和不同的本地应用程序创建游戏。
 
 ## Node
+
+- [consola](https://github.com/nuxt/consola) 优雅的命令行 console `vuepress` 也使用了它
 
 - [chokidar](https://github.com/paulmillr/chokidar) - node 监听文件变化的库
 
@@ -376,6 +388,12 @@ Base on `vuepress`
 
 - [speed-measure-webpack-plugin](https://github.com/stephencookdev/speed-measure-webpack-plugin) - \* 探测 webpack 各阶段的耗时
 
+## Webpack
+
+- [webpackbar](https://github.com/nuxt/webpackbar) webpack 打包进度可视化
+
+- [jarvis](https://github.com/zouhir/jarvis) webpack dashboard
+
 ## Mac
 
 - [get-plain-text](https://itunes.apple.com/cn/app/get-plain-text/) - 能清除剪贴板里的格式 很实用
@@ -418,10 +436,44 @@ Base on `vuepress`
 
 ## Chrome 拓展
 
-[visbug](https://github.com/GoogleChromeLabs/ProjectVisBug)
-它可以帮助你改变 css，移动元素等等一系类强大的功能
+- [visbug](https://github.com/GoogleChromeLabs/ProjectVisBug) 它可以帮助你改变 css，移动元素等等一系类强大的功能,页面调试神器。当然有些时候还是 DevTools 更好用
+
+- [refined-github](https://github.com/sindresorhus/refined-github) 优化 github 默认功能和样式的 chrome 插件
+
+- [ADB](https://chrome.google.com/webstore/detail/adb/dpngiggdglpdnjdoaefidgiigpemgage) chrome 真机调试安卓神器
+
+- [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)
+  免费广告拦截程序 这个应该不用说了，装机必备
+
+- [Axure RP Extension](https://chrome.google.com/webstore/detail/axure-rp-extension-for-ch/dogkpdfcklifaemcdfbildhcofnopogp) 看原型必备
+
+- [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) JSON 格式化 程序员必备
+
+- [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) 谷歌出品，检查网页综合性能评分，分析不足
+
+- [二维码(QR 码)生成器](https://chrome.google.com/webstore/detail/%E4%BA%8C%E7%BB%B4%E7%A0%81qr%E7%A0%81%E7%94%9F%E6%88%90%E5%99%A8qr-code-generato/pflgjjogbmmcmfhfcnlohagkablhbpmg) 手机扫码神器
+
+- [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc) github 上看代码必备神器
+
+- [OctoLinker](https://chrome.google.com/webstore/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp) 能在 github 上看代码的时候 快速链接跳转到依赖的库
+
+- [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg) chrome 太吃内存了，当页面开的很多时候会很卡，它就完美的解决了这个问题。它将几分钟没浏览过的页面都挂载了，当你想看是再重新加载
+
+- [WEB 前端助手](https://chrome.google.com/webstore/detail/web%E5%89%8D%E7%AB%AF%E5%8A%A9%E6%89%8Bfehelper/pkgccpejnmalmdinmhkkfafefagiiiad) 支持 JSON 格式化、二维码生成与解码、代码压缩、Markdown 与 HTML 互转、网页滚动截屏、正则表达式、时间转换工具、JSON 比对工具等
+
+- [掘金](https://chrome.google.com/webstore/detail/%E6%8E%98%E9%87%91/lecdifefmmfjnjjinhaennhdlmcaeeeb) 目前我默认新开 tab 的默认页，可以刷刷新的文章或者项目，还不错。
+
+- [沙拉查词](https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg) 划词翻译插件
+
+## VS Code
+
+- [polacode](https://github.com/octref/polacode) 生产代码图片快照插件
 
 # 网站
+
+## 常看的网站
+
+- [awesome-f2e-libs](https://github.com/sorrycc/awesome-f2e-libs) sorrycc 整理的个人关注使用的前端库
 
 ## Github
 
@@ -440,6 +492,10 @@ Base on `vuepress`
 [star-history](https://www.timqian.com/star-history/#PanJiaChen/vue-element-admin) 展示一个项目 Stars 增长规矩曲线
 
 ## 开发
+
+- [codesandbox-client](https://github.com/CompuIves/codesandbox-client) - 在线 web 开发容器
+
+- [astexplorer](https://github.com/fkling/astexplorer) - 一个在线 ast 生成器
 
 [zeplin](https://app.zeplin.io/) 前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作，重点是前端不用写 css 了，复制就可以了。
 
