@@ -193,7 +193,7 @@ sidebar: auto
 - [glorious-demo](https://github.com/glorious-codes/glorious-demo) - 通过编写代码的方式构建一个命令行的演示例子
 - [nginxconfig](https://github.com/valentinxxx/nginxconfig.io/) - 可视化配置 nginx 提供了多个基础模板
 - [bundlephobia](https://bundlephobia.com/) - 一个可以查看某个库的大小，并且分析它的依赖
-- [jsperf](https://jsperf.com/popular) - 一个提供在线 test case 的网站，可以比较如： forEach vs for 的性能
+- [jsperf](https://jsperf.com/popular) - 一个提供在线 test case 的网站，主要用来比较性能。可以比较如： forEach vs for 的性能
 - [algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer) - 算法代码可视化
 - [An-English-Guide-for-Programmers](https://github.com/yujiangshui/An-English-Guide-for-Programmers) - 专为程序员编写的英语学习指南
 - [Webhint](https://webhint.io/) - 用于检查代码的可访问性、性能和安全的开源检查（Linting）工具
