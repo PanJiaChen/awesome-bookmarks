@@ -252,8 +252,12 @@ sidebar: auto
 
 ## VS Code
 
+- [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) 查看你引入的依赖模块大小
+- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) 自动补全 html 标签，如输入`<a>`将自动补全`</a>`
+- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) 自动重命名 html 标签，如修改`<a>为<b>`，将自动修改结尾标签`</a>为</b>`
 - [polacode](https://github.com/octref/polacode) 生产代码图片快照插件
 - [vscode-leetcode](https://github.com/jdneo/vscode-leetcode) - 一个能让你在 vscode 中刷 LeetCode 的插件 算一个划水神器吧
+- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons) VS Code 必备吧，为文件添加炫图标
 
 ## 工程
 
