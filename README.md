@@ -93,6 +93,10 @@ Base on `vuepress`
 - [VuePress](https://github.com/vuejs/vuepress) 本网站就是基于它实现的，简单方便的静态网站生成器
 - [selection](https://github.com/Simonwep/selection) 可视化选择页面元素的库
 - [scroll-out](https://github.com/scroll-out/scroll-out) 滚动效果（滚动视差）的框架，框架大小不到 1KB,使用回调的方式将相关动画元素的属性进行实时分配
+- [gpu.js](https://github.com/gpujs/gpu.js) 通过将 js 转为特定的 language，利用 GPU 来执行，大大提高了执行性能和速度
+- [pressure](https://github.com/stuyam/pressure) 前端实现 3D Touch
+- [hammer](https://github.com/hammerjs/hammer.js) 移动端手势库
+- [AlloyFinger](https://github.com/AlloyTeam/AlloyFinger) 腾讯出的手势库
 
 ## Css && 动画
 
@@ -238,6 +242,8 @@ Base on `vuepress`
 - [airtap](https://github.com/airtap/airtap) - 测试浏览器兼容性，可覆盖 800 多种浏览器
 - [jsonstore](https://github.com/bluzi/jsonstore) - 供免费，安全且基于 JSON 的云数据存储，自己玩的小项目神器
 - [git-history](https://github.com/pomber/git-history) - 可视化查看一个文件的历史变化
+- [x-spreadsheet](https://github.com/myliang/x-spreadsheet) 一个基于 Canvas 的 JS 电子表格库
+- [imgcook](https://imgcook.taobao.org/) 阿里出品，一键通过设计稿生成代码
 
 ## Webpack
 
@@ -248,6 +254,7 @@ Base on `vuepress`
 - [obsolete-webpack-plugin](https://github.com/ElemeFE/obsolete-webpack-plugin) 基于 browserslist 做浏览器升级提示
 - [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) 提取 CSS 为单独文件
 - [copy-webpack-plugin](https://github.com/webpack-contrib/copy-webpack-plugin) 复制额外的文件到输出目录
+- [duplicate-package-checker-webpack-plugin](https://github.com/darrenscerri/duplicate-package-checker-webpack-plugin) 检查是否存在重复依赖
 
 ## Mac
 
@@ -272,6 +279,8 @@ Base on `vuepress`
 
 ## Chrome 拓展
 
+- [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) 油猴 神器
+- [扩展管理器](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco/related?utm_source=chrome-ntp-icon) 轻松管理扩展，就不用担心安装太多扩展了
 - [visbug](https://github.com/GoogleChromeLabs/ProjectVisBug) 它可以帮助你改变 css，移动元素等等一系类强大的功能,页面调试神器。当然有些时候还是 DevTools 更好用
 - [refined-github](https://github.com/sindresorhus/refined-github) 优化 github 默认功能和样式的 chrome 插件
 - [ADB](https://chrome.google.com/webstore/detail/adb/dpngiggdglpdnjdoaefidgiigpemgage) chrome 真机调试安卓神器
@@ -373,6 +382,8 @@ Base on `vuepress`
 - [gitmoji](https://github.com/carloscuesta/gitmoji) 通过 emoji 表达 git 的操作内容
 - [starcharts](https://starcharts.herokuapp.com/PanJiaChen/vue-element-admin) 可以把你一个项目的 stars 增长轨迹当做 svg 放在 readme 中
 - [mockapi](https://www.mockapi.io/) 一个还不错的在线 mock 服务（可在线可视化编辑），可以满足大部分简单需求了
+- [coder](coder.com) 在线版 VS Code
+- [browserstack](https://www.browserstack.com/) 远程调整各种版本浏览器 兼容性问题
 
 ## 设计
 
@@ -396,6 +407,7 @@ Base on `vuepress`
 - [wallhaven](https://alpha.wallhaven.cc/) 壁纸网站-
 - [URL 地址播放 Emojis 动画](http://matthewrayfield.com/articles/animating-urls-with-javascript-and-emojis/#%F0%9F%8C%96)
 - [Can't Unsee](https://cantunsee.space/) 强烈建议前端、客户端、UI 开发的同学玩下，检查一下自己对设计稿的敏感度怎么样
+- [ggtalk](https://talk.swift.gg/) 平时一直在听的一个技术博客
 
 ## 交互
 

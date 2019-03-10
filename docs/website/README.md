@@ -55,6 +55,8 @@ sidebar: auto
 - [gitmoji](https://github.com/carloscuesta/gitmoji) 通过 emoji 表达 git 的操作内容
 - [starcharts](https://starcharts.herokuapp.com/PanJiaChen/vue-element-admin) 可以把你一个项目的 stars 增长轨迹当做 svg 放在 readme 中
 - [mockapi](https://www.mockapi.io/) 一个还不错的在线 mock 服务（可在线可视化编辑），可以满足大部分简单需求了
+- [coder](coder.com) 在线版 VS Code
+- [browserstack](https://www.browserstack.com/) 远程调整各种版本浏览器 兼容性问题
 
 ## 设计
 
@@ -78,6 +80,7 @@ sidebar: auto
 - [wallhaven](https://alpha.wallhaven.cc/) 壁纸网站-
 - [URL 地址播放 Emojis 动画](http://matthewrayfield.com/articles/animating-urls-with-javascript-and-emojis/#%F0%9F%8C%96)
 - [Can't Unsee](https://cantunsee.space/) 强烈建议前端、客户端、UI 开发的同学玩下，检查一下自己对设计稿的敏感度怎么样
+- [ggtalk](https://talk.swift.gg/) 平时一直在听的一个技术博客
 
 ## 交互
 
