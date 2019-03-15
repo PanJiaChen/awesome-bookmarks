@@ -24,7 +24,8 @@
   },
   "prettier": {
     "semi": false,
-    "singleQuote": true
+    "singleQuote": true,
+    "preserve": "never"
   },
   "devDependencies": {
     "gray-matter": "^4.0.2",

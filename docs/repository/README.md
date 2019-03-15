@@ -143,6 +143,7 @@ sidebar: auto
 - [Node.js 最佳实践](https://github.com/i0natan/nodebestpractices/blob/master/README.chinese.md)
 - [grpc-web](https://github.com/grpc/grpc-web) - 前端直连 gRPC 服务
 - [node-fetch](https://github.com/bitinn/node-fetch) - node 环境下轻量级 fetch 请求库
+- [ink](https://github.com/vadimdemedes/ink) 是一个 React 的命令行渲染器，命令行界面可以像写页面那么写了
 
 ## GraphQL
 

@@ -39,6 +39,8 @@ Base on `vuepress`
   - [Css](#css)
   - [教程](#%E6%95%99%E7%A8%8B)
   - [产品](#%E4%BA%A7%E5%93%81)
+  - [实用](#%E5%AE%9E%E7%94%A8)
+  - [Talk](#talk)
 
 # 推荐库
 
@@ -181,6 +183,7 @@ Base on `vuepress`
 - [Node.js 最佳实践](https://github.com/i0natan/nodebestpractices/blob/master/README.chinese.md)
 - [grpc-web](https://github.com/grpc/grpc-web) - 前端直连 gRPC 服务
 - [node-fetch](https://github.com/bitinn/node-fetch) - node 环境下轻量级 fetch 请求库
+- [ink](https://github.com/vadimdemedes/ink) 是一个 React 的命令行渲染器，命令行界面可以像写页面那么写了
 
 ## GraphQL
 
@@ -430,3 +433,11 @@ Base on `vuepress`
 - [产品大牛](http://www.pmdaniu.com/) 什么有很多完整的产品原型可以借鉴
 
 - [磨刀](https://modao.cc/pricing) 快速出 ui 原型
+
+## 实用
+
+[typeform](https://admin.typeform.com/signup) 一个国外的在线调查问卷网站
+
+## Talk
+
+[peerigon-talks](https://github.com/peerigon/talks) 收集了不少有意思的 talks
