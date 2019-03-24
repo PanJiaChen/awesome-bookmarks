@@ -59,6 +59,8 @@ sidebar: auto
 - [pressure](https://github.com/stuyam/pressure) 前端实现 3D Touch
 - [hammer](https://github.com/hammerjs/hammer.js) 移动端手势库
 - [AlloyFinger](https://github.com/AlloyTeam/AlloyFinger) 腾讯出的手势库
+- [lowdb](https://github.com/typicode/lowdb) LowDB 是一个本地 JSON 数据库，基于 Lodash 开发的
+- [JSON-server](https://github.com/typicode/json-server) 可以配合 LowDB 使用 快速搭建一个 REST API
 
 ## Css && 动画
 
@@ -73,6 +75,7 @@ sidebar: auto
 - [matter-js](https://github.com/liabru/matter-js) web 物理引擎
 - [micron](https://github.com/webkul/micron) 通过在元素上绑定属性从而实现动画效果的库
 - [direction-reveal](https://github.com/NigelOToole/direction-reveal) 根据鼠标进入位置，展现从不同方向 展现 hover 效果
+- [laxxx](https://github.com/alexfoxy/laxxx) 滚动特效库 轻量级 压缩完 2kb
 
 ## Vue
 
@@ -104,6 +107,7 @@ sidebar: auto
 - [fabric.js](https://github.com/fabricjs/fabric.js) 基于 canvas 创建交互式的图片编辑界面非常适合用来做图片合成类工作。
 - [phaser](https://github.com/photonstorm/phaser) 这是一个为桌面和移动浏览器开发 HTML5 游戏的快速开源框架。
   你可以为 iOS、 Android 和不同的本地应用程序创建游戏。
+- [recast](https://github.com/benjamn/recast) 前端 ast 库
 
 ## Node
 
@@ -158,6 +162,7 @@ sidebar: auto
 - [javascript-algorithms ](https://github.com/trekhleb/javascript-algorithms) - 教你用前端知识认识各种算法
 - [not-paid](https://github.com/kleampa/not-paid) - 如果你给人做网站，交过去以后对方没有付款，那么这个 JS 会把网站的透明度一天调低一点，直到看不见
 - [nsfwjs](https://github.com/infinitered/nsfwjs) - 前端图片鉴黄，基于 Tensorflow
+- [elevator.js](https://github.com/tholman/elevator.js) 我很喜欢的一个库，让一个 back-to-top 的效果有了一种坐复古电梯的感觉
 
 ## 工具
 

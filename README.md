@@ -10,7 +10,7 @@ Base on `vuepress`
 
 个人 Blog 文章地址: https://panjiachen.github.io/awesome-bookmarks/blog/js.html
 
-**本项目为个人技术收藏级，里面会不定期分享一些作者平时常用的库，或者网站和小工具。同时作者也会在上面不定期的写一些简单的博文**
+**本项目为个人技术收藏集，里面会不定期分享一些作者平时用到的一些库，或者常用的网站和小工具。同时作者也会在上面不定期的写一些简单的博文**
 
 **如果你有好的推荐你可以提 issue 或者 pr 来告诉作者**
 
@@ -99,6 +99,8 @@ Base on `vuepress`
 - [pressure](https://github.com/stuyam/pressure) 前端实现 3D Touch
 - [hammer](https://github.com/hammerjs/hammer.js) 移动端手势库
 - [AlloyFinger](https://github.com/AlloyTeam/AlloyFinger) 腾讯出的手势库
+- [lowdb](https://github.com/typicode/lowdb) LowDB 是一个本地 JSON 数据库，基于 Lodash 开发的
+- [JSON-server](https://github.com/typicode/json-server) 可以配合 LowDB 使用 快速搭建一个 REST API
 
 ## Css && 动画
 
@@ -113,6 +115,7 @@ Base on `vuepress`
 - [matter-js](https://github.com/liabru/matter-js) web 物理引擎
 - [micron](https://github.com/webkul/micron) 通过在元素上绑定属性从而实现动画效果的库
 - [direction-reveal](https://github.com/NigelOToole/direction-reveal) 根据鼠标进入位置，展现从不同方向 展现 hover 效果
+- [laxxx](https://github.com/alexfoxy/laxxx) 滚动特效库 轻量级 压缩完 2kb
 
 ## Vue
 
@@ -144,6 +147,7 @@ Base on `vuepress`
 - [fabric.js](https://github.com/fabricjs/fabric.js) 基于 canvas 创建交互式的图片编辑界面非常适合用来做图片合成类工作。
 - [phaser](https://github.com/photonstorm/phaser) 这是一个为桌面和移动浏览器开发 HTML5 游戏的快速开源框架。
   你可以为 iOS、 Android 和不同的本地应用程序创建游戏。
+- [recast](https://github.com/benjamn/recast) 前端 ast 库
 
 ## Node
 
@@ -198,6 +202,7 @@ Base on `vuepress`
 - [javascript-algorithms ](https://github.com/trekhleb/javascript-algorithms) - 教你用前端知识认识各种算法
 - [not-paid](https://github.com/kleampa/not-paid) - 如果你给人做网站，交过去以后对方没有付款，那么这个 JS 会把网站的透明度一天调低一点，直到看不见
 - [nsfwjs](https://github.com/infinitered/nsfwjs) - 前端图片鉴黄，基于 Tensorflow
+- [elevator.js](https://github.com/tholman/elevator.js) 我很喜欢的一个库，让一个 back-to-top 的效果有了一种坐复古电梯的感觉
 
 ## 工具
 
@@ -337,6 +342,7 @@ Base on `vuepress`
 ## 常看的网站
 
 - [awesome-f2e-libs](https://github.com/sorrycc/awesome-f2e-libs) sorrycc 整理的个人关注使用的前端库
+- [overreacted](https://overreacted.io/) react Dan 的个人博客，更新频率很高
 
 ## Github
 
@@ -402,6 +408,7 @@ Base on `vuepress`
 - [colorhunt](http://colorhunt.co/) 另一个配色网站
 - [uigradients](https://uigradients.com/#SummerDog) 渐变色网站
 - [designcap](https://www.designcap.com) 在线海报设计
+- [Flat UI 色表](https://flatuicolors.com/) Flat UI 色表
 
 ## 有趣
 

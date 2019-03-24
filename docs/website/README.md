@@ -7,6 +7,7 @@ sidebar: auto
 ## 常看的网站
 
 - [awesome-f2e-libs](https://github.com/sorrycc/awesome-f2e-libs) sorrycc 整理的个人关注使用的前端库
+- [overreacted](https://overreacted.io/) react Dan 的个人博客，更新频率很高
 
 ## Github
 
@@ -72,6 +73,7 @@ sidebar: auto
 - [colorhunt](http://colorhunt.co/) 另一个配色网站
 - [uigradients](https://uigradients.com/#SummerDog) 渐变色网站
 - [designcap](https://www.designcap.com) 在线海报设计
+- [Flat UI 色表](https://flatuicolors.com/) Flat UI 色表
 
 ## 有趣
 
