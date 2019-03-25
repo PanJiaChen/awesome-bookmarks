@@ -43,6 +43,7 @@
 
 !!!include(docs/blog/javascript/Object.create.md)!!!
 
+!!!include(docs/blog/javascript/promise-in-forEach.md)!!!
 
 <!-- prettier-ignore-end -->
 

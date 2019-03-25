@@ -25,6 +25,7 @@ sidebar: auto
 - [Squoosh](https://squoosh.app/) 谷歌出品在线免费图片压缩工具 神器
 - [codesandbox-client](https://github.com/CompuIves/codesandbox-client) - 在线 web 开发容器
 - [astexplorer](https://github.com/fkling/astexplorer) - 一个在线 ast 生成器
+- [30 seconds of code](https://30secondsofcode.org/) 收集了许多有用的代码小片段
 - [zeplin](https://app.zeplin.io/) 前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作，重点是前端不用写 css 了，复制就可以了。
 - [iconfont](http://www.iconfont.cn/) 阿里出的图标库，非常实用，支持 svg、font、png 多种格式，基本现在所有图标都在上面找。
 - [cssicon](http://cssicon.space/#/) 所有的 icon 都是纯 css 画的 缺点：icon 不够多
@@ -58,6 +59,7 @@ sidebar: auto
 - [mockapi](https://www.mockapi.io/) 一个还不错的在线 mock 服务（可在线可视化编辑），可以满足大部分简单需求了
 - [coder](coder.com) 在线版 VS Code
 - [browserstack](https://www.browserstack.com/) 远程调整各种版本浏览器 兼容性问题
+- [carbon](https://carbon.now.sh/) 根据源码生成图片 主要作用是让你打代表片段分享的时候更好看一点
 
 ## 设计
 
