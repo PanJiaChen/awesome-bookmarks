@@ -74,3 +74,7 @@ shouldComponentUpdate: function(nextProps, nextState) {
 - 要用好 RN 你必须同时熟悉 iOS 和 Android ，当然还有 RN 本身，这就对我们工程师提出了更多挑战。
 - 团队的管理，责任的划分。
 - RN 文档及相关资源不如 iOS 和 Android 的丰富。
+
+## 面试题
+
+[reactjs-interview-questions](https://github.com/semlinker/reactjs-interview-questions)

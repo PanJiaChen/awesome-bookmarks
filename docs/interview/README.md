@@ -56,3 +56,5 @@ https://github.com/forthealllight/blog/issues
 - 最后一个 item 不需要下划线
 - 点击任何一个 item alert 它的 title
 - title 超过两个需要省略超出部分
+
+## 对 Node.js 的看法
