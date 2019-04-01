@@ -110,6 +110,8 @@ sidebar: auto
 - [recast](https://github.com/benjamn/recast) 前端 ast 库
 - [purifycss](https://github.com/purifycss/purifycss) 移除没使用到的 css
 - [dropcss](https://github.com/leeoniya/dropcss) 同上
+- [fast-cli](https://github.com/sindresorhus/fast-cli) 命令行测试下载上传速度
+- [@pika/web](https://github.com/pikapkg/web) 让你不需要在本地 webpack 中 import，直接在游览器里面运行 npm 包
 
 ## Node
 
@@ -134,6 +136,7 @@ sidebar: auto
 - [commander.js](https://github.com/tj/commander.js) - 自动的解析命令和参数，合并多选项，处理短参，等等，功能强大，上手简单
 - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - A collection of common interactive command line user interfaces. 命令行询问库
 - [enquirer](https://github.com/nasa/openmct) - 命令行 prompt 询问库，写 cli 的时候很有用
+- [Qoa](https://github.com/klaussinani/qoa) 同上
 - [ora](https://github.com/sindresorhus/ora) - Elegant terminal spinner 命令行 loading
 - [chalk](https://github.com/chalk/chalk) - 命令行着色美化库
 - [hygen](https://github.com/jondot/hygen) - 快速方便的创建代码 可以命令行创建预设的 template
@@ -214,6 +217,8 @@ sidebar: auto
 - [git-history](https://github.com/pomber/git-history) - 可视化查看一个文件的历史变化
 - [x-spreadsheet](https://github.com/myliang/x-spreadsheet) 一个基于 Canvas 的 JS 电子表格库
 - [imgcook](https://imgcook.taobao.org/) 阿里出品，一键通过设计稿生成代码
+- [majestic](https://github.com/Raathigesh/majestic) jest 可视化
+- [leon](https://github.com/leon-ai/leon) 你开源项目的 ai 个人助手
 
 ## Webpack
 
@@ -294,7 +299,7 @@ sidebar: auto
 - [cross-env](https://github.com/kentcdodds/cross-env) - 跨平台的环境变量声明。
 - [projj](https://github.com/popomore/projj) - 本地 git 项目管理，支持 github 和 gitlab。
 - [nvm](https://github.com/creationix/nvm) - 管理 node 版本。
-- [concurrently](https://github.com/kimmobrunfeldt/concurrently) - 在 npm scripts 里并行执行命令。
+- [concurrently](https://github.com/kimmobrunfeldt/concurrently) -在 npm scripts 里并行执行命令。
 - [@zeit/ncc](https://github.com/zeit/ncc) - 打包为 npm 包为一个文件。
 - [npm-check](https://github.com/dylang/npm-check) - 检测依赖升级情况，我会和 `yarn upgrade-interactive` 配合着用，主要用来检测冗余依赖。
 - [cpx](https://github.com/mysticatea/cpx) - 复制，支持 glob，并且可以 watch。
