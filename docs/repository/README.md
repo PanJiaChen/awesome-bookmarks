@@ -112,6 +112,7 @@ sidebar: auto
 - [dropcss](https://github.com/leeoniya/dropcss) 同上
 - [fast-cli](https://github.com/sindresorhus/fast-cli) 命令行测试下载上传速度
 - [@pika/web](https://github.com/pikapkg/web) 让你不需要在本地 webpack 中 import，直接在游览器里面运行 npm 包
+- [pinyin](https://github.com/hotoo/pinyin) 汉字拼音转换工具
 
 ## Node
 
