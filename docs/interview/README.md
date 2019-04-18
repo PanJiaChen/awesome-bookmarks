@@ -22,6 +22,8 @@
 
 [node-interview](https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn)
 
+[Node.js-Troubleshooting-Guide](https://github.com/aliyun-node/Node.js-Troubleshooting-Guide) Node.js 应用线上/线下故障、压测问题和性能调优指南手册
+
 [2018 大厂高级前端面试题汇总](https://github.com/yygmind/blog/issues/5)
 
 [Daily-Interview-Question](https://github.com/Advanced-Frontend/Daily-Interview-Question) 每天一道前端大厂面试题

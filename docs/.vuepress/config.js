@@ -2,7 +2,7 @@ const utils = require('./utils')
 
 module.exports = {
   title: 'awesome-bookmarks',
-  description: '个人收藏际夹 beta',
+  description: '个人收藏夹 beta',
   base: '/awesome-bookmarks/',
   head: [
     [

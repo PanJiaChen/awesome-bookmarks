@@ -164,7 +164,6 @@ Base on `vuepress`
 - [globby](https://github.com/sindresorhus/globby) - 用于模式匹配目录文件
 - [glob](https://github.com/isaacs/node-glob) - 文件查找
 - [tiny-glob](https://github.com/terkelg/tiny-glob) - 文件查找
-- [signale](https://github.com/klaussinani/signale) - 漂亮的日志打印
 - [node-semver](https://github.com/npm/node-semver) - node 版本验证库
 - [npm-run-all](https://github.com/mysticatea/npm-run-all/blob/master/docs/node-api.md) - 一个 CLI 工具可以并行或者串行执行 script
 - [live-server](https://github.com/tapio/live-server) - 一个简单的 http server 带有 reload 功能
@@ -194,6 +193,7 @@ Base on `vuepress`
 - [grpc-web](https://github.com/grpc/grpc-web) - 前端直连 gRPC 服务
 - [node-fetch](https://github.com/bitinn/node-fetch) - node 环境下轻量级 fetch 请求库
 - [ink](https://github.com/vadimdemedes/ink) 是一个 React 的命令行渲染器，命令行界面可以像写页面那么写了
+- [strapi](https://github.com/strapi/strapi/) 开源的解决方案来创建、部署和管理自己的 API
 
 ## GraphQL
 
@@ -209,6 +209,7 @@ Base on `vuepress`
 - [not-paid](https://github.com/kleampa/not-paid) - 如果你给人做网站，交过去以后对方没有付款，那么这个 JS 会把网站的透明度一天调低一点，直到看不见
 - [nsfwjs](https://github.com/infinitered/nsfwjs) - 前端图片鉴黄，基于 Tensorflow
 - [elevator.js](https://github.com/tholman/elevator.js) 我很喜欢的一个库，让一个 back-to-top 的效果有了一种坐复古电梯的感觉
+- [app-ideas](https://github.com/florinpop17/app-ideas) 很多年轻人苦于缺少练手的项目，这个项目收集了不少点子，每个点子都有明确的目标和复杂资源。
 
 ## 工具
 
@@ -250,6 +251,7 @@ Base on `vuepress`
 - [nginxconfig](https://github.com/valentinxxx/nginxconfig.io/) - 可视化配置 nginx 提供了多个基础模板
 - [bundlephobia](https://bundlephobia.com/) - 一个可以查看某个库的大小，并且分析它的依赖
 - [jsperf](https://jsperf.com/popular) - 一个提供在线 test case 的网站，主要用来比较性能。可以比较如： forEach vs for 的性能
+- [perflink](https://github.com/lukejacksonn/perflink) 与 jsperf 类似的一个比较 js 性能的网站
 - [algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer) - 算法代码可视化
 - [An-English-Guide-for-Programmers](https://github.com/yujiangshui/An-English-Guide-for-Programmers) - 专为程序员编写的英语学习指南
 - [Webhint](https://webhint.io/) - 用于检查代码的可访问性、性能和安全的开源检查（Linting）工具
@@ -363,6 +365,7 @@ Base on `vuepress`
 - [emoji.muan](http://emoji.muan.co/#) 同上 而且更全
 - [git-awards](http://git-awards.com/users/search?login=panjiachen) github ranking 没事可以查着玩玩
 - [http://githubrank.com/](http://githubrank.com/) github 按照 followers 排名
+- [github-rank](https://wangchujiang.com/github-rank/)同上，githubrank 基本算挂了已经，只能用这个新的
 - [star-history](https://www.timqian.com/star-history/#PanJiaChen/vue-element-admin) 展示一个项目 Stars 增长规矩曲线
 
 ## 开发
@@ -406,6 +409,8 @@ Base on `vuepress`
 - [coder](coder.com) 在线版 VS Code
 - [browserstack](https://www.browserstack.com/) 远程调整各种版本浏览器 兼容性问题
 - [carbon](https://carbon.now.sh/) 根据源码生成图片 主要作用是让你打代表片段分享的时候更好看一点
+- [clipboard2markdown](https://euangoddard.github.io/clipboard2markdown/) 将你所有复制进去的内容都转化为 markdown
+- [grammarly](https://www.grammarly.com/) 英语写作检查工具
 
 ## 设计
 

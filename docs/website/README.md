@@ -19,6 +19,7 @@ sidebar: auto
 - [emoji.muan](http://emoji.muan.co/#) 同上 而且更全
 - [git-awards](http://git-awards.com/users/search?login=panjiachen) github ranking 没事可以查着玩玩
 - [http://githubrank.com/](http://githubrank.com/) github 按照 followers 排名
+- [github-rank](https://wangchujiang.com/github-rank/)同上，githubrank 基本算挂了已经，只能用这个新的
 - [star-history](https://www.timqian.com/star-history/#PanJiaChen/vue-element-admin) 展示一个项目 Stars 增长规矩曲线
 
 ## 开发
@@ -62,6 +63,8 @@ sidebar: auto
 - [coder](coder.com) 在线版 VS Code
 - [browserstack](https://www.browserstack.com/) 远程调整各种版本浏览器 兼容性问题
 - [carbon](https://carbon.now.sh/) 根据源码生成图片 主要作用是让你打代表片段分享的时候更好看一点
+- [clipboard2markdown](https://euangoddard.github.io/clipboard2markdown/) 将你所有复制进去的内容都转化为 markdown
+- [grammarly](https://www.grammarly.com/) 英语写作检查工具
 
 ## 设计
 
