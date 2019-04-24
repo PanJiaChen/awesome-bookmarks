@@ -262,6 +262,7 @@ Base on `vuepress`
 - [imgcook](https://imgcook.taobao.org/) 阿里出品，一键通过设计稿生成代码
 - [majestic](https://github.com/Raathigesh/majestic) jest 可视化
 - [leon](https://github.com/leon-ai/leon) 你开源项目的 ai 个人助手
+- [js-code-to-svg-flowchart](https://github.com/Bogdan-Lyashenko/js-code-to-svg-flowchart) 将代码逻辑用流程图的方式展现出来
 
 ## Webpack
 
@@ -411,6 +412,7 @@ Base on `vuepress`
 - [carbon](https://carbon.now.sh/) 根据源码生成图片 主要作用是让你打代表片段分享的时候更好看一点
 - [clipboard2markdown](https://euangoddard.github.io/clipboard2markdown/) 将你所有复制进去的内容都转化为 markdown
 - [grammarly](https://www.grammarly.com/) 英语写作检查工具
+- [quickchart](https://quickchart.io/) 通过 URL 生成图表的开源服务
 
 ## 设计
 

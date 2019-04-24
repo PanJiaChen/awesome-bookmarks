@@ -65,6 +65,7 @@ sidebar: auto
 - [carbon](https://carbon.now.sh/) 根据源码生成图片 主要作用是让你打代表片段分享的时候更好看一点
 - [clipboard2markdown](https://euangoddard.github.io/clipboard2markdown/) 将你所有复制进去的内容都转化为 markdown
 - [grammarly](https://www.grammarly.com/) 英语写作检查工具
+- [quickchart](https://quickchart.io/) 通过 URL 生成图表的开源服务
 
 ## 设计
 

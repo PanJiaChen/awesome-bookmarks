@@ -43,3 +43,17 @@ Huffman Coding 是大学课本中一般都会提到的算法。核心思路是�
 - `text/plain`
 - `multipart/form-data`
 - `application/x-www-form-urlencoded`
+
+并且没有设置如下的 自定义`Header`
+
+- Accept
+- Accept-Language
+- Content-Language
+- Content-Type （需要注意额外的限制）
+- DPR
+- Downlink
+- Save-Data
+- Viewport-Width
+- Width
+
+而且还要注意一点，也不是只有[XMLHttpRequest](https://developer.mozilla.org/zh-CN/docs/Web/API/XMLHttpRequest)或者 [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)请求才会有跨域问题，使用 drawImage 的 canvas、web 字体 、CSSDOM 也都是有这问题的。
