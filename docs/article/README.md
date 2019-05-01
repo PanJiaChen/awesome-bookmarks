@@ -65,6 +65,7 @@
 ## node
 
 [基于 node.js 的脚手架工具开发经历](https://juejin.im/post/5a31d210f265da431a43330e)
+[How to build a CLI with Node.js](https://www.twilio.com/blog/how-to-build-a-cli-with-node-js)
 
 ## 网络
 

@@ -154,6 +154,7 @@ sidebar: auto
 - [node-fetch](https://github.com/bitinn/node-fetch) - node 环境下轻量级 fetch 请求库
 - [ink](https://github.com/vadimdemedes/ink) 是一个 React 的命令行渲染器，命令行界面可以像写页面那么写了
 - [strapi](https://github.com/strapi/strapi/) 开源的解决方案来创建、部署和管理自己的 API
+- [listr](https://github.com/SamVerschueren/listr) Terminal task list
 
 ## GraphQL
 

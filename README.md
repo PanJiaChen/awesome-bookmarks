@@ -8,7 +8,9 @@ Base on `vuepress`
 
 在线地址：https://panjiachen.github.io/awesome-bookmarks
 
-个人 Blog 文章地址: https://panjiachen.github.io/awesome-bookmarks/blog/js.html
+个人 Blog 文章地址：https://panjiachen.github.io/awesome-bookmarks/blog/js.html
+
+gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjiachen.gitee.io/awesome-bookmarks/
 
 **本项目为个人技术收藏集，里面会不定期分享一些作者平时用到的一些库，或者常用的网站和小工具。同时作者也会在上面不定期的写一些简单的博文**
 
@@ -194,6 +196,7 @@ Base on `vuepress`
 - [node-fetch](https://github.com/bitinn/node-fetch) - node 环境下轻量级 fetch 请求库
 - [ink](https://github.com/vadimdemedes/ink) 是一个 React 的命令行渲染器，命令行界面可以像写页面那么写了
 - [strapi](https://github.com/strapi/strapi/) 开源的解决方案来创建、部署和管理自己的 API
+- [listr](https://github.com/SamVerschueren/listr) Terminal task list
 
 ## GraphQL
 
