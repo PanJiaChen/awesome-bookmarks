@@ -43,6 +43,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
   - [产品](#%E4%BA%A7%E5%93%81)
   - [实用](#%E5%AE%9E%E7%94%A8)
   - [Talk](#talk)
+  - [算法](#%E7%AE%97%E6%B3%95)
 
 # 推荐库
 
@@ -103,6 +104,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [AlloyFinger](https://github.com/AlloyTeam/AlloyFinger) 腾讯出的手势库
 - [lowdb](https://github.com/typicode/lowdb) LowDB 是一个本地 JSON 数据库，基于 Lodash 开发的
 - [JSON-server](https://github.com/typicode/json-server) 可以配合 LowDB 使用 快速搭建一个 REST API
+- [lunr.js](https://github.com/olivernn/lunr.js) 是个用于浏览器的轻量级 JavaScript 全文搜索引擎,对于一些小型的博客、开发者文档或 Wiki 网站来说,完全可以通过它实现站内离线搜索
 
 ## Css && 动画
 
@@ -170,7 +172,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [npm-run-all](https://github.com/mysticatea/npm-run-all/blob/master/docs/node-api.md) - 一个 CLI 工具可以并行或者串行执行 script
 - [live-server](https://github.com/tapio/live-server) - 一个简单的 http server 带有 reload 功能
 - [node-portfinder](https://github.com/indexzero/node-portfinder) - 一个端口嗅探工具
-- [update-notifier](https://github.com/yeoman/update-notifier) - Update notifications for your CLI app
+- [update-notifier](https://github.com/yeoman/update-notifier) - Update notifications for your CLI app. cli 升级提醒工具
 - [y18n](https://github.com/yargs/y18n) - yargs 基于 i18n 的一个包
 - [signale](https://github.com/klauscfhq/signale) - Hackable console logger 一个 Node 的日志格式库，自带 16 个级别，可以定制颜色和 Emoji
 - [execa](https://github.com/sindresorhus/execa) - A better `child_process`
@@ -433,6 +435,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [designcap](https://www.designcap.com) 在线海报设计
 - [Flat UI 色表](https://flatuicolors.com/) Flat UI 色表
 - [0to255](https://www.0to255.com/) 颜色梯度
+- [Ikonate](https://github.com/mikolajdobrucki/ikonate) 提供免费的图标
 
 ## 有趣
 
@@ -472,3 +475,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 ## Talk
 
 [peerigon-talks](https://github.com/peerigon/talks) 收集了不少有意思的 talks
+
+## 算法
+
+[leetcode](https://github.com/azl397985856/leetcode) 用 js 刷 leetcode

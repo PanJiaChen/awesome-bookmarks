@@ -61,6 +61,7 @@ sidebar: auto
 - [AlloyFinger](https://github.com/AlloyTeam/AlloyFinger) 腾讯出的手势库
 - [lowdb](https://github.com/typicode/lowdb) LowDB 是一个本地 JSON 数据库，基于 Lodash 开发的
 - [JSON-server](https://github.com/typicode/json-server) 可以配合 LowDB 使用 快速搭建一个 REST API
+- [lunr.js](https://github.com/olivernn/lunr.js) 是个用于浏览器的轻量级 JavaScript 全文搜索引擎,对于一些小型的博客、开发者文档或 Wiki 网站来说,完全可以通过它实现站内离线搜索
 
 ## Css && 动画
 
@@ -128,7 +129,7 @@ sidebar: auto
 - [npm-run-all](https://github.com/mysticatea/npm-run-all/blob/master/docs/node-api.md) - 一个 CLI 工具可以并行或者串行执行 script
 - [live-server](https://github.com/tapio/live-server) - 一个简单的 http server 带有 reload 功能
 - [node-portfinder](https://github.com/indexzero/node-portfinder) - 一个端口嗅探工具
-- [update-notifier](https://github.com/yeoman/update-notifier) - Update notifications for your CLI app
+- [update-notifier](https://github.com/yeoman/update-notifier) - Update notifications for your CLI app. cli 升级提醒工具
 - [y18n](https://github.com/yargs/y18n) - yargs 基于 i18n 的一个包
 - [signale](https://github.com/klauscfhq/signale) - Hackable console logger 一个 Node 的日志格式库，自带 16 个级别，可以定制颜色和 Emoji
 - [execa](https://github.com/sindresorhus/execa) - A better `child_process`

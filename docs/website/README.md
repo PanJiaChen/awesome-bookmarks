@@ -83,6 +83,7 @@ sidebar: auto
 - [designcap](https://www.designcap.com) 在线海报设计
 - [Flat UI 色表](https://flatuicolors.com/) Flat UI 色表
 - [0to255](https://www.0to255.com/) 颜色梯度
+- [Ikonate](https://github.com/mikolajdobrucki/ikonate) 提供免费的图标
 
 ## 有趣
 
@@ -122,3 +123,7 @@ sidebar: auto
 ## Talk
 
 [peerigon-talks](https://github.com/peerigon/talks) 收集了不少有意思的 talks
+
+## 算法
+
+[leetcode](https://github.com/azl397985856/leetcode) 用 js 刷 leetcode
