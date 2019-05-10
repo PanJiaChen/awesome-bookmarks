@@ -1,4 +1,4 @@
 # A basic redirect rule
 [[redirects]]
   from = "/*"
-  to = "/awesome-bookmarks
+  to = "/awesome-bookmarks"
