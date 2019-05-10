@@ -1,2 +1,4 @@
-[build]
-  publish = "awesome-bookmarks"
+# A basic redirect rule
+[[redirects]]
+  from = "/*"
+  to = "/awesome-bookmarks
