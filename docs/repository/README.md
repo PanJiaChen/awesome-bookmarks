@@ -77,6 +77,7 @@ sidebar: auto
 - [micron](https://github.com/webkul/micron) 通过在元素上绑定属性从而实现动画效果的库
 - [direction-reveal](https://github.com/NigelOToole/direction-reveal) 根据鼠标进入位置，展现从不同方向 展现 hover 效果
 - [laxxx](https://github.com/alexfoxy/laxxx) 滚动特效库 轻量级 压缩完 2kb
+- [cssfx](https://cssfx.dev/) 优雅的 CSS 动画效果，开箱即用
 
 ## Vue
 
