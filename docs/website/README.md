@@ -83,7 +83,8 @@ sidebar: auto
 - [designcap](https://www.designcap.com) 在线海报设计
 - [Flat UI 色表](https://flatuicolors.com/) Flat UI 色表
 - [0to255](https://www.0to255.com/) 颜色梯度
-- [Ikonate](https://github.com/mikolajdobrucki/ikonate) 提供免费的图标
+- [Ikonate](https://github.com/mikolajdobrucki/ikonate) 提供免费的图标 icons
+- [remixicon](https://remixicon.com/) 又一个提供免费图标 icons
 
 ## 有趣
 
@@ -93,6 +94,8 @@ sidebar: auto
 - [URL 地址播放 Emojis 动画](http://matthewrayfield.com/articles/animating-urls-with-javascript-and-emojis/#%F0%9F%8C%96)
 - [Can't Unsee](https://cantunsee.space/) 强烈建议前端、客户端、UI 开发的同学玩下，检查一下自己对设计稿的敏感度怎么样
 - [ggtalk](https://talk.swift.gg/) 平时一直在听的一个技术博客
+- [awesome-comment](https://github.com/Blankj/awesome-comment) 里面收集了很多有趣的代码注释
+- [text-img](https://www.text-image.com/index.html) 都将图片转化为 ascill 用来写注释
 
 ## 交互
 
@@ -109,6 +112,8 @@ sidebar: auto
 ## 教程
 
 - [npx](https://egghead.io/courses/execute-npm-package-binaries-with-the-npx-package-runner) 教你怎么合理的使用 npx
+
+- [hacksplaining](https://www.hacksplaining.com/lessons) 网络安全学习网站
 
 ## 产品
 

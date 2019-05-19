@@ -62,6 +62,7 @@ sidebar: auto
 - [lowdb](https://github.com/typicode/lowdb) LowDB 是一个本地 JSON 数据库，基于 Lodash 开发的
 - [JSON-server](https://github.com/typicode/json-server) 可以配合 LowDB 使用 快速搭建一个 REST API
 - [lunr.js](https://github.com/olivernn/lunr.js) 是个用于浏览器的轻量级 JavaScript 全文搜索引擎,对于一些小型的博客、开发者文档或 Wiki 网站来说,完全可以通过它实现站内离线搜索
+- [he](https://github.com/mathiasbynens/he) 一个前端 encoder/decoder 库
 
 ## Css && 动画
 
@@ -115,6 +116,9 @@ sidebar: auto
 - [fast-cli](https://github.com/sindresorhus/fast-cli) 命令行测试下载上传速度
 - [@pika/web](https://github.com/pikapkg/web) 让你不需要在本地 webpack 中 import，直接在游览器里面运行 npm 包
 - [pinyin](https://github.com/hotoo/pinyin) 汉字拼音转换工具
+- [JavaScript Obfuscator Tool](https://obfuscator.io/) js 代码混淆工具
+- [tesseract](https://github.com/naptha/tesseract.js) 图像识别，它能识别图片中的文字，支持中文
+- [gka](https://github.com/gkajs/gka) 一款高效、高性能的帧动画生成工具。只需一行命令，快速图片优化、生成动画文件，支持效果预览。
 
 ## Node
 
@@ -221,7 +225,7 @@ sidebar: auto
 - [airtap](https://github.com/airtap/airtap) - 测试浏览器兼容性，可覆盖 800 多种浏览器
 - [jsonstore](https://github.com/bluzi/jsonstore) - 供免费，安全且基于 JSON 的云数据存储，自己玩的小项目神器
 - [git-history](https://github.com/pomber/git-history) - 可视化查看一个文件的历史变化
-- [x-spreadsheet](https://github.com/myliang/x-spreadsheet) 一个基于 Canvas 的 JS 电子表格库
+- [x-spreadsheet](https://github.com/myliang/x-spreadsheet) 一个基于 Canvas 的 JS 电子表格库 excel
 - [imgcook](https://imgcook.taobao.org/) 阿里出品，一键通过设计稿生成代码
 - [majestic](https://github.com/Raathigesh/majestic) jest 可视化
 - [leon](https://github.com/leon-ai/leon) 你开源项目的 ai 个人助手
