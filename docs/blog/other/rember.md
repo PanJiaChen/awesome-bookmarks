@@ -64,6 +64,10 @@ PNG 图片的压缩，分两个阶段：
   压缩阶段会将预处理阶段得到的结果进行 Deflate 压缩，它由 Huffman 编码 和 LZ77 压缩构成。
   如前面所说，Deflate 压缩会标记图片所有的重复数据，并记录数据特征和结构，会得到一个压缩比最大的 png 图片 编码数据。
 
+### defer vs async
+
+![](https://wpimg.wallstcn.com/2dd76605-8008-479d-9415-e1fed67f9660.png)
+
 ## 网络安全
 
 ### SQL 注入攻击(SQL Injection)

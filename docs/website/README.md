@@ -21,6 +21,7 @@ sidebar: auto
 - [http://githubrank.com/](http://githubrank.com/) github 按照 followers 排名
 - [github-rank](https://wangchujiang.com/github-rank/)同上，githubrank 基本算挂了已经，只能用这个新的
 - [star-history](https://www.timqian.com/star-history/#PanJiaChen/vue-element-admin) 展示一个项目 Stars 增长规矩曲线
+- [probot](https://github.com/probot/probot) 基于 github 做一个小机器人。可以做很多 workflow 的事情
 
 ## 开发
 
@@ -66,6 +67,7 @@ sidebar: auto
 - [clipboard2markdown](https://euangoddard.github.io/clipboard2markdown/) 将你所有复制进去的内容都转化为 markdown
 - [grammarly](https://www.grammarly.com/) 英语写作检查工具
 - [quickchart](https://quickchart.io/) 通过 URL 生成图表的开源服务
+- [hipdf](https://www.hipdf.cn/) 一站式在线 PDF 解决方案
 
 ## 设计
 
@@ -85,6 +87,8 @@ sidebar: auto
 - [0to255](https://www.0to255.com/) 颜色梯度
 - [Ikonate](https://github.com/mikolajdobrucki/ikonate) 提供免费的图标 icons
 - [remixicon](https://remixicon.com/) 又一个提供免费图标 icons
+- [feather](https://github.com/feathericons/feather) 免费的 icons
+- [nord ](https://github.com/arcticicestudio/nord) 北欧性冷淡风主题配色
 
 ## 有趣
 
@@ -96,6 +100,7 @@ sidebar: auto
 - [ggtalk](https://talk.swift.gg/) 平时一直在听的一个技术博客
 - [awesome-comment](https://github.com/Blankj/awesome-comment) 里面收集了很多有趣的代码注释
 - [text-img](https://www.text-image.com/index.html) 都将图片转化为 ascill 用来写注释
+- [wired-fonts](https://github.com/beizhedenglong/wired-fonts) 将普通字母转化为 特殊 unicode
 
 ## 交互
 

@@ -106,6 +106,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [JSON-server](https://github.com/typicode/json-server) 可以配合 LowDB 使用 快速搭建一个 REST API
 - [lunr.js](https://github.com/olivernn/lunr.js) 是个用于浏览器的轻量级 JavaScript 全文搜索引擎,对于一些小型的博客、开发者文档或 Wiki 网站来说,完全可以通过它实现站内离线搜索
 - [he](https://github.com/mathiasbynens/he) 一个前端 encoder/decoder 库
+- [grade](https://github.com/benhowdle89/grade) 一个可以根据你的 图片 调整底色的插件
 
 ## Css && 动画
 
@@ -153,7 +154,6 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [fabric.js](https://github.com/fabricjs/fabric.js) 基于 canvas 创建交互式的图片编辑界面非常适合用来做图片合成类工作。
 - [phaser](https://github.com/photonstorm/phaser) 这是一个为桌面和移动浏览器开发 HTML5 游戏的快速开源框架。
   你可以为 iOS、 Android 和不同的本地应用程序创建游戏。
-- [recast](https://github.com/benjamn/recast) 前端 ast 库
 - [purifycss](https://github.com/purifycss/purifycss) 移除没使用到的 css
 - [dropcss](https://github.com/leeoniya/dropcss) 同上
 - [fast-cli](https://github.com/sindresorhus/fast-cli) 命令行测试下载上传速度
@@ -162,6 +162,9 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [JavaScript Obfuscator Tool](https://obfuscator.io/) js 代码混淆工具
 - [tesseract](https://github.com/naptha/tesseract.js) 图像识别，它能识别图片中的文字，支持中文
 - [gka](https://github.com/gkajs/gka) 一款高效、高性能的帧动画生成工具。只需一行命令，快速图片优化、生成动画文件，支持效果预览。
+- [recast](https://github.com/benjamn/recast) 前端 ast 库
+- [jscodeshift](https://github.com/facebook/jscodeshift) 将 js 内容解析成 AST 语法树，然后提供一些便利的操作接口，方便我们对各个节点进行更改
+- [stats.js](https://github.com/mrdoob/stats.js/) 前端性能监控 如 FPS、内存使用情况等
 
 ## Node
 
@@ -196,7 +199,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [node-best-practices](https://github.com/i0natan/nodebestpractices) - node 最佳实践
 - [fastscan](https://github.com/pyloque/fastscan) - node 敏感词库
 - [fx](https://github.com/antonmedv/fx) - 命令行优化 JSON 输出
-- [dataloader](https://github.com/facebook/dataloader)解- 决 Graphql 中的 N+1 查询问题
+- [dataloader](https://github.com/facebook/dataloader) - 解决 Graphql 中的 N+1 查询问题
 - [progress-estimator](https://github.com/bvaughn/progress-estimator) - 命令行 progress bar 进度条模拟库
 - [Node.js 最佳实践](https://github.com/i0natan/nodebestpractices/blob/master/README.chinese.md)
 - [grpc-web](https://github.com/grpc/grpc-web) - 前端直连 gRPC 服务
@@ -378,6 +381,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [http://githubrank.com/](http://githubrank.com/) github 按照 followers 排名
 - [github-rank](https://wangchujiang.com/github-rank/)同上，githubrank 基本算挂了已经，只能用这个新的
 - [star-history](https://www.timqian.com/star-history/#PanJiaChen/vue-element-admin) 展示一个项目 Stars 增长规矩曲线
+- [probot](https://github.com/probot/probot) 基于 github 做一个小机器人。可以做很多 workflow 的事情
 
 ## 开发
 
@@ -423,6 +427,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [clipboard2markdown](https://euangoddard.github.io/clipboard2markdown/) 将你所有复制进去的内容都转化为 markdown
 - [grammarly](https://www.grammarly.com/) 英语写作检查工具
 - [quickchart](https://quickchart.io/) 通过 URL 生成图表的开源服务
+- [hipdf](https://www.hipdf.cn/) 一站式在线 PDF 解决方案
 
 ## 设计
 
@@ -442,6 +447,8 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [0to255](https://www.0to255.com/) 颜色梯度
 - [Ikonate](https://github.com/mikolajdobrucki/ikonate) 提供免费的图标 icons
 - [remixicon](https://remixicon.com/) 又一个提供免费图标 icons
+- [feather](https://github.com/feathericons/feather) 免费的 icons
+- [nord ](https://github.com/arcticicestudio/nord) 北欧性冷淡风主题配色
 
 ## 有趣
 
@@ -453,6 +460,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [ggtalk](https://talk.swift.gg/) 平时一直在听的一个技术博客
 - [awesome-comment](https://github.com/Blankj/awesome-comment) 里面收集了很多有趣的代码注释
 - [text-img](https://www.text-image.com/index.html) 都将图片转化为 ascill 用来写注释
+- [wired-fonts](https://github.com/beizhedenglong/wired-fonts) 将普通字母转化为 特殊 unicode
 
 ## 交互
 
