@@ -68,6 +68,7 @@ sidebar: auto
 - [grammarly](https://www.grammarly.com/) 英语写作检查工具
 - [quickchart](https://quickchart.io/) 通过 URL 生成图表的开源服务
 - [hipdf](https://www.hipdf.cn/) 一站式在线 PDF 解决方案
+- [whimsical](https://whimsical.com) 画路程图
 
 ## 设计
 
@@ -100,7 +101,7 @@ sidebar: auto
 - [ggtalk](https://talk.swift.gg/) 平时一直在听的一个技术博客
 - [awesome-comment](https://github.com/Blankj/awesome-comment) 里面收集了很多有趣的代码注释
 - [text-img](https://www.text-image.com/index.html) 都将图片转化为 ascill 用来写注释
-- [wired-fonts](https://github.com/beizhedenglong/wired-fonts) 将普通字母转化为 特殊 unicode
+- [weird-fonts](https://github.com/beizhedenglong/weird-fonts) 将普通字母转化为 特殊 unicode
 
 ## 交互
 

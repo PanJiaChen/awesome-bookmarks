@@ -107,6 +107,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [lunr.js](https://github.com/olivernn/lunr.js) 是个用于浏览器的轻量级 JavaScript 全文搜索引擎,对于一些小型的博客、开发者文档或 Wiki 网站来说,完全可以通过它实现站内离线搜索
 - [he](https://github.com/mathiasbynens/he) 一个前端 encoder/decoder 库
 - [grade](https://github.com/benhowdle89/grade) 一个可以根据你的 图片 调整底色的插件
+- [pretty-bytes](https://github.com/sindresorhus/pretty-bytes) 将字节转换成可以读的字符串，比如 1337 个字节，会显示成 1.34 KB
 
 ## Css && 动画
 
@@ -207,6 +208,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [ink](https://github.com/vadimdemedes/ink) 是一个 React 的命令行渲染器，命令行界面可以像写页面那么写了
 - [strapi](https://github.com/strapi/strapi/) 开源的解决方案来创建、部署和管理自己的 API
 - [listr](https://github.com/SamVerschueren/listr) Terminal task list
+- [dotenv](https://github.com/motdotla/dotenv) 通过.env 设置环境部变量 vue-cli 也依赖它
 
 ## GraphQL
 
@@ -223,6 +225,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [nsfwjs](https://github.com/infinitered/nsfwjs) - 前端图片鉴黄，基于 Tensorflow
 - [elevator.js](https://github.com/tholman/elevator.js) 我很喜欢的一个库，让一个 back-to-top 的效果有了一种坐复古电梯的感觉
 - [app-ideas](https://github.com/florinpop17/app-ideas) 很多年轻人苦于缺少练手的项目，这个项目收集了不少点子，每个点子都有明确的目标和复杂资源。
+- [WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) 很酷的 WebGL 交互
 
 ## 工具
 
@@ -428,6 +431,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [grammarly](https://www.grammarly.com/) 英语写作检查工具
 - [quickchart](https://quickchart.io/) 通过 URL 生成图表的开源服务
 - [hipdf](https://www.hipdf.cn/) 一站式在线 PDF 解决方案
+- [whimsical](https://whimsical.com) 画路程图
 
 ## 设计
 
@@ -460,7 +464,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [ggtalk](https://talk.swift.gg/) 平时一直在听的一个技术博客
 - [awesome-comment](https://github.com/Blankj/awesome-comment) 里面收集了很多有趣的代码注释
 - [text-img](https://www.text-image.com/index.html) 都将图片转化为 ascill 用来写注释
-- [wired-fonts](https://github.com/beizhedenglong/wired-fonts) 将普通字母转化为 特殊 unicode
+- [weird-fonts](https://github.com/beizhedenglong/weird-fonts) 将普通字母转化为 特殊 unicode
 
 ## 交互
 

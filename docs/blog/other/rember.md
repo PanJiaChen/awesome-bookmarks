@@ -68,6 +68,13 @@ PNG 图片的压缩，分两个阶段：
 
 ![](https://wpimg.wallstcn.com/2dd76605-8008-479d-9415-e1fed67f9660.png)
 
+### 跨项目使用代码
+
+- npm
+- [bit](https://github.com/teambit/bit
+- git module
+- Monorepo
+
 ## 网络安全
 
 ### SQL 注入攻击(SQL Injection)
@@ -122,6 +129,59 @@ https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Forms/Sending_and_retrieving
 
 U+2028 U+2029
 
+JSON 支持，但在 js 中的 JSON 就不支持。
+
+[JSON: 不要误会,我真的不是 JavaScript 的子集](https://zhuanlan.zhihu.com/p/29958439)
+
 ## https
 
+## http2
+
+http2 头部压缩
+
 服务器端渲染 vs 预渲染 (SSR vs Prerendering)
+
+## Beacon
+
+## 前端监控
+
+https://juejin.im/post/5b35921af265da598f1563cf
+
+## API
+
+### MutationObserver
+
+### IntersectionObserver
+
+## web worker
+
+### LRU 缓存算法
+
+## webpack
+
+## 移动端
+
+### fastClick
+
+大致是说，移动浏览器 会在 touchend 和 click 事件之间，等待 300 - 350 ms，判断用户是否会进行双击手势用以缩放文字。
+fastClick 源码大部分都是用来解决 iOS 各个版本各种奇奇怪怪的 BUG。
+
+解决方案:
+
+```html
+<meta name="viewport" content="user-scalable=no" />
+```
+
+或者
+
+```css
+html {
+  touch-action: manipulation;
+}
+```
+
+WKWebView 在 iOS 9.3 不需要
+
+或则要兼容老系统使用`fastClick`
+
+相关文章：[2019 再聊移动端 300ms 延迟及 fastClick 原理解析](https://juejin.im/post/5ce764a2f265da1b8c19645a)
