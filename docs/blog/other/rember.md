@@ -185,3 +185,11 @@ WKWebView 在 iOS 9.3 不需要
 或则要兼容老系统使用`fastClick`
 
 相关文章：[2019 再聊移动端 300ms 延迟及 fastClick 原理解析](https://juejin.im/post/5ce764a2f265da1b8c19645a)
+
+### typeOf
+
+### Object.prototype.toString.call(obj)
+
+### 节流与防抖
+
+## 垃圾回收

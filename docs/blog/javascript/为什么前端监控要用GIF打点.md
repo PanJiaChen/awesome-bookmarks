@@ -24,7 +24,7 @@
 
 ### 使用方式
 
-但主要不要按如下方法使用
+但建议不要按如下方法使用
 
 ```js
 new Image().src = 'https://foo.com/bar.gif?t=xxxx&b=1'
@@ -36,7 +36,7 @@ new Image().src = 'https://foo.com/bar.gif?t=xxxx&b=1'
 
 ```js
 const img = new Image()
-const key = +new Date() //加一个时间戳，方式图片被浏览器缓存了，不再发送请求
+const key = +new Date() //加一个时间戳，防止图片被浏览器缓存了，不再发送请求
 
 window[t] = img
 
