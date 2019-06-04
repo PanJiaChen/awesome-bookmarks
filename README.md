@@ -124,6 +124,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [direction-reveal](https://github.com/NigelOToole/direction-reveal) 根据鼠标进入位置，展现从不同方向 展现 hover 效果
 - [laxxx](https://github.com/alexfoxy/laxxx) 滚动特效库 轻量级 压缩完 2kb
 - [cssfx](https://cssfx.dev/) 优雅的 CSS 动画效果，开箱即用
+- [zdog](https://github.com/metafizzy/zdog) 3D engine 引擎
 
 ## Vue
 
@@ -166,6 +167,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [recast](https://github.com/benjamn/recast) 前端 ast 库
 - [jscodeshift](https://github.com/facebook/jscodeshift) 将 js 内容解析成 AST 语法树，然后提供一些便利的操作接口，方便我们对各个节点进行更改
 - [stats.js](https://github.com/mrdoob/stats.js/) 前端性能监控 如 FPS、内存使用情况等
+- [PapaParse](https://github.com/mholt/PapaParse) 解析 csv excel
 
 ## Node
 
@@ -432,6 +434,8 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [quickchart](https://quickchart.io/) 通过 URL 生成图表的开源服务
 - [hipdf](https://www.hipdf.cn/) 一站式在线 PDF 解决方案
 - [whimsical](https://whimsical.com) 画路程图
+- [Lorem Picsum](https://picsum.photos/) 提供免费的占位图
+- [sm.ms](https://sm.ms/) 免费图床
 
 ## 设计
 
@@ -453,18 +457,20 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [remixicon](https://remixicon.com/) 又一个提供免费图标 icons
 - [feather](https://github.com/feathericons/feather) 免费的 icons
 - [nord ](https://github.com/arcticicestudio/nord) 北欧性冷淡风主题配色
+- [Unsplash](https://unsplash.com/) 提供免费的高清图片
 
 ## 有趣
 
 - [帮你百度一下](http://www.baidu-x.com/) 可以 [点我测试一下](http://www.baidu-x.com/?q=%E5%92%8C%E8%B0%90%E6%9C%89%E7%88%B1%E5%AF%8C%E5%BC%BA)-
 - [国际版](http://lmgtfy.com/) 同`帮我百度一下`-[点我测试一下](http://lmgtfy.com/?q=a)-
 - [wallhaven](https://alpha.wallhaven.cc/) 壁纸网站-
-- [URL 地址播放 Emojis 动画](http://matthewrayfield.com/articles/animating-urls-with-javascript-and-emojis/#%F0%9F%8C%96)
+- [URL 地址播放 Emojis 动画](http://matthewrayfield.com/articles/animating-urls-with-javascript-and-emojis/#%F0%9F%8C%96) 在地址栏里面播放 emoji
 - [Can't Unsee](https://cantunsee.space/) 强烈建议前端、客户端、UI 开发的同学玩下，检查一下自己对设计稿的敏感度怎么样
 - [ggtalk](https://talk.swift.gg/) 平时一直在听的一个技术博客
 - [awesome-comment](https://github.com/Blankj/awesome-comment) 里面收集了很多有趣的代码注释
-- [text-img](https://www.text-image.com/index.html) 都将图片转化为 ascill 用来写注释
+- [text-img](https://www.text-image.com/index.html) 都将图片转化为 ascii 用来写注释
 - [weird-fonts](https://github.com/beizhedenglong/weird-fonts) 将普通字母转化为 特殊 unicode
+- [snake](https://github.com/epidemian/snake) 在地址栏里面玩贪吃蛇
 
 ## 交互
 

@@ -81,6 +81,7 @@ sidebar: auto
 - [direction-reveal](https://github.com/NigelOToole/direction-reveal) 根据鼠标进入位置，展现从不同方向 展现 hover 效果
 - [laxxx](https://github.com/alexfoxy/laxxx) 滚动特效库 轻量级 压缩完 2kb
 - [cssfx](https://cssfx.dev/) 优雅的 CSS 动画效果，开箱即用
+- [zdog](https://github.com/metafizzy/zdog) 3D engine 引擎
 
 ## Vue
 
@@ -123,6 +124,7 @@ sidebar: auto
 - [recast](https://github.com/benjamn/recast) 前端 ast 库
 - [jscodeshift](https://github.com/facebook/jscodeshift) 将 js 内容解析成 AST 语法树，然后提供一些便利的操作接口，方便我们对各个节点进行更改
 - [stats.js](https://github.com/mrdoob/stats.js/) 前端性能监控 如 FPS、内存使用情况等
+- [PapaParse](https://github.com/mholt/PapaParse) 解析 csv excel
 
 ## Node
 

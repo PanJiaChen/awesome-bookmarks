@@ -47,6 +47,15 @@
 
 <!-- prettier-ignore-end -->
 
+## new Date 在 safari 的坑
+
+`new Date('2019-06-04 00:00:00')`在除了 Safari 的浏览器都能正常运行。
+问题就出在 Safari 对于这个格式 `YYYY-MM-DD HH:MM:SS` 无法解析，所以我们需要做的是将其转化为 `YYYY/MM/DD HH:MM:SS`
+
+```js
++new Date(val.replace(/-/g, '/')
+```
+
 ## 获取元素宽度
 
 说真的，我觉得前端麻烦的地方就是 API 太多了，我只是想获取一个元素的宽度居然有`getBoundingClientRect().width`
