@@ -376,3 +376,5 @@ console.log(false === '0')
 	passive: Boolean, // 表示`listener`永远不会调用`preventDefault()`。如果`listener`仍然调用了这个函数，客户端将会忽略它并抛出一个控制台警告
 }
 ```
+
+拓展：will-change 、pointer-events

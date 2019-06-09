@@ -458,6 +458,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [feather](https://github.com/feathericons/feather) 免费的 icons
 - [nord ](https://github.com/arcticicestudio/nord) 北欧性冷淡风主题配色
 - [Unsplash](https://unsplash.com/) 提供免费的高清图片
+- [colorkitty](https://colorkitty.com/) 从你的图片中提取配色
 
 ## 有趣
 
