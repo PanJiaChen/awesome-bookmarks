@@ -84,3 +84,69 @@ console.log(Math.abs(0.1 + 0.2 - 0.3) <= Number.EPSILON)
 ### 字符串有最大长度吗
 
 JS 字符串的长度受到下标限制。理论最大长度是 2^53-1（即 js 中可表达的最大安全整数）。
+
+### promise
+
+#### promise.resolve 一定是走 success 的么？
+
+```js
+const p1 = new Promise(function(resolve, reject) {
+  setTimeout(() => reject('apple'), 1000)
+})
+const p2 = new Promise(function(resolve, reject) {
+  setTimeout(() => resolve(p1), 1000)
+})
+p2.then(result => console.log('result')).catch(error =>
+  console.log(error + '---error')
+)
+```
+
+#### catch 的两种写法
+
+Promise.prototype.catch 方法是.then(null, rejection)或.then(undefined, rejection)的别名，用于指定发生错误时的回调函数。
+
+#### reject
+
+reject 方法的作用，等同于抛出错误。
+如果 Promise 状态已经变成 resolved，再抛出错误是无效的。
+因为 Promise 的状态一旦改变，就永久保持该状态，不会再变了。
+
+```js
+const promise = new Promise(function(resolve, reject) {
+  resolve('ok')
+  console.log('apple') // 但还是会执行
+  throw new Error('test')
+})
+promise
+  .then(function(value) {
+    console.log(value)
+  })
+  .catch(function(error) {
+    console.log(error)
+  })
+// ok
+```
+
+#### allSettled,any
+
+#### generator
+
+实现一个状态机
+
+```js
+var clock = function*() {
+  while (true) {
+    console.log('Tick!')
+    yield
+    console.log('Tock!')
+    yield
+  }
+}
+const g = clock()
+g.next()
+g.next()
+```
+
+#### 协程与子例程的差异
+
+传统的“子例程”（subroutine）采用堆栈式“后进先出”的执行方式，只有当调用的子函数完全执行完毕，才会结束执行父函数。协程与其不同，多个线程（单线程情况下，即多个函数）可以并行执行，但是只有一个线程（或函数）处于正在运行的状态，其他线程（或函数）都处于暂停态（suspended），线程（或函数）之间可以交换执行权。也就是说，一个线程（或函数）执行到一半，可以暂停执行，将执行权交给另一个线程（或函数），等到稍后收回执行权的时候，再恢复执行。这种可以并行执行、交换执行权的线程（或函数），就称为协程。

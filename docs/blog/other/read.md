@@ -21,6 +21,10 @@
 
 - [大前端时代前端监控的最佳实践](https://juejin.im/post/5b35921af265da598f1563cf)
 
+  2019.06.10
+
+- [What's new in javascript](https://juejin.im/post/5cf4773be51d4556bb4cd334)
+
 ## 待读
 
 https://juejin.im/post/5cde316f6fb9a07ed9118f01
