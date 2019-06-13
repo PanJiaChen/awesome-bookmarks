@@ -10,6 +10,23 @@ e.target 指向触发事件监听的对象。
 
 e.currentTarget 指向添加监听事件的对象。
 
+### isNaN vs Number.isNaN
+
+Number.isNaN() 方法确定传递的值是否为 NaN 和其类型是 Number。它是原始的全局 isNaN()的更强大的版本。
+
+```js
+isNaN('a') //true
+Number.isNaN('a') //true
+```
+
+### Number.isSafeInteger()
+
+用来判断传入的参数值是否是一个“安全整数”（safe integer）。一个安全整数是一个符合下面条件的整数
+
+安全整数范围为 -(253 - 1)到 253 - 1 之间的整数
+
+### toString valueOf
+
 ### addEventListener
 
 - 内存泄漏问题，只有保持静态函数引用才能被 `removeEventListener` 移除。
@@ -150,3 +167,90 @@ g.next()
 #### 协程与子例程的差异
 
 传统的“子例程”（subroutine）采用堆栈式“后进先出”的执行方式，只有当调用的子函数完全执行完毕，才会结束执行父函数。协程与其不同，多个线程（单线程情况下，即多个函数）可以并行执行，但是只有一个线程（或函数）处于正在运行的状态，其他线程（或函数）都处于暂停态（suspended），线程（或函数）之间可以交换执行权。也就是说，一个线程（或函数）执行到一半，可以暂停执行，将执行权交给另一个线程（或函数），等到稍后收回执行权的时候，再恢复执行。这种可以并行执行、交换执行权的线程（或函数），就称为协程。
+
+### 宏观任务 微观任务
+
+由于我们这里主要讲 JavaScript 语言，那么采纳 JSC 引擎的术语，我们把宿主发起的任务称为宏观任务，把 JavaScript 引擎发起的任务称为微观任务。
+
+macro-task 包括：script(整体代码,主进程), setTimeout, setInterval, setImmediate, I/O, UI rendering, requestAnimationFrame。
+micro-task 包括：process.nextTick, Promise 回调, Object.observe(已废弃), MutationObserver(DOM 变化监听器)
+
+```js
+console.log('script start')
+setTimeout(function() {
+  console.log('setTimeout')
+}, 0)
+Promise.resolve()
+  .then(function() {
+    console.log('promise1')
+  })
+  .then(function() {
+    console.log('promise2')
+    var begin = Date.now()
+    while (Date.now() - begin < 1000);
+    console.log('apple')
+  })
+console.log('script end')
+```
+
+process.nextTick > Promise.then > MutationObserver
+
+延伸： vue 的 nextTick 是什么
+
+https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
+https://juejin.im/post/59e85eebf265da430d571f89
+https://juejin.im/post/5b35cdfa51882574c020d685
+
+### setTimeout setInterval setImmediate process.nextTick
+
+```js
+// test.js
+setTimeout(() => console.log(1))
+setImmediate(() => console.log(2))
+process.nextTick(() => console.log(3))
+Promise.resolve().then(() => console.log(4))
+;(() => console.log(5))()
+```
+
+http://www.ruanyifeng.com/blog/2018/02/node-event-loop.html
+
+注意
+
+```js
+setTimeout(() => console.log(1))
+setImmediate(() => console.log(2))
+```
+
+他们两者的执行顺序是不确定的
+https://imweb.io/topic/5b148768d4c96b9b1b4c4ea1
+
+### setTimeout setInterval
+
+对于 setInterval(fn,ms)来说，我们已经知道不是每过 ms 秒会执行一次 fn，而是每过 ms 秒，会有 fn 进入 Event Queue。
+一旦 setInterval 的回调函数 fn 执行时间超过了延迟时间 ms，那么就完全看不出来有时间间隔了
+
+### event loop
+
+timers
+I/O callbacks
+idle, prepare
+poll
+check
+close callbacks
+
+### 浏览器和 Node 事件循环的区别
+
+ibev 只能在 Unix 环境下运行。Windows 平台上与 kqueue(FreeBSD)或者(e)poll(Linux)等内核事件通知相应的机制是 IOCP。
+libuv 提供了一个跨平台的抽象，由平台决定使用 libev 或 IOCP。
+
+### promise 原理
+
+### async await
+
+## webpack
+
+### tree-shaking
+
+### typeOf
+
+### Object.prototype.toString.call(obj)

@@ -50,3 +50,15 @@ function sleep(sleepDuration) {
 sleep(3000)
 div.style.background = 'black'
 ```
+
+### 浏览器内核
+
+浏览器内核是多线程，在内核控制下各线程相互配合以保持同步，一个浏览器通常由以下常驻线程组成：
+
+- GUI 渲染线程
+- JavaScript 引擎线程
+- 定时触发器线程
+- 事件触发线程
+- 异步 http 请求线程
+
+https://juejin.im/post/5c337ae06fb9a049bc4cd218
