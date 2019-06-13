@@ -34,6 +34,20 @@ Number.isNaN('a') //true
 - useCapture: 事件捕获阶段触发 handler
 - once: 只触发一次
 
+### 哪些事件不会事件冒泡
+
+- UI 事件
+  - load
+  - unload
+  - scroll
+  - resize
+- 焦点事件
+  - blur
+  - focus
+- 鼠标事件
+  - mouseleave
+  - mouseenter
+
 ### dispatchEvent
 
 通过 dispatchEvent `new CustomEvent('myEvent', {detail:123});` 来触发自定义事件
@@ -95,6 +109,54 @@ s.codePointAt(2) // 97
 ```js
 console.log(Math.abs(0.1 + 0.2 - 0.3) <= Number.EPSILON)
 ```
+
+### 普通函数 构造函数 箭头函数
+
+构造函数：
+
+1. 构造函数使用 new 关键字调用；普通函数不用 new 关键字调用；
+2. 构造函数内部可以使用 this 关键字；普通函数内部不建议使用 this，因为这时候 this 指向的是 window 全局对象，这样无意间就会为 window 添加了一些全局变量或函数
+3. 构造函数默认不用 return 返回值；普通函数一般都有 return 返回值
+4. 构造函数首字母一般大写
+
+箭头函数：
+
+1. 函数体内的 this 对象，就是定义时所在的对象，而不是使用时所在的对象。
+2. 不可以当作构造函数，也就是说，不可以使用 new 命令，否则会抛出一个错误。
+3. 不可以使用 arguments 对象，该对象在函数体内不存在。如果要用，可以用 rest 参数代替。
+4. 不可以使用 yield 命令，因此箭头函数不能用作 Generator 函数。
+
+箭头函数不适用场景：
+
+- 定义字面量方法
+
+```js
+const calculator = {
+  array: [1, 2, 3],
+  sum: () => {
+    console.log(this === window) // => true
+    return this.array.reduce((result, item) => result + item)
+  }
+}
+console.log(this === window) // => true
+// Throws "TypeError: Cannot read property 'reduce' of undefined"
+calculator.sum()
+```
+
+- 定义原型方法
+  如上同理
+
+- 是需要动态 this 的时候，也不应使用箭头函数。
+
+```js
+const button = document.getElementById('myButton')
+button.addEventListener('click', function() {
+  console.log(this === button) // => true
+  this.innerHTML = 'Clicked button'
+})
+```
+
+上面代码运行时，点击按钮会报错，因为 button 的监听函数是一个箭头函数，导致里面的 this 就是全局对象。如果改成普通函数，this 就会动态指向被点击的按钮对象。
 
 ### 类型判断
 
