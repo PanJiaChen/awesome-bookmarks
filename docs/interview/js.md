@@ -179,6 +179,8 @@ for (let i = 0; i < 5; i++) {
 - 提高编译器效率，增加运行速度；
 - 为未来新版本的 Javascript 做好铺垫。
 
+如 设置 undefined、给不可写属性赋值、严格模式禁用 with
+
 ### 6. 下面两个函数的返回值是一样的吗？为什么？
 
 ```js
@@ -222,9 +224,16 @@ ES6 中，isNaN() 成为了 Number 的静态方法：Number.isNaN().
 它的 polyfill 实现起来也很简单--利用了 NaN 自身永不相等于自身这一特征
 
 ```js
-const isNaN = function(value) {
-  const n = Number(value)
+var isNaN = function(value) {
+  var n = Number(value)
   return n !== n
+}
+```
+
+```js
+Number.isNaN = Number.isNaN || function(value) {
+    return typeof value === "number" && isNaN(value);
+}urn n !== n
 }
 ```
 
@@ -307,6 +316,39 @@ function isPalindrome(str) {
 ```js
 console.log(sum(2, 3)) // Outputs 5
 console.log(sum(2)(3)) // Outputs 5
+```
+
+考察 `toString`、`valueOf` 略偏门。不知道的情况下，基本是写不出来的。
+个人觉得拓展题更值得了解。
+
+```js
+function sum(...args) {
+  var fn = function(...fnArgs) {
+    return sum.apply(null, args.concat(fnArgs))
+  }
+  fn.toString = function() {
+    return args.reduce(function(a, b) {
+      return a + b
+    })
+  }
+  return fn
+}
+```
+
+变形题目：`console.log(sum(3)(4)(1)())`
+
+```js
+const sum = function(a) {
+  return b => {
+    if (b) {
+      return sum(a + b)
+    }
+    return a
+  }
+}
+
+console.log(sum(3)(4)(2)(5)(3)) //19
+console.log(sum(3)(4)(1)()) //8
 ```
 
 ### 13. 据下面的代码片段回答后面的问题
