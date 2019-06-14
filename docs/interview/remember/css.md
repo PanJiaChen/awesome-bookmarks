@@ -37,3 +37,18 @@
 <!-- 删除苹果默认的工具栏和菜单栏 -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 ```
+
+### 元素
+
+行内元素有：a b span img input select strong
+块级元素有：div ul ol li dl dt dd h1 h2 h3 h4…p
+
+### 盒模型
+
+当设置为 box-sizing:content-box 时，将采用标准模式解析计算，也是默认模式；
+
+当设置为 box-sizing:border-box 时，将采用怪异模式解析计算；
+
+### first-child vs first-of-type
+
+### 1px

@@ -305,6 +305,8 @@ close callbacks
 ibev 只能在 Unix 环境下运行。Windows 平台上与 kqueue(FreeBSD)或者(e)poll(Linux)等内核事件通知相应的机制是 IOCP。
 libuv 提供了一个跨平台的抽象，由平台决定使用 libev 或 IOCP。
 
+们所看到的 node.js 单线程只是一个 js 主线程，本质上的异步操作还是由线程池完成的，node 将所有的阻塞操作都交给了内部的线程池去实现，本身只负责不断的往返调度，并没有进行真正的 I/O 操作，从而实现异步非阻塞 I/O，这便是 node 单线程和事件驱动的精髓之处了。
+
 ### promise 原理
 
 ### async await
@@ -316,3 +318,100 @@ libuv 提供了一个跨平台的抽象，由平台决定使用 libev 或 IOCP�
 ### typeOf
 
 ### Object.prototype.toString.call(obj)
+
+### Object.defineProperty
+
+value, writable,enumerable,configurable
+
+### proxy
+
+双向绑定一般有如下几种方法：
+
+- 发布-订阅 KnockoutJS
+- 脏检查 Angular
+- Object.defineProperty Vue2.x
+- proxy Vue3.x
+
+Proxy 是 Object.defineProperty 的全方位加强版，可以直接监听对象而非属性，Proxy 可以直接监听数组的变化。
+[实现双向绑定 Proxy 比 defineProperty 优劣如何](https://juejin.im/post/5acd0c8a6fb9a028da7cdfaf)
+
+### 尾调用
+
+### new 做了些什么
+
+四大步骤：
+
+1、创建一个空对象，并且 this 变量引用该对象，// lat target = {};
+
+2、继承了函数的原型。// target.proto = func.prototype;
+
+3、属性和方法被加入到 this 引用的对象中。并执行了该函数 func// func.call(target);
+
+4、新创建的对象由 this 所引用，并且最后隐式的返回 this 。// 如果 func.call(target)返回的 res 是个对象或者 function 就返回它
+
+```js
+function new(func) {
+	lat target = {};
+	target.__proto__ = func.prototype;
+	let res = func.call(target);
+	if (typeof(res) == "object" || typeof(res) == "function") {
+		return res;
+	}
+	return target;
+}
+```
+
+### MVC MVP MVVM
+
+- MVC: Controller 作为 View 层和 Model 层之间的连接点，连接 View -> Model 之间的通信，Model 层的数据更新后会通知 View 层的视图更新并反馈给用户。View 和 Model 之间的强耦合度会加大调试时的难度。
+- MVP: Presenter 承接起了 View 和 Model 之间的双向通信，View 与 Model 不发生联系，降低了耦合度且方便单元测试。
+- MVVM: ViewModel 中构建了一组状态数据，作为 View 状态的抽象，通过双向数据绑定使 ViewModel 中的状态数据与 View 的显示状态保持一致，这样 View 的显示状态变化会自动更新 ViewModel 的状态数据，ViewModel 状态数据的变化也会自动同步 View 的显示状态。
+
+### 前端模块
+
+### fetch 优缺点
+
+- 符合关注分离，没有将输入、输出和用事件来跟踪的状态混杂在一个对象里
+  更好更方便的写法
+- 更加底层，提供的 API 丰富（request, response）
+- 脱离了 XHR，是 ES 规范里新的实现方式
+- fetchtch 只对网络请求报错，对 400，500 都当做成功的请求，需要封装去处理
+- fetch 默认不会带 cookie，需要添加配置项
+- fetch 不支持 abort，不支持超时控制，使用 setTimeout 及 Promise.reject 的实现的超时控制并不能阻止请求过程继续在后台运行，造成了量的浪费
+- fetch 没有办法原生监测请求的进度，而 XHR 可以。
+
+### XMLHttpRequest
+
+`xhrReq.open(method, url, async, user, password)`
+
+`readyState`:
+
+- 0 UNSENT 代理被创建，但尚未调用 open() 方法。
+- 1 OPENED open() 方法已经被调用。
+- 2 HEADERS_RECEIVED send() 方法已经被调用，并且头部和状态已经可获得。
+- 3 LOADING 下载中； responseText 属性已经包含部分数据。
+- 4 DONE 下载操作已完成。
+
+```js
+const xhr = new XMLHttpRequest()
+xhr.open('GET', url)
+xhr.onreadystatechange = function() {
+  if (xhr.readyState === 4 && xhr.status === 200) {
+    console.log(xhr.responseText)
+  }
+}
+
+xhr.send()
+```
+
+### 实现一个 bind
+
+### fragment
+
+`let fragment = document.createDocumentFragment();`
+
+### 深拷贝
+
+### 不可变数据
+
+Immutable 实现的原理是 Persistent Data Structure（持久化数据结构），对 Immutable 对象的任何修改或添加删除操作都会返回一个新的 Immutable 对象, 同时使用旧数据创建新数据时，要保证旧数据同时可用且不变。

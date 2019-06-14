@@ -161,3 +161,11 @@ hooks 原理
 async function 判断
 node 的循环依赖
 position fixed 定位问题
+
+## 正则
+
+验证身份证
+
+## 面试集锦
+
+- [如何面试前端工程师：Github 很重要](http://www.imooc.com/article/4379)

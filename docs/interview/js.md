@@ -399,6 +399,76 @@ console.log(false === '0')
 
 `==`和`===`的区别，太基础略。
 
+#### 18. 解释下面代码的输出
+
+```js
+var a = {},
+  b = { key: 'b' },
+  c = { key: 'c' }
+
+a[b] = 123
+a[c] = 456
+
+console.log(a[b])
+```
+
+偏门题
+
+#### 19. 运算题
+
+```js
+function Foo() {
+  getName = function() {
+    alert(1)
+  }
+  return this
+}
+Foo.getName = function() {
+  alert(2)
+}
+Foo.prototype.getName = function() {
+  alert(3)
+}
+var getName = function() {
+  alert(4)
+}
+
+function getName() {
+  alert(5)
+}
+//请写出以下输出结果：
+Foo.getName()
+getName()
+Foo().getName()
+getName()
+new Foo.getName()
+new Foo().getName()
+new new Foo().getName()
+```
+
+个人觉得看看就好，反正我没做对。出这道题来面试个人觉得蛮过分的。
+详细解析：https://www.cnblogs.com/xxcanghai/p/5189353.html
+
+#### 让下面的代码可以运行
+
+```js
+const a = [1, 2, 3, 4, 5]
+// Implement this
+a.multiply()
+console.log(a) // [1, 2, 3, 4, 5, 1, 4, 9, 16, 25]
+```
+
+```js
+Array.prototype.multiply =
+  Array.prototype.multiply ||
+  function() {
+    const double = this.map(i => i * i)
+    for (const item of double) {
+      this.push(item)
+    }
+  }
+```
+
 ## 移动端问题
 
 ### 1. 你怎么提高一个长列表在手机端滑动的流畅度
@@ -420,3 +490,26 @@ console.log(false === '0')
 ```
 
 拓展：will-change 、pointer-events
+
+### 遍历 node 树
+
+nodeType=1 代表是 element tag
+
+```js
+function traversal(node) {
+  //对node的处理
+  if (node && node.nodeType === 1) {
+    console.log(node.tagName)
+  }
+  var i = 0,
+    childNodes = node.childNodes,
+    item
+  for (; i < childNodes.length; i++) {
+    item = childNodes[i]
+    if (item.nodeType === 1) {
+      //递归先序遍历子节点
+      traversal(item)
+    }
+  }
+}
+```
