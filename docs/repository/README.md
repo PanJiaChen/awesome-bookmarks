@@ -238,6 +238,9 @@ sidebar: auto
 - [majestic](https://github.com/Raathigesh/majestic) jest 可视化
 - [leon](https://github.com/leon-ai/leon) 你开源项目的 ai 个人助手
 - [js-code-to-svg-flowchart](https://github.com/Bogdan-Lyashenko/js-code-to-svg-flowchart) 将代码逻辑用流程图的方式展现出来
+- [xterm.js](https://github.com/xtermjs/xterm.js) 一个 web terminal
+- [pixelmatch](https://github.com/mapbox/pixelmatch) diff 两张图片不一样的地方
+- [readme-md-generator](https://github.com/kefranabg/readme-md-generator) 一个命令行脚本帮你快速的创建一个 README
 
 ## Webpack
 

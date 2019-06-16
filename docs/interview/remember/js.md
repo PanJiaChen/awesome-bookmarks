@@ -102,13 +102,24 @@ s.codePointAt(2) // 97
 
 <!-- TODO -->
 
-### Object.create vs new Function
-
-<!-- TODO -->
-
 ```js
 console.log(Math.abs(0.1 + 0.2 - 0.3) <= Number.EPSILON)
 ```
+
+### Object.create vs new Function
+
+```js
+Object.create = function(o) {
+  var F = function() {} // 隐式构造函数
+  F.prototype = o
+  return new F() // 返回一个new
+}
+```
+
+延伸： Object.create(null) vs {}
+!!!include(docs/blog/javascript/Object.create.md)!!!
+
+<!-- TODO -->
 
 ### 普通函数 构造函数 箭头函数
 
@@ -412,6 +423,22 @@ xhr.send()
 
 ### 深拷贝
 
-### 不可变数据
+### 尾调用
 
-Immutable 实现的原理是 Persistent Data Structure（持久化数据结构），对 Immutable 对象的任何修改或添加删除操作都会返回一个新的 Immutable 对象, 同时使用旧数据创建新数据时，要保证旧数据同时可用且不变。
+### WeakMap 作用
+
+### for...in，Object.keys Object.getOwnPropertyNames 的区别
+
+Object.getOwnPropertyNames(a) returns all own properties of the object a.
+Object.keys(a) returns all enumerable own properties.
+It means that if you define your object properties without making some of them enumerable: false these two methods will give you the same result.
+
+### css in js
+
+### css module
+
+### cookie session
+
+cookie 不设置时间就是当浏览器全部关闭时失效
+而 sessionStorage 是当 tab 关闭时就失效，tab 之间不共享。
+有特殊例子：如通过 a 页面链接(或者用了 window.open)点开了 b 页面，它们之间是共享的。

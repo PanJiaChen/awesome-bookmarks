@@ -513,3 +513,164 @@ function traversal(node) {
   }
 }
 ```
+
+### 创建长度为 100 的数组
+
+```js
+Array.from({ length: 100 }, (item, index) => index)
+```
+
+### aop
+
+### 阶乘
+
+尾递归写法：
+
+```js
+function factorial(num, total = 1) {
+  if (num === 1) return total
+  return factorial(num - 1, num * total)
+}
+```
+
+```js
+function factorial(num) {
+  const dp = [1]
+
+  for (let i = 1; i < num; i++) {
+    count++
+    dp[i] = dp[i - 1] * (i+1)
+  }
+
+  return dp[num-1]
+```
+
+### 斐波那契数列
+
+动态规划解法：
+
+```js
+function factorial(num) {
+  const dp = [0, 1]
+  for (let i = 2; i < num; i++) {
+    dp[i] = dp[i - 1] + dp[i - 2]
+  }
+  return dp[num - 1]
+}
+```
+
+尾递归
+
+```js
+const fibonacci = (n, prev = 1, next = 1) => {
+  if (n <= 1) return prev
+  return fibonacci(n - 1, next, prev + next)
+}
+```
+
+### 字符串 repeat 实现
+
+`console.log('ni'.repeat(3)) // 'ninini'`
+
+```js
+// 循坏
+String.prototype.repeat =
+  String.prototype.repeat ||
+  function(num) {
+    let str = ''
+    const baseStr = this
+    for (let i = 0; i < num; i++) {
+      str += baseStr
+    }
+    return str
+  }
+
+// 非循坏
+String.prototype.repeat =
+  String.prototype.repeat ||
+  function(num) {
+    return Array.from({ length: num }).join(this)
+  }
+
+// 或者使用`.fill()`，就不展开
+```
+
+### 深拷贝
+
+### 节流
+
+### 防抖
+
+### 数组展平
+
+```js
+function flatten(arr) {
+  let temp = []
+  for (let i = 0; i < arr.length; i++) {
+    if (Array.isArray(arr[i])) {
+      const t = flatten(arr[i])
+      temp = [...temp, ...t]
+    } else {
+      temp.push(arr[i])
+    }
+  }
+  return temp
+}
+console.log(flatten([[1, 2], [3], [[[4], 5, [6, 7]]]]))
+```
+
+### 满足 if (a == 1 & a == 2 & a == 3)这个条件
+
+```js
+const a = {
+  i: 1,
+  toString() {
+    return a.i++
+  }
+}
+```
+
+### 标签模板
+
+很多人可能不知道模板字符串，它可以紧跟在一个函数名后面
+
+```js
+function getPersonInfo(one, two, three) {
+  console.log(one)
+  console.log(two)
+  console.log(three)
+}
+
+const person = 'Lydia'
+const age = 21
+
+getPersonInfo`${person} is ${age} years old`
+```
+
+结果：`Lydia ["", "is", "years old"] 21`
+
+### 运算题
+
+```js
+const obj = { a: 'one', b: 'two', a: 'three' }
+console.log(obj)
+
+// { a: "three", b: "two" }
+```
+
+### 运算题
+
+```js
+;(() => {
+  let x, y
+  try {
+    throw new Error()
+  } catch (x) {
+    ;(x = 1), (y = 2)
+    console.log(x)
+  }
+  console.log(x)
+  console.log(y)
+})()
+// 1 undefined 2
+```

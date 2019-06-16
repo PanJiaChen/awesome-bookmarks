@@ -169,3 +169,7 @@ position fixed 定位问题
 ## 面试集锦
 
 - [如何面试前端工程师：Github 很重要](http://www.imooc.com/article/4379)
+
+- [几道 JS 代码手写题以及一些代码实现](https://juejin.im/post/5aa7d82c6fb9a028c522de43)
+
+- [javascript-questions](https://github.com/lydiahallie/javascript-questions) 一些简单的前端问题
