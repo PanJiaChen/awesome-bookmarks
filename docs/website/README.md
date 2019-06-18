@@ -71,6 +71,7 @@ sidebar: auto
 - [whimsical](https://whimsical.com) 画路程图
 - [Lorem Picsum](https://picsum.photos/) 提供免费的占位图
 - [sm.ms](https://sm.ms/) 免费图床
+- [webpagetest](https://www.webpagetest.org/) 前端性能分析工具
 
 ## 设计
 
@@ -107,6 +108,7 @@ sidebar: auto
 - [text-img](https://www.text-image.com/index.html) 都将图片转化为 ascii 用来写注释
 - [weird-fonts](https://github.com/beizhedenglong/weird-fonts) 将普通字母转化为 特殊 unicode
 - [snake](https://github.com/epidemian/snake) 在地址栏里面玩贪吃蛇
+- [zero-width-lib](https://github.com/yuanfux/zero-width-lib) 利用零宽度字符实现 隐形水印、加密信息分享、逃脱词匹配，很有创意
 
 ## 交互
 

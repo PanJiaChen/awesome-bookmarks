@@ -179,7 +179,8 @@ for (let i = 0; i < 5; i++) {
 - 提高编译器效率，增加运行速度；
 - 为未来新版本的 Javascript 做好铺垫。
 
-如 设置 undefined、给不可写属性赋值、严格模式禁用 with
+如 设置 undefined、给不可写属性赋值、严格模式禁用 with，函数不能重名等等
+更多见 ： http://es6.ruanyifeng.com/#docs/module#%E4%B8%A5%E6%A0%BC%E6%A8%A1%E5%BC%8F
 
 ### 6. 下面两个函数的返回值是一样的吗？为什么？
 
@@ -673,4 +674,14 @@ console.log(obj)
   console.log(y)
 })()
 // 1 undefined 2
+```
+
+### 运行题
+
+```js
+var a = { n: 1 }
+var b = a
+a.x = a = { n: 2 }
+console.log(a.x)
+console.log(b.x)
 ```

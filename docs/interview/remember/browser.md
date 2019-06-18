@@ -49,6 +49,73 @@ https://juejin.im/post/5c337ae06fb9a049bc4cd218
 
 ### 游览器缓存
 
+浏览器缓存主要有两类：缓存协商和彻底缓存，也有称之为协商缓存和强缓存。
+
+|          | 获取资源形式 | 状态码            | 发送请求到服务器                 |
+| -------- | ------------ | ----------------- | -------------------------------- |
+| 强缓存   | 从缓存获取   | 200(from cache)   | 否，直接从缓存获取               |
+| 协商缓存 | 从缓存获取   | 304(Not Modified) | 否，通过服务器来通知缓存是否可用 |
+
+Cache-control > Expires > eTag > last-modified
+
+当一个用户发起一个静态资源请求的时候，浏览器会通过以下几步来获取资源：
+
+- 本地缓存阶段：先在本地查找该资源，如果有发现该资源，而且该资源还没有过期，就使用这一个资源，完全不会发送 http 请求到服务器；
+- 协商缓存阶段：如果在本地缓存找到对应的资源，但是不知道该资源是否过期或者已经过期，则发一个 http 请求到服务器,然后服务器判断这个请求，如果请求的资源在服务器上没有改动过，则返回 304，让浏览器使用本地找到的那个资源；
+- 缓存失败阶段：当服务器发现请求的资源已经修改过，或者这是一个新的请求(在本来没有找到资源)，服务器则返回该资源的数据，并且返回 200， 当然这个是指找到资源的情况下，如果服务器上没有这个资源，则返回 404。
+
+Cache-control 主要是为了解决用户的系统时间改到这个标识的时间之后，就永远不会命中这个强制缓存的问题。
+
+eTag 主要为了解决 Last-Modified 无法解决的一些问题：
+
+1、一些文件也许会周期性的更改，但是他的内容并不改变(仅仅改变的修改时间)，这个时候我们并不希望客户端认为这个文件被修改了，而重新 GET；
+
+2、某些文件修改非常频繁，比如在秒以下的时间内进行修改，(比方说 1s 内修改了 N 次)，If-Modified-Since 能检查到的粒度是 s 级的，这种修改无法判断(或者说 UNIX 记录 MTIME 只能精确到秒)；
+
+3、某些服务器不能精确的得到文件的最后修改时间。
+
+If-Modified-Since 和 If-None-Match
+
+**延伸**
+from disk cache(磁盘缓存)和 from memory cache(内存缓存) 的区别？
+浏览器自己的一个缓存策略。
+一般性 css 都是 disk cache
+script 是 memory cache
+当文件比较大时也会存在 disk cache
+
+**Service Worker 缓存**
+
+[一文读懂前端缓存](https://zhuanlan.zhihu.com/p/44789005)
+
+### CDN
+
+Content Delivery Network，即内容分发网络
+
+- 用户访问 CDN 加速域名
+- 本地 DNS 进行域名解析
+- 本地 DNS 服务器将请求发送到网站 DNS 服务器，通过 CNAME 机制，请求指向 CDN 全球负载均衡集群
+- 负载均衡集群通过智能解析，为用户分配相应速度最快的节点，本地 DNS 将节点 IP 返回给用户
+- 用户对 CDN 节点进行请求
+
+### DNS
+
+Domain Name System 将域名和 IP 地址相互映射的一个分布式数据库
+当浏览器访问一个域名的时候，需要解析一次 DNS，获得对应域名的 ip 地址。
+浏览器缓存 => 系统缓存 => 路由器缓存 =>ISP(运营商)DNS 缓存 => 根域名服务器 => 顶级域名服务器 => 主域名服务器的顺序
+逐步读取缓存，直到拿到 IP 地址
+
+DNS 请求是走 UDP 的
+
+DNS 的预解析
+
+可以通过用 meta 信息来告知浏览器, 我这页面要做 DNS 预解析
+`<meta http-equiv="x-dns-prefetch-control" content="on" />`
+
+可以使用 link 标签来强制对 DNS 做预解析:
+`<link rel="dns-prefetch" href="http://ke.qq.com/" />`
+
+淘宝使用了上述方案。
+
 ### Http
 
 HTTP 方法:
@@ -105,8 +172,25 @@ keep-alive 的优点：
 
 ### http2
 
+[http/2 vs http/1.1 在线性能测试](https://http2.akamai.com/demo)
+有个成语叫“事出有因”，每个事物都有其存在的意义（原因），而 HTTP/2 的诞生自然来自于 HTTP/1 的一些痛点。
+
 https://github.com/amandakelake/blog/issues/35
 https://github.com/creeperyang/blog/issues/23
 https://developers.google.com/web/fundamentals/performance/http2/?hl=zh-cn
 
-### tpc upd
+### tpc
+
+三次通信是理论上的最小值. 所以三次握手不是 TCP 本身的要求, 而是为了满足"在不可靠信道上可靠地传输信息"这一需求所导致的。
+
+一句话概括，TCP 连接握手，握的是啥？
+通信双方数据原点的序列号！
+
+SYN：同步序列编号（Synchronize Sequence Numbers）
+ACK: 认字符 (Acknowledgement)
+
+### upd
+
+2014.11 - 2016.05 前端工程师 负责常规业务开发 公司第一个正式前端
+2016.05 - 2016.11 前端负责人 管理前端人数：9
+2016.11 - 至今 前端工程师 负责公司所有管理系统+部分基础建设 管理前端人数：2

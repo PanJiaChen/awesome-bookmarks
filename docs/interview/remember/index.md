@@ -97,6 +97,8 @@ https://juejin.im/post/5b35921af265da598f1563cf
 
 ## webpack
 
+### tree shaking
+
 ### typeOf
 
 ### Object.prototype.toString.call(obj)
@@ -173,3 +175,11 @@ position fixed 定位问题
 - [几道 JS 代码手写题以及一些代码实现](https://juejin.im/post/5aa7d82c6fb9a028c522de43)
 
 - [javascript-questions](https://github.com/lydiahallie/javascript-questions) 一些简单的前端问题
+
+## 其它问题
+
+### 前端进阶
+
+### 职业发展
+
+### 你有什么想问的
