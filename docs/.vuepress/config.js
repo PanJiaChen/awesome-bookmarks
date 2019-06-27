@@ -26,20 +26,20 @@ module.exports = {
       {
         text: '网站',
         link: '/website/'
-      },
-      {
-        text: '文章',
-        link: '/article/'
-      },
-      // { text: '工具', link: 'https://google.com' },
-      {
-        text: '面试',
-        link: '/interview/'
-      },
-      {
-        text: 'Blog',
-        link: '/blog/'
       }
+      // {
+      //   text: '文章',
+      //   link: '/article/'
+      // },
+      // { text: '工具', link: 'https://google.com' },
+      // {
+      //   text: '面试',
+      //   link: '/interview/'
+      // },
+      // {
+      //   text: 'Blog',
+      //   link: '/blog/'
+      // }
     ],
     sidebar: utils.inferSiderbars(),
     lastUpdated: '上次更新',
