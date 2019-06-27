@@ -8,7 +8,7 @@ Base on `vuepress`
 
 在线地址：https://panjiachen.github.io/awesome-bookmarks
 
-个人 Blog 文章地址：https://panjiachen.github.io/awesome-bookmarks/blog/js.html
+<!-- 个人 Blog 文章地址：https://panjiachen.github.io/awesome-bookmarks/blog/js.html -->
 
 gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjiachen.gitee.io/awesome-bookmarks/
 
