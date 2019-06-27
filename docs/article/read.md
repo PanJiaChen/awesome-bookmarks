@@ -25,6 +25,11 @@
 
 - [What's new in javascript](https://juejin.im/post/5cf4773be51d4556bb4cd334)
 
+  2019.06.27
+
+- [把一生过成两辈子：颠覆你时间观的两个概念](https://mp.weixin.qq.com/s/CvrbpDE55upLgjjujI7KMA)
+- [蚂蚁金服的前端框架和工程化实践](https://github.com/sorrycc/blog/issues/85)
+
 ## 待读
 
 https://juejin.im/post/5cde316f6fb9a07ed9118f01

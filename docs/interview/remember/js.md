@@ -250,7 +250,12 @@ g.next()
 
 #### 协程与子例程的差异
 
+协程（coroutine）是一种程序运行的方式，可以理解成“协作的线程”或“协作的函数”。
+协程既可以用单线程实现，也可以用多线程实现。前者是一种特殊的子例程，后者是一种特殊的线程。
+
 传统的“子例程”（subroutine）采用堆栈式“后进先出”的执行方式，只有当调用的子函数完全执行完毕，才会结束执行父函数。协程与其不同，多个线程（单线程情况下，即多个函数）可以并行执行，但是只有一个线程（或函数）处于正在运行的状态，其他线程（或函数）都处于暂停态（suspended），线程（或函数）之间可以交换执行权。也就是说，一个线程（或函数）执行到一半，可以暂停执行，将执行权交给另一个线程（或函数），等到稍后收回执行权的时候，再恢复执行。这种可以并行执行、交换执行权的线程（或函数），就称为协程。
+
+http://es6.ruanyifeng.com/#docs/generator#Generator-%E4%B8%8E%E5%8D%8F%E7%A8%8B
 
 ### 宏观任务 微观任务
 
@@ -350,6 +355,11 @@ instanceof 在 iframe 中会有问题。因为多个窗口意味着多个全局�
 new String() instanceof String //true
 new String() instanceof Object //true
 ```
+
+Object.prototype.toString 的原理是：
+在 toString 方法被调用时,会执行下面的操作步骤:
+获取 this 对象的[[Class]]属性的值，es6 中已调整为 `NativeBrand`
+由于是获取 this 的属性，所以必须要使用 call 或者 apply。
 
 ### Object.defineProperty
 
@@ -472,7 +482,7 @@ cookie 不设置时间就是当浏览器全部关闭时失效
 
 第二个差异是因为 CommonJS 加载的是一个对象（即 module.exports 属性），该对象只有在脚本运行完才会生成。而 ES6 模块不是对象，它的对外接口只是一种静态定义，在代码静态解析阶段就会生成。
 
-### 循环加载加载问题
+### 循环依赖加载加载问题
 
 CommonJS 的一个模块，就是一个脚本文件。require 命令第一次加载该脚本，就会执行整个脚本，然后在内存生成一个对象。
 
@@ -488,6 +498,35 @@ CommonJS 的一个模块，就是一个脚本文件。require 命令第一次加
 
 以后需要用到这个模块的时候，就会到 exports 属性上面取值。即使再次执行 require 命令，也不会再次执行该模块，而是到缓存之中取值。也就是说，CommonJS 模块无论加载多少次，都只会在第一次加载时运行一次，以后再加载，就返回第一次运行的结果，除非手动清除系统缓存。
 
+es6
+
+```js
+//foo.js
+console.log('foo is running')
+import { bar } from './bar'
+console.log('bar = %j', bar)
+setTimeout(() => console.log('bar = %j after 500 ms', bar), 500)
+console.log('foo is finished')
+```
+
+```js
+//bar.js
+console.log('bar is running')
+export let bar = false
+setTimeout(() => (bar = true), 500)
+console.log('bar is finished')
+```
+
+结果：
+bar is running
+bar is finished
+foo is running
+bar = false
+foo is finished
+bar = true after 500 ms
+
+https://zhuanlan.zhihu.com/p/33049803
+
 ### AMD CMD
 
 - AMD 推崇依赖前置、提前执行
@@ -495,7 +534,17 @@ CommonJS 的一个模块，就是一个脚本文件。require 命令第一次加
 
 ### module.exports 和 exports 区别
 
-exports 就是 module.exports 的别名，是用来简化书写的，
+exports 就是 module.exports 的别名，是用来简化书写的
+
+### async 与 Generator 区别
+
+1. 内置执行器。 Generator 函数的执行必须靠执行器，所以才有了 co 函数库，而 async 函数自带执行器。
+   也就是说，async 函数的执行，与普通函数一模一样，只要一行。
+
+2. 更好的语义。 async 和 await，比起星号和 yield，语义更清楚了。async 表示函数里有异步操作，await 表示紧跟在后面的表达式需要等待结果。
+
+3. 更广的适用性。 co 函数库约定，yield 命令后面只能是 Thunk 函数或 Promise 对象，
+   而 async 函数的 await 命令后面，可以跟 Promise 对象和原始类型的值（数值、字符串和布尔值，但这时等同于同步操作）。
 
 ### stopImmediatePropagation vs stopPropagation
 
@@ -518,3 +567,13 @@ css：压缩，按需，gzip
 img：cdn，http cache
 http：gzip dns-prefetch perload prefetch
 svg: 压缩合并
+
+### document 的 load 事件和 DOMContentLoaded 事件之间的区别
+
+当初始的 HTML 文档被完全加载和解析完成之后，DOMContentLoaded 事件被触发，而无需等待样式表、图像和子框架的完成加载。
+load 事件仅在 DOM 和所有相关资源全部完成加载后才会触发。
+
+### sort 原理
+
+chrome 当数组长度小于等于 10 的时候，采用插入排序，大于 10 的时候，采用快排。
+其它有用归并排序的

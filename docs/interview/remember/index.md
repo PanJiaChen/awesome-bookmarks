@@ -99,9 +99,7 @@ https://juejin.im/post/5b35921af265da598f1563cf
 
 ### tree shaking
 
-### typeOf
-
-### Object.prototype.toString.call(obj)
+### hot reload 原理
 
 ### 节流与防抖
 
@@ -125,10 +123,6 @@ bds dfs
 游标记录位置 #283
 
 位运算 #371
-
-## 正则
-
-[^a-za-z]
 
 ### vue scoped css module
 
@@ -166,6 +160,10 @@ position fixed 定位问题
 
 ## 正则
 
+[^a-za-z]
+
+https://juejin.im/post/5965943ff265da6c30653879
+
 验证身份证
 
 ## 面试集锦
@@ -176,6 +174,8 @@ position fixed 定位问题
 
 - [javascript-questions](https://github.com/lydiahallie/javascript-questions) 一些简单的前端问题
 
+- [面试大纲](https://github.com/lidaguang1989/frontent-interview/blob/master/javascript.md)
+
 ## 其它问题
 
 ### 前端进阶
@@ -183,3 +183,8 @@ position fixed 定位问题
 ### 职业发展
 
 ### 你有什么想问的
+
+### npm 私有仓库
+
+目前使用的是 Nexus 和安卓管理 maven 的东西放在一起
+或者可以使用社区方案： verdaccio
