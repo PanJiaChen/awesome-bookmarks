@@ -72,6 +72,7 @@ sidebar: auto
 - [Lorem Picsum](https://picsum.photos/) 提供免费的占位图
 - [sm.ms](https://sm.ms/) 免费图床
 - [webpagetest](https://www.webpagetest.org/) 前端性能分析工具
+- [网络安全的教程](hacksplaining.com/lessons)
 
 ## 设计
 

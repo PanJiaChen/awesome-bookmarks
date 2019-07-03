@@ -284,6 +284,8 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [xterm.js](https://github.com/xtermjs/xterm.js) 一个 web terminal
 - [pixelmatch](https://github.com/mapbox/pixelmatch) diff 两张图片不一样的地方
 - [readme-md-generator](https://github.com/kefranabg/readme-md-generator) 一个命令行脚本帮你快速的创建一个 README
+- [build-tracker](https://github.com/paularmstrong/build-tracker) 构建大小追踪 记录你多个版本构建后文件大小的变化
+- [zan-proxy](https://github.com/youzan/zan-proxy/blob/master/README.zh-CN.md) 本地调试线上环境的工具
 
 ## Webpack
 
@@ -316,6 +318,8 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [Gifski](https://github.com/sindresorhus/gifski-app) - 视频转 gif 工具
 - [more](https://github.com/serhii-londar/open-source-mac-os-apps) - 更多优秀的 mac app 介绍
 - [Motrix](https://github.com/agalwood/Motrix) - 支持 HTTP、FTP、BT、磁力链、百度网盘的下载工具
+- [iPic](https://apps.apple.com/cn/app/ipic-markdown-%E5%9B%BE%E5%BA%8A-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%B7%A5%E5%85%B7/id1101244278?mt=12)这个应用可以让你方便地上传图片到各种图床
+- [Image2Icon](http://www.img2icnsapp.com/)
 
 ## Chrome 拓展
 
@@ -440,6 +444,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [Lorem Picsum](https://picsum.photos/) 提供免费的占位图
 - [sm.ms](https://sm.ms/) 免费图床
 - [webpagetest](https://www.webpagetest.org/) 前端性能分析工具
+- [网络安全的教程](hacksplaining.com/lessons)
 
 ## 设计
 

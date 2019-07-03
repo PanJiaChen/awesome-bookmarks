@@ -52,6 +52,8 @@ Worker 线程所在的全局对象，与主线程不一样，无法读取主线�
 
 [leetcode](https://github.com/azl397985856/leetcode)
 
+https://juejin.im/post/5d16cec0f265da1bba591903
+
 ### defer vs async
 
 ![](https://wpimg.wallstcn.com/2dd76605-8008-479d-9415-e1fed67f9660.png)
@@ -79,7 +81,24 @@ http2 头部压缩
 
 服务器端渲染 vs 预渲染 (SSR vs Prerendering)
 
+## 前端埋点
+
+代码埋点
+可视化埋点
+全埋点
+后端埋点
+
 ## Beacon
+
+Beacon API 允许开发者发送少量错误分析和上报的信息，它的特点很明显：
+
+在空闲的时候异步发送统计，不影响页面诸如 JS、CSS Animation 等执行
+即使页面在 unload 状态下，也会异步发送统计，不影响页面过渡/跳转到下跳页
+能够被客户端优化发送，尤其在 Mobile 环境下，可以将 Beacon 请求合并到其他请求上，一同处理。
+
+https://www.barretlee.com/blog/2016/02/20/navigator-beacon-api/
+
+## 为什么前端监控要用 GIF 打点
 
 ## 前端监控
 
@@ -96,6 +115,8 @@ https://juejin.im/post/5b35921af265da598f1563cf
 ### LRU 缓存算法
 
 ## webpack
+
+https://juejin.im/post/5d199ab15188255d6924028b
 
 ### tree shaking
 
@@ -123,6 +144,14 @@ bds dfs
 游标记录位置 #283
 
 位运算 #371
+
+二叉树
+dfs：104
+bfs：102
+前中后序：144 94 145
+二叉树对称性验证 101
+
+https://juejin.im/post/5d0d9d4d6fb9a07ece67d8dd#comment
 
 ### vue scoped css module
 
@@ -176,6 +205,8 @@ https://juejin.im/post/5965943ff265da6c30653879
 
 - [面试大纲](https://github.com/lidaguang1989/frontent-interview/blob/master/javascript.md)
 
+- [vue 220+个知识点（面试题）为你保驾护航](https://juejin.im/post/5d153267e51d4510624f9809) 总结的还行
+
 ## 其它问题
 
 ### 前端进阶
@@ -184,7 +215,96 @@ https://juejin.im/post/5965943ff265da6c30653879
 
 ### 你有什么想问的
 
-### npm 私有仓库
+## 技术问题
 
-目前使用的是 Nexus 和安卓管理 maven 的东西放在一起
-或者可以使用社区方案： verdaccio
+- npm 私有仓库
+  目前使用的是 Nexus 和安卓管理 maven 的东西放在一起
+  或者可以使用社区方案： verdaccio
+
+- 你对微服务的看法
+  https://github.com/CanopyTax/single-spa
+
+- gRPC
+
+## Vue
+
+### vue 模板为什么只能包含一个根元素
+
+原因：https://github.com/haizlin/fe-interview/issues/457
+
+解决：vue-fragments 或者 Functional components with render functions
+
+### style 加 scoped 属性的用途和原理
+
+https://juejin.im/post/5cb8c385e51d456e2e656d3b
+
+### delete 和 Vue.delete 删除数组的区别
+
+delete 只是被删除的元素变成了 empty/undefined 其他的元素的键值还是不变。
+Vue.delete 直接删除了数组 改变了数组的键值。
+
+### vue 的 nextTick
+
+## 性能优化
+
+图片 webP 两倍图 三倍图
+
+## docker
+
+todo
+
+https://mp.weixin.qq.com/s?__biz=Mzg5MTA4Mzg5NA==&mid=2247483924&idx=1&sn=111f9018fec802f9ae50649a6c9c9da2&chksm=cfd38f0df8a4061bdeea970a2acb4e22110943aa143dcb6c767633bdec98e93961cbb37031c0&xtrack=1&scene=90&subscene=93&sessionid=1561083883&clicktime=1561
+
+见闻 docker
+
+https://juejin.im/post/5d197e4fe51d45775b419c27
+
+https://github.com/amandakelake/blog/issues/55
+https://github.com/amandakelake/blog/issues/47
+https://github.com/amandakelake/blog/issues/35
+https://zhuanlan.zhihu.com/p/67858932
+http2 工程化
+https://hit-alibaba.github.io/interview/basic/
+https://juejin.im/post/5d197e4fe51d45775b419c27
+
+https://ppt.geekbang.org/list/gmtcbj2019
+
+https://juejin.im/post/5d0878aaf265da1b83338f74
+
+https://www.infoq.cn/article/Xxyy8WZrWLwUlIF0*IxR
+
+https://juejin.im/post/5958bac35188250d892f5c91
+
+https://juejin.im/post/5958bac35188250d892f5c91
+
+https://juejin.im/post/5b65a7fdf265da0fa00a3999
+
+https://github.com/LeuisKen/leuisken.github.io/issues/2
+
+https://hit-alibaba.github.io/interview/basic/network/HTTPS.html
+
+https://zhuanlan.zhihu.com/p/33843378
+
+https://juejin.im/post/5b5dcfb46fb9a04f8f37afbb
+https://juejin.im/post/5d136700f265da1b7c6128db
+https://relign.github.io/Animation/animation-optimize/
+https://juejin.im/post/5d138889e51d4510a37bac2d
+https://juejin.im/post/5d141c166fb9a07f0870a6b8
+
+https://juejin.im/post/5d18b089f265da1b8b2b7470
+https://juejin.im/post/5d187b81e51d4550a629b2c5
+
+https://mp.weixin.qq.com/s/CvrbpDE55upLgjjujI7KMA
+
+https://www.infoq.cn/article/NAau0-Z7U1B2rKEZcWc8
+
+https://www.infoq.cn/article/bLJfJg5_Eq2yOlW5VBaP
+
+https://coolshell.cn/articles/19464.html
+
+## 交互
+
+https://juejin.im/post/5cab54d76fb9a0688e06566e
+
+polyfill
+https://github.com/sorrycc/blog/issues/80

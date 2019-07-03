@@ -29,6 +29,7 @@
 
 - [把一生过成两辈子：颠覆你时间观的两个概念](https://mp.weixin.qq.com/s/CvrbpDE55upLgjjujI7KMA)
 - [蚂蚁金服的前端框架和工程化实践](https://github.com/sorrycc/blog/issues/85)
+- [阿里前端委员会主席圆心：前端路上的思考](https://www.infoq.cn/article/bLJfJg5_Eq2yOlW5VBaP)
 
 ## 待读
 

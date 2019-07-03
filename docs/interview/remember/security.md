@@ -23,7 +23,15 @@ XSS 有哪些注入的方法：
 - 在 style 属性和标签中，包含类似 background-image:url("javascript:..."); 的代码（新版本浏览器已经可以防范）。
 - 在 style 属性和标签中，包含类似 expression(...) 的 CSS 表达式代码（新版本浏览器已经可以防范）。
 
-总之，如果开发者没有将用户输入的文本进行合适的过滤，就贸然插入到 HTML 中，这很容易造成注入漏洞。攻击者可以利用漏洞，构造出恶意的代码指令，进而利用恶意代码危害数据安全。
+总之，如果开发者没有将用户输入的文本进行合适的过滤，就贸然插入到 HTML 中，这很容易造成注入漏洞。
+攻击者可以利用漏洞，构造出恶意的代码指令，进而利用恶意代码危害数据安全。
+
+`<img src="notValidUrl" onerror=alert(document.cookie)>`
+`javascript:alert('XSS')`
+
+根据攻击的来源，XSS 攻击可分为存储型、反射型和 DOM 型三种。
+
+使用 Content Security Policy csp
 
 ### 跨站请求伪造 CSRF（Cross-site request forgery)
 
@@ -37,6 +45,11 @@ https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Forms/Sending_and_retrieving
 
 可以设置`X-Frame-Options`进行防御或者设置`content-security-policy`
 
+### broken-access-control 越权风险
+
+比如用户 A id 是 11111，它有些请求就根据 id 去拿数据，如果这时候 A 知道 B 的 id 是 22222，他就可以通过合格 id 拿到 B 的数据。
+https://cloud.tencent.com/developer/article/1367399
+
 ### 一些建议
 
 使用 https，任何东西不要使用明文传输。
@@ -47,3 +60,8 @@ https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Forms/Sending_and_retrieving
 尽量不要自建登录系统，可以多依托于一些第三方的登录，如微博、QQ 等。
 
 使用 a 标签跳槽的时候加上 `rel="noopener noreferrer"`
+
+详细介绍：https://www.hacksplaining.com/lessons
+
+- [前端安全系列（一）：如何防止 XSS 攻击？](https://tech.meituan.com/2018/09/27/fe-security.html)
+- [前端安全系列（二）：如何防止 CSRF 攻击？](https://tech.meituan.com/2018/10/11/fe-security-csrf.html)
