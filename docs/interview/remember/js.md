@@ -577,3 +577,8 @@ load 事件仅在 DOM 和所有相关资源全部完成加载后才会触发。
 
 chrome 当数组长度小于等于 10 的时候，采用插入排序，大于 10 的时候，采用快排。
 其它有用归并排序的
+
+### 前端路由
+
+hash: 基于 hashchange
+history: 基于 History API 的方法和属性。`history.pushState`、`history.replaceState`、`popstate`

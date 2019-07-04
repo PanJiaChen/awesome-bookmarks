@@ -20,6 +20,8 @@
 
 - 依赖倒转原则：引用一个对象，如果这个对象有底层对象，直接引用底层对象，比如可以直接用小桶打水，就没必要引用大桶向大桶灌水再用大桶。
 
+solid: S:单一职责原则(Single responsibility principle),O:开放封闭原则(Open Close Principle),最少知识原(Law of Demeter),里氏替换原则(Liskov Substitution Principle),接口隔离原则(Interface Segregation Principle),依赖倒置原则(Dependence Inversion Principle)
+
 ## 单例模式
 
 应用场景：全局唯一模态框，登录注册。

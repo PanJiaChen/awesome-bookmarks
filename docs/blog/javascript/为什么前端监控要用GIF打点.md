@@ -56,3 +56,5 @@ img.src = `${url}?t=key`
 - 在空闲的时候异步发送统计，不影响页面诸如 JS、CSS Animation 等执行
 - 即使页面在 unload 状态下，也会异步发送统计，不影响页面过渡/跳转到下跳页
 - 能够被客户端优化发送，尤其在 Mobile 环境下，可以将 Beacon 请求合并到其他请求上，一同处理
+
+`navigator.sendBeacon("/log", analyticsData);`

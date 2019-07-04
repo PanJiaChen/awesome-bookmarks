@@ -150,6 +150,16 @@ dfs：104
 bfs：102
 前中后序：144 94 145
 二叉树对称性验证 101
+验证二叉搜索树 98 （中序遍历)
+验证平衡二叉树 110 (序列变量)
+反正二叉树 226
+
+链表
+删除链表倒数第 k 个数 19
+链表合并 21
+链表翻转 206
+环形链表 141 快慢指针
+链表排序 未做出 148
 
 https://juejin.im/post/5d0d9d4d6fb9a07ece67d8dd#comment
 
@@ -302,9 +312,11 @@ https://www.infoq.cn/article/bLJfJg5_Eq2yOlW5VBaP
 
 https://coolshell.cn/articles/19464.html
 
-## 交互
+## TODO
 
-https://juejin.im/post/5cab54d76fb9a0688e06566e
+JS 继承
+性能优化总结
+浏览器渲染原理及流程
 
 polyfill
 https://github.com/sorrycc/blog/issues/80
