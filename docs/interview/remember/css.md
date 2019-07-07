@@ -59,3 +59,24 @@
 2.link 引入的样式页面加载时同时加载，@import 引入的样式需等页面加载完成后再加载。
 3.link 没有兼容性问题，@import 不兼容 ie5 以下。
 4.link 可以通过 js 操作 DOM 动态引入样式表改变样式，而@import 不可以。
+
+### BFC
+
+BFC 全称为 块格式化上下文 (Block Formatting Context) 。
+
+- position 为 absolute 或 fixed
+- float 不是 none
+- overflow 值不为 visible 的块元素
+
+### 清浮动
+
+- clear:both 伪元素
+- 将父元素的 overflow 属性修改为 overflow:auto|hidden
+- display:table
+- position 为 absolute 或 relative
+- display 为 inline-block, table-cell, table-caption
+
+### 伪元素 伪类
+
+伪类用于当已有元素处于的某个状态时，为其添加对应的样式
+伪元素用于创建一些不在文档树中的元素，并为其添加样式。比如说，我们可以通过:before 来在一个元素前增加一些文本

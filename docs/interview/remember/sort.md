@@ -92,19 +92,96 @@ function selectionSort(arr) {
 
 ```js
 function insertionSort(arr) {
-  let count = 0
-  for (let i = 1, len = arr.length; i < len; i++) {
+  for (let i = 1; i < arr.length; i++) {
+    let pointer = i - 1
     const temp = arr[i]
-    let preIndex = i - 1
 
-    while (arr[preIndex] > temp) {
+    while (arr[pointer] > temp) {
       count++
-      arr[preIndex + 1] = arr[preIndex]
-      preIndex -= 1
+      arr[pointer + 1] = arr[pointer]
+      pointer--
     }
-    arr[preIndex + 1] = temp
+    arr[pointer + 1] = temp
   }
-  console.log(count)
   return arr
 }
 ```
+
+### 希尔排序
+
+```js
+function shellSort(arr) {
+  const len = arr.length
+  let gap = Math.floor(len / 2)
+
+  while (gap > 0) {
+    for (let i = gap; i < arr.length; i++) {
+      let pre = i - gap
+      const temp = arr[i]
+      while (arr[pre] > temp) {
+        count++
+        arr[pre + gap] = arr[pre]
+        pre = pre - gap
+      }
+      arr[pre + gap] = temp
+    }
+    gap = Math.floor(gap / 2)
+  }
+  return arr
+}
+```
+
+### 归并排序
+
+```js
+const mergeSort = function(arr) {
+  if (arr.length < 2) return arr
+  const mid = Math.floor(arr.length / 2)
+  const left = arr.splice(0, mid) //用 array.splice 取代 array.slice，减少一半的空间消耗。
+  const right = arr
+  return mergeFn(mergeSort(left), mergeSort(right))
+}
+
+const mergeFn = function(left, right) {
+  const result = []
+  while (left.length > 0 && right.length > 0) {
+    count++
+    if (left[0] <= right[0]) {
+      result.push(left.shift())
+    } else {
+      result.push(right.shift())
+    }
+  }
+
+  return [...result, ...left, ...right]
+}
+```
+
+### 快速排序
+
+```js
+function quickSort(arr) {
+  if (arr.length < 2) {
+    return arr
+  }
+  const pivot = arr[0]
+  const left = []
+  const right = []
+
+  for (let i = 1; i < arr.length; i++) {
+    count++
+    const cur = arr[i]
+    if (cur <= pivot) {
+      left.push(cur)
+    } else {
+      right.push(cur)
+    }
+  }
+
+  return [...quickSort(left), pivot, ...quickSort(right)]
+}
+```
+
+### 综述
+
+![](https://raw.githubusercontent.com/KimlPan/cdn/master/img/20180912224019565.png)

@@ -211,6 +211,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [strapi](https://github.com/strapi/strapi/) 开源的解决方案来创建、部署和管理自己的 API
 - [listr](https://github.com/SamVerschueren/listr) Terminal task list
 - [dotenv](https://github.com/motdotla/dotenv) 通过.env 设置环境部变量 vue-cli 也依赖它
+- [why-is-node-running](https://github.com/mafintosh/why-is-node-running) 查看 node 为什么在运行
 
 ## GraphQL
 

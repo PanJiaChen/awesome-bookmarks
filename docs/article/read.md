@@ -31,6 +31,12 @@
 - [蚂蚁金服的前端框架和工程化实践](https://github.com/sorrycc/blog/issues/85)
 - [阿里前端委员会主席圆心：前端路上的思考](https://www.infoq.cn/article/bLJfJg5_Eq2yOlW5VBaP)
 
+  2019.07.07
+
+- [如何有效地提升执行力](https://www.barretlee.com/blog/2019/06/11/improving-execution/)
+- [为什么我就遇不到，手摸手指导我的 leader？](https://mp.weixin.qq.com/s/7PVnUFf31HW163S2exWQEw)
+- [”我是技术总监，我确实答不出那么多技术细节”](https://mp.weixin.qq.com/s/3nTBEfIKP1C-3ivHfdd4BA)
+
 ## 待读
 
 https://juejin.im/post/5cde316f6fb9a07ed9118f01

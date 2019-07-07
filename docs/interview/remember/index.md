@@ -18,6 +18,15 @@ react native 使用 js 编写，生成虚拟 dom，最后它将你转化为 iOS 
 
 dart 语言上的优势。类 java 强类型 oop 语言，AOT(Ahead-Of-Time )
 
+Flutter 和 RN/Weex 的差异，核心在于渲染的基础由自己实现，简单来说，
+
+- Flutter 的代码经过 Flutter 引擎直接就渲染到了屏幕上
+- 而 RN/Weex 的代码需要先跑到 Native 层处理一下，然后经过 Native 层渲染到屏幕
+
+很显然前者效率会更高。由于 Native 组件可能会随着系统的升级跟着一起升级（API 增、删或变化），RN/Weex 需要写很多胶水层代码来适配不同版本、不同平台的 Native 组件，而 Flutter 就不存在这个问题
+
+缺点：UI 控件 API，主要的坑就在于需要非常了解原生的环境，语言成本，没有热更新，组件混乱，有不少学习成本
+
 ### 前端代码安全
 
 可以使用 [JavaScript Obfuscator Tool](https://obfuscator.io/) js 代码混淆工具，但只是增加了一些破解成本，WebAssembly 安全性相对而言更好。相关文章[前端核心代码保护技术面面观](https://zhuanlan.zhihu.com/p/61651310)
@@ -160,6 +169,8 @@ bfs：102
 链表翻转 206
 环形链表 141 快慢指针
 链表排序 未做出 148
+
+二分查找 未做
 
 https://juejin.im/post/5d0d9d4d6fb9a07ece67d8dd#comment
 
@@ -314,9 +325,13 @@ https://coolshell.cn/articles/19464.html
 
 ## TODO
 
+尾递归
+
 JS 继承
 性能优化总结
 浏览器渲染原理及流程
-
+回流和重绘
+sso oauth
 polyfill
+webpack 热更新
 https://github.com/sorrycc/blog/issues/80

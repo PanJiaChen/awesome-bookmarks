@@ -527,10 +527,12 @@ bar = true after 500 ms
 
 https://zhuanlan.zhihu.com/p/33049803
 
-### AMD CMD
+### AMD CMD UMD
 
 - AMD 推崇依赖前置、提前执行
 - CMD 推崇依赖就近、延迟执行
+- UMD 先判断是否支持 Node.js 的模块（exports）是否存在，存在则使用 Node.js 模块模式。
+  在判断是否支持 AMD（define 是否存在），存在则使用 AMD 方式加载模块。
 
 ### module.exports 和 exports 区别
 
@@ -576,9 +578,21 @@ load 事件仅在 DOM 和所有相关资源全部完成加载后才会触发。
 ### sort 原理
 
 chrome 当数组长度小于等于 10 的时候，采用插入排序，大于 10 的时候，采用快排。
-其它有用归并排序的
+
+火狐：用归并排序的
+ie：快速排序
+
+es10 之后 改用 Timsort 算法 - TimSort 是 Python 中 list.sort 的默认实现
 
 ### 前端路由
 
 hash: 基于 hashchange
 history: 基于 History API 的方法和属性。`history.pushState`、`history.replaceState`、`popstate`
+
+### const 运算题
+
+```js
+const x = 'ok'
+console.log(typeof x)
+console.log(typeof window.x)
+```
