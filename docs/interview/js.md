@@ -348,9 +348,12 @@ const sum = function(a) {
   }
 }
 
-console.log(sum(3)(4)(2)(5)(3)) //19
 console.log(sum(3)(4)(1)()) //8
 ```
+
+再增加一点难度
+
+`console.log(sum(3, 5)(4)(2, 1)(5)(3)()) //23`
 
 ### 13. 据下面的代码片段回答后面的问题
 

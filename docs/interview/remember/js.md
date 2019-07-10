@@ -284,6 +284,9 @@ console.log('script end')
 
 process.nextTick > Promise.then > MutationObserver
 
+JS stack => Microtasks => Tasks
+Tasks
+
 延伸： vue 的 nextTick 是什么
 
 https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
@@ -595,4 +598,92 @@ history: 基于 History API 的方法和属性。`history.pushState`、`history.
 const x = 'ok'
 console.log(typeof x)
 console.log(typeof window.x)
+```
+
+### 强引用 运算题
+
+```js
+let key = new Array(5 * 1024 * 1024)
+const arr = [[key, 1]]
+
+key = null
+
+console.log(arr)
+```
+
+### set weakSet
+
+数组去重：`[...new Set(array)]`
+字符串去重：`[...new Set('ababbc')].join('')`
+
+WeakSet 结构与 Set 类似，也是不重复的值的集合。但是，它与 Set 有两个区别。
+
+- 首先，WeakSet 的成员只能是对象，而不能是其他类型的值。
+- 其次，WeakSet 中的对象都是弱引用，即垃圾回收机制不考虑 WeakSet 对该对象的引用，也就是说，如果其他对象都不再引用该对象，那么垃圾回收机制会自动回收该对象所占用的内存，不考虑该对象还存在于 WeakSet 之中。
+
+### map weakMap
+
+map 它类似于对象，也是键值对的集合，但是“键”的范围不限于字符串，各种类型的值（包括对象）都可以当作键。也就是说，Object 结构提供了“字符串—值”的对应，Map 结构提供了“值—值”的对应，是一种更完善的 Hash 结构实现。如果你需要“键值对”的数据结构，Map 比 Object 更合适。
+
+WeakMap 与 Map 的区别有两点。
+
+- 首先，WeakMap 只接受对象作为键名（null 除外），不接受其他类型的值作为键名。
+- 其次，WeakMap 的键名所指向的对象，不计入垃圾回收机制。
+
+应用
+
+1. 在 DOM 对象上保存相关数据
+2. 数据缓存
+3. 私有属性
+
+### -0 +0
+
+数字需要被编码才能进行数字化存储.举个例子,假如我们要将一个整数编码为 4 位的二进制数,使用原码(sign-and-magnitude)方法,则最高位是符号位(0 代表正,1 代表负),剩下的三位表示大小(具体的值).因此,−2 和+2 会编码成为下面这样:
+
+二进制的 1010 表示十进制的 −2
+二进制的 0010 表示十进制的+2
+
+这就意味着将会有两个零:1000(-0)和 0000(0).
+
+但大部分时候使用的时候 js 默认都会先执行`toString`，所以两者在使用时没有什么区别。
+
+区分：
+判断一个零是正还是负的标准解法是用它除 1,然后看计算的结果是-Infinity 还是+Infinity:
+
+```js
+function isNegativeZero(x) {
+  return x === 0 && 1 / x < 0
+}
+```
+
+### 柯里化函数
+
+应用场景：
+
+1. 延迟计算
+2. 动态创建函数 - 浏览器兼容性
+
+https://github.com/yygmind/blog/issues/37
+
+### input 如何处理中文输入法
+
+`compositionend`
+`compositionupdate`
+`compositionend`
+
+### 模拟实现一个 Promise.finally
+
+```js
+window.Promise.prototype = {
+  finally: function(callback) {
+    let P = this.constructor
+    return this.then(
+      value => P.resolve(callback()).then(() => value),
+      reason =>
+        P.resolve(callback()).then(() => {
+          throw reason
+        })
+    )
+  }
+}
 ```

@@ -47,7 +47,23 @@ Worker 线程所在的全局对象，与主线程不一样，无法读取主线�
 
 衍生问题 setTimeout(func, 0)
 
-### 函数节流 防抖
+### 函数 节流 防抖
+
+实现不说了
+主要说下各自运用场景：
+
+debounce-防抖：
+在事件被触发 n 秒后再执行回调，如果在这 n 秒内又被触发，则重新计时。
+
+- 每次 resize/scroll 触发统计事件
+- 文本输入的验证（连续输入文字后发送 AJAX 请求进行验证，验证一次就好）
+
+throttle-节流：
+规定在一个单位时间内，只能触发一次函数。如果这个单位时间内触发多次函数，只有一次生效。
+
+- DOM 元素的拖拽功能实现（mousemove）
+- 搜索联想（keyup）
+- 监听滚动事件判断是否到页面底部自动加载更多：给 scroll 加了 debounce 后，只有用户停止滚动后，才会判断是否到了页面底部；如果是 throttle 的话，只要页面滚动就会间隔一段时间判断一次 #21 (comment)
 
 ### requestAnimationFrame
 
@@ -127,11 +143,29 @@ https://juejin.im/post/5b35921af265da598f1563cf
 
 https://juejin.im/post/5d199ab15188255d6924028b
 
+基于 tapable 插件
+
 ### tree shaking
 
-### hot reload 原理
+### hot reload 热更新原理
 
-### 节流与防抖
+webapck HMR 则不会刷新浏览器，而是运行时对模块进行热替换，保证了应用状态不会丢失，提升了开发效率。
+
+https://github.com/kaola-fed/blog/issues/238
+https://zhuanlan.zhihu.com/p/30669007
+
+依赖 HotModuleReplacementPlugin
+
+```js
+if (module.hot) {
+  module.hot.accept('./print.js', function() {
+    console.log('Accepting the updated printMe module!')
+    printMe()
+  })
+}
+```
+
+vue hmr 基于 vue-hot-reload-api
 
 ## 垃圾回收
 
@@ -326,12 +360,18 @@ https://coolshell.cn/articles/19464.html
 ## TODO
 
 尾递归
-
+promise
+proxy
 JS 继承
 性能优化总结
 浏览器渲染原理及流程
 回流和重绘
 sso oauth
+jwt
 polyfill
 webpack 热更新
 https://github.com/sorrycc/blog/issues/80
+
+### 拓展阅读
+
+- [Daily-Interview-Question](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md) 10 分推荐

@@ -182,3 +182,16 @@ immer 的做法就是维护一份 state 在内部，劫持所有操作，内部�
 [更简单，更快速的创建不可变数据类型](https://zhangzhao.name/posts/immer-immutable/)
 
 ### diff 原理
+
+[React 源码剖析系列 － 不可思议的 react diff](https://zhuanlan.zhihu.com/p/20346379)
+
+传统 diff 算法通过循环递归对节点进行依次对比，效率低下，算法复杂度达到 O(n^3)，其中 n 是树中节点的总数。
+
+React diff 策略
+Web UI 中 DOM 节点跨层级的移动操作特别少，可以忽略不计。
+
+拥有相同类的两个组件将会生成相似的树形结构，拥有不同类的两个组件将会生成不同的树形结构。
+
+对于同一层级的一组子节点，它们可以通过唯一 id 进行区分。
+
+基于以上三个前提策略，React 分别对 tree diff、component diff 以及 element diff 进行算法优化，事实也证明这三个前提策略是合理且准确的，它保证了整体界面构建的性能。
