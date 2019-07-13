@@ -25,6 +25,16 @@ Number.isNaN('a') //true
 
 安全整数范围为 -(253 - 1)到 253 - 1 之间的整数
 
+### js 数值的最大最小值范围
+
+http://javascript.ruanyifeng.com/grammar/number.html
+
+BigInt
+
+### 数组长度上限
+
+Math.pow(2,32)-1
+
 ### toString valueOf
 
 ### addEventListener

@@ -1,6 +1,6 @@
 ## 算法
 
-### 输入 int 型，返回整数逆序后的字符串。如：输入整型 1234，返回字符串“4321”。
+### 输入 int 型，返回整数逆序后的字符串。如：输入整型 1234，返回字符串“4321”。(leetCode 相似题 #7)
 
 ```js
 function reverseInt(number) {
@@ -129,11 +129,9 @@ function countPrimes(k) {
 
 ```js
 var countPrimes = function(n) {
-  let arr = [],
-    count = 0
-  for (let i = 0; i < n + 1; i++) {
-    arr[i] = true // 标记初始化
-  }
+  const arr = new Array(n + 1).fill(true)
+  let count = 0
+
   for (let i = 2; i < n; i++) {
     if (arr[i]) {
       // 如果i是质数
@@ -144,5 +142,141 @@ var countPrimes = function(n) {
     }
   }
   return count
+}
+```
+
+### 二分查找(必会)
+
+```js
+const binarySearch = function(arr, target) {
+  let start = 0
+  let end = arr.length - 1
+
+  while (start <= end) {
+    const mid = Math.floor((start + end) / 2)
+    const cur = arr[mid]
+
+    if (cur === target) {
+      return mid
+    }
+
+    if (cur < target) {
+      start = mid + 1
+    } else {
+      end = mid - 1
+    }
+  }
+  return false
+}
+
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+console.log(binarySearch(arr, 6))
+```
+
+### 有效的括号数 (leetCode #20)
+
+Input: "()[]{}"
+Output: true
+Example 3:
+
+Input: "(]"
+Output: false
+
+```js
+var isValid = function(s) {
+  const hashMap = {
+    ']': '[',
+    '}': '{',
+    ')': '('
+  }
+
+  const stacks = []
+
+  for (let i = 0; i < s.length; i++) {
+    const cur = s[i]
+    if (!hashMap[cur]) {
+      stacks.push(cur)
+    } else {
+      const pop = stacks.pop()
+      if (pop !== hashMap[cur]) {
+        return false
+      }
+    }
+  }
+
+  return stacks.length === 0
+}
+```
+
+### 无重复字符的最长子串 （leetCode #3）
+
+```js
+var lengthOfLongestSubstring = function(s) {
+  if (s.length <= 1) return s.length
+  let longest = 0
+  let longestS = s[0]
+  for (let index = 1; index < s.length; index++) {
+    const cur = s[index]
+
+    const hasRepeat = longestS.indexOf(cur)
+    if (hasRepeat >= 0) {
+      longest = Math.max(longest, longestS.length)
+      longestS = (longestS + cur).slice(hasRepeat + 1)
+    } else {
+      longestS += cur
+    }
+  }
+  return Math.max(longest, longestS.length)
+}
+```
+
+### container-with-most-water （leetCode #11）
+
+```js
+var maxArea = function(height) {
+  let max = 0
+  let start = 0
+  let end = height.length - 1
+  while (start < end) {
+    const h = Math.min(height[start], height[end])
+    const w = end - start
+    const area = h * w
+    max = Math.max(max, area)
+    if (height[start] >= height[end]) {
+      end--
+    } else {
+      start++
+    }
+  }
+  return max
+}
+```
+
+### 罗马数字转化 （LeetCode #13）
+
+```js
+var romanToInt = function(s) {
+  var map = {
+    I: 1,
+    V: 5,
+    X: 10,
+    L: 50,
+    C: 100,
+    D: 500,
+    M: 1000
+  }
+
+  var sum = 0
+  for (var i = 0; i < s.length; i++) {
+    var v1 = map[s[i]]
+    var v2 = map[s[i + 1]]
+    if (v2 > v1) {
+      sum = sum + v2 - v1
+      i++
+    } else {
+      sum = sum + v1
+    }
+  }
+  return sum
 }
 ```

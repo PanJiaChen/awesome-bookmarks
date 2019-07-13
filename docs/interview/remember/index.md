@@ -137,8 +137,6 @@ https://juejin.im/post/5b35921af265da598f1563cf
 
 ## web worker
 
-### LRU 缓存算法
-
 ## webpack
 
 https://juejin.im/post/5d199ab15188255d6924028b
@@ -146,6 +144,10 @@ https://juejin.im/post/5d199ab15188255d6924028b
 基于 tapable 插件
 
 ### tree shaking
+
+https://segmentfault.com/a/1190000012794598
+https://github.com/webpack/webpack/issues/7500
+https://diverse.space/2018/05/better-tree-shaking-with-scope-analysis
 
 ### hot reload 热更新原理
 
@@ -167,11 +169,14 @@ if (module.hot) {
 
 vue hmr 基于 vue-hot-reload-api
 
+### webpack 是如何实现动态导入的
+
+https://blog.elsonzhang.cn/2018/08/01/talk-about-webpack-bundle/
+https://juejin.im/post/5d26e7d1518825290726f67a
+
 ## 垃圾回收
 
 ## js 双精度问题
-
-### js 数值的最大最小值范围
 
 ## 算法
 
@@ -371,6 +376,9 @@ jwt
 polyfill
 webpack 热更新
 https://github.com/sorrycc/blog/issues/80
+
+工程化
+https://www.yuque.com/robinson/fe-pro
 
 ### 拓展阅读
 

@@ -127,3 +127,32 @@ LazyMan('Tony')
   .sleep(4)
   .eat('junk food')
 ```
+
+### 连续赋值
+
+```js
+var a = { n: 1 }
+var b = a
+a.x = a = { n: 2 }
+
+console.log(a.x)
+console.log(b.x)
+```
+
+### 运算题
+
+```js
+var a = 10
+;(function() {
+  console.log(a)
+  a = 5
+  console.log(window.a)
+  console.log(a)
+  var a = 20
+  console.log(a)
+})()
+```
+
+### 获取元素的最终 background-color 略难 需要考虑很多情况
+
+https://www.jianshu.com/p/e94b5779f998

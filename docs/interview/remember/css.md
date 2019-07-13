@@ -20,6 +20,8 @@
 - flex
 - align-self
 
+https://www.zhangxinxu.com/wordpress/2018/10/display-flex-css3-css/
+
 ### meta
 
 具有 http-equiv 属性的 meta 标签，表示执行一个命令，这样的 meta 标签可以不需要 name 属性了。
@@ -109,3 +111,28 @@ BFC 全称为 块格式化上下文 (Block Formatting Context) 。
   性 能：提升为合成层，不会触发重绘，性能较高；
   继 承：会被子元素继承,且，子元素并不能通过 opacity: 1 来取消隐藏；
   transition：transition 不支持 opacity。
+
+### 水平垂直居中
+
+https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/92
+
+### web 语义化
+
+内容与样式分离。这样我们在提供内容的时候，首先要做的就是将内容本身进行合理的描述，暂时不用考虑它的最终呈现会是什么样子。
+
+HTML 规范其实一直在往语义化的方向上努力，许多元素、属性在设计的时候，就已经考虑了如何让各种用户代理甚至网络爬虫更好地理解 HTML 文档。HTML5 更是在之前规范的基础上，将所有表现层（presentational）的语义描述都进行了修改或者删除，增加了不少可以表达更丰富语义的元素。为什么这样的语义元素是有意义的？因为它们被广泛认可。所谓语义本身就是对符号的一种共识，被认可的程度越高、范围越广，人们就越可以依赖它实现各种各样的功能
+
+翻页：`rel="prev", rel="next"` link
+
+a 标签 添加 nofollow 告诉 google 不抓取
+
+article aside main
+
+HTML <s> 元素 使用删除线来渲染文本。使用 <s> 元素来表示不再相关
+
+相关资料：http://justineo.github.io/slideshows/semantic-html
+
+### strong b
+
+b 和 i 是样式上强调。
+strong 和 em 是语义上强调。
