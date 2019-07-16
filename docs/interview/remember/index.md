@@ -199,7 +199,7 @@ bfs：102
 前中后序：144 94 145
 二叉树对称性验证 101
 验证二叉搜索树 98 （中序遍历)
-验证平衡二叉树 110 (序列变量)
+验证 110 (序列变量)
 反正二叉树 226
 
 链表
@@ -370,8 +370,11 @@ proxy
 JS 继承
 性能优化总结
 浏览器渲染原理及流程
+微前端
 回流和重绘
 sso oauth
+
+web worker
 jwt
 polyfill
 webpack 热更新
@@ -380,6 +383,10 @@ https://github.com/sorrycc/blog/issues/80
 工程化
 https://www.yuque.com/robinson/fe-pro
 
+vue 依赖收集
+
 ### 拓展阅读
 
 - [Daily-Interview-Question](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md) 10 分推荐
+
+- [JavaScript 深入系列](https://github.com/mqyqingfeng/Blog) 10 分推荐

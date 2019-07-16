@@ -280,3 +280,64 @@ var romanToInt = function(s) {
   return sum
 }
 ```
+
+### 大数相加
+
+如何实现两个非常大的数字(已经超出了 Number 范围)的加法运算。
+
+注意由于这两个已经超过了 Number 范围，因此不能用 Number 存，这里我们选择使用字符串存储。
+
+```js
+function bigNumberSum(a, b) {
+  // 123456789
+  // 000009876
+
+  // padding
+  let cur = 0
+  while (cur < a.length || cur < b.length) {
+    if (!a[cur]) {
+      a = '0' + a
+    } else if (!b[cur]) {
+      b = '0' + b
+    }
+    cur++
+  }
+
+  let curried = 0
+  const res = []
+
+  for (let i = a.length - 1; i > -1; i--) {
+    const sum = curried + +a[i] + +b[i]
+    if (sum > 9) {
+      curried = 1
+    } else {
+      curried = 0
+    }
+    res[i] = sum % 10
+  }
+  if (curried === 1) {
+    res.unshift(1)
+  }
+
+  return res.join('')
+}
+```
+
+### 实现加法 （LeetCode #371）
+
+实现两个数字相加的功能，要求不能使用编程语言现有的四则运算。
+
+```js
+var getSum = function(a, b) {
+  while (b != 0) {
+    const s = a ^ b
+    b = (a & b) << 1
+    a = s
+  }
+  return a
+}
+```
+
+### 还原二叉树--已知先序中序或者后序中序
+
+https://www.jianshu.com/p/2943a21d2a99

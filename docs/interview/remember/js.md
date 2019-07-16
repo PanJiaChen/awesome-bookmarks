@@ -459,8 +459,6 @@ xhr.onreadystatechange = function() {
 xhr.send()
 ```
 
-### 实现一个 bind
-
 ### fragment
 
 `let fragment = document.createDocumentFragment();`
@@ -597,6 +595,8 @@ ie：快速排序
 
 es10 之后 改用 Timsort 算法 - TimSort 是 Python 中 list.sort 的默认实现
 
+Timsort 是结合了合并排序（merge sort）和插入排序（insertion sort）而得出的排序算法，它在现实中有很好的效率
+
 ### 前端路由
 
 hash: 基于 hashchange
@@ -697,3 +697,24 @@ window.Promise.prototype = {
   }
 }
 ```
+
+### url 长度限制
+
+不同浏览器对 url 长度有不同的限制，IE，则最大长度为 2083byte，若只支持 Chrome，则最大长度 8182byte。
+所以 get 请求参数或者 jsonp 都会有所限制。
+
+### 图片懒加载
+
+最新可使用 `IntersectionObserver` api
+
+https://zhuanlan.zhihu.com/p/25455672
+
+### valueOf 与 toString 区别
+
+valueOf()：返回最适合该对象类型的原始值；
+toString(): 将该对象的原始值以字符串形式返回。
+这两个方法一般是交由 JS 去隐式调用，以满足不同的运算情况。
+在数值运算里，会优先调用 valueOf()，
+如 a + b；在字符串运算里，会优先调用 toString()，如 alert(c)。
+
+### Javascript 中装饰器的实现原理

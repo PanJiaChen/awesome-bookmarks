@@ -37,6 +37,10 @@
 - [为什么我就遇不到，手摸手指导我的 leader？](https://mp.weixin.qq.com/s/7PVnUFf31HW163S2exWQEw)
 - [”我是技术总监，我确实答不出那么多技术细节”](https://mp.weixin.qq.com/s/3nTBEfIKP1C-3ivHfdd4BA)
 
+2019。07.15
+
+- [对话 BOSS 直聘赵鹏：技术人员先富起来，整个厂才有可能都富起来](https://mp.weixin.qq.com/s/R86dgmx8r3WEFw1DZDhsfw)
+
 ## 待读
 
 https://juejin.im/post/5cde316f6fb9a07ed9118f01
