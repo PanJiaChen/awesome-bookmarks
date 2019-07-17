@@ -37,9 +37,15 @@
 - [为什么我就遇不到，手摸手指导我的 leader？](https://mp.weixin.qq.com/s/7PVnUFf31HW163S2exWQEw)
 - [”我是技术总监，我确实答不出那么多技术细节”](https://mp.weixin.qq.com/s/3nTBEfIKP1C-3ivHfdd4BA)
 
-2019。07.15
+  2019.07.15
 
 - [对话 BOSS 直聘赵鹏：技术人员先富起来，整个厂才有可能都富起来](https://mp.weixin.qq.com/s/R86dgmx8r3WEFw1DZDhsfw)
+- [反击爬虫，前端工程师的脑洞可以有多大？](https://imweb.io/topic/595b7161d6ca6b4f0ac71f05)
+- [avaScript 反调试技巧](https://www.freebuf.com/articles/system/163579.html)
+- [“后台产品” UX & UI 设计总结（上）- 设计要点概括](https://zhuanlan.zhihu.com/p/28787738)
+
+  2019.07.17
+  [技术人具备“结构化思维”意味着什么？](https://zhuanlan.zhihu.com/p/73964313)
 
 ## 待读
 

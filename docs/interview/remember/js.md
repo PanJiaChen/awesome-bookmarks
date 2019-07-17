@@ -142,6 +142,17 @@ Object.create = function(o) {
 
 <!-- TODO -->
 
+### 继承的多种方式
+
+- 原型链继承
+- 借用构造函数(经典继承)
+- 组合继承
+- 原型式继承
+- 寄生式继承
+- 寄生组合式继承
+
+https://github.com/mqyqingfeng/Blog/issues/16
+
 ### 普通函数 构造函数 箭头函数
 
 构造函数：
@@ -475,6 +486,8 @@ Object.getOwnPropertyNames(a) returns all own properties of the object a.
 Object.keys(a) returns all enumerable own properties.
 It means that if you define your object properties without making some of them enumerable: false these two methods will give you the same result.
 
+getOwnPropertyNames 可以用来判断是否是空对象。
+
 ### css in js
 
 ### css module
@@ -716,5 +729,27 @@ toString(): 将该对象的原始值以字符串形式返回。
 这两个方法一般是交由 JS 去隐式调用，以满足不同的运算情况。
 在数值运算里，会优先调用 valueOf()，
 如 a + b；在字符串运算里，会优先调用 toString()，如 alert(c)。
+中
 
-### Javascript 中装饰器的实现原理
+### Javascript 装饰器的实现原理
+
+```js
+// 装饰类
+@decorator
+class A {}
+
+// 等同于
+
+class A {}
+A = decorator(A) || A
+```
+
+方法基于 `defineProperty`
+
+### requestAnimationFrame
+
+作用就是让浏览器流畅的执行动画效果
+
+### 前端开发中如何在 JS 文件中检测用户浏览器是否打开了调试面板
+
+https://www.zhihu.com/question/24188524

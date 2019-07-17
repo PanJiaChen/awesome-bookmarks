@@ -102,6 +102,12 @@ ACK: 认字符 (Acknowledgement)
 
 http 使用 TCP 三次握手建立连接，客户端和服务器需要交换 3 个包，https 除了 TCP 的三个包，还要加上 ssl 握手需要的 9 个包，所以一共是 12 个包。
 
+### 中间人攻击
+
+https://segmentfault.com/a/1190000013075736
+
+问题的根源是因为“缺乏身份认证机制”，浏览器无法鉴别自己收到的密钥是不是真的来自于网站服务器。
+
 ### SSL/TLS
 
 SSL/TLS 协议是为了解决这三大风险而设计的，希望达到：
@@ -195,6 +201,26 @@ Web UI 中 DOM 节点跨层级的移动操作特别少，可以忽略不计。
 对于同一层级的一组子节点，它们可以通过唯一 id 进行区分。
 
 基于以上三个前提策略，React 分别对 tree diff、component diff 以及 element diff 进行算法优化，事实也证明这三个前提策略是合理且准确的，它保证了整体界面构建的性能。
+
+最开始经典的深度优先遍历 DFS 算法，其复杂度为 O(n^3)，存在高昂的 diff 成本
+
+### React Fiber
+
+同步更新过程的局限
+破解 JavaScript 中同步操作时间过长的方法其实很简单——分片
+
+https://zhuanlan.zhihu.com/p/26027085
+
+### React Hooks
+
+我们都知道 react 都核心思想就是，将一个页面拆成一堆独立的，可复用的组件，并且用自上而下的单向数据流的形式将这些组件串联起来。但假如你在大型的工作项目中用 react，你会发现你的项目中实际上很多 react 组件冗长且难以复用。尤其是那些写成 class 的组件，它们本身包含了状态（state），所以复用这类组件就变得很麻烦。
+
+- 多个状态不会产生嵌套
+- 更容易将组件的 UI 与状态分离
+
+而 Hooks 的出现本质是把这种面向生命周期编程变成了面向业务逻辑编程，你不用再去关心本不该关心的生命周期。
+
+useEffect 生命周期
 
 ### 常见的置换算法
 
@@ -421,3 +447,43 @@ https://segmentfault.com/a/1190000019504744
 Gzip 的核心是 [Deflate](https://zh.wikipedia.org/wiki/DEFLATE) 算法 - 它是同时使用了 LZ77 算法与哈夫曼编码（Huffman Coding）的一个无损数据压缩算法。
 
 ### HSTS
+
+HTTP Strict Transport Security, HTTP 严格传输安全)。HSTS 的作用是强制客户端与服务端建立安全的 HTTPS 连接，而非不安全的 HTTP 连接。如果一个站点启用了 HSTS 策略，那么客户端在第一次与该站点建立连接之后，在未来的一段时间内（由一个 HTTP 头部控制，这个头部为：Strict-Transport-Security），客户端与该站点的所有连接都会直接使用 HTTPS，即使客户端访问的是 HTTP，也会直接在客户端重定向到 HTTPS 连接。
+
+### 慢查询
+
+- 加索引
+- 加缓存
+- 加熔断
+
+### redis
+
+https://zhuanlan.zhihu.com/p/48080173
+
+### 浏览器渲染原理
+
+[图解浏览器的工作原理](https://mp.weixin.qq.com/s/X4yAFZBNLwaDUFYaR0Cn5g)
+
+### rpc
+
+rpc 是远端过程调用，其调用协议通常包含传输协议和序列化协议。
+
+传输协议包含: 如著名的 [gRPC](grpc / grpc.io) 使用的 http2 协议，也有如 dubbo 一类的自定义报文的 tcp 协议
+
+rpc 是远程过程调用，你可以这么理解，就是在另外一台服务器上有一段代码（函数），你可以通过网络远程调用它。用什么协议（http，tcp，udp…），传输什么数据格式（json，xml，二进制…）你都可以自己定义。
+
+总结一下，RPC 要解决的两个问题：
+
+1. 解决分布式系统中，服务之间的调用问题。
+
+2. 远程调用时，要能够像本地调用一样方便，让调用者感知不到远程调用的逻辑。
+
+### JWT
+
+JWT 的三个部分依次如下。
+
+Header（头部）
+Payload（负载）
+Signature（签名）
+
+客户端每次与服务器通信，都要带上这个 JWT。

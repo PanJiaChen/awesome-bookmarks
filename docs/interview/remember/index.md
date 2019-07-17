@@ -65,8 +65,6 @@ throttle-节流：
 - 搜索联想（keyup）
 - 监听滚动事件判断是否到页面底部自动加载更多：给 scroll 加了 debounce 后，只有用户停止滚动后，才会判断是否到了页面底部；如果是 throttle 的话，只要页面滚动就会间隔一段时间判断一次 #21 (comment)
 
-### requestAnimationFrame
-
 ### eval vs new Function
 
 ### ['1', '2', '3'].map(parseInt)
@@ -373,10 +371,11 @@ JS 继承
 微前端
 回流和重绘
 sso oauth
+React 的 Dom 的 diff 算
 
 web worker
 jwt
-polyfill
+
 webpack 热更新
 https://github.com/sorrycc/blog/issues/80
 
@@ -384,6 +383,69 @@ https://github.com/sorrycc/blog/issues/80
 https://www.yuque.com/robinson/fe-pro
 
 vue 依赖收集
+
+redis https://zhuanlan.zhihu.com/p/48080173
+
+### 监控
+
+Prometheus+grafana+zabbix+influxdb+Zipkin
+
+- 错误监控
+
+1. 框架层面的 errorHandler
+2. addEventListener error 捕获资源加载错误
+3. api 请求错误
+
+[前端代码异常监控实战](https://zhuanlan.zhihu.com/p/31979395)
+
+监控可复现
+
+- 信息上报
+  当前的网络状态
+  运营商
+  地理位置
+  访问时间
+  客户端的版本(如果是通过客户端访问)
+  系统版本
+  浏览器信息
+  设备分辨率
+  页面的来源
+  用户的账号信息
+  通过 performance API 收集用户各个页面访问流程所消耗的时间，看错误出现在什么环节
+  收集用户 js 代码报错的信息
+
+### polyfill
+
+babel/preset-env 是更好的选择，可以指定版本
+useBuiltIns: 'usage'/'entry'
+
+polyfill-service
+
+关于补丁方案的未来，我觉得按需特性探测 + 在线补丁才是终极方案。
+
+按需特性探测保证特性的最小集；在线补丁做按需下载
+
+[Polyfill 方案的过去、现在和未来](https://github.com/sorrycc/blog/issues/80)
+[Babel polyfill 知多少](https://zhuanlan.zhihu.com/p/29058936)
+
+### 反爬虫
+
+[反击爬虫，前端工程师的脑洞可以有多大？](https://imweb.io/topic/595b7161d6ca6b4f0ac71f05)
+
+### Service Workers vs Web Workers
+
+https://blog.csdn.net/wopelo/article/details/78607879
+https://juejin.im/entry/5c50f22ef265da616b1115a3
+
+### 工程化
+
+[大型项目前端架构浅谈（8000 字原创）](https://juejin.im/post/5cea1f705188250640005472)
+
+### CI Docker
+
+[基于 GitLab CI/CD 的前端自动化构建、发布实践](https://juejin.im/post/5d197e4fe51d45775b419c27)
+
+docker 最大的好处的是快速回滚。
 
 ### 拓展阅读
 
