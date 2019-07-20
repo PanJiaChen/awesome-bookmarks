@@ -263,3 +263,13 @@ console.log((foo.bar, foo.bar)()) // 1
 
 //严格模式下会报错
 ```
+
+### 暂时性死区
+
+```js
+var a = 10 // 全局使用域
+function foo() {
+  console.log(a) // ReferenceError
+  let a = 20
+}
+```

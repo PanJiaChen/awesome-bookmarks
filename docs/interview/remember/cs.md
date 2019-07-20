@@ -327,6 +327,8 @@ Content Delivery Network，即内容分发网络
 
 CDN 做了两件事，一是让用户访问最近的节点，二是从缓存或者源站获取资源
 
+https://www.zhihu.com/question/36514327/answer/193768864
+
 ### DNS
 
 Domain Name System 将域名和 IP 地址相互映射的一个分布式数据库

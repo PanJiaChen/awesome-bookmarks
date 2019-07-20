@@ -301,8 +301,6 @@ https://juejin.im/post/5cb8c385e51d456e2e656d3b
 delete 只是被删除的元素变成了 empty/undefined 其他的元素的键值还是不变。
 Vue.delete 直接删除了数组 改变了数组的键值。
 
-### vue 的 nextTick
-
 ## 性能优化
 
 图片 webP 两倍图 三倍图
@@ -428,6 +426,10 @@ polyfill-service
 [Polyfill 方案的过去、现在和未来](https://github.com/sorrycc/blog/issues/80)
 [Babel polyfill 知多少](https://zhuanlan.zhihu.com/p/29058936)
 
+### babel
+
+Babel 的三个主要处理步骤分别是： 解析（parse），转换（transform），生成（generate）。.
+
 ### 反爬虫
 
 [反击爬虫，前端工程师的脑洞可以有多大？](https://imweb.io/topic/595b7161d6ca6b4f0ac71f05)
@@ -452,3 +454,4 @@ docker 最大的好处的是快速回滚。
 - [Daily-Interview-Question](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md) 10 分推荐
 
 - [JavaScript 深入系列](https://github.com/mqyqingfeng/Blog) 10 分推荐
+- [](https://juejin.im/post/5d2ee123e51d4577614761f8)

@@ -46,6 +46,7 @@
 
   2019.07.17
   [技术人具备“结构化思维”意味着什么？](https://zhuanlan.zhihu.com/p/73964313)
+  [fullpage.js 这个开源项目怎样从免费到每月$15000](https://mp.weixin.qq.com/s/JXj-TzNvaeRLE-ZrlrmQyQ)
 
 ## 待读
 
