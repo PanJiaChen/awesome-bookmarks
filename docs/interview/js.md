@@ -6,6 +6,7 @@
 - css last-of-type last-child
 - 事件委托的好处
 - addEventListener 第三个参数
+- target currentTarget
 - 实现 index
 - 类数组 => 数组
 - querySelectorAll 方法相比 getElementsBy 系列方法有什么区别
@@ -542,7 +543,6 @@ function factorial(num) {
   const dp = [1]
 
   for (let i = 1; i < num; i++) {
-    count++
     dp[i] = dp[i - 1] * (i+1)
   }
 
@@ -555,7 +555,7 @@ function factorial(num) {
 
 ```js
 function factorial(num) {
-  const dp = [0, 1]
+  const dp = [1, 1]
   for (let i = 2; i < num; i++) {
     dp[i] = dp[i - 1] + dp[i - 2]
   }

@@ -395,6 +395,8 @@ PUT 和 PATCH 都是更新资源，而 PATCH 用来对已知资源进行局部�
   - 503：网关错误，服务端暂时性错误，可以一会再试。
   - 504：网关超时。
 
+https://hit-alibaba.github.io/interview/basic/network/HTTP.html
+
 ### keep-alive
 
 在早期的 HTTP/1.0 中，每次 http 请求都要创建一个连接，而创建连接的过程需要消耗资源和时间，为了减少资源消耗，缩短响应时间，就需要重用连接。在后来的 HTTP/1.0 中以及 HTTP/1.1 中，引入了重用连接的机制，就是在 http 请求头中加入 Connection: keep-alive 来告诉对方这个请求响应完成后不要关闭，下一次咱们还用这个请求继续交流。协议规定 HTTP/1.0 如果想要保持长连接，需要在请求头中加上 Connection: keep-alive。

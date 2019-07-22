@@ -48,6 +48,11 @@
   [技术人具备“结构化思维”意味着什么？](https://zhuanlan.zhihu.com/p/73964313)
   [fullpage.js 这个开源项目怎样从免费到每月$15000](https://mp.weixin.qq.com/s/JXj-TzNvaeRLE-ZrlrmQyQ)
 
+  2019.07.20
+
+  - [一个程序员的成长之路](https://github.com/fouber/blog/issues/41)
+  - [「自然交互 1」前馈：让功能找到用户；让用户体验美好](https://zhuanlan.zhihu.com/p/41952711)
+
 ## 待读
 
 https://juejin.im/post/5cde316f6fb9a07ed9118f01

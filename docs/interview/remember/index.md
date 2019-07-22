@@ -221,6 +221,12 @@ BigInt
 
 ## flutter vs react native
 
+## JSBridge
+
+- API 注入，原理其实就是 Native 获取 JavaScript 环境上下文，并直接在上面挂载对象或者方法，使 js 可以直接调用，Android 与 IOS 分别拥有对应的挂载方式。安卓：JavaScriptInterface，iOS:postmessage
+- WebView 中的 prompt/console/alert 拦截，通常使用 prompt，因为这个方法在前端中使用频率低，比较不会出现冲突；
+- WebView URL Scheme 跳转拦截；
+
 ## MVC MVVM MVP
 
 ## js 基础
@@ -300,6 +306,14 @@ https://juejin.im/post/5cb8c385e51d456e2e656d3b
 
 delete 只是被删除的元素变成了 empty/undefined 其他的元素的键值还是不变。
 Vue.delete 直接删除了数组 改变了数组的键值。
+
+### 面向对象
+
+面向对象三大特性：封装,继承,多态。
+
+### preload vs prefetch
+
+preload 加载资源一般是当前页面需要的，prefetch 一般是其它页面有可能用到的资源
 
 ## 性能优化
 
@@ -454,4 +468,8 @@ docker 最大的好处的是快速回滚。
 - [Daily-Interview-Question](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md) 10 分推荐
 
 - [JavaScript 深入系列](https://github.com/mqyqingfeng/Blog) 10 分推荐
+- [优雅的 JavaScript 排序算法（ES6）](https://github.com/RayJune/Elegant-JavaScript-Sorting-Algorithms) 10 分推荐 学习基本的几种排序手段
+- [「中高级前端面试」JavaScript 手写代码无敌秘籍](https://juejin.im/post/5c9c3989e51d454e3a3902b6)
+- [ECMAScript 6 简介](http://es6.ruanyifeng.com/#docs/intro) 学习 ES6 只推荐阮老师的教程
+- [从浏览器多进程到 JS 单线程，JS 运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872#articleHeader13)
 - [](https://juejin.im/post/5d2ee123e51d4577614761f8)

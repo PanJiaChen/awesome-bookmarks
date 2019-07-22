@@ -41,36 +41,83 @@ https://www.zhihu.com/question/28874340
 ### dfs bfs
 
 ```js
-const data = [
+const root = [
   {
     id: '1',
-    name: 'test1',
     children: [
       {
-        id: '11',
-        name: 'test11',
+        id: '1-1',
         children: [
           {
-            id: '111',
-            name: 'test111'
+            id: '1-1-1'
           },
           {
-            id: '112',
-            name: 'test112'
+            id: '1-1-2'
           }
         ]
       },
       {
-        id: '12',
-        name: 'test12',
+        id: '1-2',
         children: [
           {
-            id: '121',
-            name: 'test121'
+            id: '1-2-1'
           },
           {
-            id: '122',
-            name: 'test122'
+            id: '1-2-2'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '2',
+    children: [
+      {
+        id: '2-1',
+        children: [
+          {
+            id: '2-1-1'
+          },
+          {
+            id: '2-1-2'
+          }
+        ]
+      },
+      {
+        id: '2-2',
+        children: [
+          {
+            id: '2-2-1'
+          },
+          {
+            id: '2-2-2'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: '3',
+    children: [
+      {
+        id: '3-1',
+        children: [
+          {
+            id: '3-1-1'
+          },
+          {
+            id: '3-1-2'
+          }
+        ]
+      },
+      {
+        id: '3-2',
+        children: [
+          {
+            id: '3-2-1'
+          },
+          {
+            id: '3-2-2'
           }
         ]
       }
