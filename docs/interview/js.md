@@ -356,6 +356,25 @@ console.log(sum(3)(4)(1)()) //8
 
 `console.log(sum(3, 5)(4)(2, 1)(5)(3)()) //23`
 
+```js
+function add(arr) {
+  return arr.reduce((acc, cur) => {
+    acc = acc + cur
+    return acc
+  }, 0)
+}
+
+function sum(...args) {
+  return (...newArgs) => {
+    if (newArgs.length === 0) {
+      return add(args)
+    } else {
+      return sum(...args, ...newArgs)
+    }
+  }
+}
+```
+
 ### 13. 据下面的代码片段回答后面的问题
 
 ```js

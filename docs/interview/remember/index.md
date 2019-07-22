@@ -472,4 +472,4 @@ docker 最大的好处的是快速回滚。
 - [「中高级前端面试」JavaScript 手写代码无敌秘籍](https://juejin.im/post/5c9c3989e51d454e3a3902b6)
 - [ECMAScript 6 简介](http://es6.ruanyifeng.com/#docs/intro) 学习 ES6 只推荐阮老师的教程
 - [从浏览器多进程到 JS 单线程，JS 运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872#articleHeader13)
-- [](https://juejin.im/post/5d2ee123e51d4577614761f8)
+- [20 道 JS 原理题助你面试一臂之力！](https://juejin.im/post/5d2ee123e51d4577614761f8)

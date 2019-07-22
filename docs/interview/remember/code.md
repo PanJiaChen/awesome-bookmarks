@@ -280,3 +280,12 @@ function foo() {
 parseInt(0.0000008)
 // parseInt(string, radix)是这样工作的：如果第一个参数不是string，则先使用toString()。 0.000008.toString()不会使用科学计数法，但0.0000008.toString()会变成科学计数法的"8e-7"，所以parseInt(0.000008)就变成了parseInt("8e-7")，而这会被转成8
 ```
+
+### 去首尾空格
+
+```js
+function trim(s) {
+  return s.replace(/^\s+/, '').replace(/\s+$/, '')
+}
+console.log(trim('  hellw wor    ld '))
+```

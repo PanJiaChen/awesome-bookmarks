@@ -761,3 +761,10 @@ https://www.zhihu.com/question/24188524
 
 https://github.com/piecioshka/test-freeze-vs-seal-vs-preventExtensions
 https://stackoverflow.com/questions/21402108/difference-between-freeze-and-seal
+
+### 内存泄漏
+
+- 意外的全局变量
+- 被遗忘的计时器或回调函数
+- 闭包
+- 脱离 DOM 的引用
