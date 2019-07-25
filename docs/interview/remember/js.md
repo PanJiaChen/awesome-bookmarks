@@ -768,3 +768,9 @@ https://stackoverflow.com/questions/21402108/difference-between-freeze-and-seal
 - 被遗忘的计时器或回调函数
 - 闭包
 - 脱离 DOM 的引用
+
+### ES5 和 ES6 及继承机制
+
+ES5 的继承机制简单来说就是：实质是先创造子类的实例对象 this，然后再将父类的方法添加到 this 上面（Parent.apply(this)）
+
+ES6 的继承机制完全不同，实质是先将父类实例对象的属性和方法，加到 this 上面（所以必须先调用 super 方法），然后再用子类的构造函数修改 this。

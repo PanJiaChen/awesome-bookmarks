@@ -388,3 +388,56 @@ var getSum = function(a, b) {
 ### 还原二叉树--已知先序中序或者后序中序
 
 https://www.jianshu.com/p/2943a21d2a99
+
+### 判断一个字符串是不是回文字符串 （LeetCode #125）
+
+```js
+function isPalindrome(str) {
+  str = str.replace(/\W/g, '').toLowerCase()
+  return (
+    str ==
+    str
+      .split('')
+      .reverse()
+      .join('')
+  )
+}
+```
+
+### 数组全排列 （LeetCode #46）
+
+```js
+function backtrack(list, tempList, nums) {
+  if (tempList.length === nums.length) return list.push([...tempList])
+  for (let i = 0; i < nums.length; i++) {
+    if (tempList.includes(nums[i])) continue
+    tempList.push(nums[i])
+    backtrack(list, tempList, nums)
+    tempList.pop()
+  }
+}
+/**
+ * @param {number[]} nums
+ * @return {number[][]}
+ */
+var permute = function(nums) {
+  const list = []
+  backtrack(list, [], nums)
+  return list
+}
+```
+
+### 爬楼梯问题 （LeetCode #70） 金典 dp 问题
+
+```js
+var climbStairs = function(n) {
+  if (n <= 2) return n
+  const dp = []
+  dp[1] = 1
+  dp[2] = 2
+  for (let index = 3; index <= n; index++) {
+    dp[index] = dp[index - 1] + dp[index - 2]
+  }
+  return dp[n]
+}
+```

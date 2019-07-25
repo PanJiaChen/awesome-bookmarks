@@ -642,6 +642,19 @@ function flatten(arr) {
 console.log(flatten([[1, 2], [3], [[[4], 5, [6, 7]]]]))
 ```
 
+奇淫巧技写法
+
+```js
+arr.prototype.flat = function() {
+  this.toString()
+    .split(',')
+    .map(item => +item)
+}
+```
+
+原理： [1, 2, [3, 4, [5, 6]]].toString()
+"1,2,3,4,5,6"
+
 ### 满足 if (a == 1 & a == 2 & a == 3)这个条件
 
 ```js

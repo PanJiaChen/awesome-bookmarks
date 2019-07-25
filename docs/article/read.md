@@ -53,6 +53,10 @@
   - [一个程序员的成长之路](https://github.com/fouber/blog/issues/41)
   - [「自然交互 1」前馈：让功能找到用户；让用户体验美好](https://zhuanlan.zhihu.com/p/41952711)
 
+    2019.07.25
+
+  - [在阿里一年，我颠覆了曾经坚信不疑的技术思维...](https://mp.weixin.qq.com/s/K_yRMj45mSA7XyIo6PsQKA)
+
 ## 待读
 
 https://juejin.im/post/5cde316f6fb9a07ed9118f01
