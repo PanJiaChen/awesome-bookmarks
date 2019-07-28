@@ -441,3 +441,101 @@ var climbStairs = function(n) {
   return dp[n]
 }
 ```
+
+### 单词拆分 （LeetCode #139）
+
+```js
+var wordBreak = function(s, wordDict) {
+  const dp = Array(s.length + 1)
+  dp[0] = true
+  for (let i = 0; i < s.length + 1; i++) {
+    for (let word of wordDict) {
+      if (dp[i - word.length] && word.length <= i) {
+        if (s.substring(i - word.length, i) === word) {
+          dp[i] = true
+        }
+      }
+    }
+  }
+
+  return dp[s.length] || false
+}
+
+console.log(wordBreak('leetcode', ['leet', 'code'])) // true
+console.log(wordBreak('catsandog', ['cats', 'dog', 'sand', 'and', 'cat'])) // false
+```
+
+### 最长前缀 （LeetCode #14）
+
+```js
+var longestCommonPrefix = function(strs) {
+  if (strs.length === 0) return ''
+  if (strs.length === 1) return strs[0]
+  let base = strs.shift()
+
+  for (let i = 0; i < strs.length; i++) {
+    const cur = strs[i]
+    let find = false
+    while (base.length && !find) {
+      if (cur.indexOf(base) === 0) {
+        find = true
+      } else {
+        base = base.substring(0, base.length - 1)
+      }
+    }
+  }
+  return base
+}
+```
+
+### 无重复字符的最长子串 （LeetCode #3）
+
+// "abcabcbb" abc
+// "pwwkew" wke
+
+```js
+var lengthOfLongestSubstring = function(strs) {
+  if (strs.length <= 1) {
+    return strs.length
+  }
+  let max = 1
+
+  let hashMap = strs.substring(0, 1)
+  for (let i = 1; i < strs.length; i++) {
+    const cur = strs[i]
+    const index = hashMap.indexOf(cur)
+    hashMap = hashMap + cur
+    if (index >= 0) {
+      hashMap = hashMap.substring(index + 1)
+    } else {
+      max = Math.max(max, hashMap.length)
+    }
+  }
+  return max
+}
+```
+
+### Maximum Swap （LeetCode #670）
+
+Input: 2736
+Output: 7236
+Explanation: Swap the number 2 and the number 7.
+
+```js
+var maximumSwap = function(num) {
+  const arr = (num + '').split('').reduce((acc, cur) => {
+    acc.push(+cur)
+    return acc
+  }, [])
+  for (let i = 0; i < arr.length; i++) {
+    const rest = arr.slice(i + 1)
+    const max = Math.max(...rest)
+    if (max > arr[i]) {
+      const index = arr.lastIndexOf(max)
+      ;[arr[i], arr[index]] = [arr[index], arr[i]]
+      break
+    }
+  }
+  return arr.join('')
+}
+```

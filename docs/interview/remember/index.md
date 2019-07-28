@@ -332,10 +332,11 @@ https://juejin.im/post/5d197e4fe51d45775b419c27
 https://github.com/amandakelake/blog/issues/55
 https://github.com/amandakelake/blog/issues/47
 https://github.com/amandakelake/blog/issues/35
+https://github.com/amandakelake/blog/issues/64
+
 https://zhuanlan.zhihu.com/p/67858932
 http2 工程化
 https://hit-alibaba.github.io/interview/basic/
-https://juejin.im/post/5d197e4fe51d45775b419c27
 
 https://ppt.geekbang.org/list/gmtcbj2019
 
@@ -474,5 +475,8 @@ docker 最大的好处的是快速回滚。
 - [从浏览器多进程到 JS 单线程，JS 运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872#articleHeader13)
 - [20 道 JS 原理题助你面试一臂之力！](https://juejin.im/post/5d2ee123e51d4577614761f8)
 
+- [一个合格(优秀)的前端都应该阅读这些文章](https://juejin.im/post/5d387f696fb9a07eeb13ea60)
+
 - [一年半经验，百度、有赞、阿里前端面试总结](https://juejin.im/post/5befeb5051882511a8527dbe)
 - [前端面试题整理](http://blog.poetries.top/FE-Interview-Questions/) 整理的还算全
+- [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(上)](https://juejin.im/post/5c64d15d6fb9a049d37f9c20)

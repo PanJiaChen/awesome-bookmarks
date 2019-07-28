@@ -343,3 +343,7 @@ addTask(500, '2')
 addTask(300, '3')
 addTask(400, '4')
 ```
+
+### 略变态
+
+[一道被前端忽略的基础题，不信看你会几题](https://juejin.im/post/5c6a0fa451882562851b3cdd)
