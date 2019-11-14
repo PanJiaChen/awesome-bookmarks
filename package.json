@@ -1,0 +1,43 @@
+{
+  "name": "awesome-bookmarks",
+  "version": "1.0.0",
+  "description": "awesome-bookmarks",
+  "main": "index.js",
+  "author": "PanJiaChen",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "lint": "prettier --write 'docs/**/*.md'",
+    "release": "node scripts/release.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run release && git add . && lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "preserve": "never"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.2",
+    "husky": "1.3.1",
+    "lint-staged": "7.2.0",
+    "markdown-it-include": "^1.0.0",
+    "markdown-toc": "1.2.0",
+    "prettier": "^1.14.0",
+    "vuepress": "^0.14.1"
+  },
+  "dependencies": {
+    "get-markdown-images": "^1.0.2",
+    "ora": "^4.0.2"
+  }
+}
