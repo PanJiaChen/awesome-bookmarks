@@ -140,6 +140,14 @@
 
 [玉伯-我的前端成长之路](https://www.yuque.com/yubo/morning/grow-up-at-alibaba)
 
+### 2019.11.18
+
+[在 iOS 下使用 iframe 的种种问题](https://xiaoiver.github.io/coding/2018/05/20/%E5%9C%A8-iOS-%E4%B8%8B%E4%BD%BF%E7%94%A8-iframe-%E7%9A%84%E7%A7%8D%E7%A7%8D%E9%97%AE%E9%A2%98.html)
+
+#### 2019.11.19
+
+[产品经理推荐书](https://uxren.cn/?p=56164)
+
 ## 待读
 
 https://juejin.im/post/5cde316f6fb9a07ed9118f01

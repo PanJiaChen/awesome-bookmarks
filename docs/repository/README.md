@@ -69,6 +69,7 @@ sidebar: auto
 - [chart.xkcd](https://github.com/timqian/chart.xkcd) 手绘风格的图表库
 - [pagemap](https://github.com/lrsjng/pagemap) Mini map for web pages 页面导航图
 - [commonmark.js](https://github.com/commonmark/commonmark.js) parser and renderer markdown
+- [body-scroll-lock](https://github.com/willmcpo/body-scroll-lock) 解决滚动穿透问题
 
 ## Css && 动画
 
@@ -88,6 +89,7 @@ sidebar: auto
 - [cssfx](https://cssfx.dev/) 优雅的 CSS 动画效果，开箱即用
 - [zdog](https://github.com/metafizzy/zdog) 3D engine 引擎
 - [leonsans](https://github.com/cmiscm/leonsans) 酷炫的 字体 动画 geometric sans-serif typeface made with code
+- [css-doodle](https://github.com/css-doodle/css-doodle) A web component for drawing patterns with CSS 一个用于使用 CSS 绘制图案的 Web 组件
 
 ## Vue
 

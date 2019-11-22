@@ -66,7 +66,7 @@ sidebar: auto
 - [mockapi](https://www.mockapi.io/) 一个还不错的在线 mock 服务（可在线可视化编辑），可以满足大部分简单需求了
 - [coder](coder.com) 在线版 VS Code
 - [browserstack](https://www.browserstack.com/) 远程调整各种版本浏览器 兼容性问题
-- [carbon](https://carbon.now.sh/) 根据源码生成图片 主要作用是让你打代表片段分享的时候更好看一点
+- [carbon](https://carbon.now.sh/) 根据代码块生成图片 主要作用是让你打代码片段分享的时候更好看一点
 - [clipboard2markdown](https://euangoddard.github.io/clipboard2markdown/) 将你所有复制进去的内容都转化为 markdown
 - [grammarly](https://www.grammarly.com/) 英语写作检查工具
 - [quickchart](https://quickchart.io/) 通过 URL 生成图表的开源服务

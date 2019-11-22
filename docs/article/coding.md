@@ -150,8 +150,8 @@ var xhr = createXHR()
 下面这段伪代码是遵守“函数只有一个出口的”的典型代码：
 
 ```js
-var del = function(obj) {
-  var ret
+const del = function(obj) {
+  let ret
   if (!obj.isReadOnly) {
     // 不为只读的才能被删除
     if (obj.isFolder) {
@@ -170,7 +170,7 @@ var del = function(obj) {
 于是我们可以挑选一些条件分支，在进入这些条件分支之后，就立即让这个函数退出。要做到这一点，有一个常见的技巧，即在面对一个嵌套的 if 分支时，我们可以把外层 if 表达式进行反转。重构后的 del 函数如下：
 
 ```js
-var del = function(obj) {
+const del = function(obj) {
   if (obj.isReadOnly) {
     // 反转 if 表达式
     return
@@ -463,3 +463,6 @@ func()
 [待写](https://mp.weixin.qq.com/s?__biz=MzUxODI3Mjc5MQ==&mid=2247484258&idx=1&sn=2b9e72b5caf59126078c8b100a384cbc&chksm=f98a211acefda80cde6bda59bdd10f4d3c1047b6a0ac06902fa3df0dd4cd6ace917fc09dcce1&scene=21#wechat_redirect)
 
 ### json
+
+```js
+```

@@ -112,6 +112,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [chart.xkcd](https://github.com/timqian/chart.xkcd) 手绘风格的图表库
 - [pagemap](https://github.com/lrsjng/pagemap) Mini map for web pages 页面导航图
 - [commonmark.js](https://github.com/commonmark/commonmark.js) parser and renderer markdown
+- [body-scroll-lock](https://github.com/willmcpo/body-scroll-lock) 解决滚动穿透问题
 
 ## Css && 动画
 
@@ -131,6 +132,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [cssfx](https://cssfx.dev/) 优雅的 CSS 动画效果，开箱即用
 - [zdog](https://github.com/metafizzy/zdog) 3D engine 引擎
 - [leonsans](https://github.com/cmiscm/leonsans) 酷炫的 字体 动画 geometric sans-serif typeface made with code
+- [css-doodle](https://github.com/css-doodle/css-doodle) A web component for drawing patterns with CSS 一个用于使用 CSS 绘制图案的 Web 组件
 
 ## Vue
 
@@ -459,7 +461,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 - [mockapi](https://www.mockapi.io/) 一个还不错的在线 mock 服务（可在线可视化编辑），可以满足大部分简单需求了
 - [coder](coder.com) 在线版 VS Code
 - [browserstack](https://www.browserstack.com/) 远程调整各种版本浏览器 兼容性问题
-- [carbon](https://carbon.now.sh/) 根据源码生成图片 主要作用是让你打代表片段分享的时候更好看一点
+- [carbon](https://carbon.now.sh/) 根据代码块生成图片 主要作用是让你打代码片段分享的时候更好看一点
 - [clipboard2markdown](https://euangoddard.github.io/clipboard2markdown/) 将你所有复制进去的内容都转化为 markdown
 - [grammarly](https://www.grammarly.com/) 英语写作检查工具
 - [quickchart](https://quickchart.io/) 通过 URL 生成图表的开源服务
