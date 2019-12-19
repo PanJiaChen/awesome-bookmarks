@@ -67,6 +67,7 @@ sidebar: auto
 - [pretty-bytes](https://github.com/sindresorhus/pretty-bytes) 将字节转换成可以读的字符串，比如 1337 个字节，会显示成 1.34 KB
 - [runkit](https://runkit.com) 一个基于 node 的在线 playground
 - [chart.xkcd](https://github.com/timqian/chart.xkcd) 手绘风格的图表库
+- [sketchviz](https://sketchviz.com/new) 手绘风格流程图
 - [pagemap](https://github.com/lrsjng/pagemap) Mini map for web pages 页面导航图
 - [commonmark.js](https://github.com/commonmark/commonmark.js) parser and renderer markdown
 - [body-scroll-lock](https://github.com/willmcpo/body-scroll-lock) 解决滚动穿透问题
@@ -139,6 +140,7 @@ sidebar: auto
 - [inline-css](https://github.com/jonkemp/inline-css#readme) css covert to inline style 在生成 email 格式 html 的时候特别有用
 - [babel-plugin-try-catch-error-report](https://github.com/mcuking/babel-plugin-try-catch-error-report) 全局自动 catch 错误进行数据上报
 - [StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js) 大文件下载，不用像 saveAs 那样先读到内存中再下载
+- [mammoth.js](https://github.com/mwilliamson/mammoth.js) Convert Word documents (.docx files) to HTML
 
 ## Node
 

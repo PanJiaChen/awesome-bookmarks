@@ -148,6 +148,20 @@
 
 [产品经理推荐书](https://uxren.cn/?p=56164)
 
+### 2019.11.26
+
+[api-guidelines](https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md) REST API 指导
+
+### 2019.12.15
+
+[漫画：什么是 MD5 算法？](https://zhuanlan.zhihu.com/p/55841123)
+[Design better data tables](https://uxdesign.cc/design-better-data-tables-4ecc99d23356)
+
+### 2019.12.17
+
+[为什么 MySQL 使用 B+ 树](https://draven.co/whys-the-design-mysql-b-plus-tree)
+[2019-D2 晚会前端分享记录](https://www.yuque.com/zhaishenking/ggn07n/uvdo44)
+
 ## 待读
 
 https://juejin.im/post/5cde316f6fb9a07ed9118f01
