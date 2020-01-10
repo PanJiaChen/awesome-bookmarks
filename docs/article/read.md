@@ -162,6 +162,24 @@
 [为什么 MySQL 使用 B+ 树](https://draven.co/whys-the-design-mysql-b-plus-tree)
 [2019-D2 晚会前端分享记录](https://www.yuque.com/zhaishenking/ggn07n/uvdo44)
 
+### 2019.12.28
+
+[css-utility-classes-and-separation-of-concerns](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/)
+
+### 2019.12.29
+
+[Print CSS basics in 10 minutes](https://www.paperplane.app/blog/print-css-basics/)
+
+### 2020.01.03
+
+[Why Not Iframe](https://www.yuque.com/kuitos/gky7yw/gesexv)
+[微前端的核心价值](https://zhuanlan.zhihu.com/p/95085796)
+[0202 年了, Chrome DevTools 你还只会 console.log 吗](https://juejin.im/post/5e0cb3ba5188253ab46da675)
+
+### 2020.01.09
+
+[如何写一份有效的技术简历？](http://www.ruanyifeng.com/blog/2020/01/technical-resume.html)
+
 ## 待读
 
 https://juejin.im/post/5cde316f6fb9a07ed9118f01

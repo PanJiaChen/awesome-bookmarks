@@ -141,6 +141,7 @@ sidebar: auto
 - [babel-plugin-try-catch-error-report](https://github.com/mcuking/babel-plugin-try-catch-error-report) 全局自动 catch 错误进行数据上报
 - [StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js) 大文件下载，不用像 saveAs 那样先读到内存中再下载
 - [mammoth.js](https://github.com/mwilliamson/mammoth.js) Convert Word documents (.docx files) to HTML
+- [npkill](https://github.com/voidcosmos/npkill) 列出所有 node_modules，并支持删除
 
 ## Node
 
@@ -267,6 +268,7 @@ sidebar: auto
 - [build-tracker](https://github.com/paularmstrong/build-tracker) 构建大小追踪 记录你多个版本构建后文件大小的变化
 - [zan-proxy](https://github.com/youzan/zan-proxy/blob/master/README.zh-CN.md) 本地调试线上环境的工具
 - [mjml](https://github.com/mjmlio/mjml) 一个让发 email 更简单的框架。定义了一套自己的语法，你用这套语法写邮件，然后编译成 HTML。
+- [any-rule](https://any86.github.io/any-rule/) 正则大全
 
 ## Webpack
 
@@ -331,6 +333,7 @@ sidebar: auto
 - [polacode](https://github.com/octref/polacode) 生产代码图片快照插件
 - [vscode-leetcode](https://github.com/jdneo/vscode-leetcode) - 一个能让你在 vscode 中刷 LeetCode 的插件 算一个划水神器吧
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons) VS Code 必备吧，为文件添加炫图标
+- [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap) 生产代码截图
 
 ## 工程
 
