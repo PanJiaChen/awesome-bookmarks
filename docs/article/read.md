@@ -180,6 +180,11 @@
 
 [如何写一份有效的技术简历？](http://www.ruanyifeng.com/blog/2020/01/technical-resume.html)
 
+### 202.01.14
+
+[如何用保险保障自己的一生 回答 1](https://www.zhihu.com/question/22316395/answer/100909780)
+[如何用保险保障自己的一生 回答 2](https://www.zhihu.com/question/22316395/answer/21826314)
+
 ## 待读
 
 https://juejin.im/post/5cde316f6fb9a07ed9118f01
