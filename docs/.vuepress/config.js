@@ -2,7 +2,7 @@ const utils = require('./utils')
 
 module.exports = {
   title: 'awesome-bookmarks',
-  description: '个人收藏夹 beta',
+  description: '个人收藏夹',
   base: '/awesome-bookmarks/',
   head: [
     [
@@ -28,17 +28,21 @@ module.exports = {
         link: '/website/'
       },
       {
-        text: '文章',
-        link: '/article/'
+        text: '最近阅读',
+        link: '/diary/read'
       },
       {
-        text: '最近阅读',
-        link: '/article/read'
+        text: '文章',
+        link: '/article/'
       },
       // { text: '工具', link: 'https://google.com' },
       {
         text: '面试',
         link: '/interview/'
+      },
+      {
+        text: '内推',
+        link: '/job/'
       },
       {
         text: 'Blog',

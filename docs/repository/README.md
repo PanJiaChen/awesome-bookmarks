@@ -9,7 +9,7 @@ sidebar: auto
 ## 前端常用
 
 - [**sweetalert2**](https://github.com/sweetalert2/sweetalert2) 一个自适应，且自定义性强的弹出框（零依赖）
-- [**tippy.js **](https://github.com/atomiks/tippyjs) 最著名的 tooltip/popover library
+- [**tippy.js**](https://github.com/atomiks/tippyjs) 最著名的 tooltip/popover library
 - [**text-mask**](https://github.com/text-mask/text-mask) 可以让 input 按照规则输入(如电话,email,日期,信用卡等)，特殊格式 input
 - [**dinero.js**](https://github.com/sarahdayan/dinero.js) 用来创建、计算和格式化货币价值的不可变的框架，支持国际化
 - [**lerna**](https://github.com/lerna/lerna) 大项目版本控制工具，项目中可以有多个 package.json 文件
@@ -303,6 +303,7 @@ sidebar: auto
 - [**Motrix**](https://github.com/agalwood/Motrix) - 支持 HTTP、FTP、BT、磁力链、百度网盘的下载工具
 - [**iPic**](https://apps.apple.com/cn/app/ipic-markdown-%E5%9B%BE%E5%BA%8A-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%B7%A5%E5%85%B7/id1101244278?mt=12)这个应用可以让你方便地上传图片到各种图床
 - [**Image2Icon**](http://www.img2icnsapp.com/)
+- [**hidden**](https://github.com/dwarvesf/hidden) 是用来帮助你隐藏 macOS 菜单栏上那些不常用的应用图标
 
 ## 录制
 
