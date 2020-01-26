@@ -7,7 +7,7 @@
 
 !!!include(docs/blog/javascript/map(parseInt)坑.md)!!!
 
-!!!include(docs/blog/javascript/省略参数引发的bug.md)!!!
+!!!include(docs/blog/javascript/默认参数引发的bug.md)!!!
 
 !!!include(docs/blog/javascript/多余逗号引发的错误.md)!!!
 
@@ -44,6 +44,9 @@
 !!!include(docs/blog/javascript/Object.create.md)!!!
 
 !!!include(docs/blog/javascript/promise-in-forEach.md)!!!
+
+!!!include(docs/blog/javascript/函数参数传递.md)!!!
+
 
 <!-- prettier-ignore-end -->
 

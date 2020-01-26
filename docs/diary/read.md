@@ -1,6 +1,5 @@
 ---
 sidebar: auto
-sidebarDepth: 4
 ---
 
 # 值得一读的好文
