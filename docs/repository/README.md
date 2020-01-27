@@ -365,3 +365,17 @@ sidebar: auto
 - [**cpx**](https://github.com/mysticatea/cpx) - 复制，支持 glob，并且可以 watch。
 - [**onchange**](https://github.com/Qard/onchange) - 监听文件变动然后做一些事。
 - [**outline**](https://github.com/outline/outline) 一个免费开源的库，能让你快速搭建自己的 wiki
+
+## 编辑器和 Terminal
+
+- [**Go2shell**](https://zipzapmac.com/Go2Shell) 在当前文件夹打开 shell
+- Terminal 用 [**iTerm2**](https://www.iterm2.com/) + [**zsh**](https://en.wikipedia.org/wiki/Z_shell) + [**oh-my-zsh**](https://github.com/robbyrussell/oh-my-zsh) 的组合，主题是 [robbyrussell](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/robbyrussell.zsh-theme)
+
+### zsh 插件
+
+- [Homebrew](https://brew.sh/index_zh-cn) 必装
+- [autojump](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autojump) 实现目录间快速跳转，想去哪个目录直接 j + 目录名，不用在频繁的 cd 了
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) 命令自动建议和补全
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) 命令行语法高亮
+- [history](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/history) 命令行记录
+- [zsh-git-prompt](https://github.com/olivierverdier/zsh-git-prompt) git 分支信息提示

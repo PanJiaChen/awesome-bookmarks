@@ -455,16 +455,13 @@ docker 最大的好处的是快速回滚。
 ### 拓展阅读
 
 - [Daily-Interview-Question](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md) 10 分推荐
-
 - [JavaScript 深入系列](https://github.com/mqyqingfeng/Blog) 10 分推荐
 - [优雅的 JavaScript 排序算法（ES6）](https://github.com/RayJune/Elegant-JavaScript-Sorting-Algorithms) 10 分推荐 学习基本的几种排序手段
 - [「中高级前端面试」JavaScript 手写代码无敌秘籍](https://juejin.im/post/5c9c3989e51d454e3a3902b6)
 - [ECMAScript 6 简介](http://es6.ruanyifeng.com/#docs/intro) 学习 ES6 只推荐阮老师的教程
 - [从浏览器多进程到 JS 单线程，JS 运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872#articleHeader13)
 - [20 道 JS 原理题助你面试一臂之力！](https://juejin.im/post/5d2ee123e51d4577614761f8)
-
 - [一个合格(优秀)的前端都应该阅读这些文章](https://juejin.im/post/5d387f696fb9a07eeb13ea60)
-
 - [一年半经验，百度、有赞、阿里前端面试总结](https://juejin.im/post/5befeb5051882511a8527dbe)
 - [前端面试题整理](http://blog.poetries.top/FE-Interview-Questions/) 整理的还算全
 - [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(上)](https://juejin.im/post/5c64d15d6fb9a049d37f9c20)
