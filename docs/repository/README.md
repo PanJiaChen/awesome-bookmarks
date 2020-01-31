@@ -190,6 +190,8 @@ sidebar: auto
 - [**cli-progress**](https://github.com/AndiDittrich/Node.CLI-Progress) Terminal Progress Bar
 - [**cli-table**](https://github.com/Automattic/cli-table) tables for the CLI
 - [**node-notifier**](https://github.com/mikaelbr/node-notifier) 在 NodeJS 环境中，可以很方便的唤起 notifier 通知
+- [**patch-package**](https://github.com/ds300/patch-package) 优雅的修改 node_modules 中的依赖库
+- [**Playwright**](https://github.com/microsoft/playwright) 同 Puppeteer 团队出品，但区别是它支持 Chrome、Safari、Firefox、Edge
 
 ## GraphQL
 

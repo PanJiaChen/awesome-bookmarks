@@ -7,7 +7,10 @@
 #### 一月番
 
 - [别对映像研出手！](https://movie.douban.com/subject/33438250/)
-- [排球少年第四季](https://movie.douban.com/subject/30411330/)
+- [排球少年 第 4 季](https://movie.douban.com/subject/30411330/)
+- [我的英雄学院 第 4 季](https://movie.douban.com/subject/30337831/)
+- [异度侵入](https://movie.douban.com/subject/34456027/)
+- [因为太怕痛就全点防御力了](https://movie.douban.com/subject/30397673/)
 
 ## 2019
 
