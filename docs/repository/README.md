@@ -375,9 +375,13 @@ sidebar: auto
 
 ### zsh 插件
 
-- [Homebrew](https://brew.sh/index_zh-cn) 必装
-- [autojump](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autojump) 实现目录间快速跳转，想去哪个目录直接 j + 目录名，不用在频繁的 cd 了
-- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) 命令自动建议和补全
-- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) 命令行语法高亮
-- [history](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/history) 命令行记录
-- [zsh-git-prompt](https://github.com/olivierverdier/zsh-git-prompt) git 分支信息提示
+- [**Homebrew**](https://brew.sh/index_zh-cn) 必装
+- [**autojump**](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autojump) 实现目录间快速跳转，想去哪个目录直接 j + 目录名，不用在频繁的 cd 了
+- [**zsh-autosuggestions**](https://github.com/zsh-users/zsh-autosuggestions) 命令自动建议和补全
+- [**zsh-syntax-highlighting**](https://github.com/zsh-users/zsh-syntax-highlighting) 命令行语法高亮
+- [**history**](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/history) 命令行记录
+- [**zsh-git-prompt**](https://github.com/olivierverdier/zsh-git-prompt) git 分支信息提示
+
+## 开发常用软件
+
+- [**runjs**](https://runjs.dev/) js 运行沙盒，写 test case 或者面试当场写代码的时候很有用

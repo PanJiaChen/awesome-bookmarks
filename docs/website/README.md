@@ -6,13 +6,14 @@ sidebar: auto
 
 ## 常看的网站
 
-- [**awesome-f2e-libs**](https://github.com/sorrycc/awesome-f2e-libs) sorrycc 整理的个人关注使用的前端库
-- [**overreacted**](https://overreacted.io/) react Dan 的个人博客，更新频率很高
+- [**overreacted**](https://overreacted.io/) react Dan 的个人博客，更新频率很高（redux 作者，react 核心开发）
 - [**DailyJS**](https://medium.com/dailyjs)
 - [**codeburst**](https://codeburst.io/)
 - [**阮一峰的网络日志**](http://www.ruanyifeng.com/blog/) 阮老师出的东西还是值得一读的
 - [**InfoQ**](https://www.infoq.cn/topic/Front-end) 文章的质量比一般网站的高不少
 - [**鱼塘**](https://www.printf520.com/hot.html) 划水网站 收集了很多网站 当天热门文章
+- [**每日时报**](https://wubaiqing.github.io/zaobao/) 定期会分享一些库和工具
+- [**awesome-f2e-libs**](https://github.com/sorrycc/awesome-f2e-libs) sorrycc 整理的个人关注使用的前端库
 
 ## Github
 
@@ -140,9 +141,9 @@ sidebar: auto
 ## 教程
 
 - [**npx**](https://egghead.io/courses/execute-npm-package-binaries-with-the-npx-package-runner) 教你怎么合理的使用 npx
-
 - [**hacksplaining**](https://www.hacksplaining.com/lessons) 网络安全学习网站
 - [**mobile-web-best-practice**](https://github.com/mcuking/mobile-web-best-practice) 移动 web 最佳实践
+- [vanillawebprojects](https://github.com/bradtraversy/vanillawebprojects) 通过纯前端的手段实现一些小项目，适合入门
 
 ## 产品
 
@@ -152,28 +153,28 @@ sidebar: auto
 
 ## 实用
 
-[typeform\*\*](https://admin.typeform.com/signup) 一个国外的在线调查问卷网站
-[VideoFk\*\*](https://www.videofk.com/) VideoFk 视频在线解析下载
-[全历史\*\*](https://www.allhistory.com/) 历史内容聚合网站
-[UzerMe\*\*](https://www.uzer.me/) 云端办公工具
-[SoBooks\*\*](https://sobooks.cc/) 强大的电子书资源网站
-[稿定设计\*\*](https://www.gaoding.com/) 键式设计工具+智能抠图
-[大力盘\*\*](https://dalipan.com) 百度网盘搜索
-[ENFI 下载器\*\*](https://www.macbl.com/app/internet/enfi) 不限速下载器
-[来画视频\*\*](https://www.laihua.com/) 像做 PPT 一样做短视频
-[Arkie 海报制作工具\*\*](https://www.arkie.cn/)
-[优品 PPT\*\*](http://www.ypppt.com/)
-[比格 PPT\*\*](http://www.tretars.com)
-[高清免费图片\*\*](https://www.pexels.com/)
-[高清免费图片 2\*\*](https://unsplash.com/)
-[历史价格查询\*\*](http://www.lsjgcx.com/)淘宝，京东等商品历史价格，能更清晰了解商家的活动是否为虚假促销以及促销的力度。神器
-
-- [\***\*Firefox Send\*\***](https://send.firefox.com/) 文件分享服务，下载一次或者到期即焚，在当前网络监管下很实用的服务
+- [**写作猫**](https://xiezuocat.com/#/) 可以通过 AI 的方式，帮你检查错别字，很有效的一个工具
+- [**typeform**](https://admin.typeform.com/signup) 一个国外的在线调查问卷网站
+- [**VideoFk**](https://www.videofk.com/) VideoFk 视频在线解析下载
+- [**全历史**](https://www.allhistory.com/) 历史内容聚合网站
+- [**UzerMe**](https://www.uzer.me/) 云端办公工具
+- [**SoBooks**](https://sobooks.cc/) 强大的电子书资源网站
+- [**稿定设计**](https://www.gaoding.com/) 键式设计工具+智能抠图
+- [**大力盘**](https://dalipan.com) 百度网盘搜索
+- [**ENFI 下载器**](https://www.macbl.com/app/internet/enfi) 不限速下载器
+- [**来画视频**](https://www.laihua.com/) 像做 PPT 一样做短视频
+- [**Arkie 海报制作工具**](https://www.arkie.cn/)
+- [**优品 PPT**](http://www.ypppt.com/)
+- [**比格 PPT**](http://www.tretars.com)
+- [**高清免费图片**](https://www.pexels.com/)
+- [**高清免费图片 2**](https://unsplash.com/)
+- [**历史价格查询**](http://www.lsjgcx.com/)淘宝，京东等商品历史价格，能更清晰了解商家的活动是否为虚假促销以及促销的力度。神器
+- [**Firefox Send**](https://send.firefox.com/) 文件分享服务，下载一次或者到期即焚，在当前网络监管下很实用的服务
 
 ## Talk
 
-[peerigon-talks\*\*](https://github.com/peerigon/talks) 收集了不少有意思的 talks
+- [**peerigon-talks**](https://github.com/peerigon/talks) 收集了不少有意思的 talks
 
 ## 算法
 
-[leetcode\*\*](https://github.com/azl397985856/leetcode) 用 js 刷 leetcode
+- [**leetcode**](https://github.com/azl397985856/leetcode) 用 js 刷 leetcode

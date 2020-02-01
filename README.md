@@ -30,6 +30,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
   - [工程](#%E5%B7%A5%E7%A8%8B)
   - [编辑器和 Terminal](#%E7%BC%96%E8%BE%91%E5%99%A8%E5%92%8C-terminal)
     - [zsh 插件](#zsh-%E6%8F%92%E4%BB%B6)
+  - [开发常用软件](#%E5%BC%80%E5%8F%91%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6)
 - [网站](#%E7%BD%91%E7%AB%99)
   - [常看的网站](#%E5%B8%B8%E7%9C%8B%E7%9A%84%E7%BD%91%E7%AB%99)
   - [Github](#github)
@@ -417,24 +418,29 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 
 ### zsh 插件
 
-- [Homebrew](https://brew.sh/index_zh-cn) 必装
-- [autojump](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autojump) 实现目录间快速跳转，想去哪个目录直接 j + 目录名，不用在频繁的 cd 了
-- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) 命令自动建议和补全
-- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) 命令行语法高亮
-- [history](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/history) 命令行记录
-- [zsh-git-prompt](https://github.com/olivierverdier/zsh-git-prompt) git 分支信息提示
+- [**Homebrew**](https://brew.sh/index_zh-cn) 必装
+- [**autojump**](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autojump) 实现目录间快速跳转，想去哪个目录直接 j + 目录名，不用在频繁的 cd 了
+- [**zsh-autosuggestions**](https://github.com/zsh-users/zsh-autosuggestions) 命令自动建议和补全
+- [**zsh-syntax-highlighting**](https://github.com/zsh-users/zsh-syntax-highlighting) 命令行语法高亮
+- [**history**](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/history) 命令行记录
+- [**zsh-git-prompt**](https://github.com/olivierverdier/zsh-git-prompt) git 分支信息提示
+
+## 开发常用软件
+
+- [**runjs**](https://runjs.dev/) js 运行沙盒，写 test case 或者面试当场写代码的时候很有用
 
 # 网站
 
 ## 常看的网站
 
-- [**awesome-f2e-libs**](https://github.com/sorrycc/awesome-f2e-libs) sorrycc 整理的个人关注使用的前端库
-- [**overreacted**](https://overreacted.io/) react Dan 的个人博客，更新频率很高
+- [**overreacted**](https://overreacted.io/) react Dan 的个人博客，更新频率很高（redux 作者，react 核心开发）
 - [**DailyJS**](https://medium.com/dailyjs)
 - [**codeburst**](https://codeburst.io/)
 - [**阮一峰的网络日志**](http://www.ruanyifeng.com/blog/) 阮老师出的东西还是值得一读的
 - [**InfoQ**](https://www.infoq.cn/topic/Front-end) 文章的质量比一般网站的高不少
 - [**鱼塘**](https://www.printf520.com/hot.html) 划水网站 收集了很多网站 当天热门文章
+- [**每日时报**](https://wubaiqing.github.io/zaobao/) 定期会分享一些库和工具
+- [**awesome-f2e-libs**](https://github.com/sorrycc/awesome-f2e-libs) sorrycc 整理的个人关注使用的前端库
 
 ## Github
 
@@ -562,9 +568,9 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 ## 教程
 
 - [**npx**](https://egghead.io/courses/execute-npm-package-binaries-with-the-npx-package-runner) 教你怎么合理的使用 npx
-
 - [**hacksplaining**](https://www.hacksplaining.com/lessons) 网络安全学习网站
 - [**mobile-web-best-practice**](https://github.com/mcuking/mobile-web-best-practice) 移动 web 最佳实践
+- [vanillawebprojects](https://github.com/bradtraversy/vanillawebprojects) 通过纯前端的手段实现一些小项目，适合入门
 
 ## 产品
 
@@ -574,28 +580,28 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjia
 
 ## 实用
 
-[typeform\*\*](https://admin.typeform.com/signup) 一个国外的在线调查问卷网站
-[VideoFk\*\*](https://www.videofk.com/) VideoFk 视频在线解析下载
-[全历史\*\*](https://www.allhistory.com/) 历史内容聚合网站
-[UzerMe\*\*](https://www.uzer.me/) 云端办公工具
-[SoBooks\*\*](https://sobooks.cc/) 强大的电子书资源网站
-[稿定设计\*\*](https://www.gaoding.com/) 键式设计工具+智能抠图
-[大力盘\*\*](https://dalipan.com) 百度网盘搜索
-[ENFI 下载器\*\*](https://www.macbl.com/app/internet/enfi) 不限速下载器
-[来画视频\*\*](https://www.laihua.com/) 像做 PPT 一样做短视频
-[Arkie 海报制作工具\*\*](https://www.arkie.cn/)
-[优品 PPT\*\*](http://www.ypppt.com/)
-[比格 PPT\*\*](http://www.tretars.com)
-[高清免费图片\*\*](https://www.pexels.com/)
-[高清免费图片 2\*\*](https://unsplash.com/)
-[历史价格查询\*\*](http://www.lsjgcx.com/)淘宝，京东等商品历史价格，能更清晰了解商家的活动是否为虚假促销以及促销的力度。神器
-
-- [\***\*Firefox Send\*\***](https://send.firefox.com/) 文件分享服务，下载一次或者到期即焚，在当前网络监管下很实用的服务
+- [**写作猫**](https://xiezuocat.com/#/) 可以通过 AI 的方式，帮你检查错别字，很有效的一个工具
+- [**typeform**](https://admin.typeform.com/signup) 一个国外的在线调查问卷网站
+- [**VideoFk**](https://www.videofk.com/) VideoFk 视频在线解析下载
+- [**全历史**](https://www.allhistory.com/) 历史内容聚合网站
+- [**UzerMe**](https://www.uzer.me/) 云端办公工具
+- [**SoBooks**](https://sobooks.cc/) 强大的电子书资源网站
+- [**稿定设计**](https://www.gaoding.com/) 键式设计工具+智能抠图
+- [**大力盘**](https://dalipan.com) 百度网盘搜索
+- [**ENFI 下载器**](https://www.macbl.com/app/internet/enfi) 不限速下载器
+- [**来画视频**](https://www.laihua.com/) 像做 PPT 一样做短视频
+- [**Arkie 海报制作工具**](https://www.arkie.cn/)
+- [**优品 PPT**](http://www.ypppt.com/)
+- [**比格 PPT**](http://www.tretars.com)
+- [**高清免费图片**](https://www.pexels.com/)
+- [**高清免费图片 2**](https://unsplash.com/)
+- [**历史价格查询**](http://www.lsjgcx.com/)淘宝，京东等商品历史价格，能更清晰了解商家的活动是否为虚假促销以及促销的力度。神器
+- [**Firefox Send**](https://send.firefox.com/) 文件分享服务，下载一次或者到期即焚，在当前网络监管下很实用的服务
 
 ## Talk
 
-[peerigon-talks\*\*](https://github.com/peerigon/talks) 收集了不少有意思的 talks
+- [**peerigon-talks**](https://github.com/peerigon/talks) 收集了不少有意思的 talks
 
 ## 算法
 
-[leetcode\*\*](https://github.com/azl397985856/leetcode) 用 js 刷 leetcode
+- [**leetcode**](https://github.com/azl397985856/leetcode) 用 js 刷 leetcode
