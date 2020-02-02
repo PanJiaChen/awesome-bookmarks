@@ -6,7 +6,7 @@
 
 <!-- 个人 Blog 文章地址：https://panjiachen.github.io/awesome-bookmarks/blog/js.html -->
 
-gitee 访问地址(github.io 有时候在国内访问会很慢)：https://panjiachen.gitee.io/awesome-bookmarks/
+gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookmarks](https://panjiachen.gitee.io/awesome-bookmarks/)
 
 **本项目为个人技术收藏集，里面会不定期分享一些作者平时用到的一些库，或者常用的网站和小工具。同时作者也会在上面不定期的写一些简单的博文**
 
