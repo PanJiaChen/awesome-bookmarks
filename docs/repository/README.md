@@ -418,7 +418,14 @@ sidebar: auto
 
 ## 开发常用软件
 
+- [**Github Desktop**](https://github.com/desktop/desktop)管理 github 仓库的变更和 PR
 - [**runjs**](https://runjs.dev/) js 运行沙盒，写 test case 或者面试当场写代码的时候很有用
+- [**Charles**](https://www.charlesproxy.com/) 抓包用，支持 https
+- [**Google Chrome**](https://www.google.com/chrome/) 前端必备没啥好说的
+- [**ColorSnapper2**](https://colorsnapper.com/) 取色工具
+- [**postman**](https://www.getpostman.com/) api 调试工具
+- [**Sequel Pro**](https://www.sequelpro.com/) MySQL 界面管理工具
+- [**KeepingYouAwake**](https://github.com/newmarcel/KeepingYouAwake) 可保证系统不自动休眠，挂机跑脚本很有用
 
 ## 有趣
 
