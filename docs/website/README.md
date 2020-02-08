@@ -148,18 +148,20 @@ sidebar: auto
 ## 产品
 
 - [**产品大牛**](http://www.pmdaniu.com/) 什么有很多完整的产品原型可以借鉴
-
 - [**磨刀**](https://modao.cc/pricing) 快速出 ui 原型
 
 ## 实用
 
 - [**写作猫**](https://xiezuocat.com/#/) 可以通过 AI 的方式，帮你检查错别字，很有效的一个工具
+- [**draw**](https://www.draw.io/) 在线 web 画流程图
 - [**typeform**](https://admin.typeform.com/signup) 一个国外的在线调查问卷网站
 - [**VideoFk**](https://www.videofk.com/) VideoFk 视频在线解析下载
 - [**全历史**](https://www.allhistory.com/) 历史内容聚合网站
 - [**UzerMe**](https://www.uzer.me/) 云端办公工具
 - [**SoBooks**](https://sobooks.cc/) 强大的电子书资源网站
 - [**稿定设计**](https://www.gaoding.com/) 键式设计工具+智能抠图
+- [**pichance**](https://pichance.com/) 一个将低分辨率图片增强为高分辨率的工具，可以将分辨率增加 4 倍（即长和宽各增加一倍）
+- [**bigjpg**](http://bigjpg.com/) 放大图片的神器 通过神经网络可以放大图片并能降噪
 - [**大力盘**](https://dalipan.com) 百度网盘搜索
 - [**ENFI 下载器**](https://www.macbl.com/app/internet/enfi) 不限速下载器
 - [**来画视频**](https://www.laihua.com/) 像做 PPT 一样做短视频
@@ -168,7 +170,7 @@ sidebar: auto
 - [**比格 PPT**](http://www.tretars.com)
 - [**高清免费图片**](https://www.pexels.com/)
 - [**高清免费图片 2**](https://unsplash.com/)
-- [**历史价格查询**](http://www.lsjgcx.com/)淘宝，京东等商品历史价格，能更清晰了解商家的活动是否为虚假促销以及促销的力度。神器
+- [**历史价格查询**](http://www.lsjgcx.com/) 淘宝，京东等商品历史价格，能更清晰了解商家的活动是否为虚假促销以及促销的力度。神器
 - [**Firefox Send**](https://send.firefox.com/) 文件分享服务，下载一次或者到期即焚，在当前网络监管下很实用的服务
 
 ## Talk

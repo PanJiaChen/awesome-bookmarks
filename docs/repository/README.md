@@ -72,6 +72,8 @@ sidebar: auto
 - [**body-scroll-lock**](https://github.com/willmcpo/body-scroll-lock) 解决滚动穿透问题
 - [**lodash**](https://github.com/lodash/lodash) 前端工具函数集合
 - [**dayjs**](https://github.com/iamkun/dayjs) 时间处理库，不过大部分情况下我还是用自己的封装的函数
+- [**lightgallery**](https://github.com/sachinchoolur/lightgallery.js) 图片预览组件
+- [**photoswipe**](https://github.com/dimsemenov/photoswipe) 图片预览组件，支持移动端
 
 ## Css && 动画
 
@@ -223,7 +225,6 @@ sidebar: auto
 - [**hyper**](https://github.com/zeit/hyper) 前端命令行
 - [**yapi**](https://github.com/ymfe/yapi) 是一个可本地部署的、打通前后端及 QA 的、可视化的接口管理平台
 - [**sway**](https://sway.com/) 一个微软自己出的在线 ppt 很强大
-- [**bigjpg**](http://bigjpg.com/) 放大图片的神器 通过神经网络可以放大图片并能降噪
 - [**Ascii Art Generator**](https://asciiartgen.now.sh) 在线生成 Ascii 图案
 - [**Winds**](https://github.com/GetStream/Winds) 开源 RSS
 - [**JSUI**](https://github.com/kitze/JSUI) 一个用来控制管理前端项目的客户端
