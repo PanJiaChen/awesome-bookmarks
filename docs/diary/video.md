@@ -2,6 +2,11 @@
 
 ## 2020
 
+### 电影
+
+- [极速车王](https://movie.douban.com/subject/6538866/) 2019.02.08
+- [半个喜剧](https://movie.douban.com/subject/30269016/) 2019.02.09
+
 ### 动漫
 
 #### 一月番
