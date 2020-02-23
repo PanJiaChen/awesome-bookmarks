@@ -522,6 +522,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 
 ## 开发
 
+- [**产品/设计师/独立开发者的资源库**](maliquankai.com/designnav/) 很全很强大
 - [**can i use**](https://caniuse.com/) 前端常用网站了 查看不同属性和方法的兼容性
 - [**Squoosh**](https://squoosh.app/) 谷歌出品在线免费图片压缩工具 神器
 - [**codesandbox-client**](https://github.com/CompuIves/codesandbox-client) - 在线 web 开发容器
@@ -636,7 +637,10 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 - [**npx**](https://egghead.io/courses/execute-npm-package-binaries-with-the-npx-package-runner) 教你怎么合理的使用 npx
 - [**hacksplaining**](https://www.hacksplaining.com/lessons) 网络安全学习网站
 - [**mobile-web-best-practice**](https://github.com/mcuking/mobile-web-best-practice) 移动 web 最佳实践
-- [vanillawebprojects](https://github.com/bradtraversy/vanillawebprojects) 通过纯前端的手段实现一些小项目，适合入门
+- [**vanillawebprojects**](https://github.com/bradtraversy/vanillawebprojects) 通过纯前端的手段实现一些小项目，适合入门
+- [**Think Python**](https://codingpy.com/books/thinkpython2/index.html) 还不错的 Python 入门教程
+- [**Node.js CLI Apps Best Practices**](https://github.com/lirantal/nodejs-cli-apps-best-practices) 叫你如何写好一个 node cli 工具
+- [**SQL Murder Mystery**](https://mystery.knightlab.com/walkthrough.html) 一个英文的 SQL 初级教程，以游戏的方式，让你利用学到的 SQL 概念和命令来找出谋杀凶手
 
 ## 产品
 
@@ -667,6 +671,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 - [**Firefox Send**](https://send.firefox.com/) 文件分享服务，下载一次或者到期即焚，在当前网络监管下很实用的服务
 - [**time.graphics**](https://time.graphics/editor) 在线 milestone timeline 生成器
 - [**processon**](https://www.processon.com/) 免费在线作图，支持流程图、思维导图、原型图、UML、网络拓扑图、组织结构图等
+- [**龙轩导航**](http://ilxdh.com/) 一个总结了不少实用网站的导航
 
 ## Talk
 
