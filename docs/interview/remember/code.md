@@ -347,3 +347,19 @@ addTask(400, '4')
 ### 略变态
 
 [一道被前端忽略的基础题，不信看你会几题](https://juejin.im/post/5c6a0fa451882562851b3cdd)
+
+### sleep
+
+```js
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms))
+}
+
+async function test() {
+  console.log(1)
+  await sleep(2000)
+  console.log(2)
+}
+
+test()
+```
