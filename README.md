@@ -343,6 +343,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 - [**copy-webpack-plugin**](https://github.com/webpack-contrib/copy-webpack-plugin) 复制额外的文件到输出目录
 - [**duplicate-package-checker-webpack-plugin**](https://github.com/darrenscerri/duplicate-package-checker-webpack-plugin) 检查是否存在重复依赖
 - [**cssnano**](https://github.com/cssnano/cssnano) CSS 压缩
+- [**bundle-buddy**](https://github.com/samccone/bundle-buddy) webpack bundle 依赖分析
 
 ## 移动端
 
