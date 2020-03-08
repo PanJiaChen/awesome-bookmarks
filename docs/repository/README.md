@@ -201,6 +201,7 @@ sidebar: auto
 - [**fs-extra**](https://github.com/jprichardson/node-fs-extra) fs-extra 模块是系统 fs 模块的扩展，提供了更多便利的 API，并继承了 fs 模块的 API
 - [**execa**](https://github.com/sindresorhus/execa) 比 child_process 好用，返回 Promise
 - [**npm-run-all**](https://github.com/mysticatea/npm-run-all) 一个 CLI 工具可以并行或者串行执行 script 指令
+- [**memfs**](https://github.com/streamich/memfs) memory-fs 的替代品，将文件放在内存中优化读写，webpack 依赖
 
 ### 调试
 

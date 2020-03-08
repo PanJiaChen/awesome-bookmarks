@@ -10,6 +10,10 @@
 
 - [前端模块化详解(完整版)](https://github.com/ljianshu/Blog/issues/48)
 
+- [前端工程师的自我修养-关于 Babel 那些事儿](https://juejin.im/post/5e5b488af265da574112089f)
+
+- [从构建进程间缓存设计 谈 Webpack5 优化和工作原理](https://zhuanlan.zhihu.com/p/110995118)
+
 ### 二月
 
 - [如何进行 web 性能监控？](http://www.alloyteam.com/2020/01/14184/)

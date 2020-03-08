@@ -254,6 +254,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 - [**fs-extra**](https://github.com/jprichardson/node-fs-extra) fs-extra 模块是系统 fs 模块的扩展，提供了更多便利的 API，并继承了 fs 模块的 API
 - [**execa**](https://github.com/sindresorhus/execa) 比 child_process 好用，返回 Promise
 - [**npm-run-all**](https://github.com/mysticatea/npm-run-all) 一个 CLI 工具可以并行或者串行执行 script 指令
+- [**memfs**](https://github.com/streamich/memfs) memory-fs 的替代品，将文件放在内存中优化读写，webpack 依赖
 
 ### 调试
 
@@ -523,7 +524,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 
 ## 开发
 
-- [**产品/设计师/独立开发者的资源库**](maliquankai.com/designnav/) 很全很强大
+- [**产品/设计师/独立开发者的资源库**](https://maliquankai.com/designnav/) 很全很强大
 - [**can i use**](https://caniuse.com/) 前端常用网站了 查看不同属性和方法的兼容性
 - [**Squoosh**](https://squoosh.app/) 谷歌出品在线免费图片压缩工具 神器
 - [**codesandbox-client**](https://github.com/CompuIves/codesandbox-client) - 在线 web 开发容器

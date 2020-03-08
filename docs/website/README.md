@@ -29,7 +29,7 @@ sidebar: auto
 
 ## 开发
 
-- [**产品/设计师/独立开发者的资源库**](maliquankai.com/designnav/) 很全很强大
+- [**产品/设计师/独立开发者的资源库**](https://maliquankai.com/designnav/) 很全很强大
 - [**can i use**](https://caniuse.com/) 前端常用网站了 查看不同属性和方法的兼容性
 - [**Squoosh**](https://squoosh.app/) 谷歌出品在线免费图片压缩工具 神器
 - [**codesandbox-client**](https://github.com/CompuIves/codesandbox-client) - 在线 web 开发容器
