@@ -11,3 +11,11 @@
 - [Babel polyfill 知多少](https://zhuanlan.zhihu.com/p/29058936)
 
 - [Polyfill 方案的过去、现在和未来](https://github.com/sorrycc/blog/issues/80)
+
+### 框架
+
+- [如何看待 svelte 这个前端框架？](https://www.zhihu.com/question/53150351)
+
+- [如何理解虚拟 DOM?](https://www.zhihu.com/question/29504639/answer/73607810)
+
+- [网上都说操作真实 DOM 慢，但测试结果却比 React 更快，为什么？](https://www.zhihu.com/question/31809713/answer/53544875)

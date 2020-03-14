@@ -127,6 +127,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 - [**dayjs**](https://github.com/iamkun/dayjs) 时间处理库，不过大部分情况下我还是用自己的封装的函数
 - [**lightgallery**](https://github.com/sachinchoolur/lightgallery.js) 图片预览组件
 - [**photoswipe**](https://github.com/dimsemenov/photoswipe) 图片预览组件，支持移动端
+- [**darken**](https://github.com/ColinEspinas/darken) 页面黑夜模式切换
 
 ## Css && 动画
 

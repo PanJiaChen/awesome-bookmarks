@@ -14,6 +14,10 @@
 
 - [从构建进程间缓存设计 谈 Webpack5 优化和工作原理](https://zhuanlan.zhihu.com/p/110995118)
 
+- [SameSite Cookie 介绍](https://blog.lyz810.com/article/2017/05/samesite-cookies-explained/)
+
+- [你的 App 为什么知道你想买什么？](https://www.bilibili.com/video/av40891962)
+
 ### 二月
 
 - [如何进行 web 性能监控？](http://www.alloyteam.com/2020/01/14184/)
