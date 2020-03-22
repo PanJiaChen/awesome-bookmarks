@@ -19,3 +19,7 @@
 - [如何理解虚拟 DOM?](https://www.zhihu.com/question/29504639/answer/73607810)
 
 - [网上都说操作真实 DOM 慢，但测试结果却比 React 更快，为什么？](https://www.zhihu.com/question/31809713/answer/53544875)
+
+### 计算机
+
+- [二叉树及其拓展可以解决什么问题？](https://www.zhihu.com/question/37381035)

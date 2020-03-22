@@ -32,6 +32,8 @@ https://github.com/forthealllight/blog/issues
 
 [JavaScript 深入系列](https://github.com/mqyqingfeng/Blog) 强烈推荐看一遍
 
+[Front-End-Interview-Notebook](https://github.com/CavsZhouyou/Front-End-Interview-Notebook) 比较基础适合实习生或者应届生看，可以快速的过一遍查漏补缺
+
 想成为一个好的前端工程师，光有强大的编程能力是远远不够的，还有很多软知识需要知道。
 
 学会与人沟通。

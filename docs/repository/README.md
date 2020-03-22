@@ -109,6 +109,7 @@ sidebar: auto
 - [**vue-virtual-scroller**](https://github.com/Akryum/vue-virtual-scroller) 基于 vue 的虚拟列表无限滚动
 - [**vue-content-placeholders**](https://github.com/michalsnik/vue-content-placeholders) 页面龙骨 skeleton
 - [**buefy**](https://github.com/buefy/buefy) 适配移动端的 vue 组件库 看着还挺舒服的
+- [**vxe-table**](https://github.com/xuliangzhan/vxe-table)vue 表格解决方案，还没具体用过看着的确解决了其它 table 组件的一些问题
 
 ## 实践库
 
@@ -173,6 +174,8 @@ sidebar: auto
 - [**dotenv**](https://github.com/motdotla/dotenv) 通过.env 设置环境部变量 vue-cli 也依赖它
 - [**patch-package**](https://github.com/ds300/patch-package) 优雅的修改 node_modules 中的依赖库
 - [**Playwright**](https://github.com/microsoft/playwright) 同 Puppeteer 团队出品，但区别是它支持 Chrome、Safari、Firefox、Edge
+- [**tree-cli**](https://github.com/MrRaindrop/tree-cli) node 根据目录结构生成 tree
+- [**tree-node-cli**](https://github.com/yangshun/tree-node-cli) node 根据目录结构生成 tree
 
 ### 命令行
 
