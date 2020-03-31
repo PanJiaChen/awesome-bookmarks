@@ -5,6 +5,8 @@
 
 项目组目前非常缺前端、后端、测试、算法。欢迎有兴趣的同学找我内推。
 
+[字节跳动-校招&社招-必读](https://bytedance.feishu.cn/docs/doccn2X46yfEcX5ybWnqM9oWZxd)
+
 **我可以帮你优化简历，实时查看面试状态，简历一定不会石沉大海。**
 
 [前端 JD](https://job.toutiao.com/s/CnXWyP)
