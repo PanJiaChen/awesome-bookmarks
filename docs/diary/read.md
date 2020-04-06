@@ -4,6 +4,12 @@
 
 ## 2020
 
+### 四月
+
+- [为什么数组下标是从 0 开始？](https://cloud.tencent.com/developer/article/1359222)
+
+- [全双工通信的 WebSocket](https://halfrost.com/websocket/)
+
 ### 三月
 
 - [伟大的领导如何激励员工？](https://www.bilibili.com/video/av17740801/)
@@ -17,6 +23,8 @@
 - [SameSite Cookie 介绍](https://blog.lyz810.com/article/2017/05/samesite-cookies-explained/)
 
 - [你的 App 为什么知道你想买什么？](https://www.bilibili.com/video/av40891962)
+
+- [现代 Web 开发的现状与未来](https://zhuanlan.zhihu.com/p/88616149)
 
 ### 二月
 
