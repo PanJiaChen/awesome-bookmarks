@@ -110,6 +110,7 @@ sidebar: auto
 - [**vue-content-placeholders**](https://github.com/michalsnik/vue-content-placeholders) 页面龙骨 skeleton
 - [**buefy**](https://github.com/buefy/buefy) 适配移动端的 vue 组件库 看着还挺舒服的
 - [**vxe-table**](https://github.com/xuliangzhan/vxe-table)vue 表格解决方案，还没具体用过看着的确解决了其它 table 组件的一些问题
+- [**Vue 测试指南**](https://lmiller1990.github.io/vue-testing-handbook/zh-CN/) vue 测试指南
 
 ## 实践库
 

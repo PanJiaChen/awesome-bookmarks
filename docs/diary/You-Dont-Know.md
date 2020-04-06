@@ -23,3 +23,7 @@
 ### 计算机
 
 - [二叉树及其拓展可以解决什么问题？](https://www.zhihu.com/question/37381035)
+
+- [为什么数组下标是从 0 开始？](https://cloud.tencent.com/developer/article/1359222)
+
+-[Chrome 为什么多进程而不是多线程？](https://www.zhihu.com/question/368712837)

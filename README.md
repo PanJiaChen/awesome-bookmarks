@@ -163,6 +163,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 - [**vue-content-placeholders**](https://github.com/michalsnik/vue-content-placeholders) 页面龙骨 skeleton
 - [**buefy**](https://github.com/buefy/buefy) 适配移动端的 vue 组件库 看着还挺舒服的
 - [**vxe-table**](https://github.com/xuliangzhan/vxe-table)vue 表格解决方案，还没具体用过看着的确解决了其它 table 组件的一些问题
+- [**Vue 测试指南**](https://lmiller1990.github.io/vue-testing-handbook/zh-CN/) vue 测试指南
 
 ## 实践库
 
@@ -647,6 +648,8 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 - [**Think Python**](https://codingpy.com/books/thinkpython2/index.html) 还不错的 Python 入门教程
 - [**Node.js CLI Apps Best Practices**](https://github.com/lirantal/nodejs-cli-apps-best-practices) 叫你如何写好一个 node cli 工具
 - [**SQL Murder Mystery**](https://mystery.knightlab.com/walkthrough.html) 一个英文的 SQL 初级教程，以游戏的方式，让你利用学到的 SQL 概念和命令来找出谋杀凶手
+- [**html-dom**](https://github.com/phuoc-ng/html-dom) 一些常用的 dom 或者原生 js 操作判断，挺实用的
+- [**TypeScript**](https://ts.xcatliu.com/) TypeScript 入门教程，很不错，推荐初学者学习
 
 ## 产品
 
