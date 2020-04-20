@@ -10,6 +10,10 @@
 
 - [全双工通信的 WebSocket](https://halfrost.com/websocket/)
 
+- [github 一些小技巧](https://github.blog/2020-04-09-github-protips-tips-tricks-hacks-and-secrets-from-lee-reilly/)
+
+- [什么是 CDN 刷新与预热？](https://www.ksyun.com/developer/article/6938.html)
+
 ### 三月
 
 - [伟大的领导如何激励员工？](https://www.bilibili.com/video/av17740801/)

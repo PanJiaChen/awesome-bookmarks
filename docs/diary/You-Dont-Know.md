@@ -26,4 +26,10 @@
 
 - [为什么数组下标是从 0 开始？](https://cloud.tencent.com/developer/article/1359222)
 
--[Chrome 为什么多进程而不是多线程？](https://www.zhihu.com/question/368712837)
+- [Chrome 为什么多进程而不是多线程？](https://www.zhihu.com/question/368712837)
+
+- [面试必备：什么是一致性 Hash 算法？](https://zhuanlan.zhihu.com/p/34985026)
+
+### Typescript
+
+- [TypeScript 中的 never 类型具体有什么用？](https://www.zhihu.com/question/354601204)

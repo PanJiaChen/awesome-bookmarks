@@ -177,6 +177,7 @@ sidebar: auto
 - [**Playwright**](https://github.com/microsoft/playwright) 同 Puppeteer 团队出品，但区别是它支持 Chrome、Safari、Firefox、Edge
 - [**tree-cli**](https://github.com/MrRaindrop/tree-cli) node 根据目录结构生成 tree
 - [**tree-node-cli**](https://github.com/yangshun/tree-node-cli) node 根据目录结构生成 tree
+- [**open**](https://github.com/sindresorhus/open) node 打开浏览器
 
 ### 命令行
 

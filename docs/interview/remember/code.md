@@ -363,3 +363,49 @@ async function test() {
 
 test()
 ```
+
+### koa compose
+
+```js
+const app = { middlewares: [] }
+
+app.use = fn => {
+  app.middlewares.push(fn)
+}
+
+app.compose = function() {
+  const middleware = app.middlewares
+  return function(next) {
+    // last called middleware #
+    let index = -1
+    return dispatch(0)
+    function dispatch(i) {
+      if (i <= index)
+        return Promise.reject(new Error('next() called multiple times'))
+      index = i
+      let fn = middleware[i]
+      if (i === middleware.length) fn = next
+      if (!fn) return Promise.resolve()
+      try {
+        return Promise.resolve(fn(dispatch.bind(null, i + 1)))
+      } catch (err) {
+        return Promise.reject(err)
+      }
+    }
+  }
+}
+
+app.use(next => {
+  console.log(1)
+  next()
+  console.log(2)
+})
+
+app.use(next => {
+  console.log(3)
+  next()
+  console.log(4)
+})
+
+app.compose(app.middlewares)
+```
