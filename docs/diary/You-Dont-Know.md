@@ -30,6 +30,10 @@
 
 - [面试必备：什么是一致性 Hash 算法？](https://zhuanlan.zhihu.com/p/34985026)
 
+- [redis 相关](https://zhuanlan.zhihu.com/p/41951014)
+
 ### Typescript
 
 - [TypeScript 中的 never 类型具体有什么用？](https://www.zhihu.com/question/354601204)
+
+- [typescript 已经有模块系统了，为什么还需要 namespace？](https://www.zhihu.com/question/65676593)

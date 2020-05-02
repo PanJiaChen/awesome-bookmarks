@@ -449,3 +449,4 @@ sidebar: auto
 - [**WebGL-Fluid-Simulation**](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) 很酷的 WebGL 交互
 - [**react-kawaii**](https://github.com/miukimiu/react-kawaii) 一个非常可爱的 React 卡通人脸库，很有意思
 - [**chart-race-react**](https://github.com/Mckinsey666/chart-race-react) 图表竞赛 长条图赛跑动画 在微博或者 b 站这种类型视频很火
+- [**98.css**](https://jdan.github.io/98.css/#tree-view) windows 98 主题分格 css

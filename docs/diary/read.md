@@ -4,6 +4,10 @@
 
 ## 2020
 
+### 五月
+
+- [年轻人不肯吃苦？](https://www.bilibili.com/read/cv5871201)
+
 ### 四月
 
 - [为什么数组下标是从 0 开始？](https://cloud.tencent.com/developer/article/1359222)

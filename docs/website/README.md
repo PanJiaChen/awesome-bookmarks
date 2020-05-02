@@ -189,3 +189,8 @@ sidebar: auto
 ## 算法
 
 - [**leetcode**](https://github.com/azl397985856/leetcode) 用 js 刷 leetcode
+
+## Typescript
+
+- [**TypeScript 入门教程**](https://ts.xcatliu.com/) 推荐阅读
+- [**深入理解 TypeScript**](https://jkchao.github.io/typescript-book-chinese/#why/) 深入理解 ts

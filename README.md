@@ -54,6 +54,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
   - [实用](#%E5%AE%9E%E7%94%A8)
   - [Talk](#talk)
   - [算法](#%E7%AE%97%E6%B3%95)
+  - [Typescript](#typescript)
 
 # 推荐库
 
@@ -502,6 +503,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 - [**WebGL-Fluid-Simulation**](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) 很酷的 WebGL 交互
 - [**react-kawaii**](https://github.com/miukimiu/react-kawaii) 一个非常可爱的 React 卡通人脸库，很有意思
 - [**chart-race-react**](https://github.com/Mckinsey666/chart-race-react) 图表竞赛 长条图赛跑动画 在微博或者 b 站这种类型视频很火
+- [**98.css**](https://jdan.github.io/98.css/#tree-view) windows 98 主题分格 css
 
 # 网站
 
@@ -690,3 +692,8 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 ## 算法
 
 - [**leetcode**](https://github.com/azl397985856/leetcode) 用 js 刷 leetcode
+
+## Typescript
+
+- [**TypeScript 入门教程**](https://ts.xcatliu.com/) 推荐阅读
+- [**深入理解 TypeScript**](https://jkchao.github.io/typescript-book-chinese/#why/) 深入理解 ts

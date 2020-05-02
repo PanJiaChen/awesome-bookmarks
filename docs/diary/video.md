@@ -11,13 +11,14 @@
 
 ### 动漫
 
-#### 一月番
-
 - [别对映像研出手！](https://movie.douban.com/subject/33438250/)
 - [排球少年 第 4 季](https://movie.douban.com/subject/30411330/)
 - [我的英雄学院 第 4 季](https://movie.douban.com/subject/30337831/)
 - [异度侵入](https://movie.douban.com/subject/34456027/)
 - [因为太怕痛就全点防御力了](https://movie.douban.com/subject/30397673/)
+- [异兽魔都](https://movie.douban.com/subject/30377019/)
+- [转生成为了只有乙女游戏破灭 Flag 的邪恶大小姐](https://movie.douban.com/subject/30358101)
+- [辉夜大小姐想让我告白：天才们的恋爱头脑战 第二季](https://movie.douban.com/subject/33379634)
 
 ## 2019
 
