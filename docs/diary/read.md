@@ -8,6 +8,12 @@
 
 - [年轻人不肯吃苦？](https://www.bilibili.com/read/cv5871201)
 
+- [20 岁出头赚几百万，惨遭社会毒打，UP 主的魔幻人生](https://www.bilibili.com/video/BV1BV411d766)
+
+- [离开阿里巴巴](https://lutaonan.com/blog/leaving-alibaba/) 能在这样一个大环境下保持技术的初心挺不容易的
+
+- [Naval Ravikant：如何不靠运气而致富](https://zhuanlan.zhihu.com/p/38283334) 40 个建议还是非常有指导价值的，值的反思
+
 ### 四月
 
 - [为什么数组下标是从 0 开始？](https://cloud.tencent.com/developer/article/1359222)

@@ -129,6 +129,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 - [**lightgallery**](https://github.com/sachinchoolur/lightgallery.js) 图片预览组件
 - [**photoswipe**](https://github.com/dimsemenov/photoswipe) 图片预览组件，支持移动端
 - [**darken**](https://github.com/ColinEspinas/darken) 页面黑夜模式切换
+- [**mitt**](https://github.com/developit/mitt) 轻量级 pub/sub
 
 ## Css && 动画
 
@@ -587,6 +588,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 - [**狼叔：如何正确的学习 Node.js**](https://github.com/i5ting/How-to-learn-node-correctly)
 - [**独角兽公司榜单**](https://dujiaoshou.io/) 感觉大家想去大公司的时候，可以看看排名
 - [**中国传统颜色手册**](https://colors.ichuantong.cn/)
+- [**coderlane**](https://coderlane.net/) 远程视频面试，目前使用的是牛客，这个工具待考察
 
 ## 设计
 
@@ -653,6 +655,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 - [**SQL Murder Mystery**](https://mystery.knightlab.com/walkthrough.html) 一个英文的 SQL 初级教程，以游戏的方式，让你利用学到的 SQL 概念和命令来找出谋杀凶手
 - [**html-dom**](https://github.com/phuoc-ng/html-dom) 一些常用的 dom 或者原生 js 操作判断，挺实用的
 - [**TypeScript**](https://ts.xcatliu.com/) TypeScript 入门教程，很不错，推荐初学者学习
+- [**Webpack 知识图谱**](https://tsejx.github.io/webpack-guidebook/) webpack 相关教程和原理分析还不错
 
 ## 产品
 

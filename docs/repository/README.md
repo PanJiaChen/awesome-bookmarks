@@ -75,6 +75,7 @@ sidebar: auto
 - [**lightgallery**](https://github.com/sachinchoolur/lightgallery.js) 图片预览组件
 - [**photoswipe**](https://github.com/dimsemenov/photoswipe) 图片预览组件，支持移动端
 - [**darken**](https://github.com/ColinEspinas/darken) 页面黑夜模式切换
+- [**mitt**](https://github.com/developit/mitt) 轻量级 pub/sub
 
 ## Css && 动画
 
