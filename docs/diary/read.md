@@ -4,6 +4,16 @@
 
 ## 2020
 
+### 六月
+
+- [为全球设计，国际化与本地化探索：国际化设计](https://zhuanlan.zhihu.com/p/29780850) 深度好文
+
+- [如何拿到阿里 P8 Offer-候选人视角谈面试](https://juejin.im/post/5ed9a606518825433139fb9c) 很多硬核干货
+
+- [ Vue Prop 中的 null vs undefined](https://juejin.im/post/5ddcf5f4e51d4532db416149)
+
+- [vue-i18n 原理解析](https://hachijiang.github.io/vue-i18n%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/)
+
 ### 五月
 
 - [年轻人不肯吃苦？](https://www.bilibili.com/read/cv5871201)
@@ -13,6 +23,14 @@
 - [离开阿里巴巴](https://lutaonan.com/blog/leaving-alibaba/) 能在这样一个大环境下保持技术的初心挺不容易的
 
 - [Naval Ravikant：如何不靠运气而致富](https://zhuanlan.zhihu.com/p/38283334) 40 个建议还是非常有指导价值的，值的反思
+
+- [大规格文件的上传优化](https://aotu.io/notes/2020/05/12/file-upload/)
+
+- [ES2020: Everything You Need to Know](https://www.martinmck.com/posts/es2020-everything-you-need-to-know/)
+
+- [还在找源文件？在 vue 前端页面一键打开源码所在行](https://juejin.im/post/5ec7e7316fb9a047fa04e2c3) 挺有意思的一篇文章
+
+- [深入了解 font-weight](https://segmentfault.com/a/1190000007787731) 安卓 font-weight 没有 600，被坑了，这种建议直接写 bold
 
 ### 四月
 
