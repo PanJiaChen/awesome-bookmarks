@@ -14,6 +14,16 @@
 
 - [vue-i18n 原理解析](https://hachijiang.github.io/vue-i18n%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/)
 
+- [上中台吗？会送命的那种！](https://www.huxiu.com/article/362624.html)(里面有些点说的还不错)
+
+- [为什么 HTTPS 需要 7 次握手和 9 倍时延](https://mp.weixin.qq.com/s/t4zVupywiX1k0CZnRf-7zA)
+
+- [编写可维护的前端代码](https://zhuanlan.zhihu.com/p/141633166)
+
+- [巧用 Typescript](https://zhuanlan.zhihu.com/p/39620591)
+
+- [巧用 Typescript (二)](https://zhuanlan.zhihu.com/p/64423022)
+
 ### 五月
 
 - [年轻人不肯吃苦？](https://www.bilibili.com/read/cv5871201)
