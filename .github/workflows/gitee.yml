@@ -4,13 +4,13 @@ on:
       - master
 
 jobs:
-  to_gitlab:
-    runs-on: ubuntu-18.04
-    steps:                                              # <-- must use actions/checkout@v1 before mirroring!
-    - uses: actions/checkout@v1
-    - uses: pixta-dev/repository-mirroring-action@v1
-      with:
-        target_repo_url:
-          git@gitee.com:panjiachen/awesome-bookmarks.git
-        ssh_private_key:                                # <-- use 'secrets' to pass credential information.
-          ${{ secrets.GITEE_PRIVATE_KEY }}
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync to Gitee 💕
+        uses: wearerequired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
+        with:
+          source-repo: 'git@github.com:PanJiaChen/awesome-bookmarks.git'
+          destination-repo: 'git@gitee.com:panjiachen/awesome-bookmarks.git'
