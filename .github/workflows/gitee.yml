@@ -1,15 +1,16 @@
-name: Sync To Gitee
-on: 
-  push:
-    branches:
-      - master
+on:
+    push:
+        branches:
+            - master
+
 jobs:
-  sync:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: wearerequired/git-mirror-action@master
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
-        with:
-          source-repo: "git@github.com:PanJiaChen/awesome-bookmarks.git"
-          destination-repo: "https://gitee.com/panjiachen/awesome-bookmarks.git"
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Sync to Gitee 💕
+              uses: wearerequired/git-mirror-action@master
+              env:
+                  SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
+              with:
+                  source-repo: "git@github.com:PanJiaChen/awesome-bookmarks.git"
+                  destination-repo: "https://gitee.com/panjiachen/awesome-bookmarks.git" 
