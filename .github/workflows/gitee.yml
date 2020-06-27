@@ -1,30 +1,15 @@
-name: Push to gitee
-
+name: Sync To Gitee
 on: 
   push:
     branches:
       - master
 jobs:
-  build:
+  sync:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-   
-    - name: Set SSH Key
-      env: 
-        SSH_KEY: ${{ secrets.GITEE_SSH_KEY }}
-        SSH_KEY_PUB: ${{ secrets.GITEE_SSH_PUB }}
-      run: |
-        mkdir -p ~/.ssh
-        ssh-keyscan -H gitee.com >> ~/.ssh/known_hosts
-        echo ${SSH_KEY} > ~/.ssh/id_rsa
-        sed -i -e "s#\\\\n#\n#g" ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-        echo ${SSH_KEY_PUB} > ~/.ssh/id_rsa.pub
-        chmod 600 ~/.ssh/id_rsa.pub
-     
-    - name: Push to gitee
-      run: |
-        git switch -c master
-        git remote add gitee git@gitee.com:befovy/images.git
-        git push --set-upstream gitee master -f 
+      - uses: wearerequired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
+        with:
+          source-repo: "git@github.com:PanJiaChen/awesome-bookmarks.git"
+          destination-repo: "https://gitee.com/panjiachen/awesome-bookmarks.git"
