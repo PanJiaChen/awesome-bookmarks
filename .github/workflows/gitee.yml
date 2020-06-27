@@ -8,9 +8,13 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Sync to Gitee 💕
-              uses: wearerequired/git-mirror-action@v1.0.1
               env:
                   SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
-              with:
-                  source-repo: "git@github.com:PanJiaChen/awesome-bookmarks.git"
-                  destination-repo: "https://gitee.com/panjiachen/awesome-bookmarks.git" 
+              run: |
+                mkdir -p ~/.ssh/
+                echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+                chmod 600 ~/.ssh/id_rsa
+                ssh-keyscan github.com >> ~/.ssh/known_hosts
+                git config --global user.email "你的邮箱"
+                git config --global user.name "你的名字"
+
