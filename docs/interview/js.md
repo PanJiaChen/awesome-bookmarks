@@ -552,7 +552,7 @@ Array.from({ length: 100 }, (item, index) => index)
 
 ```js
 function factorial(num, total = 1) {
-  if (num === 1) return total
+  if (num <= 1) return total
   return factorial(num - 1, num * total)
 }
 ```
