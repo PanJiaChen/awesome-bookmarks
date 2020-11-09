@@ -4,6 +4,26 @@
 
 ## 2020
 
+### 十一月
+
+- [有哪些效果拔群的 WebAssembly 应用？](https://www.zhihu.com/question/265700379/answer/951118579)
+
+### 九月
+
+- [4W 字从 0 到部署上线，用 TS 带你彻底掌握前端工程化](https://juejin.im/post/6856410900577026061)
+
+### 八月
+
+- [是无奈的退让，但不是跪倒 -- 再聊聊字节跳动被迫出售 TikTok 美国业务](https://mp.weixin.qq.com/s/gI30AYdlcwOKERmxDUkBqA)
+
+### 七月
+
+- [一次性讲清楚互联网广告的基本逻辑](https://www.huxiu.com/article/363114.html)
+
+- [如何不靠运气变得富有](https://github.com/fat-garage/how-to-get-rich-without-getting-lucky)
+
+- [浏览器工作原理和工作过程](https://cloud.tencent.com/developer/article/1360028)
+
 ### 六月
 
 - [为全球设计，国际化与本地化探索：国际化设计](https://zhuanlan.zhihu.com/p/29780850) 深度好文
