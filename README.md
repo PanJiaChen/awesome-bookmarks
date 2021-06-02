@@ -551,7 +551,6 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 - [**clippy**](http://bennettfeely.com/clippy/) 在线帮你使用 css clip-path 做出各种形状的图形
 - [**Regular Expressions**](https://regex101.com/) 在线正则网站
 - [**jex**](https://jex.im/regulex/) 正则可视化网站，配合上面的 Regular Expressions，写正则方便很多
-- [**cyrilex**](https://extendsclass.com/regex-tester.html) 正则可视化网站
 - [**jsfiddle**](https://jsfiddle.net/) 在线运行代码网站 很不错，可惜要翻墙
 - [**codepan**](https://codepan.net/) 在线运行代码网站 不用翻墙，可以自己部署
 - [**fiddle.md**](https://fiddle.md/) 一个方便的在线共享 markdown 在线笔试题一般都用这个
@@ -593,6 +592,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 - [**中国传统颜色手册**](https://colors.ichuantong.cn/)
 - [**coderlane**](https://coderlane.net/) 远程视频面试，目前使用的是牛客，这个工具待考察
 - [excalidraw](https://excalidraw.com/) 手绘风格流程图，强推
+- [cwim](https://github.com/spencerwooo/cwim) Count Words Inside a Markdown file 统计字数和预期阅读时间
 
 ## 设计
 

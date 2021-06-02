@@ -86,6 +86,7 @@ sidebar: auto
 - [**中国传统颜色手册**](https://colors.ichuantong.cn/)
 - [**coderlane**](https://coderlane.net/) 远程视频面试，目前使用的是牛客，这个工具待考察
 - [excalidraw](https://excalidraw.com/) 手绘风格流程图，强推
+- [cwim](https://github.com/spencerwooo/cwim) Count Words Inside a Markdown file 统计字数和预期阅读时间
 
 ## 设计
 
