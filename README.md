@@ -574,6 +574,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 - [**starcharts**](https://starcharts.herokuapp.com/PanJiaChen/vue-element-admin) 可以把你一个项目的 stars 增长轨迹当做 svg 放在 readme 中
 - [**mockapi**](https://www.mockapi.io/) 一个还不错的在线 mock 服务（可在线可视化编辑），可以满足大部分简单需求了
 - [**coder**](coder.com) 在线版 VS Code
+- [**lambdatest**](https://www.lambdatest.com/) 针对 Web 和移动设备的跨浏览器测试
 - [**browserstack**](https://www.browserstack.com/) 远程调整各种版本浏览器 兼容性问题
 - [**carbon**](https://carbon.now.sh/) 根据代码块生成图片 主要作用是让你打代码片段分享的时候更好看一点
 - [**clipboard2markdown**](https://euangoddard.github.io/clipboard2markdown/) 将你所有复制进去的内容都转化为 markdown
