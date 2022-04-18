@@ -52,6 +52,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
   - [教程](#%E6%95%99%E7%A8%8B)
   - [产品](#%E4%BA%A7%E5%93%81)
   - [实用](#%E5%AE%9E%E7%94%A8)
+  - [生活](#%E7%94%9F%E6%B4%BB)
   - [Talk](#talk)
   - [算法](#%E7%AE%97%E6%B3%95)
   - [Typescript](#typescript)
@@ -691,6 +692,10 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 - [**time.graphics**](https://time.graphics/editor) 在线 milestone timeline 生成器
 - [**processon**](https://www.processon.com/) 免费在线作图，支持流程图、思维导图、原型图、UML、网络拓扑图、组织结构图等
 - [**龙轩导航**](http://ilxdh.com/) 一个总结了不少实用网站的导航
+
+## 生活
+
+- [**Cook**](https://cook.yunyoujun.cn/) 居家烧饭神器，智能根据配菜生成菜谱还附带教学视频
 
 ## Talk
 

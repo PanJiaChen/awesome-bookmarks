@@ -186,6 +186,10 @@ sidebar: auto
 - [**processon**](https://www.processon.com/) 免费在线作图，支持流程图、思维导图、原型图、UML、网络拓扑图、组织结构图等
 - [**龙轩导航**](http://ilxdh.com/) 一个总结了不少实用网站的导航
 
+## 生活
+
+- [**Cook**](https://cook.yunyoujun.cn/) 居家烧饭神器，智能根据配菜生成菜谱还附带教学视频
+
 ## Talk
 
 - [**peerigon-talks**](https://github.com/peerigon/talks) 收集了不少有意思的 talks
