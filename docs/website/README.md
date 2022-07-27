@@ -129,6 +129,8 @@ sidebar: auto
 - [**abbreviations**](https://www.abbreviations.com/) 查看一个简写是什么意思的网站
 - [**magi**](https://magi.com/) ai 搜索神器，超屌
 - [**诺基亚短信图片生成器**](https://zzkia.noddl.me:8020/)
+- [**表情包搜索网址**](https://tenor.com/)
+
 
 ## 交互
 
