@@ -91,6 +91,7 @@ sidebar: auto
 - [**wired-elements**](https://github.com/wiredjs/wired-elements) 基于 rough.js 分装 button input radio 等组件。它的底层是 Web components
 - [**roughViz**](https://github.com/jwilber/roughViz) rough 风格的图表库 手绘风格的图表库
 - [**matter-js**](https://github.com/liabru/matter-js) web 物理引擎
+- [**mo.js**](https://webkul.github.io/) js 动画库
 - [**micron**](https://github.com/webkul/micron) 通过在元素上绑定属性从而实现动画效果的库
 - [**direction-reveal**](https://github.com/NigelOToole/direction-reveal) 根据鼠标进入位置，展现从不同方向 展现 hover 效果
 - [**laxxx**](https://github.com/alexfoxy/laxxx) 滚动特效库 轻量级 压缩完 2kb
