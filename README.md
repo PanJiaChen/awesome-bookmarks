@@ -447,6 +447,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 - [**掘金**](https://chrome.google.com/webstore/detail/%E6%8E%98%E9%87%91/lecdifefmmfjnjjinhaennhdlmcaeeeb) 目前我默认新开 tab 的默认页，可以刷刷新的文章或者项目，还不错。
 - [**沙拉查词**](https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg) 划词翻译插件
 - [**npmhub**](https://github.com/npmhub/npmhub)在 README 下方显示 npm 依赖信息
+- [**Extension Manager**](https://chromewebstore.google.com/detail/extension-manager-extensi/jafcieombbedhpdkjlhcggagepcgaihp)Extension manager
 
 ## VS Code
 
