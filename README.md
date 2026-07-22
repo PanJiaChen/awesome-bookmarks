@@ -619,6 +619,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 - [**colorkitty**](https://colorkitty.com/) 从你的图片中提取配色
 - [**design.youzan**](design.youzan.com) 有赞设计原则
 - [**undraw**](https://undraw.co/illustrations) 一个免费的插图网站，可以在上面寻找合适的插图，用于商业用途。
+- [**Sez**](https://sez.c-sharptutorial.com/) 帮你在线为 HTML 网站主题生成、预览和应用配色方案，无需打开编辑器或 IDE。
 
 ## 有趣
 
