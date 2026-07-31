@@ -565,6 +565,7 @@ gitee 访问地址(github.io 有时候在国内访问会很慢)：[awesome-bookm
 - [**codrops**](https://tympanus.net/codrops/) 上面的交互都非常酷炫
 - [**bgremover**](http://www.aigei.com/bgremover) 在线图片去底工具
 - [**photopea**](https://www.photopea.com/) 一个网页端 Photoshop 很变态
+- [**Free Image Merger**](https://freeimagemerger.com/) 在线合并图片，支持横排、竖排、网格和自由画布布局，文件不上传
 - [**bestofjs**](https://bestofjs.org/) 查看一个项目增长经历，Star 数变化的网站，辅助你判断这个库的质量
 - [**stackblitz**](https://stackblitz.com/) 一款在线 IDE,主要面向 Web 开发者,移植了很多 VS Code 的特性与功能
 - [**programmingfonts.org **](http://app.programmingfonts.org) 一个专门介绍编程字体的网站
